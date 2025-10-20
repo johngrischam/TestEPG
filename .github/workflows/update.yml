@@ -1,0 +1,25 @@
+name: Update EPG JSON
+
+on:
+  schedule:
+    - cron: '0 4 * * *'   # every day at 04:00 UTC
+  workflow_dispatch:       # allows manual run
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Fetch latest EPG
+        run: |
+          curl -s https://tvit.leicaflorianrobert.dev/epg/list.json -o list.json
+
+      - name: Commit & push changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add list.json
+          git commit -m "Auto update EPG" || echo "No changes"
+          git push
