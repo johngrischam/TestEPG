@@ -1,7 +1,7 @@
 name: XML EPG Builder
 
 on:
-  workflow_dispatch:        # allows manual runs
+  workflow_dispatch:
   schedule:
     - cron: "0 */2 * * *"   # every 2 hours
 
@@ -23,112 +23,109 @@ jobs:
 
       - name: Generate EPG from XML
         run: |
-          echo "import json, requests, xmltodict
+          cat <<'PYCODE' > build_epg.py
+          import json, requests, xmltodict
 
-data_url = 'http://116.202.210.205/test/it_dttsat_full.xml'
-print('Fetching XML...')
-resp = requests.get(data_url, timeout=60)
-resp.raise_for_status()
-xml_data = xmltodict.parse(resp.content)
+          data_url = 'http://116.202.210.205/test/it_dttsat_full.xml'
+          print('Fetching XML...')
+          resp = requests.get(data_url, timeout=60)
+          resp.raise_for_status()
+          xml_data = xmltodict.parse(resp.content)
 
-# Only include your specific list of channels
-allowed_names = [
-    'Rai 1 HD','Rai 2 HD','Rai 3 HD','Rai Sport+ HD','Rai Gulp','Rai News',
+          allowed_names = [
+              'Rai 1 HD','Rai 2 HD','Rai 3 HD','Rai Sport+ HD','Rai Gulp','Rai News',
     'Canale 5 HD','Italia 1 HD','Rete 4 HD','tgcom24','mediaset 20','iris',
     '27Twentyseven','la 5','cine 34','focus','top crime','boing',
     'italia 2','mediaset extra','LA7 HD','LA7d','rsi 1','rsi 2',
     'TV8 HD','Cielo HD','sky tg24','nove','discovery','dmax','giallo',
     'real time','food network','Warner TV','hgtv','motor trend','Frisbee','k2'
-]
+          ]
 
-channels = {}
+          channels = {}
 
-# ---------- PARSE CHANNELS ----------
-for ch in xml_data['tv']['channel']:
-    ch_id = ch.get('@id')
-    if not ch_id:
-        continue
+          # ---- PARSE CHANNELS ----
+          for ch in xml_data['tv']['channel']:
+              ch_id = ch.get('@id')
+              if not ch_id:
+                  continue
 
-    # extract display names safely
-    display_names = []
-    if isinstance(ch.get('display-name'), list):
-        display_names = [d['#text'] for d in ch['display-name'] if isinstance(d, dict) and '#text' in d]
-    elif isinstance(ch.get('display-name'), dict) and '#text' in ch['display-name']:
-        display_names = [ch['display-name']['#text']]
-    elif isinstance(ch.get('display-name'), str):
-        display_names = [ch['display-name']]
+              display_names = []
+              if isinstance(ch.get('display-name'), list):
+                  display_names = [d['#text'] for d in ch['display-name'] if isinstance(d, dict) and '#text' in d]
+              elif isinstance(ch.get('display-name'), dict) and '#text' in ch['display-name']:
+                  display_names = [ch['display-name']['#text']]
+              elif isinstance(ch.get('display-name'), str):
+                  display_names = [ch['display-name']]
 
-    main_name = display_names[0] if display_names else ch_id
-    if main_name.lower() not in allowed_names:
-        continue  # skip channels not in your list
+              main_name = display_names[0] if display_names else ch_id
+              if main_name.lower() not in allowed_names:
+                  continue
 
-    # extract channel logo safely
-    logo = None
-    icon_data = ch.get('icon')
-    if isinstance(icon_data, dict) and '@src' in icon_data:
-        logo = icon_data['@src']
-    elif isinstance(icon_data, list) and len(icon_data) > 0 and '@src' in icon_data[0]:
-        logo = icon_data[0]['@src']
-    elif isinstance(icon_data, str):
-        logo = icon_data
+              logo = None
+              icon_data = ch.get('icon')
+              if isinstance(icon_data, dict) and '@src' in icon_data:
+                  logo = icon_data['@src']
+              elif isinstance(icon_data, list) and len(icon_data) > 0 and '@src' in icon_data[0]:
+                  logo = icon_data[0]['@src']
+              elif isinstance(icon_data, str):
+                  logo = icon_data
 
-    # force HTTPS if it's an epg-guide link
-    if logo and logo.startswith('http://epg-guide.com'):
-        logo = logo.replace('http://', 'https://')
+              if logo and logo.startswith('http://epg-guide.com'):
+                  logo = logo.replace('http://', 'https://')
 
-    channels[ch_id] = {
-        'id': ch_id,
-        'name': main_name,
-        'epgName': display_names[-1] if display_names else main_name,
-        'logo': logo,
-        'programs': []
-    }
+              channels[ch_id] = {
+                  'id': ch_id,
+                  'name': main_name,
+                  'epgName': display_names[-1] if display_names else main_name,
+                  'logo': logo,
+                  'programs': []
+              }
 
-# ---------- PARSE PROGRAMS ----------
-for p in xml_data['tv']['programme']:
-    ch_id = p.get('@channel')
-    if not ch_id or ch_id not in channels:
-        continue
+          # ---- PARSE PROGRAMS ----
+          for p in xml_data['tv']['programme']:
+              ch_id = p.get('@channel')
+              if not ch_id or ch_id not in channels:
+                  continue
 
-    def safe_get(obj, key):
-        if isinstance(obj.get(key), dict):
-            return obj[key].get('#text')
-        elif isinstance(obj.get(key), str):
-            return obj[key]
-        return None
+              def safe_get(obj, key):
+                  if isinstance(obj.get(key), dict):
+                      return obj[key].get('#text')
+                  elif isinstance(obj.get(key), str):
+                      return obj[key]
+                  return None
 
-    title = safe_get(p, 'title')
-    desc = safe_get(p, 'desc')
-    category = safe_get(p, 'category')
-    poster = None
+              title = safe_get(p, 'title')
+              desc = safe_get(p, 'desc')
+              category = safe_get(p, 'category')
+              poster = None
 
-    if isinstance(p.get('icon'), dict) and '@src' in p['icon']:
-        poster = p['icon']['@src']
-    elif isinstance(p.get('icon'), list) and len(p['icon']) > 0 and '@src' in p['icon'][0]:
-        poster = p['icon'][0]['@src']
-    elif isinstance(p.get('icon'), str):
-        poster = p['icon']
+              if isinstance(p.get('icon'), dict) and '@src' in p['icon']:
+                  poster = p['icon']['@src']
+              elif isinstance(p.get('icon'), list) and len(p['icon']) > 0 and '@src' in p['icon'][0]:
+                  poster = p['icon'][0]['@src']
+              elif isinstance(p.get('icon'), str):
+                  poster = p['icon']
 
-    # use channel logo as fallback
-    if not poster:
-        poster = channels[ch_id].get('logo')
+              if not poster:
+                  poster = channels[ch_id].get('logo')
 
-    channels[ch_id]['programs'].append({
-        'start': p.get('@start'),
-        'end': p.get('@stop'),
-        'title': title,
-        'description': desc,
-        'category': category,
-        'poster': poster,
-        'channel': ch_id
-    })
+              channels[ch_id]['programs'].append({
+                  'start': p.get('@start'),
+                  'end': p.get('@stop'),
+                  'title': title,
+                  'description': desc,
+                  'category': category,
+                  'poster': poster,
+                  'channel': ch_id
+              })
 
-result = list(channels.values())
-with open('test.json', 'w', encoding='utf-8') as f:
-    json.dump(result, f, ensure_ascii=False, indent=2)
+          result = list(channels.values())
+          with open('test.json', 'w', encoding='utf-8') as f:
+              json.dump(result, f, ensure_ascii=False, indent=2)
 
-print('✅ test.json generated successfully')
-" > build_epg.py
+          print('✅ test.json generated successfully')
+          PYCODE
+
           python build_epg.py
 
       - name: Commit and push changes
@@ -137,6 +134,13 @@ print('✅ test.json generated successfully')
           add: 'test.json'
           message: 'Updated test.json from XML feed (filtered + HTTPS logos)'
 
-    });
-});
-</script>
+
+
+
+
+
+
+
+
+
+          
