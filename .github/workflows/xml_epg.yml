@@ -1,9 +1,9 @@
 name: XML EPG Test Builder
 
 on:
-  workflow_dispatch:        # allows manual runs
+  workflow_dispatch:        # manual trigger
   schedule:
-    - cron: "0 */3 * * *"   # every 3 hours
+    - cron: "0 */2 * * *"   # every 2 hours
 
 jobs:
   build:
@@ -21,8 +21,7 @@ jobs:
       - name: Install dependencies
         run: pip install requests xmltodict
 
-      - name: Generate TEST EPG from XML
-        shell: bash
+      - name: Generate filtered EPG (test.json)
         run: |
           cat > build_epg_test.py << 'EOF'
           import json, requests, xmltodict
@@ -33,25 +32,50 @@ jobs:
           resp.raise_for_status()
           xml_data = xmltodict.parse(resp.content)
 
+          # ✅ your exact channel list
+          allowed_channels = [
+              "rai 1", "rai 2", "rai 3", "rai sport", "rai gulp", "rai news",
+              "canale 5", "italia 1", "rete 4", "tgcom24", "mediaset 20", "iris",
+              "twenty seven", "la 5", "cine 34", "focus", "top crime", "boing",
+              "italia 2", "mediaset extra", "la7", "la7 cinema", "rsi 1", "rsi 2",
+              "tv8", "cielo", "sky tg24",
+              "nove", "discovery", "dmax", "giallo", "real time", "food network",
+              "warner tv", "hgtv", "motortrend", "frisbee", "k2"
+          ]
+
+          def normalize(name):
+              return name.lower().strip()
+
           channels = {}
           for ch in xml_data['tv']['channel']:
               ch_id = ch.get('@id')
               if not ch_id:
                   continue
-              display_names = []
+
+              # get display names
               if isinstance(ch.get('display-name'), list):
-                  display_names = [d['#text'] for d in ch['display-name']]
+                  display_names = [d['#text'] for d in ch['display-name'] if '#text' in d]
               elif isinstance(ch.get('display-name'), dict):
-                  display_names = [ch['display-name']['#text']]
+                  display_names = [ch['display-name'].get('#text')]
+              else:
+                  display_names = [ch_id]
+
+              # normalize name for matching
+              name_norm = normalize(display_names[0])
+              if not any(name_norm == normalize(a) or normalize(a) in name_norm for a in allowed_channels):
+                  continue
+
+              # get logo if present
               logo = None
               if isinstance(ch.get('icon'), dict):
                   logo = ch['icon'].get('@src')
               elif isinstance(ch.get('icon'), list) and len(ch['icon']) > 0:
                   logo = ch['icon'][0].get('@src')
+
               channels[ch_id] = {
                   'id': ch_id,
-                  'name': display_names[0] if display_names else ch_id,
-                  'epgName': display_names[-1] if display_names else ch_id,
+                  'name': display_names[0],
+                  'epgName': display_names[-1],
                   'logo': logo,
                   'programs': []
               }
@@ -60,31 +84,34 @@ jobs:
               ch_id = p.get('@channel')
               if not ch_id or ch_id not in channels:
                   continue
-              title = p.get('title', {}).get('#text') if isinstance(p.get('title'), dict) else None
-              desc = p.get('desc', {}).get('#text') if isinstance(p.get('desc'), dict) else None
-              category = p.get('category', {}).get('#text') if isinstance(p.get('category'), dict) else None
-              poster = p.get('icon', {}).get('@src') if isinstance(p.get('icon'), dict) else None
+
+              def get_text(node):
+                  if isinstance(node, dict):
+                      return node.get('#text')
+                  return None
+
               channels[ch_id]['programs'].append({
                   'start': p.get('@start'),
                   'end': p.get('@stop'),
-                  'title': title,
-                  'description': desc,
-                  'category': category,
-                  'poster': poster,
+                  'title': get_text(p.get('title')),
+                  'description': get_text(p.get('desc')),
+                  'category': get_text(p.get('category')),
+                  'poster': p.get('icon', {}).get('@src') if isinstance(p.get('icon'), dict) else None,
                   'channel': ch_id
               })
 
           result = list(channels.values())
+
           with open('test.json', 'w', encoding='utf-8') as f:
               json.dump(result, f, ensure_ascii=False, indent=2)
 
-          print('✅ test.json generated successfully (XML EPG)')
+          print(f"✅ test.json generated successfully with {len(result)} channels.")
           EOF
 
           python build_epg_test.py
 
-      - name: Commit and push TEST file
+      - name: Commit and push test.json
         uses: EndBug/add-and-commit@v9
         with:
           add: 'test.json'
-          message: 'Created test.json from XML feed (safe test)'
+          message: 'Updated filtered EPG (test.json)'
