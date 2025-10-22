@@ -1,9 +1,9 @@
-name: XML EPG Builder
+name: XML EPG Test Builder
 
 on:
   workflow_dispatch:        # allows manual runs
   schedule:
-    - cron: "0 */2 * * *"   # every 2 hours
+    - cron: "0 */3 * * *"   # every 3 hours
 
 jobs:
   build:
@@ -21,10 +21,10 @@ jobs:
       - name: Install dependencies
         run: pip install requests xmltodict
 
-      - name: Generate EPG from XML
+      - name: Generate TEST EPG from XML
         shell: bash
         run: |
-          cat > build_epg.py << 'EOF'
+          cat > build_epg_test.py << 'EOF'
           import json, requests, xmltodict
 
           data_url = 'http://116.202.210.205/test/it_dttsat_full.xml'
@@ -75,16 +75,16 @@ jobs:
               })
 
           result = list(channels.values())
-          with open('list.json', 'w', encoding='utf-8') as f:
+          with open('test.json', 'w', encoding='utf-8') as f:
               json.dump(result, f, ensure_ascii=False, indent=2)
 
-          print('✅ list.json generated successfully')
+          print('✅ test.json generated successfully (XML EPG)')
           EOF
 
-          python build_epg.py
+          python build_epg_test.py
 
-      - name: Commit and push changes
+      - name: Commit and push TEST file
         uses: EndBug/add-and-commit@v9
         with:
-          add: 'list.json'
-          message: 'Updated EPG from XML feed'
+          add: 'test.json'
+          message: 'Created test.json from XML feed (safe test)'
