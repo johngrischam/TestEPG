@@ -1,0 +1,19 @@
+name: Test EPG
+
+on:
+  workflow_dispatch:       # allows manual run
+  schedule:
+    - cron: "0 * * * *"    # runs every hour
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Make test.json
+        run: echo '[]' > test.json
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: 'test.json'
+          message: 'Test EPG update'
