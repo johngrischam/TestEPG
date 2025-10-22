@@ -34,11 +34,11 @@ jobs:
 
           allowed_names = [
               'Rai 1 HD','Rai 2 HD','Rai 3 HD','Rai Sport+ HD','Rai Gulp','Rai News',
-    'Canale 5 HD','Italia 1 HD','Rete 4 HD','tgcom24','mediaset 20','iris',
-    '27Twentyseven','la 5','cine 34','focus','top crime','boing',
-    'italia 2','mediaset extra','LA7 HD','LA7d','rsi 1','rsi 2',
-    'TV8 HD','Cielo HD','sky tg24','nove','discovery','dmax','giallo',
-    'real time','food network','Warner TV','hgtv','motor trend','Frisbee','k2'
+              'Canale 5 HD','Italia 1 HD','Rete 4 HD','tgcom24','mediaset 20','iris',
+              '27Twentyseven','la 5','cine 34','focus','top crime','boing',
+              'italia 2','mediaset extra','LA7 HD','LA7d','rsi 1','rsi 2',
+              'TV8 HD','Cielo HD','sky tg24','nove','discovery','dmax','giallo',
+              'real time','food network','Warner TV','hgtv','motor trend','Frisbee','k2'
           ]
 
           channels = {}
