@@ -1,19 +1,67 @@
-name: Test EPG
+name: XML EPG Builder
 
 on:
-  workflow_dispatch:       # allows manual run
+  workflow_dispatch:        # allows manual runs
   schedule:
-    - cron: "0 * * * *"    # runs every hour
+    - cron: "0 */2 * * *"   # run every 2 hours
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
-      - name: Make test.json
-        run: echo '[]' > test.json
-      - name: Commit changes
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install requests xmltodict
+
+      - name: Download and convert XML to JSON
+        run: |
+          import json, requests, xmltodict
+
+          url = "http://116.202.210.205/test/it_dttsat_full.xml"
+          response = requests.get(url, timeout=60)
+          response.raise_for_status()
+
+          data = xmltodict.parse(response.content)
+          channels = {}
+          for ch in data["tv"]["channel"]:
+              ids = [ch.get("id")] + [d["#text"] for d in ch.get("display-name", []) if isinstance(ch.get("display-name"), list)] if isinstance(ch.get("display-name"), list) else [ch.get("display-name", {}).get("#text")]
+              channels[ch["@id"]] = {
+                  "name": ids[0],
+                  "epgName": ids[-1],
+                  "logo": ch.get("icon", {}).get("@src") if isinstance(ch.get("icon"), dict) else (ch.get("icon")[0]["@src"] if isinstance(ch.get("icon"), list) else None),
+                  "programs": []
+              }
+
+          for p in data["tv"]["programme"]:
+              ch_id = p["@channel"]
+              if ch_id not in channels:
+                  continue
+              prog = {
+                  "start": p["@start"],
+                  "end": p["@stop"],
+                  "title": p.get("title", {}).get("#text") if isinstance(p.get("title"), dict) else None,
+                  "description": p.get("desc", {}).get("#text") if isinstance(p.get("desc"), dict) else None,
+                  "category": p.get("category", {}).get("#text") if isinstance(p.get("category"), dict) else None,
+                  "poster": p.get("icon", {}).get("@src") if isinstance(p.get("icon"), dict) else None,
+                  "channel": ch_id
+              }
+              channels[ch_id]["programs"].append(prog)
+
+          result = list(channels.values())
+          with open("list.json", "w", encoding="utf-8") as f:
+              json.dump(result, f, ensure_ascii=False, indent=2)
+
+      - name: Commit and push changes
         uses: EndBug/add-and-commit@v9
         with:
-          add: 'test.json'
-          message: 'Test EPG update'
+          add: 'list.json'
+          message: 'Updated EPG from XML feed'
+
