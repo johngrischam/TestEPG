@@ -3,7 +3,7 @@ name: XML EPG Builder
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 */2 * * *"   # every 2 hours
+    - cron: "0 */2 * * *"
 
 jobs:
   build:
@@ -27,7 +27,7 @@ jobs:
           import json, requests, xmltodict
 
           data_url = 'https://raw.githubusercontent.com/globetvapp/epg/main/Italy/italy1.xml'
-          print('Fetching XML...')
+          print("🔹 Fetching XML from:", data_url)
           resp = requests.get(data_url, timeout=60)
           resp.raise_for_status()
           xml_data = xmltodict.parse(resp.content)
@@ -50,71 +50,80 @@ jobs:
               return url
 
           channels = {}
+          tv_data = xml_data.get('tv', {})
+          all_channels = tv_data.get('channel', [])
+          all_programs = tv_data.get('programme', [])
 
-          # ---- PARSE CHANNELS ----
-          for ch in xml_data['tv']['channel']:
+          if isinstance(all_channels, dict):
+              all_channels = [all_channels]
+          if isinstance(all_programs, dict):
+              all_programs = [all_programs]
+
+          print(f"Found {len(all_channels)} channels, {len(all_programs)} programmes in XML")
+
+          # --- Parse channels ---
+          for ch in all_channels:
               ch_id = ch.get('@id')
               if not ch_id:
                   continue
 
-              # Collect display names
-              display_names = []
+              # display-names
+              names = []
               if isinstance(ch.get('display-name'), list):
-                  display_names = [d['#text'] for d in ch['display-name'] if isinstance(d, dict) and '#text' in d]
-              elif isinstance(ch.get('display-name'), dict) and '#text' in ch['display-name']:
-                  display_names = [ch['display-name']['#text']]
+                  names = [d.get('#text') for d in ch['display-name'] if isinstance(d, dict) and '#text' in d]
+              elif isinstance(ch.get('display-name'), dict):
+                  names = [ch['display-name'].get('#text')]
               elif isinstance(ch.get('display-name'), str):
-                  display_names = [ch['display-name']]
+                  names = [ch['display-name']]
 
-              main_name = display_names[0] if display_names else ch_id
-              if main_name.lower() not in allowed_names:
+              main_name = (names[0] if names else ch_id).strip().lower()
+              if main_name not in allowed_names:
                   continue
 
-              # Channel logo (fallback)
+              # logo
               logo = None
-              icon_data = ch.get('icon')
-              if isinstance(icon_data, dict) and '@src' in icon_data:
-                  logo = icon_data['@src']
-              elif isinstance(icon_data, list) and len(icon_data) > 0 and '@src' in icon_data[0]:
-                  logo = icon_data[0]['@src']
-              elif isinstance(icon_data, str):
-                  logo = icon_data
+              icon = ch.get('icon')
+              if isinstance(icon, dict) and '@src' in icon:
+                  logo = icon['@src']
+              elif isinstance(icon, list) and len(icon) > 0:
+                  logo = icon[0].get('@src')
+              elif isinstance(icon, str):
+                  logo = icon
 
               logo = fix_url(logo)
 
               channels[ch_id] = {
                   'id': ch_id,
-                  'name': main_name,
-                  'epgName': display_names[-1] if display_names else main_name,
+                  'name': names[0] if names else ch_id,
+                  'epgName': names[-1] if names else ch_id,
                   'logo': logo,
                   'programs': []
               }
 
-          # ---- PARSE PROGRAMS ----
-          for p in xml_data['tv']['programme']:
+          # --- Parse programmes ---
+          for p in all_programs:
               ch_id = p.get('@channel')
               if not ch_id or ch_id not in channels:
                   continue
 
-              def safe_get(obj, key):
-                  if isinstance(obj.get(key), dict):
-                      return obj[key].get('#text')
-                  elif isinstance(obj.get(key), str):
-                      return obj[key]
-                  return None
+              def safe_text(value):
+                  if isinstance(value, dict):
+                      return value.get('#text')
+                  return value
 
-              title = safe_get(p, 'title')
-              desc = safe_get(p, 'desc')
-              category = safe_get(p, 'category')
+              title = safe_text(p.get('title'))
+              desc = safe_text(p.get('desc'))
+              category = safe_text(p.get('category'))
 
-              # 🖼️ Try programme poster first
+              # icon inside programme
               poster = None
-              if isinstance(p.get('icon'), dict) and '@src' in p['icon']:
-                  poster = p['icon']['@src']
-              elif isinstance(p.get('icon'), list) and len(p['icon']) > 0 and '@src' in p['icon'][0]:
-                  poster = p['icon'][0]['@src']
-              elif isinstance(p.get('icon'), str):
-                  poster = p['icon']
+              icon = p.get('icon')
+              if isinstance(icon, dict) and '@src' in icon:
+                  poster = icon['@src']
+              elif isinstance(icon, list) and len(icon) > 0:
+                  poster = icon[0].get('@src')
+              elif isinstance(icon, str):
+                  poster = icon
 
               poster = fix_url(poster) or channels[ch_id].get('logo')
 
@@ -128,11 +137,13 @@ jobs:
                   'channel': ch_id
               })
 
+          print(f"✅ Parsed {len(channels)} channels with programmes")
+
           result = list(channels.values())
           with open('test.json', 'w', encoding='utf-8') as f:
               json.dump(result, f, ensure_ascii=False, indent=2)
 
-          print('✅ test.json generated successfully')
+          print("✅ test.json generated successfully with", len(result), "channels.")
           PYCODE
 
           python build_epg.py
@@ -141,7 +152,8 @@ jobs:
         uses: EndBug/add-and-commit@v9
         with:
           add: 'test.json'
-          message: 'Updated test.json from GlobeTV XML feed (programme icons + fallback logos)'
+          message: 'Updated test.json from GlobeTV XML feed'
+
 
 
 
