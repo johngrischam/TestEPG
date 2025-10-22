@@ -26,20 +26,28 @@ jobs:
           cat <<'PYCODE' > build_epg.py
           import json, requests, xmltodict
 
-          data_url = 'http://116.202.210.205/test/it_dttsat_full.xml'
+          data_url = 'https://raw.githubusercontent.com/globetvapp/epg/main/Italy/italy1.xml'
           print('Fetching XML...')
           resp = requests.get(data_url, timeout=60)
           resp.raise_for_status()
           xml_data = xmltodict.parse(resp.content)
 
           allowed_names = [
-              'Rai 1 HD','Rai 2 HD','Rai 3 HD','Rai Sport+ HD','Rai Gulp','Rai News',
-              'Canale 5 HD','Italia 1 HD','Rete 4 HD','tgcom24','mediaset 20','iris',
-              '27Twentyseven','la 5','cine 34','focus','top crime','boing',
-              'italia 2','mediaset extra','LA7 HD','LA7d','rsi 1','rsi 2',
-              'TV8 HD','Cielo HD','sky tg24','nove','discovery','dmax','giallo',
-              'real time','food network','Warner TV','hgtv','motor trend','Frisbee','k2'
+              'rai 1','rai 2','rai 3','rai sport','rai gulp','rai news',
+              'canale 5','italia 1','rete 4','tgcom24','mediaset 20','iris',
+              'twenty seven','la 5','cine 34','focus','top crime','boing',
+              'italia 2','mediaset extra','la7','la7 cinema','rsi 1','rsi 2',
+              'tv8','cielo','sky tg24','nove','discovery','dmax','giallo',
+              'real time','food network','warner tv','hgtv','motortrend','frisbee','k2'
           ]
+
+          def fix_url(url):
+              if not url:
+                  return None
+              url = url.strip()
+              if url.startswith("http://"):
+                  url = url.replace("http://", "https://")
+              return url
 
           channels = {}
 
@@ -49,6 +57,7 @@ jobs:
               if not ch_id:
                   continue
 
+              # Collect display names
               display_names = []
               if isinstance(ch.get('display-name'), list):
                   display_names = [d['#text'] for d in ch['display-name'] if isinstance(d, dict) and '#text' in d]
@@ -61,6 +70,7 @@ jobs:
               if main_name.lower() not in allowed_names:
                   continue
 
+              # Channel logo (fallback)
               logo = None
               icon_data = ch.get('icon')
               if isinstance(icon_data, dict) and '@src' in icon_data:
@@ -70,8 +80,7 @@ jobs:
               elif isinstance(icon_data, str):
                   logo = icon_data
 
-              if logo and logo.startswith('http://epg-guide.com'):
-                  logo = logo.replace('http://', 'https://')
+              logo = fix_url(logo)
 
               channels[ch_id] = {
                   'id': ch_id,
@@ -97,8 +106,9 @@ jobs:
               title = safe_get(p, 'title')
               desc = safe_get(p, 'desc')
               category = safe_get(p, 'category')
-              poster = None
 
+              # 🖼️ Try programme poster first
+              poster = None
               if isinstance(p.get('icon'), dict) and '@src' in p['icon']:
                   poster = p['icon']['@src']
               elif isinstance(p.get('icon'), list) and len(p['icon']) > 0 and '@src' in p['icon'][0]:
@@ -106,8 +116,7 @@ jobs:
               elif isinstance(p.get('icon'), str):
                   poster = p['icon']
 
-              if not poster:
-                  poster = channels[ch_id].get('logo')
+              poster = fix_url(poster) or channels[ch_id].get('logo')
 
               channels[ch_id]['programs'].append({
                   'start': p.get('@start'),
@@ -132,7 +141,7 @@ jobs:
         uses: EndBug/add-and-commit@v9
         with:
           add: 'test.json'
-          message: 'Updated test.json from XML feed (filtered + HTTPS logos)'
+          message: 'Updated test.json from GlobeTV XML feed (programme icons + fallback logos)'
 
 
 
@@ -140,7 +149,3 @@ jobs:
 
 
 
-
-
-
-          
