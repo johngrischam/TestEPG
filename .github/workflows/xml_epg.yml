@@ -1,7 +1,7 @@
 name: XML EPG Builder
 
 on:
-  workflow_dispatch:        # allows manual runs
+  workflow_dispatch:        # ✅ this enables the "Run workflow" button
   schedule:
     - cron: "0 */2 * * *"   # every 2 hours
 
