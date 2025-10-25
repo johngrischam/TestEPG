@@ -26,18 +26,20 @@ function ensureChannelShape(ch) {
   const logo = ch?.logo || ch?.image || null;
   const programsIn = Array.isArray(ch?.programs) ? ch.programs : [];
 
-  const programs = programsIn.map((p) => {
-    const title = p?.title || "";
-    const description = p?.description ?? p?.desc ?? null;
-    const start = p?.start ? new Date(p.start).toISOString() : null;
-    const end = p?.end
-      ? new Date(p.end).toISOString()
-      : start
-      ? new Date(new Date(start).getTime() + 60 * 60 * 1000).toISOString()
-      : null;
-    const poster = p?.poster ?? p?.image ?? null;
-    return { title, description, start, end, poster };
-  }).filter((p) => p.start && p.end);
+  const programs = programsIn
+    .map((p) => {
+      const title = p?.title || "";
+      const description = p?.description ?? p?.desc ?? null;
+      const start = p?.start ? new Date(p.start).toISOString() : null;
+      const end = p?.end
+        ? new Date(p.end).toISOString()
+        : start
+        ? new Date(new Date(start).getTime() + 60 * 60 * 1000).toISOString()
+        : null;
+      const poster = p?.poster ?? p?.image ?? null;
+      return { title, description, start, end, poster };
+    })
+    .filter((p) => p.start && p.end);
 
   return { name: String(name), epgName: String(epgName), logo: logo || undefined, programs };
 }
@@ -62,7 +64,7 @@ function buildRaiSport(epgPwJson) {
   return { name: "Rai Sport", epgName: "Rai Sport", logo: epgPwJson?.icon || "", programs };
 }
 
-// --- ✅ Simplified RSI parser (for sg101.prd.sctv.ch) ---
+// --- ✅ Simplified RSI parser (with logo + poster fallback) ---
 function buildRSIChannel(apiJson, publicName) {
   const items =
     apiJson?.Nodes?.Items?.[0]?.Content?.Nodes?.Items ||
@@ -84,12 +86,14 @@ function buildRSIChannel(apiJson, publicName) {
     return { title, description, start, end, poster };
   }).filter((p) => p.start && p.end);
 
-  return {
-    name: publicName,
-    epgName: publicName,
-    logo: null,
-    programs,
-  };
+  // ✅ add proper RSI channel icons
+  const logo =
+    publicName === "RSI 1"
+      ? "https://upload.wikimedia.org/wikipedia/commons/8/8e/RSI_La_1_-_Logo_2020.svg"
+      : "https://upload.wikimedia.org/wikipedia/commons/2/2e/RSI_La_2_-_Logo_2020.svg";
+
+  // if no poster or poster is broken, front-end will auto fallback to logo
+  return { name: publicName, epgName: publicName, logo, programs };
 }
 
 // --- main ---
