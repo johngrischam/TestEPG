@@ -21,7 +21,7 @@ async function fetchJson(url) {
   return r.json();
 }
 
-// --- normalize base channel to your schema (defensive, no shape changes to other channels) ---
+// --- normalize base channel to your schema ---
 function ensureChannelShape(ch) {
   const name = ch?.name || ch?.epgName || ch?.channel || "";
   const epgName = ch?.epgName || name;
@@ -46,15 +46,14 @@ function ensureChannelShape(ch) {
   return { name: String(name), epgName: String(epgName), logo: logo || undefined, programs };
 }
 
-// --- helper: build RSI poster URL from a content node (confirmed working format) ---
+// --- helper: build RSI poster URL from a content node ---
 function posterUrlFromContentPath(contentPath) {
   if (!contentPath) return null;
-  // Example: tv/program/p20687899bh10aa_BannerL1 -> /content/images/tv/program/p20687899bh10aa_BannerL1_w1920.webp
   const cp = String(contentPath).trim().replace(/^\/+/, "");
   return `${BASE}/content/images/${cp}_w1920.webp`;
 }
 
-// --- RSI parser using Lane (preferred) -> Stage -> Landscape -> Title ---
+// --- unified parser for RSI-style API ---
 function buildRSIChannel(apiJson, publicName) {
   const broadcasts =
     apiJson?.Nodes?.Items?.[0]?.Content?.Nodes?.Items ||
@@ -92,13 +91,14 @@ function buildRSIChannel(apiJson, publicName) {
     })
     .filter(Boolean);
 
-  // Stable public logos for frontend fallback
   const logo =
     publicName === "RSI 1"
       ? "https://upload.wikimedia.org/wikipedia/commons/8/8e/RSI_La_1_-_Logo_2020.svg"
       : publicName === "RSI 2"
       ? "https://upload.wikimedia.org/wikipedia/commons/2/2e/RSI_La_2_-_Logo_2020.svg"
-      : "https://upload.wikimedia.org/wikipedia/commons/a/a7/Rai_Sport_-_Logo_2018.svg";
+      : publicName === "Rai Sport +"
+      ? "https://upload.wikimedia.org/wikipedia/commons/a/a7/Rai_Sport_-_Logo_2018.svg"
+      : "https://upload.wikimedia.org/wikipedia/commons/f/f0/Rai_Gulp_-_Logo_2017.svg";
 
   return { name: publicName, epgName: publicName, logo, programs };
 }
@@ -124,14 +124,15 @@ async function main() {
   const startParam = `${todayStr}0600`;
   const endParam = `${tomorrowStr}0600`;
 
-  // 3) RSI + Rai Sport + sources (all from tv.blue.ch)
+  // 3) Sources (all from tv.blue.ch)
   const RSI1_URL = `${BASE}/catalog/tv/channels/list/(ids=356;start=${startParam};end=${endParam};level=normal)`;
   const RSI2_URL = `${BASE}/catalog/tv/channels/list/(ids=357;start=${startParam};end=${endParam};level=normal)`;
   const RAISPORT_URL = `${BASE}/catalog/tv/channels/list/(ids=338;start=${startParam};end=${endParam};level=normal)`;
+  const RAIGULP_URL = `${BASE}/catalog/tv/channels/list/(ids=332;start=${startParam};end=${endParam};level=normal)`;
 
   const add = [];
 
-  // --- Unified fetch for RSI + Rai Sport +
+  // --- unified fetcher
   async function fetchRSI(url, name) {
     try {
       const j = await fetchJson(url);
@@ -147,9 +148,11 @@ async function main() {
     }
   }
 
+  // --- channels to merge
   await fetchRSI(RSI1_URL, "RSI 1");
   await fetchRSI(RSI2_URL, "RSI 2");
   await fetchRSI(RAISPORT_URL, "Rai Sport +");
+  await fetchRSI(RAIGULP_URL, "Rai Gulp");
 
   // 4) Merge into out
   for (const c of add) {
@@ -170,6 +173,7 @@ main().catch((e) => {
   console.error("Fatal:", e);
   process.exit(1);
 });
+
 
 
 
