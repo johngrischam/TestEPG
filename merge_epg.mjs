@@ -1,21 +1,13 @@
-// merge_epg.mjs — FIXED version restoring correct data path
-// Keeps @main fix and removes Rai Movie
+// merge_epg.mjs — extended, faithful to your working version
 
 import fs from "fs/promises";
 
-const OUTPUT = "list.json";
 const PRIMARY_URL = "https://tvit.leicaflorianrobert.dev/epg/list.json";
 const BASE = "https://services.sg101.prd.sctv.ch";
 
-// --- helpers ---
-function norm(s) {
-  return String(s || "").toLowerCase().replace(/\s|-/g, "");
-}
-async function fetchJson(url) {
-  const res = await fetch(url);
-  if (!res.ok) throw new Error(`Fetch ${url} failed: ${res.status}`);
-  return res.json();
-}
+const norm = (s) => String(s || "").toLowerCase().replace(/\s|-/g, "");
+
+// --- tiny utils ---
 function ymdUTC(d) {
   const y = d.getUTCFullYear();
   const m = String(d.getUTCMonth() + 1).padStart(2, "0");
@@ -23,90 +15,246 @@ function ymdUTC(d) {
   return `${y}${m}${day}`;
 }
 function addDaysUTC(d, days) {
-  const copy = new Date(d);
-  copy.setUTCDate(copy.getUTCDate() + days);
-  return copy;
+  return new Date(Date.UTC(d.getUTCFullYear(), d.getUTCMonth(), d.getUTCDate() + days));
 }
 
-// --- channel list ---
-const CHANNELS = [
-  { site: "tv.blue.ch", lang: "it", xmltv_id: "RSI1.it", site_id: "356", name: "RSI 1" },
-  { site: "tv.blue.ch", lang: "it", xmltv_id: "RSI2.it", site_id: "357", name: "RSI 2" },
-  { site: "tv.blue.ch", lang: "it", xmltv_id: "LA7d.it", site_id: "239", name: "La 7d" },
-  { site: "tv.blue.ch", lang: "it", xmltv_id: "", site_id: "2015", name: "Warner TV Italy" },
-  { site: "tv.blue.ch", lang: "it", xmltv_id: "RaiGulp.it", site_id: "332", name: "Rai Gulp" },
-  { site: "tv.blue.ch", lang: "it", xmltv_id: "SuperTennis.it", site_id: "1386", name: "SuperTennis TV" },
-  { site: "tv.blue.ch", lang: "it", xmltv_id: "", site_id: "2064", name: "Radio Italia TV" },
-  { site: "tv.blue.ch", lang: "it", xmltv_id: "SkyTG24.it", site_id: "393", name: "Sky TG 24" },
-];
+async function fetchJson(url) {
+  const r = await fetch(url, {
+    headers: { "User-Agent": "github-actions-merge-epg/1.0" },
+  });
+  if (!r.ok) throw new Error(`Fetch ${r.status} ${url}`);
+  return r.json();
+}
 
-// optional aliases (for front-end names)
-const CUSTOM_ALIASES = {
-  "la7cinema": "La 7d",
-  "warnertv": "Warner TV Italy",
-  "skytg24": "Sky TG 24",
-  "raigulp": "Rai Gulp",
-  "supertennistv": "SuperTennis TV",
-  "radioitaliatv": "Radio Italia TV",
-  "rsi1": "RSI 1",
-  "rsi2": "RSI 2",
-};
-
-function aliasesForChannelName(name) {
-  const aliases = [norm(name)];
-  for (const [aliasNorm, targetName] of Object.entries(CUSTOM_ALIASES)) {
-    if (targetName === name) aliases.push(aliasNorm);
+// HEAD (or GET if HEAD blocked) with short timeout
+async function urlExists(url, timeoutMs = 6000) {
+  const ctrl = new AbortController();
+  const t = setTimeout(() => ctrl.abort(), timeoutMs);
+  try {
+    let r = await fetch(url, { method: "HEAD", redirect: "follow", signal: ctrl.signal });
+    if (r.ok) return true;
+    r = await fetch(url, { method: "GET", redirect: "follow", signal: ctrl.signal });
+    return r.ok;
+  } catch {
+    return false;
+  } finally {
+    clearTimeout(t);
   }
-  return [...new Set(aliases)];
+}
+
+// Build absolute URL candidates for a given ContentPath
+function buildCandidates(contentPathRaw) {
+  if (!contentPathRaw) return [];
+  const p = contentPathRaw.startsWith("/") ? contentPathRaw : "/" + contentPathRaw;
+  const bases = [`${BASE}/catalog`, `${BASE}`];
+  const endings = ["", ".jpg", ".png", ".jpeg", ".webp"];
+  const candidates = [];
+  for (const b of bases) {
+    for (const e of endings) candidates.push(`${b}${p}${e}`);
+  }
+  return candidates;
+}
+
+// Try roles in priority order and return first working poster URL
+async function resolvePosterFromNodes(nodes) {
+  if (!nodes || !Array.isArray(nodes.Items)) return null;
+  const byRole = (role) => nodes.Items.find((n) => n.Role === role && n.ContentPath);
+  const roles = ["Stage", "Landscape", "Lane", "Title"];
+  for (const role of roles) {
+    const node = byRole(role);
+    if (!node?.ContentPath) continue;
+    const candidates = buildCandidates(node.ContentPath);
+    for (const cand of candidates) if (await urlExists(cand)) return cand;
+  }
+  return null;
+}
+
+// --- normalize base channel to your schema ---
+function ensureChannelShape(ch) {
+  const name = ch?.name || ch?.epgName || ch?.channel || "";
+  const epgName = ch?.epgName || name;
+  const logo = ch?.logo || ch?.image || null;
+  const programsIn = Array.isArray(ch?.programs) ? ch.programs : [];
+  const programs = programsIn
+    .map((p) => {
+      const title = p?.title || "";
+      const description = p?.description ?? p?.desc ?? null;
+      const start = p?.start ? new Date(p.start).toISOString() : null;
+      const end = p?.end
+        ? new Date(p.end).toISOString()
+        : start
+        ? new Date(new Date(start).getTime() + 60 * 60 * 1000).toISOString()
+        : null;
+      const poster = p?.poster ?? p?.image ?? null;
+      return { title, description, start, end, poster };
+    })
+    .filter((p) => p.start && p.end);
+  return { name: String(name), epgName: String(epgName), logo: logo || undefined, programs };
+}
+
+// --- Build Rai Sport ---
+function buildRaiSport(epgPwJson) {
+  const list = Array.isArray(epgPwJson?.epg_list) ? epgPwJson.epg_list.slice(0, 50) : [];
+  const programs = list.map((item, idx, arr) => {
+    const start = new Date(item.start_date);
+    const end =
+      idx < arr.length - 1
+        ? new Date(arr[idx + 1].start_date)
+        : new Date(start.getTime() + 60 * 60 * 1000);
+    return {
+      title: item.title || "",
+      description: item.desc ?? null,
+      start: start.toISOString(),
+      end: end.toISOString(),
+      poster: null,
+    };
+  });
+  return { name: "Rai Sport", epgName: "Rai Sport", logo: epgPwJson?.icon || "", programs };
+}
+
+// --- ✅ RSI parser with poster resolver ---
+async function buildRSIChannel(apiJson, publicName) {
+  const broadcasts = apiJson?.Nodes?.Items?.[0]?.Content?.Nodes?.Items || [];
+  if (!broadcasts.length) return null;
+
+  const logo =
+    publicName === "RSI 1"
+      ? "https://upload.wikimedia.org/wikipedia/commons/8/8e/RSI_La_1_-_Logo_2020.svg"
+      : "https://upload.wikimedia.org/wikipedia/commons/2/2e/RSI_La_2_-_Logo_2020.svg";
+
+  const programs = [];
+  for (const b of broadcasts.slice(0, 40)) {
+    const desc = b?.Content?.Description || {};
+    const avail = Array.isArray(b?.Availabilities) ? b.Availabilities[0] : null;
+    const start = avail?.AvailabilityStart || null;
+    const end = avail?.AvailabilityEnd || null;
+    if (!start || !end) continue;
+    const poster = await resolvePosterFromNodes(b?.Content?.Nodes);
+    programs.push({
+      title: desc.Title || "",
+      description: desc.Summary || desc.ShortSummary || "",
+      start,
+      end,
+      poster: poster || null,
+    });
+  }
+  return { name: publicName, epgName: publicName, logo, programs };
+}
+
+// --- ✅ BLUE.CH generic parser ---
+async function buildBlueChannel(site_id, xmltv_id, displayName) {
+  const now = new Date();
+  const todayStr = ymdUTC(now);
+  const tomorrowStr = ymdUTC(addDaysUTC(now, 1));
+  const startParam = `${todayStr}0600`;
+  const endParam = `${tomorrowStr}0600`;
+  const url = `${BASE}/catalog/tv/channels/list/(ids=${site_id};start=${startParam};end=${endParam};level=normal)`;
+  try {
+    const json = await fetchJson(url);
+    const programsRaw = json?.Data?.[0]?.Programs || [];
+    const programs = programsRaw.map((p, i) => ({
+      title: p.Title || p.title || "",
+      description: p.ShortDescription || null,
+      start: p.Start || p.start || "",
+      end: p.End || p.end || "",
+      poster: null,
+    }));
+    return {
+      name: displayName,
+      epgName: displayName,
+      logo: null,
+      programs,
+    };
+  } catch (e) {
+    console.warn(`BLUE.CH ${displayName} fetch failed:`, e.message);
+    return null;
+  }
 }
 
 // --- main ---
 async function main() {
-  const now = new Date();
-  const start = `${ymdUTC(now)}0600`;
-  const end = `${ymdUTC(addDaysUTC(now, 1))}0600`;
+  let base;
+  try {
+    const raw = await fetchJson(PRIMARY_URL);
+    base = Array.isArray(raw) ? raw : [];
+  } catch (e) {
+    console.error("Base list fetch failed:", e.message);
+    base = [];
+  }
+  const out = base.map(ensureChannelShape);
 
-  console.log("Merging EPG...");
-  const primary = await fetchJson(PRIMARY_URL).catch(() => []);
-  const merged = Array.isArray(primary) ? [...primary] : [];
+  const today = new Date();
+  const todayStr = ymdUTC(today);
+  const tomorrowStr = ymdUTC(addDaysUTC(today, 1));
+  const startParam = `${todayStr}0600`;
+  const endParam = `${tomorrowStr}0600`;
 
-  for (const ch of CHANNELS) {
-    const url = `${BASE}/catalog/tv/channels/list/(ids=${ch.site_id};start=${start};end=${end};level=normal)`;
-    console.log(`Fetching ${ch.name}: ${url}`);
+  const RAI_URL = `https://epg.pw/api/epg.json?lang=en&date=${todayStr}&channel_id=392165`;
+  const RSI1_URL = `${BASE}/catalog/tv/channels/list/(ids=356;start=${startParam};end=${endParam};level=normal)`;
+  const RSI2_URL = `${BASE}/catalog/tv/channels/list/(ids=357;start=${startParam};end=${endParam};level=normal)`;
 
+  const add = [];
+
+  // Rai Sport
+  try {
+    const raiJson = await fetchJson(RAI_URL);
+    const rai = buildRaiSport(raiJson);
+    add.push(rai);
+    console.log("Merged Rai Sport");
+  } catch (e) {
+    console.warn("Rai Sport fetch failed:", e.message);
+  }
+
+  // RSI 1 / RSI 2
+  async function fetchRSI(url, name) {
     try {
-      const data = await fetchJson(url);
-
-      // ✅ Corrected path: Data[0].Channels[0].Programs
-      const programs = data?.Data?.[0]?.Channels?.[0]?.Programs || [];
-
-      if (!programs.length) {
-        console.warn(`⚠️ No programs for ${ch.name}`);
-        continue;
-      }
-
-      merged.push({
-        site: ch.site,
-        lang: ch.lang,
-        xmltv_id: ch.xmltv_id,
-        site_id: ch.site_id,
-        name: ch.name,
-        aliases: aliasesForChannelName(ch.name),
-        programs,
-      });
-
-      console.log(`✅ Added ${ch.name} (${programs.length} programs)`);
+      const j = await fetchJson(url);
+      const ch = await buildRSIChannel(j, name);
+      if (ch) {
+        add.push(ch);
+        console.log(`Merged ${name} (${ch.programs.length} programs)`);
+      } else console.warn(`No programs for ${name}`);
     } catch (e) {
-      console.error(`❌ ${ch.name} failed: ${e.message}`);
+      console.warn(`${name} fetch failed:`, e.message);
+    }
+  }
+  await fetchRSI(RSI1_URL, "RSI 1");
+  await fetchRSI(RSI2_URL, "RSI 2");
+
+  // --- new tv.blue.ch channels (exact structure, no normalization) ---
+  const blueList = [
+    { xmltv_id: "LA7d.it", site_id: 239, name: "La 7d" },
+    { xmltv_id: "", site_id: 2015, name: "Warner TV Italy" },
+    { xmltv_id: "RaiGulp.it", site_id: 332, name: "Rai Gulp" },
+    { xmltv_id: "SuperTennis.it", site_id: 1386, name: "SuperTennis TV" },
+    { xmltv_id: "", site_id: 2064, name: "Radio Italia TV" },
+    { xmltv_id: "SkyTG24.it", site_id: 393, name: "Sky TG 24" },
+  ];
+
+  for (const ch of blueList) {
+    const built = await buildBlueChannel(ch.site_id, ch.xmltv_id, ch.name);
+    if (built) {
+      add.push(built);
+      console.log(`Merged ${ch.name} (${built.programs.length} programs)`);
     }
   }
 
-  await fs.writeFile(OUTPUT, JSON.stringify(merged, null, 2), "utf8");
-  console.log(`✅ Done. ${merged.length} channels written to ${OUTPUT}`);
+  // Merge safely
+  for (const c of add) {
+    const i = out.findIndex(
+      (x) => norm(x.name) === norm(c.name) || norm(x.epgName) === norm(c.epgName)
+    );
+    const safeC = ensureChannelShape(c);
+    if (i >= 0) out[i] = { ...out[i], ...safeC, programs: safeC.programs };
+    else out.push(safeC);
+  }
+
+  await fs.writeFile("list.json", JSON.stringify(out, null, 2), "utf8");
+  console.log(`✅ list.json written with ${out.length} channels (strict schema)`);
 }
 
-main().catch(err => {
-  console.error("Fatal:", err);
+main().catch((e) => {
+  console.error("Fatal:", e);
   process.exit(1);
 });
 
