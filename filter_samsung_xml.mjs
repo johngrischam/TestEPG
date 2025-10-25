@@ -1,3 +1,4 @@
+// filter_samsung_xml.mjs
 import fs from "fs";
 import { XMLParser, XMLBuilder } from "fast-xml-parser";
 
@@ -22,15 +23,24 @@ async function main() {
   // IMPORTANT: force attributes with NO prefix, so we get .id and .channel
   const parser = new XMLParser({
     ignoreAttributes: false,
-    attributeNamePrefix: "",   // <-- make attributes plain keys: id, channel, start, stop
-    trimValues: true
+    attributeNamePrefix: "", // make attributes plain keys: id, channel, start, stop
+    trimValues: true,
   });
+
   const data = parser.parse(xmlText);
   const tv = data?.tv || {};
 
   // Normalize channel/programme to arrays
-  const chanArr = Array.isArray(tv.channel) ? tv.channel : (tv.channel ? [tv.channel] : []);
-  const progArr = Array.isArray(tv.programme) ? tv.programme : (tv.programme ? [tv.programme] : []);
+  const chanArr = Array.isArray(tv.channel)
+    ? tv.channel
+    : tv.channel
+    ? [tv.channel]
+    : [];
+  const progArr = Array.isArray(tv.programme)
+    ? tv.programme
+    : tv.programme
+    ? [tv.programme]
+    : [];
 
   // Filter channels by id
   const filteredChannels = chanArr.filter((ch) => {
@@ -52,7 +62,7 @@ async function main() {
   // Build output preserving <tv> root & generator attrs if present
   const output = {
     tv: {
-      ...(tv || {}),
+      ...tv,
       channel: filteredChannels,
       programme: filteredPrograms,
     },
@@ -60,7 +70,7 @@ async function main() {
 
   const builder = new XMLBuilder({
     ignoreAttributes: false,
-    attributeNamePrefix: "",   // keep attributes plain in output too
+    attributeNamePrefix: "", // keep attributes plain in output too
   });
   const xmlOut = builder.build(output);
 
@@ -68,11 +78,8 @@ async function main() {
   console.log(`✅ Filtered XML written to ${OUTPUT_FILE}`);
 }
 
+// <-- ⚠️ This is the only closing brace needed for the main() function -->
 main().catch((err) => {
-  console.error("Fatal:", err);
-  process.exit(1);
-});
-
   console.error("Fatal:", err);
   process.exit(1);
 });
