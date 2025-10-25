@@ -91,16 +91,16 @@ function buildRSIChannel(apiJson, publicName) {
     })
     .filter(Boolean);
 
-  const logo =
-    publicName === "RSI 1"
-      ? "https://upload.wikimedia.org/wikipedia/commons/8/8e/RSI_La_1_-_Logo_2020.svg"
-      : publicName === "RSI 2"
-      ? "https://upload.wikimedia.org/wikipedia/commons/2/2e/RSI_La_2_-_Logo_2020.svg"
-      : publicName === "Rai Sport +"
-      ? "https://upload.wikimedia.org/wikipedia/commons/a/a7/Rai_Sport_-_Logo_2018.svg"
-      : "https://upload.wikimedia.org/wikipedia/commons/f/f0/Rai_Gulp_-_Logo_2017.svg";
+  // stable logos
+  const logos = {
+    "RSI 1": "https://upload.wikimedia.org/wikipedia/commons/8/8e/RSI_La_1_-_Logo_2020.svg",
+    "RSI 2": "https://upload.wikimedia.org/wikipedia/commons/2/2e/RSI_La_2_-_Logo_2020.svg",
+    "Rai Sport +": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Rai_Sport_-_Logo_2018.svg",
+    "Rai Gulp": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Rai_Gulp_-_Logo_2017.svg",
+    "La 7d": "https://upload.wikimedia.org/wikipedia/commons/2/26/La7d_-_Logo_2018.svg",
+  };
 
-  return { name: publicName, epgName: publicName, logo, programs };
+  return { name: publicName, epgName: publicName, logo: logos[publicName] || "", programs };
 }
 
 // --- main ---
@@ -129,17 +129,23 @@ async function main() {
   const RSI2_URL = `${BASE}/catalog/tv/channels/list/(ids=357;start=${startParam};end=${endParam};level=normal)`;
   const RAISPORT_URL = `${BASE}/catalog/tv/channels/list/(ids=338;start=${startParam};end=${endParam};level=normal)`;
   const RAIGULP_URL = `${BASE}/catalog/tv/channels/list/(ids=332;start=${startParam};end=${endParam};level=normal)`;
+  const LA7D_URL = `${BASE}/catalog/tv/channels/list/(ids=239;start=${startParam};end=${endParam};level=normal)`;
 
   const add = [];
 
-  // --- unified fetcher
-  async function fetchRSI(url, name) {
+  async function fetchRSI(url, name, alias = null) {
     try {
       const j = await fetchJson(url);
       const ch = buildRSIChannel(j, name);
       if (ch) {
         add.push(ch);
         console.log(`Merged ${name} with ${ch.programs.length} programs`);
+        // add alias if defined (like "La7 Cinema" shares same EPG as "La 7d")
+        if (alias) {
+          const aliasCh = { ...ch, name: alias, epgName: alias };
+          add.push(aliasCh);
+          console.log(`→ Created alias ${alias} (same EPG as ${name})`);
+        }
       } else {
         console.warn(`No programs for ${name}`);
       }
@@ -153,6 +159,7 @@ async function main() {
   await fetchRSI(RSI2_URL, "RSI 2");
   await fetchRSI(RAISPORT_URL, "Rai Sport +");
   await fetchRSI(RAIGULP_URL, "Rai Gulp");
+  await fetchRSI(LA7D_URL, "La 7d", "La7 Cinema"); // ← alias version
 
   // 4) Merge into out
   for (const c of add) {
@@ -173,6 +180,8 @@ main().catch((e) => {
   console.error("Fatal:", e);
   process.exit(1);
 });
+
+
 
 
 
