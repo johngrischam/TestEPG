@@ -91,13 +91,13 @@ function buildRSIChannel(apiJson, publicName) {
     })
     .filter(Boolean);
 
-  // stable logos
   const logos = {
     "RSI 1": "https://upload.wikimedia.org/wikipedia/commons/8/8e/RSI_La_1_-_Logo_2020.svg",
     "RSI 2": "https://upload.wikimedia.org/wikipedia/commons/2/2e/RSI_La_2_-_Logo_2020.svg",
     "Rai Sport +": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Rai_Sport_-_Logo_2018.svg",
     "Rai Gulp": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Rai_Gulp_-_Logo_2017.svg",
     "La 7d": "https://upload.wikimedia.org/wikipedia/commons/2/26/La7d_-_Logo_2018.svg",
+    "Sky TG 24": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Sky_TG24_-_Logo_2021.svg",
   };
 
   return { name: publicName, epgName: publicName, logo: logos[publicName] || "", programs };
@@ -130,6 +130,7 @@ async function main() {
   const RAISPORT_URL = `${BASE}/catalog/tv/channels/list/(ids=338;start=${startParam};end=${endParam};level=normal)`;
   const RAIGULP_URL = `${BASE}/catalog/tv/channels/list/(ids=332;start=${startParam};end=${endParam};level=normal)`;
   const LA7D_URL = `${BASE}/catalog/tv/channels/list/(ids=239;start=${startParam};end=${endParam};level=normal)`;
+  const SKYTG24_URL = `${BASE}/catalog/tv/channels/list/(ids=393;start=${startParam};end=${endParam};level=normal)`;
 
   const add = [];
 
@@ -140,7 +141,6 @@ async function main() {
       if (ch) {
         add.push(ch);
         console.log(`Merged ${name} with ${ch.programs.length} programs`);
-        // add alias if defined (like "La7 Cinema" shares same EPG as "La 7d")
         if (alias) {
           const aliasCh = { ...ch, name: alias, epgName: alias };
           add.push(aliasCh);
@@ -159,7 +159,8 @@ async function main() {
   await fetchRSI(RSI2_URL, "RSI 2");
   await fetchRSI(RAISPORT_URL, "Rai Sport +");
   await fetchRSI(RAIGULP_URL, "Rai Gulp");
-  await fetchRSI(LA7D_URL, "La 7d", "La7 Cinema"); // ← alias version
+  await fetchRSI(LA7D_URL, "La 7d", "La7 Cinema");
+  await fetchRSI(SKYTG24_URL, "Sky TG 24");
 
   // 4) Merge into out
   for (const c of add) {
@@ -180,8 +181,6 @@ main().catch((e) => {
   console.error("Fatal:", e);
   process.exit(1);
 });
-
-
 
 
 
