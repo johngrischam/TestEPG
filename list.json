@@ -12114,5 +12114,362 @@
         "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/239/p413450bh10ak_BannerL2_w1920.webp"
       }
     ]
+  },
+  {
+    "name": "Sky TG 24",
+    "epgName": "Sky TG 24",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Sky_TG24_-_Logo_2021.svg",
+    "programs": [
+      {
+        "title": "Tg24 Pagine",
+        "description": "Telegiornale in diretta con gli aggiornamenti minuto per minuto. Inoltre, una panoramica multimediale su quanto pubblicato da giornali, siti web e social network e una finestra sul meteo.",
+        "start": "2025-10-25T05:30:00.000Z",
+        "end": "2025-10-25T06:00:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/393/p29629766bh11aa_BannerL2_w1920.webp"
+      },
+      {
+        "title": "Tg24 Mezz'ora",
+        "description": "Edizione di trenta minuti del notiziario televisivo firmato dalla redazione giornalistica di Sky. Ogni giorno, le informazioni più aggiornate a livello nazionale ed internazionale.",
+        "start": "2025-10-25T06:00:00.000Z",
+        "end": "2025-10-25T06:20:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/393/p11269767bh10ac_BannerL2_w1920.webp"
+      },
+      {
+        "title": "Sky Meteo24",
+        "description": "Seguiamo insieme tutte le previsioni meteo regionali, nazionali e internazionali, dettagliate e sempre aggiornate, per essere sempre pronti.",
+        "start": "2025-10-25T06:20:00.000Z",
+        "end": "2025-10-25T06:30:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/393/p21636164bh10aa_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Tg24 Pagine",
+        "description": "Telegiornale in diretta con gli aggiornamenti minuto per minuto. Inoltre, una panoramica multimediale su quanto pubblicato da giornali, siti web e social network e una finestra sul meteo.",
+        "start": "2025-10-25T06:30:00.000Z",
+        "end": "2025-10-25T07:00:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/393/p29629766bh11aa_BannerL2_w1920.webp"
+      },
+      {
+        "title": "Tg24 Mezz'ora",
+        "description": "Edizione di trenta minuti del notiziario televisivo firmato dalla redazione giornalistica di Sky. Ogni giorno, le informazioni più aggiornate a livello nazionale ed internazionale.",
+        "start": "2025-10-25T07:00:00.000Z",
+        "end": "2025-10-25T07:30:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/393/p11269767bh10ac_BannerL2_w1920.webp"
+      },
+      {
+        "title": "Tg24 Pagine",
+        "description": "Telegiornale in diretta con gli aggiornamenti minuto per minuto. Inoltre, una panoramica multimediale su quanto pubblicato da giornali, siti web e social network e una finestra sul meteo.",
+        "start": "2025-10-25T07:30:00.000Z",
+        "end": "2025-10-25T08:00:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/393/p29629766bh11aa_BannerL2_w1920.webp"
+      },
+      {
+        "title": "Tg24",
+        "description": "Le notizie del giorno presentate dalla redazione di Sky Tg24, per essere sempre informati sugli avvenimenti in tempo reale.",
+        "start": "2025-10-25T08:00:00.000Z",
+        "end": "2025-10-25T08:30:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/393/p12611776bh10ab_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Tg24",
+        "description": "Le notizie del giorno presentate dalla redazione di Sky Tg24, per essere sempre informati sugli avvenimenti in tempo reale.",
+        "start": "2025-10-25T08:30:00.000Z",
+        "end": "2025-10-25T09:00:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/393/p12611776bh10ab_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Tg24",
+        "description": "Le notizie del giorno presentate dalla redazione di Sky Tg24, per essere sempre informati sugli avvenimenti in tempo reale.",
+        "start": "2025-10-25T09:00:00.000Z",
+        "end": "2025-10-25T09:30:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/393/p12611776bh10ab_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Tg24",
+        "description": "Le notizie del giorno presentate dalla redazione di Sky Tg24, per essere sempre informati sugli avvenimenti in tempo reale.",
+        "start": "2025-10-25T09:30:00.000Z",
+        "end": "2025-10-25T10:00:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/393/p12611776bh10ab_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Il TG di mezzogiorno",
+        "description": "Segui l'edizione delle dodici del TG, con notizie sullo sport, il meteo e l'immancabile domanda del giorno.",
+        "start": "2025-10-25T10:00:00.000Z",
+        "end": "2025-10-25T10:30:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/broadcast/393/700.701_genre_w1920.webp"
+      },
+      {
+        "title": "Tg24 Mezz'ora",
+        "description": "Edizione di trenta minuti del notiziario televisivo firmato dalla redazione giornalistica di Sky. Ogni giorno, le informazioni più aggiornate a livello nazionale ed internazionale.",
+        "start": "2025-10-25T10:30:00.000Z",
+        "end": "2025-10-25T10:55:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/393/p11269767bh10ac_BannerL2_w1920.webp"
+      },
+      {
+        "title": "TG24 Preview",
+        "description": "Assistiamo ad un'anteprima delle notizie del telegiornale, a cura della redazione della rete.",
+        "start": "2025-10-25T10:55:00.000Z",
+        "end": "2025-10-25T11:00:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/393/p21754250bh10ab_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Ore 13",
+        "description": "Le notizie della giornata raccontate con collegamenti e approfondimenti. Una finestra aperta su quello che funziona e su quello che non funziona nel nostro Paese. E, a seguire, il fatto principale del giorno analizzato e commentato da un esperto.",
+        "start": "2025-10-25T11:00:00.000Z",
+        "end": "2025-10-25T11:30:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/393/p17677111bh10ab_BannerL2_w1920.webp"
+      },
+      {
+        "title": "Ore 13",
+        "description": "Le notizie della giornata raccontate con collegamenti e approfondimenti. Una finestra aperta su quello che funziona e su quello che non funziona nel nostro Paese. E, a seguire, il fatto principale del giorno analizzato e commentato da un esperto.",
+        "start": "2025-10-25T11:30:00.000Z",
+        "end": "2025-10-25T11:50:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/393/p17677111bh10ab_BannerL2_w1920.webp"
+      },
+      {
+        "title": "Extra Time",
+        "description": "Telegiornale.",
+        "start": "2025-10-25T11:50:00.000Z",
+        "end": "2025-10-25T12:00:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/broadcast/393/700.701_genre_w1920.webp"
+      },
+      {
+        "title": "Tg24 Mezz'ora",
+        "description": "Edizione di trenta minuti del notiziario televisivo firmato dalla redazione giornalistica di Sky. Ogni giorno, le informazioni più aggiornate a livello nazionale ed internazionale.",
+        "start": "2025-10-25T12:00:00.000Z",
+        "end": "2025-10-25T12:30:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/393/p11269767bh10ac_BannerL2_w1920.webp"
+      },
+      {
+        "title": "Tg24 Mezz'ora",
+        "description": "Edizione di trenta minuti del notiziario televisivo firmato dalla redazione giornalistica di Sky. Ogni giorno, le informazioni più aggiornate a livello nazionale ed internazionale.",
+        "start": "2025-10-25T12:30:00.000Z",
+        "end": "2025-10-25T13:00:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/393/p11269767bh10ac_BannerL2_w1920.webp"
+      },
+      {
+        "title": "Seven 1/2 ora",
+        "description": "Le principali notizie della settimana, raccontate in 30 minuti, a cura della redazione della rete. Aggiornamenti riguardanti politica, cronaca, esteri, economia, sport e attualità.",
+        "start": "2025-10-25T13:00:00.000Z",
+        "end": "2025-10-25T13:30:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/393/p18523320bh10ab_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Now",
+        "description": "Rubrica di informazione a cura di Sky TG24 dedicata all'innovazione e alla tecnologia, alla scoperta delle ultime novità sul mercato, curiosità da tutto il mondo e recensioni dei nuovi prodotti in uscita.",
+        "start": "2025-10-25T13:30:00.000Z",
+        "end": "2025-10-25T13:40:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/393/p17140703bh10ab_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Incipit",
+        "description": "Rubrica settimanale che racconta storie di vita e di letteratura. Tanti i consigli di lettura e gli ospiti in studio, con cui dialogare di scrittura, libri e della nostra società.",
+        "start": "2025-10-25T13:40:00.000Z",
+        "end": "2025-10-25T14:00:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/393/p19294776bh10ab_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Sky TG25",
+        "description": "Uno spazio per l'approfondimento della più stretta attualità. L'occasione per raccontare i fatti sfuggiti ai radar dei consueti momenti d'informazione, con ospiti in studio e sevizi dedicati.",
+        "start": "2025-10-25T14:00:00.000Z",
+        "end": "2025-10-25T14:45:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/broadcast/393/700.701_genre_w1920.webp"
+      },
+      {
+        "title": "Tg24 Mezz'ora",
+        "description": "Edizione di trenta minuti del notiziario televisivo firmato dalla redazione giornalistica di Sky. Ogni giorno, le informazioni più aggiornate a livello nazionale ed internazionale.",
+        "start": "2025-10-25T14:45:00.000Z",
+        "end": "2025-10-25T14:50:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/393/p11269767bh10ac_BannerL2_w1920.webp"
+      },
+      {
+        "title": "Sky Meteo24",
+        "description": "Seguiamo insieme tutte le previsioni meteo regionali, nazionali e internazionali, dettagliate e sempre aggiornate, per essere sempre pronti.",
+        "start": "2025-10-25T14:50:00.000Z",
+        "end": "2025-10-25T15:00:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/393/p21636164bh10aa_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Tg24 Mezz'ora",
+        "description": "Edizione di trenta minuti del notiziario televisivo firmato dalla redazione giornalistica di Sky. Ogni giorno, le informazioni più aggiornate a livello nazionale ed internazionale.",
+        "start": "2025-10-25T15:00:00.000Z",
+        "end": "2025-10-25T15:30:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/393/p11269767bh10ac_BannerL2_w1920.webp"
+      },
+      {
+        "title": "Tg24 Mezz'ora",
+        "description": "Edizione di trenta minuti del notiziario televisivo firmato dalla redazione giornalistica di Sky. Ogni giorno, le informazioni più aggiornate a livello nazionale ed internazionale.",
+        "start": "2025-10-25T15:30:00.000Z",
+        "end": "2025-10-25T16:00:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/393/p11269767bh10ac_BannerL2_w1920.webp"
+      },
+      {
+        "title": "Tg24 Mezz'ora",
+        "description": "Edizione di trenta minuti del notiziario televisivo firmato dalla redazione giornalistica di Sky. Ogni giorno, le informazioni più aggiornate a livello nazionale ed internazionale.",
+        "start": "2025-10-25T16:00:00.000Z",
+        "end": "2025-10-25T16:25:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/393/p11269767bh10ac_BannerL2_w1920.webp"
+      },
+      {
+        "title": "738 giorni. I due anni che hanno cambiato il Medioriente.",
+        "description": "738 giorni. I due anni che hanno cambiato il Medioriente.",
+        "start": "2025-10-25T16:25:00.000Z",
+        "end": "2025-10-25T16:55:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/broadcast/393/700.701_genre_w1920.webp"
+      },
+      {
+        "title": "TG24 Preview",
+        "description": "Assistiamo ad un'anteprima delle notizie del telegiornale, a cura della redazione della rete.",
+        "start": "2025-10-25T16:55:00.000Z",
+        "end": "2025-10-25T17:00:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/393/p21754250bh10ab_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Tg24 Mezz'ora",
+        "description": "Edizione di trenta minuti del notiziario televisivo firmato dalla redazione giornalistica di Sky. Ogni giorno, le informazioni più aggiornate a livello nazionale ed internazionale.",
+        "start": "2025-10-25T17:00:00.000Z",
+        "end": "2025-10-25T17:30:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/393/p11269767bh10ac_BannerL2_w1920.webp"
+      },
+      {
+        "title": "Tg24 Mezz'ora",
+        "description": "Edizione di trenta minuti del notiziario televisivo firmato dalla redazione giornalistica di Sky. Ogni giorno, le informazioni più aggiornate a livello nazionale ed internazionale.",
+        "start": "2025-10-25T17:30:00.000Z",
+        "end": "2025-10-25T17:55:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/393/p11269767bh10ac_BannerL2_w1920.webp"
+      },
+      {
+        "title": "TG24 Preview",
+        "description": "Assistiamo ad un'anteprima delle notizie del telegiornale, a cura della redazione della rete.",
+        "start": "2025-10-25T17:55:00.000Z",
+        "end": "2025-10-25T18:00:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/393/p21754250bh10ab_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Tg24 Mezz'ora",
+        "description": "Edizione di trenta minuti del notiziario televisivo firmato dalla redazione giornalistica di Sky. Ogni giorno, le informazioni più aggiornate a livello nazionale ed internazionale.",
+        "start": "2025-10-25T18:00:00.000Z",
+        "end": "2025-10-25T18:30:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/393/p11269767bh10ac_BannerL2_w1920.webp"
+      },
+      {
+        "title": "Tg24 Mezz'ora",
+        "description": "Edizione di trenta minuti del notiziario televisivo firmato dalla redazione giornalistica di Sky. Ogni giorno, le informazioni più aggiornate a livello nazionale ed internazionale.",
+        "start": "2025-10-25T18:30:00.000Z",
+        "end": "2025-10-25T18:50:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/393/p11269767bh10ac_BannerL2_w1920.webp"
+      },
+      {
+        "title": "Extra Time",
+        "description": "Telegiornale.",
+        "start": "2025-10-25T18:50:00.000Z",
+        "end": "2025-10-25T19:00:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/broadcast/393/700.701_genre_w1920.webp"
+      },
+      {
+        "title": "Orgoglio e pregiudizio",
+        "description": "Le vicissitudini della famiglia Bennet, in cui marito e moglie, di modesta estrazione sociale, sognano di vedere le loro cinque figlie sposate. Il matrimonio, infatti, è l'unica via per una donna per avere un posto rispettabile in società.",
+        "start": "2025-10-25T19:00:00.000Z",
+        "end": "2025-10-25T19:30:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/393/p17781850bh10ab_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Made in Italy",
+        "description": "Uno spazio per dare voce agli imprenditori e alle eccellenze italiane.",
+        "start": "2025-10-25T19:30:00.000Z",
+        "end": "2025-10-25T20:00:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/broadcast/393/700.701_genre_w1920.webp"
+      },
+      {
+        "title": "Yes Weekend",
+        "description": "Il mondo del turismo è profondamente cambiato: ora esplorare il proprio Paese e viverlo sotto una luce diversa è diventata la scelta di moltissimi italiani che vogliono cogliere l'opportunità di riscoprire le proprie radici.",
+        "start": "2025-10-25T20:00:00.000Z",
+        "end": "2025-10-25T20:10:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/393/p20141704bh10aa_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Tg24 Mezz'ora",
+        "description": "Edizione di trenta minuti del notiziario televisivo firmato dalla redazione giornalistica di Sky. Ogni giorno, le informazioni più aggiornate a livello nazionale ed internazionale.",
+        "start": "2025-10-25T20:10:00.000Z",
+        "end": "2025-10-25T20:30:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/393/p11269767bh10ac_BannerL2_w1920.webp"
+      },
+      {
+        "title": "Tg24 Mezz'ora",
+        "description": "Edizione di trenta minuti del notiziario televisivo firmato dalla redazione giornalistica di Sky. Ogni giorno, le informazioni più aggiornate a livello nazionale ed internazionale.",
+        "start": "2025-10-25T20:30:00.000Z",
+        "end": "2025-10-25T20:55:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/393/p11269767bh10ac_BannerL2_w1920.webp"
+      },
+      {
+        "title": "TG24 Preview",
+        "description": "Assistiamo ad un'anteprima delle notizie del telegiornale, a cura della redazione della rete.",
+        "start": "2025-10-25T20:55:00.000Z",
+        "end": "2025-10-25T21:00:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/393/p21754250bh10ab_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Tg24 Mezz'ora",
+        "description": "Edizione di trenta minuti del notiziario televisivo firmato dalla redazione giornalistica di Sky. Ogni giorno, le informazioni più aggiornate a livello nazionale ed internazionale.",
+        "start": "2025-10-25T21:00:00.000Z",
+        "end": "2025-10-25T21:30:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/393/p11269767bh10ac_BannerL2_w1920.webp"
+      },
+      {
+        "title": "Tg24 Mezz'ora",
+        "description": "Edizione di trenta minuti del notiziario televisivo firmato dalla redazione giornalistica di Sky. Ogni giorno, le informazioni più aggiornate a livello nazionale ed internazionale.",
+        "start": "2025-10-25T21:30:00.000Z",
+        "end": "2025-10-25T21:50:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/393/p11269767bh10ac_BannerL2_w1920.webp"
+      },
+      {
+        "title": "Sky Meteo24",
+        "description": "Seguiamo insieme tutte le previsioni meteo regionali, nazionali e internazionali, dettagliate e sempre aggiornate, per essere sempre pronti.",
+        "start": "2025-10-25T21:50:00.000Z",
+        "end": "2025-10-25T22:00:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/393/p21636164bh10aa_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Il Tg di mezzanotte",
+        "description": "Telegiornale in diretta e la prima, parziale, rassegna stampa della redazione. Aggiornamenti riguardanti politica, cronaca, esteri, economia, sport e attualità.",
+        "start": "2025-10-25T22:00:00.000Z",
+        "end": "2025-10-25T22:30:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/393/p11270153bh10ab_BannerL2_w1920.webp"
+      },
+      {
+        "title": "Tg24 Edicola",
+        "description": "Seguiamo insieme la dettagliata rassegna stampa riguardo quotidiani più importanti e rinomati attualmente presenti in edicola.",
+        "start": "2025-10-25T22:30:00.000Z",
+        "end": "2025-10-25T23:00:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/393/p11270147bh8aa_BannerL2_w1920.webp"
+      },
+      {
+        "title": "Tg24 Edicola",
+        "description": "Seguiamo insieme la dettagliata rassegna stampa riguardo quotidiani più importanti e rinomati attualmente presenti in edicola.",
+        "start": "2025-10-25T23:00:00.000Z",
+        "end": "2025-10-25T23:30:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/393/p11270147bh8aa_BannerL2_w1920.webp"
+      },
+      {
+        "title": "Tg24 Edicola",
+        "description": "Seguiamo insieme la dettagliata rassegna stampa riguardo quotidiani più importanti e rinomati attualmente presenti in edicola.",
+        "start": "2025-10-25T23:30:00.000Z",
+        "end": "2025-10-26T01:00:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/393/p11270147bh8aa_BannerL2_w1920.webp"
+      },
+      {
+        "title": "Tg24 Edicola",
+        "description": "Seguiamo insieme la dettagliata rassegna stampa riguardo quotidiani più importanti e rinomati attualmente presenti in edicola.",
+        "start": "2025-10-26T01:00:00.000Z",
+        "end": "2025-10-26T01:30:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/393/p11270147bh8aa_BannerL2_w1920.webp"
+      },
+      {
+        "title": "Tg24 Edicola",
+        "description": "Seguiamo insieme la dettagliata rassegna stampa riguardo quotidiani più importanti e rinomati attualmente presenti in edicola.",
+        "start": "2025-10-26T01:30:00.000Z",
+        "end": "2025-10-26T02:00:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/393/p11270147bh8aa_BannerL2_w1920.webp"
+      }
+    ]
   }
 ]
