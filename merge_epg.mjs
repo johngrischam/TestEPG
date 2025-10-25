@@ -1,6 +1,5 @@
-// merge_epg.mjs
-// Builds list.json for https://cdn.jsdelivr.net/gh/johngrischam/TestEPG@main/list.json
-// Based on your last working version (with @main fix)
+// merge_epg.mjs — FIXED version restoring correct data path
+// Keeps @main fix and removes Rai Movie
 
 import fs from "fs/promises";
 
@@ -8,7 +7,7 @@ const OUTPUT = "list.json";
 const PRIMARY_URL = "https://tvit.leicaflorianrobert.dev/epg/list.json";
 const BASE = "https://services.sg101.prd.sctv.ch";
 
-// ----------------- helpers -----------------
+// --- helpers ---
 function norm(s) {
   return String(s || "").toLowerCase().replace(/\s|-/g, "");
 }
@@ -29,32 +28,22 @@ function addDaysUTC(d, days) {
   return copy;
 }
 
-// ----------------- channel list -----------------
-// (Rai Movie REMOVED as requested)
+// --- channel list ---
 const CHANNELS = [
-  // Working RSI channels
   { site: "tv.blue.ch", lang: "it", xmltv_id: "RSI1.it", site_id: "356", name: "RSI 1" },
   { site: "tv.blue.ch", lang: "it", xmltv_id: "RSI2.it", site_id: "357", name: "RSI 2" },
-
-  // New ones
-  { site: "tv.blue.ch", lang: "it", xmltv_id: "LA7d.it",      site_id: "239",  name: "La 7d" },
-  { site: "tv.blue.ch", lang: "it", xmltv_id: "",             site_id: "2015", name: "Warner TV Italy" },
-  { site: "tv.blue.ch", lang: "it", xmltv_id: "RaiGulp.it",   site_id: "332",  name: "Rai Gulp" },
+  { site: "tv.blue.ch", lang: "it", xmltv_id: "LA7d.it", site_id: "239", name: "La 7d" },
+  { site: "tv.blue.ch", lang: "it", xmltv_id: "", site_id: "2015", name: "Warner TV Italy" },
+  { site: "tv.blue.ch", lang: "it", xmltv_id: "RaiGulp.it", site_id: "332", name: "Rai Gulp" },
   { site: "tv.blue.ch", lang: "it", xmltv_id: "SuperTennis.it", site_id: "1386", name: "SuperTennis TV" },
-  { site: "tv.blue.ch", lang: "it", xmltv_id: "",             site_id: "2064", name: "Radio Italia TV" },
-  { site: "tv.blue.ch", lang: "it", xmltv_id: "SkyTG24.it",   site_id: "393",  name: "Sky TG 24" },
+  { site: "tv.blue.ch", lang: "it", xmltv_id: "", site_id: "2064", name: "Radio Italia TV" },
+  { site: "tv.blue.ch", lang: "it", xmltv_id: "SkyTG24.it", site_id: "393", name: "Sky TG 24" },
 ];
 
-// Optional aliases for your front-end labels (normalized keys)
+// optional aliases (for front-end names)
 const CUSTOM_ALIASES = {
-  // HTML: <strong class="zappr-text">La7 Cinema</strong>
-  // Map it to La 7d
   "la7cinema": "La 7d",
-
-  // HTML: Warner TV  -> Warner TV Italy
   "warnertv": "Warner TV Italy",
-
-  // Common straightforward ones (kept for clarity)
   "skytg24": "Sky TG 24",
   "raigulp": "Rai Gulp",
   "supertennistv": "SuperTennis TV",
@@ -63,25 +52,21 @@ const CUSTOM_ALIASES = {
   "rsi2": "RSI 2",
 };
 
-// Build alias arrays per channel
 function aliasesForChannelName(name) {
-  const n = norm(name);
-  const aliases = new Set([n]);
-
-  // Any custom alias that points to this channel gets included
+  const aliases = [norm(name)];
   for (const [aliasNorm, targetName] of Object.entries(CUSTOM_ALIASES)) {
-    if (targetName === name) aliases.add(aliasNorm);
+    if (targetName === name) aliases.push(aliasNorm);
   }
-  return Array.from(aliases);
+  return [...new Set(aliases)];
 }
 
-// ----------------- main -----------------
+// --- main ---
 async function main() {
   const now = new Date();
   const start = `${ymdUTC(now)}0600`;
   const end = `${ymdUTC(addDaysUTC(now, 1))}0600`;
 
-  console.log("Merging EPG…");
+  console.log("Merging EPG...");
   const primary = await fetchJson(PRIMARY_URL).catch(() => []);
   const merged = Array.isArray(primary) ? [...primary] : [];
 
@@ -91,7 +76,10 @@ async function main() {
 
     try {
       const data = await fetchJson(url);
-      const programs = data?.Data?.[0]?.Programs || [];
+
+      // ✅ Corrected path: Data[0].Channels[0].Programs
+      const programs = data?.Data?.[0]?.Channels?.[0]?.Programs || [];
+
       if (!programs.length) {
         console.warn(`⚠️ No programs for ${ch.name}`);
         continue;
