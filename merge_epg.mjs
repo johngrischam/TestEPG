@@ -30,11 +30,14 @@ function ensureChannelShape(ch) {
     const title = p?.title || "";
     const description = p?.description ?? p?.desc ?? null;
     const start = p?.start ? new Date(p.start).toISOString() : null;
-    const end = p?.end ? new Date(p.end).toISOString()
-                       : (start ? new Date(new Date(start).getTime() + 60 * 60 * 1000).toISOString() : null);
+    const end = p?.end
+      ? new Date(p.end).toISOString()
+      : start
+      ? new Date(new Date(start).getTime() + 60 * 60 * 1000).toISOString()
+      : null;
     const poster = p?.poster ?? p?.image ?? null;
     return { title, description, start, end, poster };
-  }).filter(p => p.start && p.end);
+  }).filter((p) => p.start && p.end);
 
   return { name: String(name), epgName: String(epgName), logo: logo || undefined, programs };
 }
@@ -44,14 +47,16 @@ function buildRaiSport(epgPwJson) {
   const list = Array.isArray(epgPwJson?.epg_list) ? epgPwJson.epg_list.slice(0, 50) : [];
   const programs = list.map((item, idx, arr) => {
     const start = new Date(item.start_date);
-    const end = idx < arr.length - 1 ? new Date(arr[idx + 1].start_date)
-                                     : new Date(start.getTime() + 60 * 60 * 1000);
+    const end =
+      idx < arr.length - 1
+        ? new Date(arr[idx + 1].start_date)
+        : new Date(start.getTime() + 60 * 60 * 1000);
     return {
       title: item.title || "",
       description: item.desc ?? null,
       start: start.toISOString(),
       end: end.toISOString(),
-      poster: null
+      poster: null,
     };
   });
   return { name: "Rai Sport", epgName: "Rai Sport", logo: epgPwJson?.icon || "", programs };
@@ -59,26 +64,31 @@ function buildRaiSport(epgPwJson) {
 
 // --- ✅ Simplified RSI parser (for sg101.prd.sctv.ch) ---
 function buildRSIChannel(apiJson, publicName) {
-  const items = apiJson?.Nodes?.Items?.[0]?.Content?.Nodes?.Items || [];
+  const items =
+    apiJson?.Nodes?.Items?.[0]?.Content?.Nodes?.Items ||
+    apiJson?.Nodes?.Items?.[0]?.Nodes?.Items ||
+    [];
   if (!items.length) return null;
 
-  const programs = items.slice(0, 40).map(p => {
+  const programs = items.slice(0, 40).map((p) => {
     const desc = p.Content?.Description || {};
     const avail = p.Availabilities?.[0] || {};
     const start = avail.AvailabilityStart;
     const end = avail.AvailabilityEnd;
     const title = desc.Title || "";
     const description = desc.Summary || desc.ShortSummary || "";
-    const imgNode = p.Content?.Nodes?.Items?.find(n => n.Role === "Stage");
-    const poster = imgNode ? `https://services.sg101.prd.sctv.ch/catalog/${imgNode.ContentPath}` : null;
+    const imgNode = p.Content?.Nodes?.Items?.find((n) => n.Role === "Stage");
+    const poster = imgNode
+      ? `https://services.sg101.prd.sctv.ch/catalog/${imgNode.ContentPath}`
+      : null;
     return { title, description, start, end, poster };
-  }).filter(p => p.start && p.end);
+  }).filter((p) => p.start && p.end);
 
   return {
     name: publicName,
     epgName: publicName,
     logo: null,
-    programs
+    programs,
   };
 }
 
@@ -106,6 +116,7 @@ async function main() {
 
   const add = [];
 
+  // --- Rai Sport ---
   try {
     const raiJson = await fetchJson(RAI_URL);
     const rai = buildRaiSport(raiJson);
@@ -115,12 +126,19 @@ async function main() {
     console.warn("Rai Sport fetch failed:", e.message);
   }
 
+  // --- RSI 1 / RSI 2 ---
   async function fetchRSI(url, name) {
     try {
       const j = await fetchJson(url);
+      console.log("DEBUG", name, "keys:", Object.keys(j));
+      console.log("DEBUG", name, "Nodes.Items length:", j?.Nodes?.Items?.length);
       const ch = buildRSIChannel(j, name);
-      if (ch) { add.push(ch); console.log(`Merged ${name}`); }
-      else console.warn(`No programs for ${name}`);
+      if (ch) {
+        add.push(ch);
+        console.log(`Merged ${name}`);
+      } else {
+        console.warn(`No programs for ${name}`);
+      }
     } catch (e) {
       console.warn(`${name} fetch failed:`, e.message);
     }
@@ -128,8 +146,11 @@ async function main() {
 
   await Promise.all([fetchRSI(RSI1_URL, "RSI 1"), fetchRSI(RSI2_URL, "RSI 2")]);
 
+  // --- merge safely ---
   for (const c of add) {
-    const i = out.findIndex(x => norm(x.name) === norm(c.name) || norm(x.epgName) === norm(c.epgName));
+    const i = out.findIndex(
+      (x) => norm(x.name) === norm(c.name) || norm(x.epgName) === norm(c.epgName)
+    );
     const safeC = ensureChannelShape(c);
     if (i >= 0) out[i] = { ...out[i], ...safeC, programs: safeC.programs };
     else out.push(safeC);
@@ -139,8 +160,7 @@ async function main() {
   console.log(`✅ list.json written with ${out.length} channels (strict schema)`);
 }
 
-main().catch(e => {
+main().catch((e) => {
   console.error("Fatal:", e);
   process.exit(1);
 });
-
