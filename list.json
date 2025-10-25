@@ -3745,219 +3745,156 @@
     ]
   },
   {
-    "name": "La7d",
-    "epgName": "La7d",
-    "logo": "https://api.superguidatv.it/v1/channels/254/logo?width=120&theme=dark",
+    "name": "La 7d",
+    "epgName": "La 7d",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/2/26/La7d_-_Logo_2018.svg",
     "programs": [
       {
-        "title": "Hollywood Collection - Stag. 1 - Hollywood's Children",
-        "description": "Una serie di splendide biografie, narrate da voci illustri, di alcuni tra i piu' famosi attori e attrici che hanno caratterizzato il cinema hollywoodiano classico.",
-        "start": "2025-10-25T01:40:00.000Z",
-        "end": "2025-10-25T02:45:00.000Z",
-        "poster": null
-      },
-      {
-        "title": "Uozzap Cinema (St. 19 - Ep. 4)",
-        "description": "'La TV in chat' che seleziona i momenti piu' divertenti e ironici dei personaggi piu' amati della televisione.",
-        "start": "2025-10-25T02:45:00.000Z",
-        "end": "2025-10-25T03:15:00.000Z",
-        "poster": null
-      },
-      {
-        "title": "Documentario",
-        "description": "Fascia dedicata al documentario.",
-        "start": "2025-10-25T03:15:00.000Z",
-        "end": "2025-10-25T04:00:00.000Z",
-        "poster": null
-      },
-      {
-        "title": "Oroscopo",
-        "description": "La lettura dell'oroscopo del giorno per tutti i segni zodiacali.",
-        "start": "2025-10-25T04:00:00.000Z",
-        "end": "2025-10-25T04:05:00.000Z",
-        "poster": "https://api.superguidatv.it/v1/programs/2145199385/backdrops/1?width=720"
-      },
-      {
-        "title": "Documentario",
-        "description": "Fascia dedicata al documentario.",
-        "start": "2025-10-25T03:20:00.000Z",
-        "end": "2025-10-25T04:00:00.000Z",
-        "poster": "https://www.superguidatv.it/wp-content/themes/SGTV-Newspaper/img/event-type-placeholder/720/bd-placeholder-15.jpg"
-      },
-      {
-        "title": "Meteo",
-        "description": "L'aggiornamento sulle previsioni del tempo atmosferico in tutta Italia.",
-        "start": "2025-10-25T04:05:00.000Z",
-        "end": "2025-10-25T04:10:00.000Z",
-        "poster": "https://www.superguidatv.it/wp-content/themes/SGTV-Newspaper/img/event-type-placeholder/720/bd-placeholder-7.jpg"
-      },
-      {
-        "title": "Oroscopo",
-        "description": "La lettura dell'oroscopo del giorno per tutti i segni zodiacali.",
-        "start": "2025-10-25T04:10:00.000Z",
-        "end": "2025-10-25T04:15:00.000Z",
-        "poster": "https://api.superguidatv.it/v1/programs/1581127823/backdrops/1?width=720"
-      },
-      {
-        "title": "Meteo",
-        "description": "L'aggiornamento sulle previsioni del tempo atmosferico in tutta Italia.",
-        "start": "2025-10-25T04:15:00.000Z",
-        "end": "2025-10-25T04:20:00.000Z",
-        "poster": "https://www.superguidatv.it/wp-content/themes/SGTV-Newspaper/img/event-type-placeholder/720/bd-placeholder-7.jpg"
-      },
-      {
-        "title": "Oroscopo",
-        "description": "La lettura dell'oroscopo del giorno per tutti i segni zodiacali.",
-        "start": "2025-10-25T04:20:00.000Z",
-        "end": "2025-10-25T04:25:00.000Z",
-        "poster": "https://api.superguidatv.it/v1/programs/969022485/backdrops/1?width=720"
-      },
-      {
-        "title": "Meteo",
-        "description": "L'aggiornamento sulle previsioni del tempo atmosferico in tutta Italia.",
-        "start": "2025-10-25T04:25:00.000Z",
-        "end": "2025-10-25T04:30:00.000Z",
-        "poster": "https://www.superguidatv.it/wp-content/themes/SGTV-Newspaper/img/event-type-placeholder/720/bd-placeholder-7.jpg"
-      },
-      {
-        "title": "Oroscopo",
-        "description": "La lettura dell'oroscopo del giorno per tutti i segni zodiacali.",
-        "start": "2025-10-25T04:30:00.000Z",
-        "end": "2025-10-25T04:35:00.000Z",
-        "poster": "https://api.superguidatv.it/v1/programs/630400258/backdrops/1?width=720"
-      },
-      {
-        "title": "Meteo",
-        "description": "L'aggiornamento sulle previsioni del tempo atmosferico in tutta Italia.",
-        "start": "2025-10-25T04:35:00.000Z",
-        "end": "2025-10-25T04:40:00.000Z",
-        "poster": "https://www.superguidatv.it/wp-content/themes/SGTV-Newspaper/img/event-type-placeholder/720/bd-placeholder-7.jpg"
-      },
-      {
-        "title": "Oroscopo",
-        "description": "La lettura dell'oroscopo del giorno per tutti i segni zodiacali.",
-        "start": "2025-10-25T04:40:00.000Z",
-        "end": "2025-10-25T04:45:00.000Z",
-        "poster": "https://api.superguidatv.it/v1/programs/291407111/backdrops/1?width=720"
-      },
-      {
-        "title": "Tg La7",
-        "description": "Le notizie d'attualita' e i fatti di cronaca, di politica, di economia e societa', selezionati dalla redazione di La7.",
-        "start": "2025-10-25T04:45:00.000Z",
-        "end": "2025-10-25T04:50:00.000Z",
-        "poster": "https://api.superguidatv.it/v1/programs/2127771660/backdrops/1?width=720"
-      },
-      {
-        "title": "Toro scatenato (1980)",
-        "description": "Jake LaMotta, pugile dal talento straordinario e dal carattere autodistruttivo, lotta sul ring con la stessa furia con cui affronta la vita. Tra successi, gelosie e cadute, il confine tra gloria e rovina diventa sempre più sottile. Un ritratto intenso e brutale della solitudine e dell’ossessione firmato Martin Scorsese.",
+        "title": "Toro scatenato",
+        "description": "Quando Jake LaMotta sale sul ring e combatte contro gli avversari a suon di pugni, il suo comportamento è quello di un campione pronto a vincere ancora. Quando invece questi tratta la famiglia allo stesso modo, la sua ira è una bomba ad orologeria.",
         "start": "2025-10-25T04:50:00.000Z",
         "end": "2025-10-25T07:20:00.000Z",
-        "poster": "https://api.superguidatv.it/v1/movies/8373/backdrops/1?width=720"
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/239/p30vh8aj_VodArt_w1920.webp"
       },
       {
-        "title": "The Mexican - Amore senza la sicura (2001)",
-        "description": "Jerry è un piccolo delinquente alle dipendenze di un potente gangster e in seguito all'arresto di Arnold Margolese riceve l'incarico di recarsi in Messico con lo scopo di mettere le mani su una pistola maledetta, conosciuta come The Mexican. Mentre la sua fidanzata Samantha spera che esca dal giro criminale il prima possibile, Jerry è costretto a compiere quest'ultima missione se tiene alla sua vita. Giunto in loco, l'uomo recupera l'arma con facilità, ma quando torna in patria deve affrontare diverse insidie, a cominciare dall'entrata in scena del sicario Leroy che decide di rapire Samantha.",
+        "title": "The Mexican: Amore senza la sicura",
+        "description": "Jerry, membro di un'organizzazione criminale, ha il compito di recarsi in Messico per recuperare una pistola d'epoca. Quando il giovane entra in possesso dell'arma scopre che su di essa aleggia una maledizione.",
         "start": "2025-10-25T07:20:00.000Z",
         "end": "2025-10-25T09:35:00.000Z",
-        "poster": "https://api.superguidatv.it/v1/movies/6667/backdrops/1?width=720"
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/239/p27196vh10am_VodArt_w1920.webp"
       },
       {
-        "title": "Witness - Il testimone (1985)",
-        "description": "L'unico testimone di un crudele omicidio nella stazione di Philadelphia è il piccolo Samuel, appartenente ad una comunità Amish. Per cercare di avere più informazioni possibili e contemporaneamente tenerli  al sicuro, l'agente Book si occuperà del bambino e di sua madre, ma la faccenda si complicherà in modo impressionante quando si scoprirà l'identità degli  assassini: i tre dovranno cercare di catturarli nonostante il rischio di perdere la vita.",
+        "title": "Witness: Il testimone",
+        "description": "Samuel, un bambino della comunità Amish, aspettando con la madre un treno alla stazione di Filadelfia, diventa l'unico testimone di un omicidio.",
         "start": "2025-10-25T09:35:00.000Z",
         "end": "2025-10-25T11:40:00.000Z",
-        "poster": "https://api.superguidatv.it/v1/movies/11194/backdrops/1?width=720"
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/239/p8671vh10ak_VodArt_w1920.webp"
       },
       {
-        "title": "Ore 10: Calma piatta (1989)",
-        "description": "In seguito ad un drammatico incidente automobilistico nel quale ha perso la vita il loro unico figlio, la coppia formata da Rae e John - ufficiale della marina - decidono di partire per un lungo viaggio nell'Oceano Pacifico, nella speranza di riprendersi dal lutto. Ad un mese dalla partenza si imbattono in un'imbarcazione che sta affondando e in un superstite su una scialuppa, l'affascinante Hughie Warriner, che afferma di essere il solo sopravvissuto ad un avvelenamento costato la vita a tutti i suoi compagni di viaggio. John non è però convinto dalla sua versione e decide di vederci chiaro.",
+        "title": "Ore 10: Calma Piatta",
+        "description": "Un comandante della marina australiana e sua moglie decidono di fare intraprendere un viaggio in barca nel Pacifico, ma l'incontro con un naufrago dai modi poco affidabili si rivela un dramma, quando questi si rivela essere uno squilibrato.",
         "start": "2025-10-25T11:40:00.000Z",
         "end": "2025-10-25T13:30:00.000Z",
-        "poster": "https://api.superguidatv.it/v1/movies/4155/backdrops/1?width=720"
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/239/p11551vh10ae_VodArt_w1920.webp"
       },
       {
-        "title": "Full Monty - Squattrinati organizzati (1997)",
-        "description": "La città inglese di Sheffield è sede di diverse acciaierie, ma l'industia è in declino e la disoccupazione un dramma che riguarda molti individui, perlopiù operai, che lavoravano nel settore. Sei di loro decidono così di tentare la fortuna e preparare uno spettacolo di spogliarello in favore del gentil sesso, pur non potendo contare su fisici scolpiti, anzi tutt'altro. E con la promessa di uno striptease che non lasci nulla all'immaginazione per attirare l'attenzione nel miglior modo possibile...",
+        "title": "Full Monty: Squattrinati organizzati",
+        "description": "Degli operai disoccupati cercano di fare cassetta organizzando uno spogliarello e mettendo a soqquadro l'intero sobborgo in cui vivono.",
         "start": "2025-10-25T13:30:00.000Z",
         "end": "2025-10-25T15:15:00.000Z",
-        "poster": "https://api.superguidatv.it/v1/movies/15471/backdrops/1?width=720"
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/239/p19683vh10aj_VodArt_w1920.webp"
       },
       {
-        "title": "Tg La7",
-        "description": "Le notizie d'attualita' e i fatti di cronaca, di politica, di economia e societa', selezionati dalla redazione di La7.",
+        "title": "TG La7",
+        "description": "Edizione del notiziario televisivo a cura della redazione giornalistica di La7. Dal 24 Giugno 2001, gli aggiornamenti sui fatti più rilevanti a livello nazionale ed internazionale.",
         "start": "2025-10-25T15:15:00.000Z",
         "end": "2025-10-25T15:20:00.000Z",
-        "poster": "https://api.superguidatv.it/v1/programs/170900289/backdrops/1?width=720"
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/239/p10691348bh8ab_BannerL1_w1920.webp"
       },
       {
-        "title": "The Imitation Game (2014)",
-        "description": "Manchester, inizio degli anni Cinquanta. Alan Turing, brillante matematico, è sotto interrogatorio da parte della polizia dopo essere stato arrestato per atti osceni. Lo scienziato inizia a raccontare parte della sua vita, a cominciare da un evento chiave durante la Seconda Guerra Mondiale nel quale insieme ad altri colleghi ebbe il compito di decifrare il cosiddetto codice Enigma, inventato dai nazisti per trasmettersi informazioni top secret senza essere scoperti. Solo uno dei tanto passaggi nella vita di un uomo geniale, morto suicida poco più che quarantenne.",
+        "title": "The Imitation Game",
+        "description": "La vita del matematico inglese Alan Turing, genio indiscusso del XX secolo, considerato uno dei padri dell'informatica e dei moderni computer, fino alla sua precoce e tragica scomparsa.",
         "start": "2025-10-25T15:20:00.000Z",
         "end": "2025-10-25T17:25:00.000Z",
-        "poster": "https://api.superguidatv.it/v1/movies/6910/backdrops/1?width=720"
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/239/p10771057vh10ay_VodArt_w1920.webp"
       },
       {
-        "title": "The Weather Man - L'uomo delle previsioni (2005)",
-        "description": "David Spritz è una celebrità a Chicago, noto per le sue previsioni del tempo in TV. Nonostante uno stipendio generoso e un lavoro che richiede solo due ore al giorno, la sua vita non è priva di problemi. La sua vita familiare è alquanto complicata, con un ex moglie che non lo sopporta e i figli avuti con lei che lo ignorano; inoltre il padre Robert è un rispettato scrittore premio Pulitzer che disprezza la sua carriera. Determinato a cambiare le cose, David è pronto a mettersi all'opera per trasformare il suo destino e riguadagnarsi il rispetto della sua famiglia e la grande occasione sembra arrivare con un popolare talk show nazionale.",
+        "title": "The Weather Man: L'uomo delle previsioni",
+        "description": "David Spritz si occupa delle previsioni del tempo presso una emittente di Chicago e ha successo nel proprio campo. Purtroppo non riesce ad anticipare la bufera che lo aspetta con la propria moglie e il proprio padre.",
         "start": "2025-10-25T17:25:00.000Z",
         "end": "2025-10-25T19:15:00.000Z",
-        "poster": "https://api.superguidatv.it/v1/movies/597/backdrops/1?width=720"
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/239/p86612vh10ab_VodArt_w1920.webp"
       },
       {
-        "title": "Agente 007 - Si vive solo due volte (1967)",
-        "description": "Nel pieno della Guerra Fredda, Stati Uniti e Unione Sovietica perdono ciascuno una navicella spaziale, entrambe apparentemente inghiottite da un veicolo spaziale sconosciuto. Le due superpotenze si accusano a vicenda, aumentando le tensioni internazionali. Il Regno Unito propone un’altra teoria, che coinvolge il Giappone, e invia il suo miglior agente segreto James Bond a indagare sul posto. Con l’aiuto dei servizi segreti nipponici, 007 scopre un complotto molto più oscuro di quanto chiunque potesse immaginare.",
+        "title": "Agente 007: Si vive solo due volte",
+        "description": "James Bond mette in scena la propria morte, per essere poi mandato in Giappone per delle indagini. Diverse navicelle spaziali sono, infatti, misteriosamente sparite e russi e americani si accusano a vicenda.",
         "start": "2025-10-25T19:15:00.000Z",
         "end": "2025-10-25T21:25:00.000Z",
-        "poster": "https://api.superguidatv.it/v1/movies/8776/backdrops/1?width=720"
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/239/p164vh10am_VodArt_w1920.webp"
       },
       {
-        "title": "Il volo della fenice (2004)",
-        "description": "Un gruppo di sopravvissuti a un incidente aereo si ritrova bloccato nel deserto della Mongolia, senza alcuna possibilità di soccorso. Con risorse sempre più scarse a disposizione, un ambiente ostile e l’attacco da parte di contrabbandieri del deserto, l’unica speranza è tentare l’impossibile: costruire un nuovo aereo usando i rottami di quello precipitato.",
+        "title": "Il volo della fenice",
+        "description": "A causa di un incidente aereo, un gruppo di superstiti rimane isolato nel deserto. Decidono allora di costruire un velivolo con i resti dell'aeroplano.",
         "start": "2025-10-25T21:25:00.000Z",
         "end": "2025-10-25T23:40:00.000Z",
-        "poster": "https://api.superguidatv.it/v1/movies/1302/backdrops/1?width=720"
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/239/p34952vh8af_VodArt_w1920.webp"
       },
       {
-        "title": "Oggi, domani, dopodomani (1965)",
-        "description": "Protagonista della storia è un giovane operaio di fabbrica come tanti: il ragazzo pensa costantemente ad gonfiare semplici palloni. Un'ossessione alquanto strana, proprio come quella che negli ultimi tempi sta circolando tra le giovani coppie e non solo: risolvere i problemi solo con le maniere forti.",
-        "start": "2025-10-26T01:40:00.000Z",
+        "title": "Oggi, domani, dopodomani",
+        "description": "Un industriale milanese è tormentato da un problema che non riesce in alcun modo a risolvere. Un marito impaziente gestisce il proprio rapporto coniugale in modo bizzarro. Un bancario prova a vendere la propria moglie ad un principe.",
+        "start": "2025-10-25T23:40:00.000Z",
         "end": "2025-10-26T02:25:00.000Z",
-        "poster": "https://api.superguidatv.it/v1/movies/12900/backdrops/1?width=720"
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/239/p13920vh10aa_VodArt_w1920.webp"
       },
       {
-        "title": "Hollywood Collection (St. 1 - Ep. 4)",
-        "description": "Una serie di splendide biografie di alcuni tra i piu' famosi attori/attrici che hanno caratterizzato il cinema hollywoodiano classico narrate da voci illustri. Questo mese protagonista Gary Cooper.",
+        "title": "Hollywood Collection",
+        "description": "L'attore, noto per incarnare sul grande schermo l'eroe del West, deve le sue prime piccole parti alle abilità a cavallo tipiche di chi, come lui, è originario del Montana. L'artista ottiene così l'opportunità di farsi strada nel cinema.",
         "start": "2025-10-26T02:25:00.000Z",
-        "end": "2025-10-26T02:45:00.000Z",
-        "poster": "https://www.superguidatv.it/wp-content/themes/SGTV-Newspaper/img/event-type-placeholder/720/bd-placeholder-15.jpg"
-      },
-      {
-        "title": "Hollywood Collection - Stag. 1 - Gene Feldman",
-        "description": "Una serie di splendide biografie, narrate da voci illustri, di alcuni tra i piu' famosi attori e attrici che hanno caratterizzato il cinema hollywoodiano classico.",
-        "start": "2025-10-26T02:45:00.000Z",
         "end": "2025-10-26T03:05:00.000Z",
-        "poster": "https://www.superguidatv.it/wp-content/themes/SGTV-Newspaper/img/event-type-placeholder/720/bd-placeholder-15.jpg"
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/239/p12022787bh10ab_BannerL2_w1920.webp"
       },
       {
-        "title": "Uozzap Cinema (St. 19 - Ep. 4)",
-        "description": "'La TV in chat' che seleziona i momenti piu' divertenti e ironici dei personaggi piu' amati della televisione.",
+        "title": "Uozzap",
+        "description": "Il meglio della programmazione con spezzoni di vecchi programmi e filmati di repertorio trasmessi da LA7, dalla sua nascita ad oggi.",
         "start": "2025-10-26T03:05:00.000Z",
         "end": "2025-10-26T03:40:00.000Z",
-        "poster": "https://www.superguidatv.it/wp-content/themes/SGTV-Newspaper/img/event-type-placeholder/720/bd-placeholder-5.jpg"
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/239/p15684799bh10ad_BannerL1_w1920.webp"
       },
       {
-        "title": "Documentario",
-        "description": "Fascia dedicata al documentario.",
+        "title": "La7 Doc",
+        "description": "Selezione di documentari proposti dalla rete e dedicati a temi culturali, sociali, storici, artistici e naturalistici. Il meglio della produzione nazionale e internazionale in ambito divulgativo.",
         "start": "2025-10-26T03:40:00.000Z",
         "end": "2025-10-26T05:00:00.000Z",
-        "poster": "https://www.superguidatv.it/wp-content/themes/SGTV-Newspaper/img/event-type-placeholder/720/bd-placeholder-15.jpg"
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/239/p11168688bh10ab_BannerL2_w1920.webp"
       },
       {
         "title": "Oroscopo",
-        "description": "La lettura dell'oroscopo del giorno per tutti i segni zodiacali.",
+        "description": "Scopriamo assieme quali sorprese sono in serbo nel prossimo futuro per ciascuno dei segni dello zodiaco. L'appuntamento quotidiano con l'oroscopo de La7 è pronto a rivelare ogni sfumatura dell'influenza delle stelle.",
         "start": "2025-10-26T05:00:00.000Z",
         "end": "2025-10-26T05:05:00.000Z",
-        "poster": "https://api.superguidatv.it/v1/programs/747453371/backdrops/1?width=720"
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/239/p12160647bh10ab_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Meteo",
+        "description": "Spazio dedicato alle previsioni del tempo in diretta, con un approccio unico firmato La7 e Paolo Sottocorona, meterologo e filosofo d'elezione della rete.",
+        "start": "2025-10-26T05:05:00.000Z",
+        "end": "2025-10-26T05:10:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/239/p11259913bh8ac_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Oroscopo",
+        "description": "Scopriamo assieme quali sorprese sono in serbo nel prossimo futuro per ciascuno dei segni dello zodiaco. L'appuntamento quotidiano con l'oroscopo de La7 è pronto a rivelare ogni sfumatura dell'influenza delle stelle.",
+        "start": "2025-10-26T05:10:00.000Z",
+        "end": "2025-10-26T05:15:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/239/p12160647bh10ab_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Meteo",
+        "description": "Spazio dedicato alle previsioni del tempo in diretta, con un approccio unico firmato La7 e Paolo Sottocorona, meterologo e filosofo d'elezione della rete.",
+        "start": "2025-10-26T05:15:00.000Z",
+        "end": "2025-10-26T05:20:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/239/p11259913bh8ac_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Oroscopo",
+        "description": "Scopriamo assieme quali sorprese sono in serbo nel prossimo futuro per ciascuno dei segni dello zodiaco. L'appuntamento quotidiano con l'oroscopo de La7 è pronto a rivelare ogni sfumatura dell'influenza delle stelle.",
+        "start": "2025-10-26T05:20:00.000Z",
+        "end": "2025-10-26T05:25:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/239/p12160647bh10ab_BannerL1_w1920.webp"
+      },
+      {
+        "title": "TG La7",
+        "description": "Edizione del notiziario televisivo a cura della redazione giornalistica di La7. Dal 24 Giugno 2001, gli aggiornamenti sui fatti più rilevanti a livello nazionale ed internazionale.",
+        "start": "2025-10-26T05:25:00.000Z",
+        "end": "2025-10-26T05:30:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/239/p10691348bh8ab_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Josephine angelo custode",
+        "description": "Josephine ha una nuova missione: aiutare una donna di nome Clarie a recuperare il lavoro e la fiducia in se stessa allo scopo di far felice il proprio figlio Simon.",
+        "start": "2025-10-26T05:30:00.000Z",
+        "end": "2025-10-26T07:30:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/239/p413450bh10ak_BannerL2_w1920.webp"
       }
     ]
   },
@@ -12021,6 +11958,160 @@
         "start": "2025-10-25T23:00:00.000Z",
         "end": "2025-10-25T23:25:00.000Z",
         "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/332/p21730563bh8ag_BannerL1_w1920.webp"
+      }
+    ]
+  },
+  {
+    "name": "La7 Cinema",
+    "epgName": "La7 Cinema",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/2/26/La7d_-_Logo_2018.svg",
+    "programs": [
+      {
+        "title": "Toro scatenato",
+        "description": "Quando Jake LaMotta sale sul ring e combatte contro gli avversari a suon di pugni, il suo comportamento è quello di un campione pronto a vincere ancora. Quando invece questi tratta la famiglia allo stesso modo, la sua ira è una bomba ad orologeria.",
+        "start": "2025-10-25T04:50:00.000Z",
+        "end": "2025-10-25T07:20:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/239/p30vh8aj_VodArt_w1920.webp"
+      },
+      {
+        "title": "The Mexican: Amore senza la sicura",
+        "description": "Jerry, membro di un'organizzazione criminale, ha il compito di recarsi in Messico per recuperare una pistola d'epoca. Quando il giovane entra in possesso dell'arma scopre che su di essa aleggia una maledizione.",
+        "start": "2025-10-25T07:20:00.000Z",
+        "end": "2025-10-25T09:35:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/239/p27196vh10am_VodArt_w1920.webp"
+      },
+      {
+        "title": "Witness: Il testimone",
+        "description": "Samuel, un bambino della comunità Amish, aspettando con la madre un treno alla stazione di Filadelfia, diventa l'unico testimone di un omicidio.",
+        "start": "2025-10-25T09:35:00.000Z",
+        "end": "2025-10-25T11:40:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/239/p8671vh10ak_VodArt_w1920.webp"
+      },
+      {
+        "title": "Ore 10: Calma Piatta",
+        "description": "Un comandante della marina australiana e sua moglie decidono di fare intraprendere un viaggio in barca nel Pacifico, ma l'incontro con un naufrago dai modi poco affidabili si rivela un dramma, quando questi si rivela essere uno squilibrato.",
+        "start": "2025-10-25T11:40:00.000Z",
+        "end": "2025-10-25T13:30:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/239/p11551vh10ae_VodArt_w1920.webp"
+      },
+      {
+        "title": "Full Monty: Squattrinati organizzati",
+        "description": "Degli operai disoccupati cercano di fare cassetta organizzando uno spogliarello e mettendo a soqquadro l'intero sobborgo in cui vivono.",
+        "start": "2025-10-25T13:30:00.000Z",
+        "end": "2025-10-25T15:15:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/239/p19683vh10aj_VodArt_w1920.webp"
+      },
+      {
+        "title": "TG La7",
+        "description": "Edizione del notiziario televisivo a cura della redazione giornalistica di La7. Dal 24 Giugno 2001, gli aggiornamenti sui fatti più rilevanti a livello nazionale ed internazionale.",
+        "start": "2025-10-25T15:15:00.000Z",
+        "end": "2025-10-25T15:20:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/239/p10691348bh8ab_BannerL1_w1920.webp"
+      },
+      {
+        "title": "The Imitation Game",
+        "description": "La vita del matematico inglese Alan Turing, genio indiscusso del XX secolo, considerato uno dei padri dell'informatica e dei moderni computer, fino alla sua precoce e tragica scomparsa.",
+        "start": "2025-10-25T15:20:00.000Z",
+        "end": "2025-10-25T17:25:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/239/p10771057vh10ay_VodArt_w1920.webp"
+      },
+      {
+        "title": "The Weather Man: L'uomo delle previsioni",
+        "description": "David Spritz si occupa delle previsioni del tempo presso una emittente di Chicago e ha successo nel proprio campo. Purtroppo non riesce ad anticipare la bufera che lo aspetta con la propria moglie e il proprio padre.",
+        "start": "2025-10-25T17:25:00.000Z",
+        "end": "2025-10-25T19:15:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/239/p86612vh10ab_VodArt_w1920.webp"
+      },
+      {
+        "title": "Agente 007: Si vive solo due volte",
+        "description": "James Bond mette in scena la propria morte, per essere poi mandato in Giappone per delle indagini. Diverse navicelle spaziali sono, infatti, misteriosamente sparite e russi e americani si accusano a vicenda.",
+        "start": "2025-10-25T19:15:00.000Z",
+        "end": "2025-10-25T21:25:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/239/p164vh10am_VodArt_w1920.webp"
+      },
+      {
+        "title": "Il volo della fenice",
+        "description": "A causa di un incidente aereo, un gruppo di superstiti rimane isolato nel deserto. Decidono allora di costruire un velivolo con i resti dell'aeroplano.",
+        "start": "2025-10-25T21:25:00.000Z",
+        "end": "2025-10-25T23:40:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/239/p34952vh8af_VodArt_w1920.webp"
+      },
+      {
+        "title": "Oggi, domani, dopodomani",
+        "description": "Un industriale milanese è tormentato da un problema che non riesce in alcun modo a risolvere. Un marito impaziente gestisce il proprio rapporto coniugale in modo bizzarro. Un bancario prova a vendere la propria moglie ad un principe.",
+        "start": "2025-10-25T23:40:00.000Z",
+        "end": "2025-10-26T02:25:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/239/p13920vh10aa_VodArt_w1920.webp"
+      },
+      {
+        "title": "Hollywood Collection",
+        "description": "L'attore, noto per incarnare sul grande schermo l'eroe del West, deve le sue prime piccole parti alle abilità a cavallo tipiche di chi, come lui, è originario del Montana. L'artista ottiene così l'opportunità di farsi strada nel cinema.",
+        "start": "2025-10-26T02:25:00.000Z",
+        "end": "2025-10-26T03:05:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/239/p12022787bh10ab_BannerL2_w1920.webp"
+      },
+      {
+        "title": "Uozzap",
+        "description": "Il meglio della programmazione con spezzoni di vecchi programmi e filmati di repertorio trasmessi da LA7, dalla sua nascita ad oggi.",
+        "start": "2025-10-26T03:05:00.000Z",
+        "end": "2025-10-26T03:40:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/239/p15684799bh10ad_BannerL1_w1920.webp"
+      },
+      {
+        "title": "La7 Doc",
+        "description": "Selezione di documentari proposti dalla rete e dedicati a temi culturali, sociali, storici, artistici e naturalistici. Il meglio della produzione nazionale e internazionale in ambito divulgativo.",
+        "start": "2025-10-26T03:40:00.000Z",
+        "end": "2025-10-26T05:00:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/239/p11168688bh10ab_BannerL2_w1920.webp"
+      },
+      {
+        "title": "Oroscopo",
+        "description": "Scopriamo assieme quali sorprese sono in serbo nel prossimo futuro per ciascuno dei segni dello zodiaco. L'appuntamento quotidiano con l'oroscopo de La7 è pronto a rivelare ogni sfumatura dell'influenza delle stelle.",
+        "start": "2025-10-26T05:00:00.000Z",
+        "end": "2025-10-26T05:05:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/239/p12160647bh10ab_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Meteo",
+        "description": "Spazio dedicato alle previsioni del tempo in diretta, con un approccio unico firmato La7 e Paolo Sottocorona, meterologo e filosofo d'elezione della rete.",
+        "start": "2025-10-26T05:05:00.000Z",
+        "end": "2025-10-26T05:10:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/239/p11259913bh8ac_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Oroscopo",
+        "description": "Scopriamo assieme quali sorprese sono in serbo nel prossimo futuro per ciascuno dei segni dello zodiaco. L'appuntamento quotidiano con l'oroscopo de La7 è pronto a rivelare ogni sfumatura dell'influenza delle stelle.",
+        "start": "2025-10-26T05:10:00.000Z",
+        "end": "2025-10-26T05:15:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/239/p12160647bh10ab_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Meteo",
+        "description": "Spazio dedicato alle previsioni del tempo in diretta, con un approccio unico firmato La7 e Paolo Sottocorona, meterologo e filosofo d'elezione della rete.",
+        "start": "2025-10-26T05:15:00.000Z",
+        "end": "2025-10-26T05:20:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/239/p11259913bh8ac_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Oroscopo",
+        "description": "Scopriamo assieme quali sorprese sono in serbo nel prossimo futuro per ciascuno dei segni dello zodiaco. L'appuntamento quotidiano con l'oroscopo de La7 è pronto a rivelare ogni sfumatura dell'influenza delle stelle.",
+        "start": "2025-10-26T05:20:00.000Z",
+        "end": "2025-10-26T05:25:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/239/p12160647bh10ab_BannerL1_w1920.webp"
+      },
+      {
+        "title": "TG La7",
+        "description": "Edizione del notiziario televisivo a cura della redazione giornalistica di La7. Dal 24 Giugno 2001, gli aggiornamenti sui fatti più rilevanti a livello nazionale ed internazionale.",
+        "start": "2025-10-26T05:25:00.000Z",
+        "end": "2025-10-26T05:30:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/239/p10691348bh8ab_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Josephine angelo custode",
+        "description": "Josephine ha una nuova missione: aiutare una donna di nome Clarie a recuperare il lavoro e la fiducia in se stessa allo scopo di far felice il proprio figlio Simon.",
+        "start": "2025-10-26T05:30:00.000Z",
+        "end": "2025-10-26T07:30:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/239/p413450bh10ak_BannerL2_w1920.webp"
       }
     ]
   }
