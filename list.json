@@ -1,5 +1,6 @@
 [
   {
+    "site_id": null,
     "name": "Rai 1",
     "epgName": "Rai 1",
     "logo": "https://api.superguidatv.it/v1/channels/217/logo?width=120&theme=dark",
@@ -266,6 +267,7 @@
     ]
   },
   {
+    "site_id": null,
     "name": "Rai 2",
     "epgName": "Rai 2",
     "logo": "https://api.superguidatv.it/v1/channels/218/logo?width=120&theme=dark",
@@ -292,18 +294,18 @@
         "poster": "https://api.superguidatv.it/v1/series/762575336/backdrops/1?width=720"
       },
       {
-        "title": "Piloti",
-        "description": "Il commendator Aurelio è il titolare della compagnia aerea low-cost \"Piccione AirLines\". Sull'aereo e nella cabina di pilotaggio, può accadere di tutto.",
-        "start": "2025-10-25T03:55:00.000Z",
-        "end": "2025-10-25T04:25:00.000Z",
-        "poster": null
-      },
-      {
         "title": "Zio Gianni (St. 2 - Ep. 26)",
         "description": "Zio Gianni è diventato un fervido sostenitore della teoria del complotto e la situazione rischia di degenerare quando i suoi coinquilini iniziano a comportarsi inspiegabilmente in maniera strana.",
         "start": "2025-10-25T03:50:00.000Z",
         "end": "2025-10-25T04:00:00.000Z",
         "poster": "https://www.superguidatv.it/wp-content/themes/SGTV-Newspaper/img/event-type-placeholder/720/bd-placeholder-20.jpg"
+      },
+      {
+        "title": "Piloti",
+        "description": "Il commendator Aurelio è il titolare della compagnia aerea low-cost \"Piccione AirLines\". Sull'aereo e nella cabina di pilotaggio, può accadere di tutto.",
+        "start": "2025-10-25T03:55:00.000Z",
+        "end": "2025-10-25T04:25:00.000Z",
+        "poster": null
       },
       {
         "title": "Piloti",
@@ -560,6 +562,7 @@
     ]
   },
   {
+    "site_id": null,
     "name": "Rai 3",
     "epgName": "Rai 3",
     "logo": "https://api.superguidatv.it/v1/channels/219/logo?width=120&theme=dark",
@@ -840,6 +843,7 @@
     ]
   },
   {
+    "site_id": null,
     "name": "Rete 4",
     "epgName": "Rete 4",
     "logo": "https://api.superguidatv.it/v1/channels/189/logo?width=120&theme=dark",
@@ -1057,6 +1061,7 @@
     ]
   },
   {
+    "site_id": null,
     "name": "Canale 5",
     "epgName": "Canale 5",
     "logo": "https://api.superguidatv.it/v1/channels/187/logo?width=120&theme=dark",
@@ -1097,18 +1102,18 @@
         "poster": "https://api.superguidatv.it/v1/series/1571/backdrops/1?width=720"
       },
       {
-        "title": "Prima Pagina Tg5",
-        "description": "Prima edizione quotidiana del notiziario televisivo a cura della redazione giornalistica di Canale 5.",
-        "start": "2025-10-25T04:00:00.000Z",
-        "end": "2025-10-25T04:15:00.000Z",
-        "poster": "https://api.superguidatv.it/v1/programs/2038491732/backdrops/1?width=720"
-      },
-      {
         "title": "Distretto di Polizia (St. 5 - Ep. 12)",
         "description": "Distretto di Polizia è una serie televisiva italiana, trasmessa su Canale 5 dal 2000 al 2012, composta da undici stagioni.",
         "start": "2025-10-25T03:45:00.000Z",
         "end": "2025-10-25T04:00:00.000Z",
         "poster": "https://api.superguidatv.it/v1/series/1571/backdrops/1?width=720"
+      },
+      {
+        "title": "Prima Pagina Tg5",
+        "description": "Prima edizione quotidiana del notiziario televisivo a cura della redazione giornalistica di Canale 5.",
+        "start": "2025-10-25T04:00:00.000Z",
+        "end": "2025-10-25T04:15:00.000Z",
+        "poster": "https://api.superguidatv.it/v1/programs/2038491732/backdrops/1?width=720"
       },
       {
         "title": "Prima Pagina Tg5",
@@ -1330,6 +1335,7 @@
     ]
   },
   {
+    "site_id": null,
     "name": "Italia 1",
     "epgName": "Italia 1",
     "logo": "https://api.superguidatv.it/v1/channels/188/logo?width=120&theme=dark",
@@ -1638,6 +1644,7 @@
     ]
   },
   {
+    "site_id": null,
     "name": "La7",
     "epgName": "La7",
     "logo": "https://api.superguidatv.it/v1/channels/253/logo?width=120&theme=dark",
@@ -1792,6 +1799,7 @@
     ]
   },
   {
+    "site_id": null,
     "name": "TV8",
     "epgName": "TV8",
     "logo": "https://api.superguidatv.it/v1/channels/237/logo?width=120&theme=dark",
@@ -1832,18 +1840,18 @@
         "poster": null
       },
       {
-        "title": "Laguna Seca 2008 - Il sorpasso",
-        "description": "In questa puntata: Rossi-Stoner, la rivalita' suggellata in un sorpasso al Cavatappi rimasto nella storia.",
-        "start": "2025-10-25T04:00:00.000Z",
-        "end": "2025-10-25T04:25:00.000Z",
-        "poster": null
-      },
-      {
         "title": "MotoGP Paddock Live",
         "description": "Le ultime notizie dalla pit lane e dal paddock attraverso il racconto degli inviati di Sky Sport MotoGP.",
         "start": "2025-10-25T03:40:00.000Z",
         "end": "2025-10-25T04:05:00.000Z",
         "poster": "https://www.superguidatv.it/wp-content/themes/SGTV-Newspaper/img/event-type-placeholder/720/bd-placeholder-11.jpg"
+      },
+      {
+        "title": "Laguna Seca 2008 - Il sorpasso",
+        "description": "In questa puntata: Rossi-Stoner, la rivalita' suggellata in un sorpasso al Cavatappi rimasto nella storia.",
+        "start": "2025-10-25T04:00:00.000Z",
+        "end": "2025-10-25T04:25:00.000Z",
+        "poster": null
       },
       {
         "title": "Laguna Seca 2008 - Il sorpasso",
@@ -2009,16 +2017,38 @@
     ]
   },
   {
+    "site_id": null,
     "name": "Nove",
     "epgName": "Nove",
     "logo": "https://api.superguidatv.it/v1/channels/238/logo?width=120&theme=dark",
     "programs": [
+      {
+        "title": "Nudi e crudi (St. 7 - Ep. 2)",
+        "description": "Una biologa e un bushman australiano instaurano un forte legame mentre affrontano il deserto della Namibia. Alla ricerca di cibo, i due vengono inseguiti dai babbuini.",
+        "start": "2025-10-25T00:10:00.000Z",
+        "end": "2025-10-25T01:35:00.000Z",
+        "poster": "https://api.superguidatv.it/v1/programs/1163752607/backdrops/1?width=720"
+      },
+      {
+        "title": "Nudi e crudi (St. 7 - Ep. 7)",
+        "description": null,
+        "start": "2025-10-25T00:25:00.000Z",
+        "end": "2025-10-25T01:25:00.000Z",
+        "poster": null
+      },
       {
         "title": "Nudi e crudi (St. 7 - Ep. 3)",
         "description": "Nella giungla dell'Ecuador, Suzanne e Wes lottano contro la natura. L'umidità, gli insetti e il terreno difficile metteranno a dura prova le loro capacità.",
         "start": "2025-10-25T00:40:00.000Z",
         "end": "2025-10-25T01:35:00.000Z",
         "poster": "https://api.superguidatv.it/v1/programs/353217684/backdrops/1?width=720"
+      },
+      {
+        "title": "Nudi e crudi (St. 7 - Ep. 8)",
+        "description": null,
+        "start": "2025-10-25T01:25:00.000Z",
+        "end": "2025-10-25T02:25:00.000Z",
+        "poster": null
       },
       {
         "title": "Nudi e crudi (St. 7 - Ep. 4)",
@@ -2028,6 +2058,20 @@
         "poster": "https://api.superguidatv.it/v1/programs/197964453/backdrops/1?width=720"
       },
       {
+        "title": "Nudi e crudi (St. 7 - Ep. 5)",
+        "description": "Il gelido deserto del Montana spinge oltre ogni limite i survivalisti che tentano di collaborare, ma il loro campo è circondato da orsi e alci.",
+        "start": "2025-10-25T01:35:00.000Z",
+        "end": "2025-10-25T03:25:00.000Z",
+        "poster": "https://api.superguidatv.it/v1/programs/1347781525/backdrops/1?width=720"
+      },
+      {
+        "title": "Come fanno gli animali (St. 1 - Ep. 1)",
+        "description": "Medusa immortale - La scienza e straordinarie dimostrazioni rivelano come una lucertola possa letteralmente camminare sull'acqua. Inoltre, le meduse possono vivere per sempre?",
+        "start": "2025-10-25T02:25:00.000Z",
+        "end": "2025-10-25T02:55:00.000Z",
+        "poster": "https://api.superguidatv.it/v1/programs/1564273457/backdrops/1?width=720"
+      },
+      {
         "title": "Come fanno gli animali (St. 1 - Ep. 14)",
         "description": "Gli esperti analizzano come i cani possano percepire odori persino sott'acqua. Inoltre, perché le lucciole brillano? E perché gli struzzi corrono velocemente?",
         "start": "2025-10-25T02:30:00.000Z",
@@ -2035,11 +2079,25 @@
         "poster": "https://api.superguidatv.it/v1/programs/1618510071/backdrops/1?width=720"
       },
       {
+        "title": "Come fanno gli animali (St. 1 - Ep. 2)",
+        "description": "Un ornitologo rivela come un barbagianni catturi la sua preda senza nemmeno vederla. E perché i polipi sono dei veri maestri nel nascondersi?",
+        "start": "2025-10-25T02:55:00.000Z",
+        "end": "2025-10-25T03:25:00.000Z",
+        "poster": "https://api.superguidatv.it/v1/programs/2136895378/backdrops/1?width=720"
+      },
+      {
         "title": "Come fanno gli animali (St. 1 - Ep. 15)",
         "description": "Cosa dicono i leoni quando ruggiscono? Inoltre, cosa ci fanno le formiche tagliafoglie con la roba che raccolgono? Gli esperti rispondono a queste curiosità.",
         "start": "2025-10-25T03:00:00.000Z",
         "end": "2025-10-25T03:30:00.000Z",
         "poster": "https://api.superguidatv.it/v1/programs/1368567218/backdrops/1?width=720"
+      },
+      {
+        "title": "Come fanno gli animali (St. 1 - Ep. 3)",
+        "description": "Alcune immagini rivelano come i colibrì siano in grado di volare all'indietro. E perché i missiniformi sono le creature più disgustose degli oceani?",
+        "start": "2025-10-25T03:25:00.000Z",
+        "end": "2025-10-25T04:00:00.000Z",
+        "poster": "https://api.superguidatv.it/v1/programs/2136913971/backdrops/1?width=720"
       },
       {
         "title": "Come fanno gli animali (St. 1 - Ep. 39)",
@@ -2054,55 +2112,6 @@
         "start": "2025-10-25T04:00:00.000Z",
         "end": "2025-10-25T04:50:00.000Z",
         "poster": null
-      },
-      {
-        "title": "Nudi e crudi (St. 7 - Ep. 2)",
-        "description": "Una biologa e un bushman australiano instaurano un forte legame mentre affrontano il deserto della Namibia. Alla ricerca di cibo, i due vengono inseguiti dai babbuini.",
-        "start": "2025-10-25T00:10:00.000Z",
-        "end": "2025-10-25T01:35:00.000Z",
-        "poster": "https://api.superguidatv.it/v1/programs/1163752607/backdrops/1?width=720"
-      },
-      {
-        "title": "Nudi e crudi (St. 7 - Ep. 5)",
-        "description": "Il gelido deserto del Montana spinge oltre ogni limite i survivalisti che tentano di collaborare, ma il loro campo è circondato da orsi e alci.",
-        "start": "2025-10-25T01:35:00.000Z",
-        "end": "2025-10-25T03:25:00.000Z",
-        "poster": "https://api.superguidatv.it/v1/programs/1347781525/backdrops/1?width=720"
-      },
-      {
-        "title": "Come fanno gli animali (St. 1 - Ep. 3)",
-        "description": "Alcune immagini rivelano come i colibrì siano in grado di volare all'indietro. E perché i missiniformi sono le creature più disgustose degli oceani?",
-        "start": "2025-10-25T03:25:00.000Z",
-        "end": "2025-10-25T04:00:00.000Z",
-        "poster": "https://api.superguidatv.it/v1/programs/2136913971/backdrops/1?width=720"
-      },
-      {
-        "title": "Nudi e crudi (St. 7 - Ep. 7)",
-        "description": null,
-        "start": "2025-10-25T00:25:00.000Z",
-        "end": "2025-10-25T01:25:00.000Z",
-        "poster": null
-      },
-      {
-        "title": "Nudi e crudi (St. 7 - Ep. 8)",
-        "description": null,
-        "start": "2025-10-25T01:25:00.000Z",
-        "end": "2025-10-25T02:25:00.000Z",
-        "poster": null
-      },
-      {
-        "title": "Come fanno gli animali (St. 1 - Ep. 1)",
-        "description": "Medusa immortale - La scienza e straordinarie dimostrazioni rivelano come una lucertola possa letteralmente camminare sull'acqua. Inoltre, le meduse possono vivere per sempre?",
-        "start": "2025-10-25T02:25:00.000Z",
-        "end": "2025-10-25T02:55:00.000Z",
-        "poster": "https://api.superguidatv.it/v1/programs/1564273457/backdrops/1?width=720"
-      },
-      {
-        "title": "Come fanno gli animali (St. 1 - Ep. 2)",
-        "description": "Un ornitologo rivela come un barbagianni catturi la sua preda senza nemmeno vederla. E perché i polipi sono dei veri maestri nel nascondersi?",
-        "start": "2025-10-25T02:55:00.000Z",
-        "end": "2025-10-25T03:25:00.000Z",
-        "poster": "https://api.superguidatv.it/v1/programs/2136895378/backdrops/1?width=720"
       },
       {
         "title": "Borneo: paradiso da proteggere (St. 1 - Ep. 3)",
@@ -2303,6 +2312,7 @@
     ]
   },
   {
+    "site_id": null,
     "name": "Mediaset 20",
     "epgName": "20",
     "logo": "https://api.superguidatv.it/v1/channels/443/logo?width=120&theme=dark",
@@ -2527,6 +2537,7 @@
     ]
   },
   {
+    "site_id": null,
     "name": "Rai 4",
     "epgName": "Rai 4",
     "logo": "https://api.superguidatv.it/v1/channels/220/logo?width=120&theme=dark",
@@ -2751,6 +2762,7 @@
     ]
   },
   {
+    "site_id": null,
     "name": "Iris",
     "epgName": "Iris",
     "logo": "https://api.superguidatv.it/v1/channels/192/logo?width=120&theme=dark",
@@ -2870,6 +2882,7 @@
     ]
   },
   {
+    "site_id": null,
     "name": "Rai 5",
     "epgName": "Rai 5",
     "logo": "https://api.superguidatv.it/v1/channels/221/logo?width=120&theme=dark",
@@ -3087,6 +3100,7 @@
     ]
   },
   {
+    "site_id": null,
     "name": "Rai Movie",
     "epgName": "Rai Movie",
     "logo": "https://api.superguidatv.it/v1/channels/229/logo?width=120&theme=dark",
@@ -3227,6 +3241,7 @@
     ]
   },
   {
+    "site_id": null,
     "name": "Cielo",
     "epgName": "Cielo",
     "logo": "https://api.superguidatv.it/v1/channels/239/logo?width=120&theme=dark",
@@ -3458,6 +3473,7 @@
     ]
   },
   {
+    "site_id": null,
     "name": "Twenty Seven",
     "epgName": "Twenty Seven",
     "logo": "https://api.superguidatv.it/v1/channels/601/logo?width=120&theme=dark",
@@ -3745,8 +3761,9 @@
     ]
   },
   {
-    "name": "La 7d",
-    "epgName": "La 7d",
+    "site_id": "239",
+    "name": "La7 Cinema",
+    "epgName": "La7 Cinema",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/2/26/La7d_-_Logo_2018.svg",
     "programs": [
       {
@@ -3899,6 +3916,7 @@
     ]
   },
   {
+    "site_id": null,
     "name": "La 5",
     "epgName": "La 5",
     "logo": "https://api.superguidatv.it/v1/channels/190/logo?width=120&theme=dark",
@@ -4144,31 +4162,11 @@
     ]
   },
   {
+    "site_id": null,
     "name": "Real Time",
     "epgName": "Real Time",
     "logo": "https://api.superguidatv.it/v1/channels/255/logo?width=120&theme=dark",
     "programs": [
-      {
-        "title": "Vite al limite (St. 7 - Ep. 16)",
-        "description": "A letto da due anni, Lashanta si affida ai suoi figli per pulirsi e nutrirsi. La donna è determinata a seguire il programma del Dr. Now, ma ha bisogno di aiuto per uscire di casa.",
-        "start": "2025-10-25T01:10:00.000Z",
-        "end": "2025-10-25T03:05:00.000Z",
-        "poster": "https://api.superguidatv.it/v1/programs/1768358648/backdrops/1?width=720"
-      },
-      {
-        "title": "Vite al limite (St. 4 - Ep. 1)",
-        "description": "Nikki pesa circa 300 chili e rischia di non muoversi più. La donna ha un bypass gastrico e deve affrontare la sua dipendenza dal cibo.",
-        "start": "2025-10-25T03:05:00.000Z",
-        "end": "2025-10-25T04:00:00.000Z",
-        "poster": "https://api.superguidatv.it/v1/programs/446806415/backdrops/1?width=720"
-      },
-      {
-        "title": "Vite al limite (St. 4 - Ep. 9)",
-        "description": "Randy pesa circa 300 chili. Il suo matrimonio e il legame con sua figlia sono a rischio. L'uomo affronta una rigorosa dieta pre-operatoria per riguadagnare il controllo della sua vita.",
-        "start": "2025-10-25T04:00:00.000Z",
-        "end": "2025-10-25T05:00:00.000Z",
-        "poster": "https://api.superguidatv.it/v1/programs/701601314/backdrops/1?width=720"
-      },
       {
         "title": "La clinica della pelle (St. 2 - Ep. 7)",
         "description": "La dottoressa Emma Craythorne e la sua squadra di esperti tentano di risolvere problemi cutanei complessi. Il team aiuta persone la cui vita è bloccata da disturbi devastanti.",
@@ -4182,6 +4180,13 @@
         "start": "2025-10-25T00:55:00.000Z",
         "end": "2025-10-25T01:45:00.000Z",
         "poster": "https://api.superguidatv.it/v1/programs/1094917992/backdrops/1?width=720"
+      },
+      {
+        "title": "Vite al limite (St. 7 - Ep. 16)",
+        "description": "A letto da due anni, Lashanta si affida ai suoi figli per pulirsi e nutrirsi. La donna è determinata a seguire il programma del Dr. Now, ma ha bisogno di aiuto per uscire di casa.",
+        "start": "2025-10-25T01:10:00.000Z",
+        "end": "2025-10-25T03:05:00.000Z",
+        "poster": "https://api.superguidatv.it/v1/programs/1768358648/backdrops/1?width=720"
       },
       {
         "title": "La clinica della pelle (St. 2 - Ep. 9)",
@@ -4198,11 +4203,25 @@
         "poster": "https://api.superguidatv.it/v1/programs/783301938/backdrops/1?width=720"
       },
       {
+        "title": "Vite al limite (St. 4 - Ep. 1)",
+        "description": "Nikki pesa circa 300 chili e rischia di non muoversi più. La donna ha un bypass gastrico e deve affrontare la sua dipendenza dal cibo.",
+        "start": "2025-10-25T03:05:00.000Z",
+        "end": "2025-10-25T04:00:00.000Z",
+        "poster": "https://api.superguidatv.it/v1/programs/446806415/backdrops/1?width=720"
+      },
+      {
         "title": "SOS Acne (St. 1 - Ep. 4)",
         "description": "Ines si occupa dell’acne di Federica e Domitilla e rimane sbalordita dal caso di Alessia.",
         "start": "2025-10-25T03:25:00.000Z",
         "end": "2025-10-25T04:00:00.000Z",
         "poster": "https://www.superguidatv.it/wp-content/themes/SGTV-Newspaper/img/event-type-placeholder/720/bd-placeholder-4.jpg"
+      },
+      {
+        "title": "Vite al limite (St. 4 - Ep. 9)",
+        "description": "Randy pesa circa 300 chili. Il suo matrimonio e il legame con sua figlia sono a rischio. L'uomo affronta una rigorosa dieta pre-operatoria per riguadagnare il controllo della sua vita.",
+        "start": "2025-10-25T04:00:00.000Z",
+        "end": "2025-10-25T05:00:00.000Z",
+        "poster": "https://api.superguidatv.it/v1/programs/701601314/backdrops/1?width=720"
       },
       {
         "title": "Piedi al limite: i primi passi (St. 1 - Ep. 2)",
@@ -4347,6 +4366,7 @@
     ]
   },
   {
+    "site_id": null,
     "name": "Cine34",
     "epgName": "Cine34",
     "logo": "https://api.superguidatv.it/v1/channels/574/logo?width=120&theme=dark",
@@ -4466,6 +4486,7 @@
     ]
   },
   {
+    "site_id": null,
     "name": "Focus",
     "epgName": "Focus",
     "logo": "https://api.superguidatv.it/v1/channels/249/logo?width=120&theme=dark",
@@ -4697,6 +4718,7 @@
     ]
   },
   {
+    "site_id": null,
     "name": "Warner TV",
     "epgName": "Warner TV",
     "logo": "https://api.superguidatv.it/v1/channels/1344181813/logo?width=120&theme=dark",
@@ -4949,6 +4971,7 @@
     ]
   },
   {
+    "site_id": null,
     "name": "Giallo",
     "epgName": "Giallo",
     "logo": "https://api.superguidatv.it/v1/channels/244/logo?width=120&theme=dark",
@@ -4987,55 +5010,6 @@
         "start": "2025-10-25T04:00:00.000Z",
         "end": "2025-10-25T05:00:00.000Z",
         "poster": "https://api.superguidatv.it/v1/programs/1268983640/backdrops/1?width=720"
-      },
-      {
-        "title": "Vera (St. 1 - Ep. 2)",
-        "description": "L'Ispettore capo Vera Stanhope (Brenda Blethyn) è una detective alla soglia della pensione della fittizia Northumberland & City Police, che indaga sui delitti che avvengono nella sua giurisdizione. Lei è appassionata del suo lavoro e, nonostante un aspetto costantemente trasandato e una personalità irascibile, ha una mente calcolatrice e si impegna profondamente nel suo lavoro. Suoi compagni di lavoro sono i sergenti Joe Ashworth (David Leon) e Aiden Healy (Kenny Doughty).",
-        "start": "2025-10-25T21:10:00.000Z",
-        "end": "2025-10-25T23:10:00.000Z",
-        "poster": "https://api.superguidatv.it/v1/series/2799/backdrops/1?width=720"
-      },
-      {
-        "title": "Cherif (St. 6 - Ep. 1)",
-        "description": "Il capitano di polizia Kader Cherif conosce la città come il palmo della sua mano, e, come qualcuno potrebbe dire, non lascia mai il suo dovere, perché il suo appartamento si trova al primo piano del palazzo di fronte alla stazione di polizia. Viene incaricato di indagare su omicidi insoliti a Lione. Naturalmente, usa solo metodi legittimi che a volte sembrano insoliti e che scontentano anche la sua nuova compagna Adeline Briard, capitano di polizia.",
-        "start": "2025-10-25T23:10:00.000Z",
-        "end": "2025-10-26T00:15:00.000Z",
-        "poster": "https://api.superguidatv.it/v1/series/2400/backdrops/1?width=720"
-      },
-      {
-        "title": "Cherif (St. 6 - Ep. 2)",
-        "description": "Il capitano di polizia Kader Cherif conosce la città come il palmo della sua mano, e, come qualcuno potrebbe dire, non lascia mai il suo dovere, perché il suo appartamento si trova al primo piano del palazzo di fronte alla stazione di polizia. Viene incaricato di indagare su omicidi insoliti a Lione. Naturalmente, usa solo metodi legittimi che a volte sembrano insoliti e che scontentano anche la sua nuova compagna Adeline Briard, capitano di polizia.",
-        "start": "2025-10-26T01:15:00.000Z",
-        "end": "2025-10-26T02:20:00.000Z",
-        "poster": "https://api.superguidatv.it/v1/series/2400/backdrops/1?width=720"
-      },
-      {
-        "title": "Torbidi delitti (St. 5 - Ep. 5)",
-        "description": "Il corpo di un trentenne viene trovato sulla spiaggia lungo un lago del Texas. La famiglia della vittima inizia le sue indagini private per aiutare la polizia.",
-        "start": "2025-10-26T02:20:00.000Z",
-        "end": "2025-10-26T03:10:00.000Z",
-        "poster": "https://api.superguidatv.it/v1/programs/417867230/backdrops/1?width=720"
-      },
-      {
-        "title": "A Crime To Remember (St. 2 - Ep. 2)",
-        "description": "Agosto 1952, Florida: il dottor Leory Adams viene ucciso nel suo ufficio. Chi voleva la sua morte e perché?",
-        "start": "2025-10-26T03:10:00.000Z",
-        "end": "2025-10-26T04:05:00.000Z",
-        "poster": "https://api.superguidatv.it/v1/programs/377053392/backdrops/1?width=720"
-      },
-      {
-        "title": "Murder Comes To Town (St. 4 - Ep. 5)",
-        "description": "Tradotto con Bing: Un'improvvisa, brutale assassinio sarà traumatizzare qualsiasi comunità, ma quando si colpisce in una piccola città affiatata, l'effetto è devastante. Dalle serene rurale degli Appalachi per i climi del deserto solitari di sud-ovest, OMICIDIO ARRIVA IN CITTÀ scopre i misteri di omicidio scioccante che infestano la piccola città d'America e gli oscuri segreti che si trovano appena sotto la superficie della comunità ancora più idilliaca. In seguito i primi conti di persona di investigatori e paesani, ogni episodio di un'ora si dipana le voci selvagge e terrificante verità dietro un crimine impensabile e l'eredità scuro che lascia dietro. Illustrata attraverso ricreazioni moody, cinematografiche, OMICIDIO ARRIVA IN CITTÀ segue polizia come hanno messo insieme ogni indizio e tenta di consegnare il colpevole alla giustizia",
-        "start": "2025-10-26T04:05:00.000Z",
-        "end": "2025-10-26T05:00:00.000Z",
-        "poster": null
-      },
-      {
-        "title": "Redrum (St. 1 - Ep. 3)",
-        "description": "Una coppia molto legata viene assassinata davanti agli occhi del loro figlio adottivo. Chi si nasconde dietro il delitto: la madre biologica del bambino o la loro giovane tata di fiducia?",
-        "start": "2025-10-26T05:00:00.000Z",
-        "end": "2025-10-26T05:30:00.000Z",
-        "poster": "https://api.superguidatv.it/v1/programs/230808508/backdrops/1?width=720"
       },
       {
         "title": "L'investigatore Wolfe (St. 3 - Ep. 13)",
@@ -5129,6 +5103,13 @@
         "poster": "https://api.superguidatv.it/v1/programs/881346819/backdrops/1?width=720"
       },
       {
+        "title": "Vera (St. 1 - Ep. 2)",
+        "description": "L'Ispettore capo Vera Stanhope (Brenda Blethyn) è una detective alla soglia della pensione della fittizia Northumberland & City Police, che indaga sui delitti che avvengono nella sua giurisdizione. Lei è appassionata del suo lavoro e, nonostante un aspetto costantemente trasandato e una personalità irascibile, ha una mente calcolatrice e si impegna profondamente nel suo lavoro. Suoi compagni di lavoro sono i sergenti Joe Ashworth (David Leon) e Aiden Healy (Kenny Doughty).",
+        "start": "2025-10-25T21:10:00.000Z",
+        "end": "2025-10-25T23:10:00.000Z",
+        "poster": "https://api.superguidatv.it/v1/series/2799/backdrops/1?width=720"
+      },
+      {
         "title": "L'ispettore Dalgliesh (St. 2 - Ep. 1)",
         "description": "Un brillante investigatore di Scotland Yard, Adam Dalgliesh, da poco vedovo e di professione poeta, usa la sua empatia e il suo intuito per scandagliare le profondità più oscure della psiche umana e risolvere i casi criminali più complessi dell'Inghilterra degli anni Settanta.",
         "start": "2025-10-25T21:10:00.000Z",
@@ -5143,11 +5124,32 @@
         "poster": "https://api.superguidatv.it/v1/series/801674306/backdrops/1?width=720"
       },
       {
+        "title": "Cherif (St. 6 - Ep. 1)",
+        "description": "Il capitano di polizia Kader Cherif conosce la città come il palmo della sua mano, e, come qualcuno potrebbe dire, non lascia mai il suo dovere, perché il suo appartamento si trova al primo piano del palazzo di fronte alla stazione di polizia. Viene incaricato di indagare su omicidi insoliti a Lione. Naturalmente, usa solo metodi legittimi che a volte sembrano insoliti e che scontentano anche la sua nuova compagna Adeline Briard, capitano di polizia.",
+        "start": "2025-10-25T23:10:00.000Z",
+        "end": "2025-10-26T00:15:00.000Z",
+        "poster": "https://api.superguidatv.it/v1/series/2400/backdrops/1?width=720"
+      },
+      {
         "title": "I Am Homicide (St. 1 - Ep. 3)",
         "description": "Il detective della omicidi Garry McFadden è al centro della nuova serie originale I AM HOMICIDE. Dopo quasi tre decenni con il Dipartimento di Polizia di Charlotte, il detective McFadden ha risolto più di 700 casi di omicidio, con una percentuale di successo del 90% nelle indagini che porta avanti.",
         "start": "2025-10-26T01:00:00.000Z",
         "end": "2025-10-26T02:00:00.000Z",
         "poster": "https://api.superguidatv.it/v1/series/801674306/backdrops/1?width=720"
+      },
+      {
+        "title": "Cherif (St. 6 - Ep. 2)",
+        "description": "Il capitano di polizia Kader Cherif conosce la città come il palmo della sua mano, e, come qualcuno potrebbe dire, non lascia mai il suo dovere, perché il suo appartamento si trova al primo piano del palazzo di fronte alla stazione di polizia. Viene incaricato di indagare su omicidi insoliti a Lione. Naturalmente, usa solo metodi legittimi che a volte sembrano insoliti e che scontentano anche la sua nuova compagna Adeline Briard, capitano di polizia.",
+        "start": "2025-10-26T01:15:00.000Z",
+        "end": "2025-10-26T02:20:00.000Z",
+        "poster": "https://api.superguidatv.it/v1/series/2400/backdrops/1?width=720"
+      },
+      {
+        "title": "Torbidi delitti (St. 5 - Ep. 5)",
+        "description": "Il corpo di un trentenne viene trovato sulla spiaggia lungo un lago del Texas. La famiglia della vittima inizia le sue indagini private per aiutare la polizia.",
+        "start": "2025-10-26T02:20:00.000Z",
+        "end": "2025-10-26T03:10:00.000Z",
+        "poster": "https://api.superguidatv.it/v1/programs/417867230/backdrops/1?width=720"
       },
       {
         "title": "I Am Homicide (St. 1 - Ep. 4)",
@@ -5157,15 +5159,37 @@
         "poster": "https://api.superguidatv.it/v1/series/801674306/backdrops/1?width=720"
       },
       {
+        "title": "A Crime To Remember (St. 2 - Ep. 2)",
+        "description": "Agosto 1952, Florida: il dottor Leory Adams viene ucciso nel suo ufficio. Chi voleva la sua morte e perché?",
+        "start": "2025-10-26T03:10:00.000Z",
+        "end": "2025-10-26T04:05:00.000Z",
+        "poster": "https://api.superguidatv.it/v1/programs/377053392/backdrops/1?width=720"
+      },
+      {
         "title": "I Am Homicide (St. 1 - Ep. 5)",
         "description": "Il detective della omicidi Garry McFadden è al centro della nuova serie originale I AM HOMICIDE. Dopo quasi tre decenni con il Dipartimento di Polizia di Charlotte, il detective McFadden ha risolto più di 700 casi di omicidio, con una percentuale di successo del 90% nelle indagini che porta avanti.",
         "start": "2025-10-26T04:00:00.000Z",
         "end": "2025-10-26T05:00:00.000Z",
         "poster": "https://api.superguidatv.it/v1/series/801674306/backdrops/1?width=720"
+      },
+      {
+        "title": "Murder Comes To Town (St. 4 - Ep. 5)",
+        "description": "Tradotto con Bing: Un'improvvisa, brutale assassinio sarà traumatizzare qualsiasi comunità, ma quando si colpisce in una piccola città affiatata, l'effetto è devastante. Dalle serene rurale degli Appalachi per i climi del deserto solitari di sud-ovest, OMICIDIO ARRIVA IN CITTÀ scopre i misteri di omicidio scioccante che infestano la piccola città d'America e gli oscuri segreti che si trovano appena sotto la superficie della comunità ancora più idilliaca. In seguito i primi conti di persona di investigatori e paesani, ogni episodio di un'ora si dipana le voci selvagge e terrificante verità dietro un crimine impensabile e l'eredità scuro che lascia dietro. Illustrata attraverso ricreazioni moody, cinematografiche, OMICIDIO ARRIVA IN CITTÀ segue polizia come hanno messo insieme ogni indizio e tenta di consegnare il colpevole alla giustizia",
+        "start": "2025-10-26T04:05:00.000Z",
+        "end": "2025-10-26T05:00:00.000Z",
+        "poster": null
+      },
+      {
+        "title": "Redrum (St. 1 - Ep. 3)",
+        "description": "Una coppia molto legata viene assassinata davanti agli occhi del loro figlio adottivo. Chi si nasconde dietro il delitto: la madre biologica del bambino o la loro giovane tata di fiducia?",
+        "start": "2025-10-26T05:00:00.000Z",
+        "end": "2025-10-26T05:30:00.000Z",
+        "poster": "https://api.superguidatv.it/v1/programs/230808508/backdrops/1?width=720"
       }
     ]
   },
   {
+    "site_id": null,
     "name": "Top Crime",
     "epgName": "Top Crime",
     "logo": "https://api.superguidatv.it/v1/channels/193/logo?width=120&theme=dark",
@@ -5390,6 +5414,7 @@
     ]
   },
   {
+    "site_id": null,
     "name": "Boing",
     "epgName": "Boing",
     "logo": "https://api.superguidatv.it/v1/channels/195/logo?width=120&theme=dark",
@@ -6293,6 +6318,7 @@
     ]
   },
   {
+    "site_id": null,
     "name": "K2",
     "epgName": "K2",
     "logo": "https://api.superguidatv.it/v1/channels/245/logo?width=120&theme=dark",
@@ -6767,6 +6793,13 @@
         "poster": null
       },
       {
+        "title": "Zig & Sharko (St. 4 - Ep. 8)",
+        "description": null,
+        "start": "2025-10-26T01:00:00.000Z",
+        "end": "2025-10-26T01:25:00.000Z",
+        "poster": null
+      },
+      {
         "title": "Zig & Sharko (St. 4 - Ep. 6)",
         "description": null,
         "start": "2025-10-26T01:15:00.000Z",
@@ -6778,13 +6811,6 @@
         "description": null,
         "start": "2025-10-26T01:40:00.000Z",
         "end": "2025-10-26T02:00:00.000Z",
-        "poster": null
-      },
-      {
-        "title": "Zig & Sharko (St. 4 - Ep. 8)",
-        "description": null,
-        "start": "2025-10-26T01:00:00.000Z",
-        "end": "2025-10-26T01:25:00.000Z",
         "poster": null
       },
       {
@@ -6846,6 +6872,7 @@
     ]
   },
   {
+    "site_id": null,
     "name": "Frisbee",
     "epgName": "Frisbee",
     "logo": "https://api.superguidatv.it/v1/channels/246/logo?width=120&theme=dark",
@@ -7427,6 +7454,7 @@
     ]
   },
   {
+    "site_id": null,
     "name": "Cartoonito",
     "epgName": "Cartoonito",
     "logo": "https://api.superguidatv.it/v1/channels/196/logo?width=120&theme=dark",
@@ -8337,6 +8365,7 @@
     ]
   },
   {
+    "site_id": null,
     "name": "Italia 2",
     "epgName": "Italia 2",
     "logo": "https://api.superguidatv.it/v1/channels/191/logo?width=120&theme=dark",
@@ -8743,6 +8772,7 @@
     ]
   },
   {
+    "site_id": null,
     "name": "Tgcom 24",
     "epgName": "Tgcom24",
     "logo": "https://api.superguidatv.it/v1/channels/197/logo?width=120&theme=dark",
@@ -8785,66 +8815,11 @@
     ]
   },
   {
+    "site_id": null,
     "name": "DMAX",
     "epgName": "DMAX",
     "logo": "https://api.superguidatv.it/v1/channels/256/logo?width=120&theme=dark",
     "programs": [
-      {
-        "title": "Il tesoro maledetto del Blind Frog Ranch (St. 3 - Ep. 4)",
-        "description": null,
-        "start": "2025-10-25T21:15:00.000Z",
-        "end": "2025-10-25T23:05:00.000Z",
-        "poster": null
-      },
-      {
-        "title": "BodyCam: Agenti in prima linea (St. 3 - Ep. 9)",
-        "description": "La polizia insegue due rapinatori che fanno di tutto per non essere catturati. Inoltre, un uomo armato terrorizza il suo vicinato.",
-        "start": "2025-10-25T23:05:00.000Z",
-        "end": "2025-10-26T00:10:00.000Z",
-        "poster": "https://api.superguidatv.it/v1/programs/1573098587/backdrops/1?width=720"
-      },
-      {
-        "title": "Bodycam - Agenti in prima linea (St. 3 - Ep. 1)",
-        "description": "In Texas, un guidatore colpisce un treno che trasporta sostanze esplosive. Una squadra speciale irrompe in una casa per arrestare due sospettati.",
-        "start": "2025-10-26T01:10:00.000Z",
-        "end": "2025-10-26T02:05:00.000Z",
-        "poster": "https://api.superguidatv.it/v1/programs/933234972/backdrops/1?width=720"
-      },
-      {
-        "title": "Border Security: terra di confine (St. 4 - Ep. 2)",
-        "description": "Il confine meridionale degli Stati Uniti è uno dei più trafficati al mondo. La guerra contro gli spacciatori di droga e i cartelli messicani si intensifica sempre di più.",
-        "start": "2025-10-26T02:05:00.000Z",
-        "end": "2025-10-26T02:55:00.000Z",
-        "poster": null
-      },
-      {
-        "title": "Border Security: terra di confine (St. 4 - Ep. 3)",
-        "description": "Il confine meridionale degli Stati Uniti è uno dei più trafficati al mondo. La guerra contro gli spacciatori di droga e i cartelli messicani si intensifica sempre di più.",
-        "start": "2025-10-26T02:55:00.000Z",
-        "end": "2025-10-26T03:45:00.000Z",
-        "poster": null
-      },
-      {
-        "title": "Border Security: terra di confine (St. 4 - Ep. 4)",
-        "description": "Il confine meridionale degli Stati Uniti è uno dei più trafficati al mondo. La guerra contro gli spacciatori di droga e i cartelli messicani si intensifica sempre di più.",
-        "start": "2025-10-26T03:45:00.000Z",
-        "end": "2025-10-26T04:35:00.000Z",
-        "poster": null
-      },
-      {
-        "title": "Affari in valigia (St. 1 - Ep. 4)",
-        "description": "Gli acquirenti sono ad Atlanta per fare delle offerte sulla merce giacente. Chi si aggiudichera' i carichi migliori?",
-        "start": "2025-10-26T04:35:00.000Z",
-        "end": "2025-10-26T05:00:00.000Z",
-        "poster": "https://api.superguidatv.it/v1/programs/2100465374/backdrops/1?width=720"
-      },
-      {
-        "title": "Affari in valigia (St. 4 - Ep. 11)",
-        "description": "Gli acquirenti partecipano ad un'asta a Las Vegas. Tra gli articoli proposti ci saranno una gigantesca mitragliatrice Gatling e un raro oggetto che promuove alcuni famosi biscotti.",
-        "start": "2025-10-26T05:00:00.000Z",
-        "end": "2025-10-26T05:30:00.000Z",
-        "poster": "https://api.superguidatv.it/v1/programs/2119680643/backdrops/1?width=720"
-      },
       {
         "title": "BodyCam: Agenti in prima linea (St. 4 - Ep. 3)",
         "description": "La polizia affronta un uomo armato su un autobus. Un'agente rischia la vita per salvare una persona su una sedia a rotelle che sta per essere investita da un treno.",
@@ -9028,11 +9003,67 @@
         "poster": "https://api.superguidatv.it/v1/programs/922665418/backdrops/1?width=720"
       },
       {
+        "title": "Il tesoro maledetto del Blind Frog Ranch (St. 3 - Ep. 4)",
+        "description": null,
+        "start": "2025-10-25T21:15:00.000Z",
+        "end": "2025-10-25T23:05:00.000Z",
+        "poster": null
+      },
+      {
         "title": "Il boss del paranormal (St. 6 - Ep. 9)",
         "description": "Ospiti indesiderati - Daniele Bossari investiga su una figura misteriosa . Inoltre, ci svela i segreti dietro ad alcuni fenomeni paranormali avvenuti in giro per il mondo.",
         "start": "2025-10-25T21:55:00.000Z",
         "end": "2025-10-25T23:05:00.000Z",
         "poster": "https://api.superguidatv.it/v1/programs/430812585/backdrops/1?width=720"
+      },
+      {
+        "title": "BodyCam: Agenti in prima linea (St. 3 - Ep. 9)",
+        "description": "La polizia insegue due rapinatori che fanno di tutto per non essere catturati. Inoltre, un uomo armato terrorizza il suo vicinato.",
+        "start": "2025-10-25T23:05:00.000Z",
+        "end": "2025-10-26T00:10:00.000Z",
+        "poster": "https://api.superguidatv.it/v1/programs/1573098587/backdrops/1?width=720"
+      },
+      {
+        "title": "Bodycam - Agenti in prima linea (St. 3 - Ep. 1)",
+        "description": "In Texas, un guidatore colpisce un treno che trasporta sostanze esplosive. Una squadra speciale irrompe in una casa per arrestare due sospettati.",
+        "start": "2025-10-26T01:10:00.000Z",
+        "end": "2025-10-26T02:05:00.000Z",
+        "poster": "https://api.superguidatv.it/v1/programs/933234972/backdrops/1?width=720"
+      },
+      {
+        "title": "Border Security: terra di confine (St. 4 - Ep. 2)",
+        "description": "Il confine meridionale degli Stati Uniti è uno dei più trafficati al mondo. La guerra contro gli spacciatori di droga e i cartelli messicani si intensifica sempre di più.",
+        "start": "2025-10-26T02:05:00.000Z",
+        "end": "2025-10-26T02:55:00.000Z",
+        "poster": null
+      },
+      {
+        "title": "Border Security: terra di confine (St. 4 - Ep. 3)",
+        "description": "Il confine meridionale degli Stati Uniti è uno dei più trafficati al mondo. La guerra contro gli spacciatori di droga e i cartelli messicani si intensifica sempre di più.",
+        "start": "2025-10-26T02:55:00.000Z",
+        "end": "2025-10-26T03:45:00.000Z",
+        "poster": null
+      },
+      {
+        "title": "Border Security: terra di confine (St. 4 - Ep. 4)",
+        "description": "Il confine meridionale degli Stati Uniti è uno dei più trafficati al mondo. La guerra contro gli spacciatori di droga e i cartelli messicani si intensifica sempre di più.",
+        "start": "2025-10-26T03:45:00.000Z",
+        "end": "2025-10-26T04:35:00.000Z",
+        "poster": null
+      },
+      {
+        "title": "Affari in valigia (St. 1 - Ep. 4)",
+        "description": "Gli acquirenti sono ad Atlanta per fare delle offerte sulla merce giacente. Chi si aggiudichera' i carichi migliori?",
+        "start": "2025-10-26T04:35:00.000Z",
+        "end": "2025-10-26T05:00:00.000Z",
+        "poster": "https://api.superguidatv.it/v1/programs/2100465374/backdrops/1?width=720"
+      },
+      {
+        "title": "Affari in valigia (St. 4 - Ep. 11)",
+        "description": "Gli acquirenti partecipano ad un'asta a Las Vegas. Tra gli articoli proposti ci saranno una gigantesca mitragliatrice Gatling e un raro oggetto che promuove alcuni famosi biscotti.",
+        "start": "2025-10-26T05:00:00.000Z",
+        "end": "2025-10-26T05:30:00.000Z",
+        "poster": "https://api.superguidatv.it/v1/programs/2119680643/backdrops/1?width=720"
       },
       {
         "title": "Il boss del paranormal (St. 3 - Ep. 11)",
@@ -9093,6 +9124,7 @@
     ]
   },
   {
+    "site_id": null,
     "name": "Mediaset Extra",
     "epgName": "Mediaset Extra",
     "logo": "https://api.superguidatv.it/v1/channels/194/logo?width=120&theme=dark",
@@ -9170,6 +9202,7 @@
     ]
   },
   {
+    "site_id": null,
     "name": "Radio 105",
     "epgName": "Radio 105",
     "logo": "https://api.superguidatv.it/v1/channels/460/logo?width=120&theme=dark",
@@ -9275,6 +9308,7 @@
     ]
   },
   {
+    "site_id": null,
     "name": "Radio 101",
     "epgName": "R101",
     "logo": "https://api.superguidatv.it/v1/channels/463/logo?width=120&theme=dark",
@@ -9352,6 +9386,7 @@
     ]
   },
   {
+    "site_id": null,
     "name": "Pro TV",
     "epgName": "protv",
     "logo": "https://cmero-ott-images-avod.ssl.cdn.cra.cz/rx/23daa37d-7b69-41ab-90ab-383cc67f3c05.png?default=b507a3ad-e712-494d-9667-5274d0c05bca",
@@ -9366,21 +9401,14 @@
       {
         "title": "Las Fierbinți",
         "description": "Las Fierbinti",
-        "start": "2025-10-25T00:30:00.000Z",
+        "start": "2025-10-25T00:00:00.000Z",
         "end": "2025-10-25T01:30:00.000Z",
-        "poster": null
-      },
-      {
-        "title": "Vorbește Lumea",
-        "description": "Vorbeste lumea",
-        "start": "2025-10-25T02:00:00.000Z",
-        "end": "2025-10-25T03:45:00.000Z",
         "poster": null
       },
       {
         "title": "Las Fierbinți",
         "description": "Las Fierbinti",
-        "start": "2025-10-25T00:00:00.000Z",
+        "start": "2025-10-25T00:30:00.000Z",
         "end": "2025-10-25T01:30:00.000Z",
         "poster": null
       },
@@ -9408,6 +9436,13 @@
       {
         "title": "Vorbește Lumea",
         "description": "Vorbeste lumea",
+        "start": "2025-10-25T02:00:00.000Z",
+        "end": "2025-10-25T03:45:00.000Z",
+        "poster": null
+      },
+      {
+        "title": "Vorbește Lumea",
+        "description": "Vorbeste lumea",
         "start": "2025-10-25T02:15:00.000Z",
         "end": "2025-10-25T04:00:00.000Z",
         "poster": null
@@ -9420,10 +9455,24 @@
         "poster": "https://cmero-ott-images-avod.ssl.cdn.cra.cz/rx200/q80/608cc2bb-f37d-4176-8eed-4695b5593846"
       },
       {
+        "title": "Lecții de viață",
+        "description": "Episodul 111 - Cursa pentru moștenire, Partea I",
+        "start": "2025-10-25T04:00:00.000Z",
+        "end": "2025-10-25T05:00:00.000Z",
+        "poster": "https://cmero-ott-images-avod.ssl.cdn.cra.cz/rx200/q80/608cc2bb-f37d-4176-8eed-4695b5593846"
+      },
+      {
         "title": "Știrile PRO TV",
         "description": "Stirile PRO TV",
         "start": "2025-10-25T05:00:00.000Z",
         "end": "2025-10-25T07:30:00.000Z",
+        "poster": null
+      },
+      {
+        "title": "Știrile PRO TV",
+        "description": "Stirile PRO TV",
+        "start": "2025-10-25T05:00:00.000Z",
+        "end": "2025-10-25T08:00:00.000Z",
         "poster": null
       },
       {
@@ -9441,10 +9490,24 @@
         "poster": null
       },
       {
+        "title": "Superspeed",
+        "description": "S9E24",
+        "start": "2025-10-25T08:30:00.000Z",
+        "end": "2025-10-25T09:00:00.000Z",
+        "poster": "https://cmero-ott-images-avod.ssl.cdn.cra.cz/rx200/q80/31f76000-d3ad-4b9e-8d09-af5a60098890"
+      },
+      {
         "title": "Nouă vieți",
         "description": null,
         "start": "2025-10-25T09:00:00.000Z",
         "end": "2025-10-25T10:23:09.000Z",
+        "poster": "https://cmero-ott-images-avod.ssl.cdn.cra.cz/rx200/q80/5d4617c2-f57e-495e-ba1a-336f763bfc4f"
+      },
+      {
+        "title": "Nouă vieți",
+        "description": null,
+        "start": "2025-10-25T09:00:00.000Z",
+        "end": "2025-10-25T10:45:00.000Z",
         "poster": "https://cmero-ott-images-avod.ssl.cdn.cra.cz/rx200/q80/5d4617c2-f57e-495e-ba1a-336f763bfc4f"
       },
       {
@@ -9460,111 +9523,6 @@
         "start": "2025-10-25T10:45:00.000Z",
         "end": "2025-10-25T11:26:06.000Z",
         "poster": "https://cmero-ott-images-avod.ssl.cdn.cra.cz/rx200/q80/0038452b-f4a0-45fe-a3f0-52927fa85709"
-      },
-      {
-        "title": "Zoo",
-        "description": null,
-        "start": "2025-10-25T12:00:00.000Z",
-        "end": "2025-10-25T13:30:49.000Z",
-        "poster": "https://cmero-ott-images-avod.ssl.cdn.cra.cz/rx200/q80/1e0f0848-89ad-4815-96d9-a332f524a3f3"
-      },
-      {
-        "title": "Vocea României",
-        "description": "Ediția 7",
-        "start": "2025-10-25T13:45:00.000Z",
-        "end": "2025-10-25T16:00:17.000Z",
-        "poster": "https://cmero-ott-images-avod.ssl.cdn.cra.cz/rx200/q80/90955286-ef02-44c1-973a-03609a7b73ed"
-      },
-      {
-        "title": "Știrile PRO TV",
-        "description": "Stirile PRO TV",
-        "start": "2025-10-25T17:00:00.000Z",
-        "end": "2025-10-25T17:30:00.000Z",
-        "poster": null
-      },
-      {
-        "title": "Stirile Sportive",
-        "description": null,
-        "start": "2025-10-25T17:45:00.000Z",
-        "end": "2025-10-25T17:55:00.000Z",
-        "poster": null
-      },
-      {
-        "title": "Vremea",
-        "description": null,
-        "start": "2025-10-25T17:55:00.000Z",
-        "end": "2025-10-25T18:00:00.000Z",
-        "poster": null
-      },
-      {
-        "title": "Casino Royale",
-        "description": null,
-        "start": "2025-10-25T18:00:00.000Z",
-        "end": "2025-10-25T20:18:38.000Z",
-        "poster": null
-      },
-      {
-        "title": "65",
-        "description": null,
-        "start": "2025-10-25T20:00:00.000Z",
-        "end": "2025-10-25T21:28:55.000Z",
-        "poster": null
-      },
-      {
-        "title": "Transport blindat",
-        "description": null,
-        "start": "2025-10-25T22:00:00.000Z",
-        "end": "2025-10-25T23:24:15.000Z",
-        "poster": "https://cmero-ott-images-avod.ssl.cdn.cra.cz/rx200/q80/b5cd2b35-abc1-406a-87eb-aefdc7b8ccc8"
-      },
-      {
-        "title": "Las Fierbinți",
-        "description": "Las Fierbinti",
-        "start": "2025-10-26T00:30:00.000Z",
-        "end": "2025-10-26T01:13:03.000Z",
-        "poster": null
-      },
-      {
-        "title": "Zoo",
-        "description": null,
-        "start": "2025-10-26T01:30:00.000Z",
-        "end": "2025-10-26T03:00:49.000Z",
-        "poster": "https://cmero-ott-images-avod.ssl.cdn.cra.cz/rx200/q80/1e0f0848-89ad-4815-96d9-a332f524a3f3"
-      },
-      {
-        "title": "Nouă vieți",
-        "description": null,
-        "start": "2025-10-26T02:30:00.000Z",
-        "end": "2025-10-26T03:53:09.000Z",
-        "poster": "https://cmero-ott-images-avod.ssl.cdn.cra.cz/rx200/q80/5d4617c2-f57e-495e-ba1a-336f763bfc4f"
-      },
-      {
-        "title": "Lecții de viață",
-        "description": "Episodul 111 - Cursa pentru moștenire, Partea I",
-        "start": "2025-10-25T04:00:00.000Z",
-        "end": "2025-10-25T05:00:00.000Z",
-        "poster": "https://cmero-ott-images-avod.ssl.cdn.cra.cz/rx200/q80/608cc2bb-f37d-4176-8eed-4695b5593846"
-      },
-      {
-        "title": "Știrile PRO TV",
-        "description": "Stirile PRO TV",
-        "start": "2025-10-25T05:00:00.000Z",
-        "end": "2025-10-25T08:00:00.000Z",
-        "poster": null
-      },
-      {
-        "title": "Superspeed",
-        "description": "S9E24",
-        "start": "2025-10-25T08:30:00.000Z",
-        "end": "2025-10-25T09:00:00.000Z",
-        "poster": "https://cmero-ott-images-avod.ssl.cdn.cra.cz/rx200/q80/31f76000-d3ad-4b9e-8d09-af5a60098890"
-      },
-      {
-        "title": "Nouă vieți",
-        "description": null,
-        "start": "2025-10-25T09:00:00.000Z",
-        "end": "2025-10-25T10:45:00.000Z",
-        "poster": "https://cmero-ott-images-avod.ssl.cdn.cra.cz/rx200/q80/5d4617c2-f57e-495e-ba1a-336f763bfc4f"
       },
       {
         "title": "Stirile PRO TV",
@@ -9584,8 +9542,22 @@
         "title": "Zoo",
         "description": null,
         "start": "2025-10-25T12:00:00.000Z",
+        "end": "2025-10-25T13:30:49.000Z",
+        "poster": "https://cmero-ott-images-avod.ssl.cdn.cra.cz/rx200/q80/1e0f0848-89ad-4815-96d9-a332f524a3f3"
+      },
+      {
+        "title": "Zoo",
+        "description": null,
+        "start": "2025-10-25T12:00:00.000Z",
         "end": "2025-10-25T14:00:00.000Z",
         "poster": "https://cmero-ott-images-avod.ssl.cdn.cra.cz/rx200/q80/1e0f0848-89ad-4815-96d9-a332f524a3f3"
+      },
+      {
+        "title": "Vocea României",
+        "description": "Ediția 7",
+        "start": "2025-10-25T13:45:00.000Z",
+        "end": "2025-10-25T16:00:17.000Z",
+        "poster": "https://cmero-ott-images-avod.ssl.cdn.cra.cz/rx200/q80/90955286-ef02-44c1-973a-03609a7b73ed"
       },
       {
         "title": "Vocea României",
@@ -9595,6 +9567,13 @@
         "poster": "https://cmero-ott-images-avod.ssl.cdn.cra.cz/rx200/q80/90955286-ef02-44c1-973a-03609a7b73ed"
       },
       {
+        "title": "Știrile PRO TV",
+        "description": "Stirile PRO TV",
+        "start": "2025-10-25T17:00:00.000Z",
+        "end": "2025-10-25T17:30:00.000Z",
+        "poster": null
+      },
+      {
         "title": "Stirile Sportive",
         "description": null,
         "start": "2025-10-25T17:30:00.000Z",
@@ -9602,10 +9581,31 @@
         "poster": null
       },
       {
+        "title": "Stirile Sportive",
+        "description": null,
+        "start": "2025-10-25T17:45:00.000Z",
+        "end": "2025-10-25T17:55:00.000Z",
+        "poster": null
+      },
+      {
         "title": "Vremea",
         "description": null,
         "start": "2025-10-25T17:45:00.000Z",
         "end": "2025-10-25T18:00:00.000Z",
+        "poster": null
+      },
+      {
+        "title": "Vremea",
+        "description": null,
+        "start": "2025-10-25T17:55:00.000Z",
+        "end": "2025-10-25T18:00:00.000Z",
+        "poster": null
+      },
+      {
+        "title": "Casino Royale",
+        "description": null,
+        "start": "2025-10-25T18:00:00.000Z",
+        "end": "2025-10-25T20:18:38.000Z",
         "poster": null
       },
       {
@@ -9618,9 +9618,23 @@
       {
         "title": "65",
         "description": null,
+        "start": "2025-10-25T20:00:00.000Z",
+        "end": "2025-10-25T21:28:55.000Z",
+        "poster": null
+      },
+      {
+        "title": "65",
+        "description": null,
         "start": "2025-10-25T20:45:00.000Z",
         "end": "2025-10-25T22:30:00.000Z",
         "poster": null
+      },
+      {
+        "title": "Transport blindat",
+        "description": null,
+        "start": "2025-10-25T22:00:00.000Z",
+        "end": "2025-10-25T23:24:15.000Z",
+        "poster": "https://cmero-ott-images-avod.ssl.cdn.cra.cz/rx200/q80/b5cd2b35-abc1-406a-87eb-aefdc7b8ccc8"
       },
       {
         "title": "Transport blindat",
@@ -9637,11 +9651,32 @@
         "poster": null
       },
       {
+        "title": "Las Fierbinți",
+        "description": "Las Fierbinti",
+        "start": "2025-10-26T00:30:00.000Z",
+        "end": "2025-10-26T01:13:03.000Z",
+        "poster": null
+      },
+      {
         "title": "Zoo",
         "description": null,
         "start": "2025-10-26T01:00:00.000Z",
         "end": "2025-10-26T02:45:00.000Z",
         "poster": "https://cmero-ott-images-avod.ssl.cdn.cra.cz/rx200/q80/1e0f0848-89ad-4815-96d9-a332f524a3f3"
+      },
+      {
+        "title": "Zoo",
+        "description": null,
+        "start": "2025-10-26T01:30:00.000Z",
+        "end": "2025-10-26T03:00:49.000Z",
+        "poster": "https://cmero-ott-images-avod.ssl.cdn.cra.cz/rx200/q80/1e0f0848-89ad-4815-96d9-a332f524a3f3"
+      },
+      {
+        "title": "Nouă vieți",
+        "description": null,
+        "start": "2025-10-26T02:30:00.000Z",
+        "end": "2025-10-26T03:53:09.000Z",
+        "poster": "https://cmero-ott-images-avod.ssl.cdn.cra.cz/rx200/q80/5d4617c2-f57e-495e-ba1a-336f763bfc4f"
       },
       {
         "title": "I like IT",
@@ -9772,6 +9807,7 @@
     ]
   },
   {
+    "site_id": null,
     "name": "Antena 3",
     "epgName": "antena3",
     "logo": "https://assets.antenaplay.ro/2022/10/24/HUA4X5c2dFIsScrTa0KZ.png",
@@ -10129,6 +10165,7 @@
     ]
   },
   {
+    "site_id": null,
     "name": "Antena 1",
     "epgName": "antena1",
     "logo": "https://assets.antenaplay.ro/2022/10/20/6fiwx2Ydv5JBEsCShluH.png",
@@ -10738,6 +10775,7 @@
     ]
   },
   {
+    "site_id": null,
     "name": "Comedy Play",
     "epgName": "comedy-play",
     "logo": "https://assets.antenaplay.ro/2023/04/13/AUZDYJFeAKhziBVlUWTK.png",
@@ -10864,6 +10902,7 @@
     ]
   },
   {
+    "site_id": null,
     "name": "Antena Monden",
     "epgName": "antena-monden",
     "logo": "https://assets.antenaplay.ro/2023/04/13/MrwirFrMppGIcWVNzlGK.png",
@@ -10955,12 +10994,14 @@
     ]
   },
   {
+    "site_id": null,
     "name": "Tele Norba",
     "epgName": "Tele Norba",
     "logo": "https://portiamovalore.uniba.it/uploads/loghi/Logo%20telenorba_1579780216.png",
     "programs": []
   },
   {
+    "site_id": "356",
     "name": "RSI 1",
     "epgName": "RSI 1",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/8/8e/RSI_La_1_-_Logo_2020.svg",
@@ -11311,6 +11352,7 @@
     ]
   },
   {
+    "site_id": "357",
     "name": "RSI 2",
     "epgName": "RSI 2",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/2/2e/RSI_La_2_-_Logo_2020.svg",
@@ -11493,6 +11535,7 @@
     ]
   },
   {
+    "site_id": "338",
     "name": "Rai Sport +",
     "epgName": "Rai Sport +",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Rai_Sport_-_Logo_2018.svg",
@@ -11605,6 +11648,7 @@
     ]
   },
   {
+    "site_id": "332",
     "name": "Rai Gulp",
     "epgName": "Rai Gulp",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Rai_Gulp_-_Logo_2017.svg",
@@ -11962,160 +12006,7 @@
     ]
   },
   {
-    "name": "La7 Cinema",
-    "epgName": "La7 Cinema",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/2/26/La7d_-_Logo_2018.svg",
-    "programs": [
-      {
-        "title": "Toro scatenato",
-        "description": "Quando Jake LaMotta sale sul ring e combatte contro gli avversari a suon di pugni, il suo comportamento è quello di un campione pronto a vincere ancora. Quando invece questi tratta la famiglia allo stesso modo, la sua ira è una bomba ad orologeria.",
-        "start": "2025-10-25T04:50:00.000Z",
-        "end": "2025-10-25T07:20:00.000Z",
-        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/239/p30vh8aj_VodArt_w1920.webp"
-      },
-      {
-        "title": "The Mexican: Amore senza la sicura",
-        "description": "Jerry, membro di un'organizzazione criminale, ha il compito di recarsi in Messico per recuperare una pistola d'epoca. Quando il giovane entra in possesso dell'arma scopre che su di essa aleggia una maledizione.",
-        "start": "2025-10-25T07:20:00.000Z",
-        "end": "2025-10-25T09:35:00.000Z",
-        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/239/p27196vh10am_VodArt_w1920.webp"
-      },
-      {
-        "title": "Witness: Il testimone",
-        "description": "Samuel, un bambino della comunità Amish, aspettando con la madre un treno alla stazione di Filadelfia, diventa l'unico testimone di un omicidio.",
-        "start": "2025-10-25T09:35:00.000Z",
-        "end": "2025-10-25T11:40:00.000Z",
-        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/239/p8671vh10ak_VodArt_w1920.webp"
-      },
-      {
-        "title": "Ore 10: Calma Piatta",
-        "description": "Un comandante della marina australiana e sua moglie decidono di fare intraprendere un viaggio in barca nel Pacifico, ma l'incontro con un naufrago dai modi poco affidabili si rivela un dramma, quando questi si rivela essere uno squilibrato.",
-        "start": "2025-10-25T11:40:00.000Z",
-        "end": "2025-10-25T13:30:00.000Z",
-        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/239/p11551vh10ae_VodArt_w1920.webp"
-      },
-      {
-        "title": "Full Monty: Squattrinati organizzati",
-        "description": "Degli operai disoccupati cercano di fare cassetta organizzando uno spogliarello e mettendo a soqquadro l'intero sobborgo in cui vivono.",
-        "start": "2025-10-25T13:30:00.000Z",
-        "end": "2025-10-25T15:15:00.000Z",
-        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/239/p19683vh10aj_VodArt_w1920.webp"
-      },
-      {
-        "title": "TG La7",
-        "description": "Edizione del notiziario televisivo a cura della redazione giornalistica di La7. Dal 24 Giugno 2001, gli aggiornamenti sui fatti più rilevanti a livello nazionale ed internazionale.",
-        "start": "2025-10-25T15:15:00.000Z",
-        "end": "2025-10-25T15:20:00.000Z",
-        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/239/p10691348bh8ab_BannerL1_w1920.webp"
-      },
-      {
-        "title": "The Imitation Game",
-        "description": "La vita del matematico inglese Alan Turing, genio indiscusso del XX secolo, considerato uno dei padri dell'informatica e dei moderni computer, fino alla sua precoce e tragica scomparsa.",
-        "start": "2025-10-25T15:20:00.000Z",
-        "end": "2025-10-25T17:25:00.000Z",
-        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/239/p10771057vh10ay_VodArt_w1920.webp"
-      },
-      {
-        "title": "The Weather Man: L'uomo delle previsioni",
-        "description": "David Spritz si occupa delle previsioni del tempo presso una emittente di Chicago e ha successo nel proprio campo. Purtroppo non riesce ad anticipare la bufera che lo aspetta con la propria moglie e il proprio padre.",
-        "start": "2025-10-25T17:25:00.000Z",
-        "end": "2025-10-25T19:15:00.000Z",
-        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/239/p86612vh10ab_VodArt_w1920.webp"
-      },
-      {
-        "title": "Agente 007: Si vive solo due volte",
-        "description": "James Bond mette in scena la propria morte, per essere poi mandato in Giappone per delle indagini. Diverse navicelle spaziali sono, infatti, misteriosamente sparite e russi e americani si accusano a vicenda.",
-        "start": "2025-10-25T19:15:00.000Z",
-        "end": "2025-10-25T21:25:00.000Z",
-        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/239/p164vh10am_VodArt_w1920.webp"
-      },
-      {
-        "title": "Il volo della fenice",
-        "description": "A causa di un incidente aereo, un gruppo di superstiti rimane isolato nel deserto. Decidono allora di costruire un velivolo con i resti dell'aeroplano.",
-        "start": "2025-10-25T21:25:00.000Z",
-        "end": "2025-10-25T23:40:00.000Z",
-        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/239/p34952vh8af_VodArt_w1920.webp"
-      },
-      {
-        "title": "Oggi, domani, dopodomani",
-        "description": "Un industriale milanese è tormentato da un problema che non riesce in alcun modo a risolvere. Un marito impaziente gestisce il proprio rapporto coniugale in modo bizzarro. Un bancario prova a vendere la propria moglie ad un principe.",
-        "start": "2025-10-25T23:40:00.000Z",
-        "end": "2025-10-26T02:25:00.000Z",
-        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/239/p13920vh10aa_VodArt_w1920.webp"
-      },
-      {
-        "title": "Hollywood Collection",
-        "description": "L'attore, noto per incarnare sul grande schermo l'eroe del West, deve le sue prime piccole parti alle abilità a cavallo tipiche di chi, come lui, è originario del Montana. L'artista ottiene così l'opportunità di farsi strada nel cinema.",
-        "start": "2025-10-26T02:25:00.000Z",
-        "end": "2025-10-26T03:05:00.000Z",
-        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/239/p12022787bh10ab_BannerL2_w1920.webp"
-      },
-      {
-        "title": "Uozzap",
-        "description": "Il meglio della programmazione con spezzoni di vecchi programmi e filmati di repertorio trasmessi da LA7, dalla sua nascita ad oggi.",
-        "start": "2025-10-26T03:05:00.000Z",
-        "end": "2025-10-26T03:40:00.000Z",
-        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/239/p15684799bh10ad_BannerL1_w1920.webp"
-      },
-      {
-        "title": "La7 Doc",
-        "description": "Selezione di documentari proposti dalla rete e dedicati a temi culturali, sociali, storici, artistici e naturalistici. Il meglio della produzione nazionale e internazionale in ambito divulgativo.",
-        "start": "2025-10-26T03:40:00.000Z",
-        "end": "2025-10-26T05:00:00.000Z",
-        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/239/p11168688bh10ab_BannerL2_w1920.webp"
-      },
-      {
-        "title": "Oroscopo",
-        "description": "Scopriamo assieme quali sorprese sono in serbo nel prossimo futuro per ciascuno dei segni dello zodiaco. L'appuntamento quotidiano con l'oroscopo de La7 è pronto a rivelare ogni sfumatura dell'influenza delle stelle.",
-        "start": "2025-10-26T05:00:00.000Z",
-        "end": "2025-10-26T05:05:00.000Z",
-        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/239/p12160647bh10ab_BannerL1_w1920.webp"
-      },
-      {
-        "title": "Meteo",
-        "description": "Spazio dedicato alle previsioni del tempo in diretta, con un approccio unico firmato La7 e Paolo Sottocorona, meterologo e filosofo d'elezione della rete.",
-        "start": "2025-10-26T05:05:00.000Z",
-        "end": "2025-10-26T05:10:00.000Z",
-        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/239/p11259913bh8ac_BannerL1_w1920.webp"
-      },
-      {
-        "title": "Oroscopo",
-        "description": "Scopriamo assieme quali sorprese sono in serbo nel prossimo futuro per ciascuno dei segni dello zodiaco. L'appuntamento quotidiano con l'oroscopo de La7 è pronto a rivelare ogni sfumatura dell'influenza delle stelle.",
-        "start": "2025-10-26T05:10:00.000Z",
-        "end": "2025-10-26T05:15:00.000Z",
-        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/239/p12160647bh10ab_BannerL1_w1920.webp"
-      },
-      {
-        "title": "Meteo",
-        "description": "Spazio dedicato alle previsioni del tempo in diretta, con un approccio unico firmato La7 e Paolo Sottocorona, meterologo e filosofo d'elezione della rete.",
-        "start": "2025-10-26T05:15:00.000Z",
-        "end": "2025-10-26T05:20:00.000Z",
-        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/239/p11259913bh8ac_BannerL1_w1920.webp"
-      },
-      {
-        "title": "Oroscopo",
-        "description": "Scopriamo assieme quali sorprese sono in serbo nel prossimo futuro per ciascuno dei segni dello zodiaco. L'appuntamento quotidiano con l'oroscopo de La7 è pronto a rivelare ogni sfumatura dell'influenza delle stelle.",
-        "start": "2025-10-26T05:20:00.000Z",
-        "end": "2025-10-26T05:25:00.000Z",
-        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/239/p12160647bh10ab_BannerL1_w1920.webp"
-      },
-      {
-        "title": "TG La7",
-        "description": "Edizione del notiziario televisivo a cura della redazione giornalistica di La7. Dal 24 Giugno 2001, gli aggiornamenti sui fatti più rilevanti a livello nazionale ed internazionale.",
-        "start": "2025-10-26T05:25:00.000Z",
-        "end": "2025-10-26T05:30:00.000Z",
-        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/239/p10691348bh8ab_BannerL1_w1920.webp"
-      },
-      {
-        "title": "Josephine angelo custode",
-        "description": "Josephine ha una nuova missione: aiutare una donna di nome Clarie a recuperare il lavoro e la fiducia in se stessa allo scopo di far felice il proprio figlio Simon.",
-        "start": "2025-10-26T05:30:00.000Z",
-        "end": "2025-10-26T07:30:00.000Z",
-        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/239/p413450bh10ak_BannerL2_w1920.webp"
-      }
-    ]
-  },
-  {
+    "site_id": "393",
     "name": "Sky TG 24",
     "epgName": "Sky TG 24",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Sky_TG24_-_Logo_2021.svg",
