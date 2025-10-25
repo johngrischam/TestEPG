@@ -11666,5 +11666,362 @@
         "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/338/p22540888bh10aa_BannerL1_w1920.webp"
       }
     ]
+  },
+  {
+    "name": "Rai Gulp",
+    "epgName": "Rai Gulp",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Rai_Gulp_-_Logo_2017.svg",
+    "programs": [
+      {
+        "title": "Le nuove avventure di Peter Pan",
+        "description": "È Natale a Londra e Wendy, Michael e John sono impegnati ad addobbare l'albero quando Peter si presenta per dire loro che Babbo Natale arriverà sull'Isola Che Non C'è. Michael non vede l'ora di incontrarlo.",
+        "start": "2025-10-25T05:35:00.000Z",
+        "end": "2025-10-25T06:00:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/332/p9768183bh10ag_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Le nuove avventure di Peter Pan",
+        "description": "Quando Babbo Natale viene catturato da Capitan Uncino e dai suoi pirati sull'Isola Che Non C'è, tocca a Peter Pan e ai Bimbi Sperduti consegnare i regali ai bambini di tutto il mondo.",
+        "start": "2025-10-25T06:00:00.000Z",
+        "end": "2025-10-25T06:25:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/332/p9768183bh10ag_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Vita da giungla: Alla riscossa!",
+        "description": "In fondo al Pozzo della Verità, Junior sembra capire il segreto di Pong To. Sul vulcano dove si trova Pong To, nessuno pare resistere al suo potere, tranne forse Junior. I due si confrontano.",
+        "start": "2025-10-25T06:25:00.000Z",
+        "end": "2025-10-25T06:35:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/332/p11319174bh10bj_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Vita da giungla: Alla riscossa!",
+        "description": "Alphonse è sconvolto perchè il suo ristorante è stato distrutto dalla caduta di un albero. Mentre viene trovata una soluzione al disastro, i nostri protagonisti offrono allo chef il loro rifugio come ristorante temporaneo.",
+        "start": "2025-10-25T06:35:00.000Z",
+        "end": "2025-10-25T06:45:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/332/p11319174bh10bj_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Vita da giungla: Alla riscossa!",
+        "description": "Maurice ed El Popo sono bloccati, da soli, su un'isola deserta. per andarsene dall'isola c'è solo una soluzione, ovvero unire le forze per formare una squadra e vincere la sfida che il destino gli offre.",
+        "start": "2025-10-25T06:45:00.000Z",
+        "end": "2025-10-25T06:55:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/332/p11319174bh10bj_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Vita da giungla: Alla riscossa!",
+        "description": "Maurice, Junior e Miguel accompagnano il giovane Benny a conoscere la madre. Pur non essendo ovviamente un cattivo ragazzo, Benny si rivela un bugiardo professionista che ama raccontare qualsiasi cosa a chiunque incontri.",
+        "start": "2025-10-25T06:55:00.000Z",
+        "end": "2025-10-25T07:10:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/332/p11319174bh10bj_BannerL1_w1920.webp"
+      },
+      {
+        "title": "I puffi",
+        "description": "Per un disguido in una consegna, Grande Puffo si vede recapitare una scimmia al posto di polvere di trilobite.",
+        "start": "2025-10-25T07:10:00.000Z",
+        "end": "2025-10-25T07:20:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/332/p19805388bh8af_BannerL1_w1920.webp"
+      },
+      {
+        "title": "I puffi",
+        "description": "Tontolone vuole assolutamente volare con l'aereo di Inventore, ma sia lui che Grande Puffo diffidano delle sue capacità.",
+        "start": "2025-10-25T07:20:00.000Z",
+        "end": "2025-10-25T07:30:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/332/p19805388bh8af_BannerL1_w1920.webp"
+      },
+      {
+        "title": "I puffi",
+        "description": "A causa di una storta alla caviglia, Quattrocchi è costretto ad assentarsi assentarsi per un breve periodo di tempo dal laboratorio di Grande Puffo.",
+        "start": "2025-10-25T07:30:00.000Z",
+        "end": "2025-10-25T07:45:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/332/p19805388bh8af_BannerL1_w1920.webp"
+      },
+      {
+        "title": "I puffi",
+        "description": "Per evitare i lavoretti imposti da Quattrocchi durante l'assenza di Grande Puffo, Burlone escogita uno scherzo.",
+        "start": "2025-10-25T07:45:00.000Z",
+        "end": "2025-10-25T07:55:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/332/p19805388bh8af_BannerL1_w1920.webp"
+      },
+      {
+        "title": "I puffi",
+        "description": "In occasione della festa della mamma, Gargamella riceve la visita della madre. Grande Puffo e Puffo Vanitoso, prigionieri del mago, si offrono di aiutarlo a impressionare la donna positivamente.",
+        "start": "2025-10-25T07:55:00.000Z",
+        "end": "2025-10-25T08:05:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/332/p19805388bh8af_BannerL1_w1920.webp"
+      },
+      {
+        "title": "I puffi",
+        "description": "Nel tentativo di eliminare la presenza di un brufolo, Vanitoso prende in prestito una pozione dal laboratorio di Grande Puffo. In cerca di notizie interessanti per i suoi lettori, Giornalista decide di scrivere un articolo su Gargamella.",
+        "start": "2025-10-25T08:05:00.000Z",
+        "end": "2025-10-25T08:20:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/332/p19805388bh8af_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Le tre moschettiere",
+        "description": "Richelieu è deciso a sbarazzarsi dei Tre Moschettieri. Milady allontana d'Artagnan, Athos e Aramis mentre Manfred lancia una torta alla crema sul re. Rochefort trova il coraggioso e si intromette.",
+        "start": "2025-10-25T08:20:00.000Z",
+        "end": "2025-10-25T08:35:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/332/p28471356bh10ae_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Le tre moschettiere",
+        "description": "Il sarto Bonacieux viene rapito dalla Maschera di Ferro, che gli ordina di confezionare un abito uguale a quello che indosserà il Re alla festa del Cardinale.",
+        "start": "2025-10-25T08:35:00.000Z",
+        "end": "2025-10-25T08:45:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/332/p19193023ih10aa_Iconic_w1920.webp"
+      },
+      {
+        "title": "Le tre moschettiere",
+        "description": "Il cugino del Re crea un nuovo fiore, un giglio, dedicato ad Athos in gran segreto. Quando qualcuno però ruba tutti i fiori del giardino, D'Artagnan dovrà trovare il ladro.",
+        "start": "2025-10-25T08:45:00.000Z",
+        "end": "2025-10-25T08:55:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/332/p28471356bh10ae_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Le tre moschettiere",
+        "description": "Le Moschettiere conoscono un uomo dall'identità dubbia, che si fa chiamare l'Ombra, e che sostiene di agire in gran segreto per conto del re. Aramis farà un'eclatante scoperta.",
+        "start": "2025-10-25T08:55:00.000Z",
+        "end": "2025-10-25T09:10:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/332/p28471356bh10ae_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Heidi",
+        "description": "L'inverno è alle porte ed è importante procurarsi le provviste necessarie per la vita sulle montagne. Heidi vuole portare alla nonna anche pane fresco dal villaggio, ma non ha soldi, solo un bellissimo fossile.",
+        "start": "2025-10-25T09:10:00.000Z",
+        "end": "2025-10-25T09:35:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/332/p11598867bh10ab_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Heidi",
+        "description": "L'inverno è qui e costringe Heidi a rimanere nella baita. Al primo raggio di sole, chiede al nonno di venire per poter andare a trovare la nonna e Peter, che presto esce da scuola.",
+        "start": "2025-10-25T09:35:00.000Z",
+        "end": "2025-10-25T09:55:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/332/p11598867bh10ab_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Heidi",
+        "description": "Un lupo si aggira nel paese di notte, ed è ora di agire. Alcuni abitanti del villaggio vogliono ucciderlo, ma altri chiedono di usare cautela, poiché nella zona non sono rimasti molti lupi. Il signor Keller, Hans e l'insegnante iniziano la caccia.",
+        "start": "2025-10-25T09:55:00.000Z",
+        "end": "2025-10-25T10:20:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/332/p11598867bh10ab_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Heidi",
+        "description": "La primavera è arrivata, Heidi e Peter tornano alla baita. Una settimana dopo, è un disastro: qualcuno si è infiltrato nel loro covo e il tesoro di Peter è, all'improvviso, scomparso.",
+        "start": "2025-10-25T10:20:00.000Z",
+        "end": "2025-10-25T10:45:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/332/p11598867bh10ab_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Mia and Me",
+        "description": "A scuola, Mia lavora in collaborazione con Violetta per un progetto scientifico. Nel frattempo, Mia deve trovare una soluzione quando Phuddle crea un nuovo strumento che ipnotizza chi lo ascolta.",
+        "start": "2025-10-25T10:45:00.000Z",
+        "end": "2025-10-25T11:10:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/332/p9562538bh10ac_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Mia and Me",
+        "description": "Mia sta già diventando pratica nell'arte del volo, ma in una delle sue piroette batte la testa e perde la memoria. Il Re le suggerisce di andare alla Grotta della Verità per aiutarla.",
+        "start": "2025-10-25T11:10:00.000Z",
+        "end": "2025-10-25T11:35:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/332/p9562538bh10ac_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Winx Club",
+        "description": "Nell'Alfea del passato, una fata dagli oscuri scopi, Kalshara, riesce ad accedere a un'antica sala del collegio: attraversando una sorgente di Magia Selvaggia, diventa una creatura mutaforma.",
+        "start": "2025-10-25T11:35:00.000Z",
+        "end": "2025-10-25T12:00:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/332/p186546bh10bc_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Winx Club",
+        "description": "Tornate nel presente, le Winx organizzano l'inaugurazione del Parco Naturale di Alfea, dove ora sono presenti molti Scavatalpa, salvati dalle Winx nel passato. Gli Scavatalpa custodiscono un misterioso enigma.",
+        "start": "2025-10-25T12:00:00.000Z",
+        "end": "2025-10-25T12:25:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/332/p186546bh10bc_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Winx Club",
+        "description": "Brafilius è al settimo cielo: ora non solo può usare la pietra sottratta a Roxy per tornare indietro nel tempo, ma sa anche come trovare l'Animale con il Primo Colore, grazie alle informazioni che la fata involontariamente gli ha dato.",
+        "start": "2025-10-25T12:25:00.000Z",
+        "end": "2025-10-25T12:50:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/332/p186546bh10bc_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Winx Club",
+        "description": "Roxy convoca le Winx nella sua stanza ad Alfea perché sa che la specie dei MagiLupi è in pericolo su Lynphea. Le fate si recano nel mondo natale di Flora e conoscono i suoi genitori, che stanno curando due Magilupi.",
+        "start": "2025-10-25T12:50:00.000Z",
+        "end": "2025-10-25T13:15:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/332/p186546bh10bc_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Winx Club",
+        "description": "Miele soccorre le sei fate usando l'antidoto per far nascere delle bellissime orchidee incantate al posto dei funghi. Le Winx non hanno più l'antidoto per fermare la minaccia dei funghi.",
+        "start": "2025-10-25T13:15:00.000Z",
+        "end": "2025-10-25T13:40:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/332/p186546bh10bc_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Winx Club",
+        "description": "Dopo alcuni tentativi comici di far diventare amici Squonk e Amarok, le Winx usano le Pietre dei Ricordi per tornare nell'Italia medievale, dove vive una specie animale molto particolare conosciuta con il nome di Irtogatto.",
+        "start": "2025-10-25T13:40:00.000Z",
+        "end": "2025-10-25T14:05:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/332/p186546bh10bc_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Le dodici fatiche di Asterix",
+        "description": "Giulio Cesare mette a dura prova gli abitanti di Armorica con lo scopo di sfatare il mito che siano delle entità divine. Asterix e Obelix sfruttano la propria forza e astuzia per non assoggettarsi a Roma.",
+        "start": "2025-10-25T14:05:00.000Z",
+        "end": "2025-10-25T15:30:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/332/p9852vh10aj_VodArt_w1920.webp"
+      },
+      {
+        "title": "Behind the beats",
+        "description": "Traendo ispirazione da tutto, dal sound freestyle di Debbie Deb alla dancehall di Chaka Demus & Pliers, Diplo sta reinventando il Moombahton insieme ad altri DJ di talento. Si sono uniti per organizzare una festa gigantesca che sconvolgerà il mondo.",
+        "start": "2025-10-25T15:30:00.000Z",
+        "end": "2025-10-25T15:35:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/332/p23580215ih10ab_Iconic_w1920.webp"
+      },
+      {
+        "title": "Behind the beats",
+        "description": "Primo omaggio al G-Funk e al suo creatore, Snoop Dog. Scopriamo i suoi trascorsi e come l'amicizia con Dr Dre e Dr. Funkenstein contribuisce a far incontrare il Gangsta rap e il P-Funk.",
+        "start": "2025-10-25T15:35:00.000Z",
+        "end": "2025-10-25T15:40:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/332/p23580215ih10ab_Iconic_w1920.webp"
+      },
+      {
+        "title": "Behind the beats",
+        "description": "Negli anni '70, New York era divisa tra Punk e Disco. L'energia grezza di Patti Smith toglieva il fiato, mentre il sound di Donna Summer faceva muovere le folle. Blondie si inserì in entrambi i mondi e contribuì a creare la New Wave.",
+        "start": "2025-10-25T15:40:00.000Z",
+        "end": "2025-10-25T15:50:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/332/p23580215ih10ab_Iconic_w1920.webp"
+      },
+      {
+        "title": "Street Football: La compagnia dei celestini",
+        "description": "Mentre i Blu celebrano il loro posto in finale, Assad apprende che deve partire con la sua famiglia il giorno prima della partita. I Blu si ritrovano in quattro per la finale e Jeremy sostituisce Assad.",
+        "start": "2025-10-25T15:50:00.000Z",
+        "end": "2025-10-25T16:10:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/332/p690049bh10ao_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Street Football: La compagnia dei celestini",
+        "description": "I Blu hanno un solo obbiettivo, ovvero battere la FC Golmetti e qualificarsi per il Mondiale. Con Jeremy in squadra la Compagnia dei Celestini ha buone possibilità di vincere, ma si presenta un problema.",
+        "start": "2025-10-25T16:10:00.000Z",
+        "end": "2025-10-25T16:40:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/332/p690049bh10ao_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Street Football: La compagnia dei celestini",
+        "description": "Draghetto propone a Jeremy di formare una squadra per le selezioni al prossimo mondiale di street football, ma quest'ultimo, che pensa che il suo amico sia troppo piccolo, ha già accettato di unirsi ad un'altra squadra.",
+        "start": "2025-10-25T16:40:00.000Z",
+        "end": "2025-10-25T17:00:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/332/p690049bh10ao_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Street Football: La compagnia dei celestini",
+        "description": "Nella loro prima partita, i Blu affrontano la squadra favorita del torneo, la FC Golmetti, in cui gioca Jeremy. Draghetto vuole fare di tutto per vincere e arriva a spiare i suoi futuri avversari.",
+        "start": "2025-10-25T17:00:00.000Z",
+        "end": "2025-10-25T17:25:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/332/p690049bh10ao_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Street Football: La compagnia dei celestini",
+        "description": "I Blu devono affrontare gli Spettri. Ma dopo la sconfitta contro il Golmetti, l'atmosfera della squadra è elettrica, e Draghetto dà tutta la responsabilità del loro recente fallimento su Frank, che ha incassato 8 gol.",
+        "start": "2025-10-25T17:25:00.000Z",
+        "end": "2025-10-25T17:50:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/332/p690049bh10ao_BannerL1_w1920.webp"
+      },
+      {
+        "title": "On Ari",
+        "description": "Ari e Bip ci portano a conoscere alcune delle coppie più spassose di cartoni e videogiochi, tra litigi, scherzi e tanto amore. Essere parenti così stretti è un'avventura che non finisce mai, come dimostrano Anna ed Elsa e Mario e Luigi.",
+        "start": "2025-10-25T17:50:00.000Z",
+        "end": "2025-10-25T17:55:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/332/p31156061bh10aa_BannerL1_w1920.webp"
+      },
+      {
+        "title": "On Ari",
+        "description": "La cameretta non è solo una stanza: è un regno segreto, pieno di giochi, musica e persino calzini spaiati. Con Ari e Bip, riordinare diventa una sfida, scopriamo come vincerla.",
+        "start": "2025-10-25T17:55:00.000Z",
+        "end": "2025-10-25T18:05:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/332/p31156061bh10aa_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Winx Club",
+        "description": "Stella sconfigge il minotauro e recupera la corona, ma non sa come uscire dal labirinto. Tuttavia, grazie all'aiuto di Eldora, torna nel mondo reale. Qui, insieme alle altre Winx, prepara un banchetto per tutta la corte.",
+        "start": "2025-10-25T18:05:00.000Z",
+        "end": "2025-10-25T18:30:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/332/p186546bh10bc_BannerL1_w1920.webp"
+      },
+      {
+        "title": "La squadra di Marco",
+        "description": "Marco ha 12 anni e passa intere giornate davanti ai videogiochi e non esce quasi mai di casa. Quando il nonno vedovo si trasferisce da lui, la sua vita viene sconvolta ed è costretto a giocare all'aria aperta. Il nonno lo introduce alle bocce.",
+        "start": "2025-10-25T18:30:00.000Z",
+        "end": "2025-10-25T20:00:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/332/p18937599vh10ae_VodArt_w1920.webp"
+      },
+      {
+        "title": "Il campeggio",
+        "description": "Il campeggio organizza una gara di raccolta della plastica. Chi ne raccoglierà di più vincerà una tavola da SUP. Noor decide di fare una raccolta più meticolosa, cercando anche i pezzi più piccoli, molto dannosi per l'ambiente.",
+        "start": "2025-10-25T20:00:00.000Z",
+        "end": "2025-10-25T20:10:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/332/p25052321ih10ad_Iconic_w1920.webp"
+      },
+      {
+        "title": "Penny on M.A.R.S.",
+        "description": "In un viaggio emozionante riviviamo la storia d'amore tra Penny e Sebastian, dal loro primo incontro attraverso l'amicizia, la musica, le incomprensioni e l'amore, fino alla sconvolgente rivelazione finale.",
+        "start": "2025-10-25T20:10:00.000Z",
+        "end": "2025-10-25T20:35:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/332/p15471349bh11aa_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Jams",
+        "description": "Pronto a sfidare il nuovo compagno di Smash, Max scopre che il ragazzo e Margherita avevano escogitato un piano per metterlo alla prova. Nel frattempo Melissa ed Elisa provano a cantare una canzone insieme.",
+        "start": "2025-10-25T20:35:00.000Z",
+        "end": "2025-10-25T20:55:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/332/p16621973bh8ac_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Jams",
+        "description": "Smash vorrebbe che sua madre e suo padre andassero in vacanza senza di lui, ma i genitori sono apprensivi e non lo vogliono lasciare solo. Con l'aiuto di Max, il ragazzo architetta un modo per convincerli.",
+        "start": "2025-10-25T20:55:00.000Z",
+        "end": "2025-10-25T21:15:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/332/p16621973bh8ac_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Snow black",
+        "description": "Kennedy fa una scoperta sconcertante in un deposito nel retro del bar di Ragno, mentre Ella e Leone attirano Alice al bus abbandonato e le chiedono per quale motivo li stia evitando.",
+        "start": "2025-10-25T21:15:00.000Z",
+        "end": "2025-10-25T21:45:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/332/p21724579bh10aa_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Sara e Marti: La nostra storia",
+        "description": "Sara è costretta a prendere un'importante decisione per salvare lo spettacolo teatrale di Marti. La situazione è seria, perché dalle sue scelte dipendono tutti i sogni di sua sorella.",
+        "start": "2025-10-25T21:45:00.000Z",
+        "end": "2025-10-25T22:10:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/332/p15110295bh10ad_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Sara e Marti: La nostra storia",
+        "description": "Sara si prepara ad affrontare una nuova sfida, ma un bacio inaspettato la sconvolge. Il soprendente episodio mette di nuovo in discussione tutti i suoi piani e, soprattutto, i suoi sentimenti.",
+        "start": "2025-10-25T22:10:00.000Z",
+        "end": "2025-10-25T22:35:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/332/p15110295bh10ad_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Silverpoint",
+        "description": "Con la seconda sfida apparentemente impossibile, spetta a Louis trovare una soluzione. Mentre Jay e Cassie trovano un'improbabile distrazione l'uno nell'altro... Con la seconda sfida apparentemente impossibile, spetta a Louis trovare una soluzione.",
+        "start": "2025-10-25T22:35:00.000Z",
+        "end": "2025-10-25T23:00:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/332/p21730563bh8ag_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Silverpoint",
+        "description": "Sospettando che il Greenfront stia celando segreti, Louis, Glen, Monika e Isabel decidono di rimanere svegli oltre l'una di notte, determinati a scoprire cosa accade nell'oscurità.",
+        "start": "2025-10-25T23:00:00.000Z",
+        "end": "2025-10-25T23:25:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/332/p21730563bh8ag_BannerL1_w1920.webp"
+      }
+    ]
   }
 ]
