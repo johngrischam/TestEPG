@@ -20,59 +20,6 @@ async function fetchJson(url) {
   return r.json();
 }
 
-// HEAD (or GET if HEAD blocked) with short timeout
-async function urlExists(url, timeoutMs = 6000) {
-  const ctrl = new AbortController();
-  const t = setTimeout(() => ctrl.abort(), timeoutMs);
-  try {
-    let r = await fetch(url, { method: "HEAD", redirect: "follow", signal: ctrl.signal });
-    if (r.ok) return true;
-    // some CDNs block HEAD; try GET without reading body
-    r = await fetch(url, { method: "GET", redirect: "follow", signal: ctrl.signal });
-    return r.ok;
-  } catch {
-    return false;
-  } finally {
-    clearTimeout(t);
-  }
-}
-
-// Build absolute URL candidates for a given ContentPath
-function buildCandidates(contentPathRaw) {
-  if (!contentPathRaw) return [];
-  const p = contentPathRaw.startsWith("/") ? contentPathRaw : "/" + contentPathRaw;
-
-  // Try with /catalog and without; also try common image extensions
-  const bases = [`${BASE}/catalog`, `${BASE}`];
-  const endings = ["", ".jpg", ".png", ".jpeg", ".webp"]; // try a few common
-  const candidates = [];
-
-  for (const b of bases) {
-    for (const e of endings) {
-      candidates.push(`${b}${p}${e}`);
-    }
-  }
-  return candidates;
-}
-
-// Try roles in priority order and return first working poster URL
-async function resolvePosterFromNodes(nodes) {
-  if (!nodes || !Array.isArray(nodes.Items)) return null;
-
-  const byRole = (role) => nodes.Items.find((n) => n.Role === role && n.ContentPath);
-
-  const roles = ["Stage", "Landscape", "Lane", "Title"];
-  for (const role of roles) {
-    const node = byRole(role);
-    if (!node?.ContentPath) continue;
-    const candidates = buildCandidates(node.ContentPath);
-    for (const cand of candidates) {
-      if (await urlExists(cand)) return cand;
-    }
-  }
-  return null;
-}
-
 // --- normalize base channel to your schema ---
 function ensureChannelShape(ch) {
   const name = ch?.name || ch?.epgName || ch?.channel || "";
@@ -118,42 +65,59 @@ function buildRaiSport(epgPwJson) {
   return { name: "Rai Sport", epgName: "Rai Sport", logo: epgPwJson?.icon || "", programs };
 }
 
-// --- ✅ RSI parser with poster resolver ---
-async function buildRSIChannel(apiJson, publicName) {
+// --- helper: build RSI poster URL from a content node ---
+function posterUrlFromContentPath(contentPath) {
+  if (!contentPath) return null;
+  // Important: images are under /content/images/, not /catalog
+  // and require suffix _w1920.webp
+  const cp = contentPath.trim().replace(/^\/+/, ""); // remove leading slash if any
+  return `${BASE}/content/images/${cp}_w1920.webp`;
+}
+
+// --- ✅ Correct RSI parser using /content/images/..._w1920.webp ---
+function buildRSIChannel(apiJson, publicName) {
   const broadcasts = apiJson?.Nodes?.Items?.[0]?.Content?.Nodes?.Items || [];
   if (!broadcasts.length) return null;
 
-  // Official RSI logos (stable, public)
-  const logo =
-    publicName === "RSI 1"
-      ? "https://upload.wikimedia.org/wikipedia/commons/8/8e/RSI_La_1_-_Logo_2020.svg"
-      : "https://upload.wikimedia.org/wikipedia/commons/2/2e/RSI_La_2_-_Logo_2020.svg";
-
-  const programs = [];
-  // Resolve posters sequentially (keeps API/CDN happy & predictable)
-  for (const b of broadcasts.slice(0, 40)) {
+  const programs = broadcasts.slice(0, 50).map((b) => {
     const desc = b?.Content?.Description || {};
     const avail = Array.isArray(b?.Availabilities) ? b.Availabilities[0] : null;
     const start = avail?.AvailabilityStart || null;
     const end = avail?.AvailabilityEnd || null;
-    if (!start || !end) continue;
+    if (!start || !end) return null;
 
-    const poster = await resolvePosterFromNodes(b?.Content?.Nodes);
-    programs.push({
+    // Prefer Lane (BannerL1) image, then Stage, Landscape, Title
+    const nodes = b?.Content?.Nodes?.Items || [];
+    const preferOrder = ["Lane", "Stage", "Landscape", "Title"];
+    let poster = null;
+    for (const role of preferOrder) {
+      const n = nodes.find((x) => x.Role === role && x.ContentPath);
+      if (n?.ContentPath) {
+        poster = posterUrlFromContentPath(n.ContentPath);
+        if (poster) break;
+      }
+    }
+
+    return {
       title: desc.Title || "",
       description: desc.Summary || desc.ShortSummary || "",
       start,
       end,
-      poster: poster || null, // if null, your frontend will show the logo
-    });
-  }
+      poster: poster || null,
+    };
+  }).filter(Boolean);
+
+  // Stable public logos for fallback
+  const logo =
+    publicName === "RSI 1"
+      ? "https://upload.wikimedia.org/wikipedia/commons/8/8e/RSI_La_1_-_Logo_2020.svg"
+      : "https://upload.wikimedia.org/wikipedia/commons/2/2e/RSI_La_2_-_Logo_2020.svg";
 
   return { name: publicName, epgName: publicName, logo, programs };
 }
 
 // --- main ---
 async function main() {
-  // 1) Base list
   let base;
   try {
     const raw = await fetchJson(PRIMARY_URL);
@@ -164,15 +128,12 @@ async function main() {
   }
 
   const out = base.map(ensureChannelShape);
-
-  // 2) Date window
   const today = new Date();
   const todayStr = ymdUTC(today);
   const tomorrowStr = ymdUTC(addDaysUTC(today, 1));
   const startParam = `${todayStr}0600`;
   const endParam = `${tomorrowStr}0600`;
 
-  // 3) Sources
   const RAI_URL = `https://epg.pw/api/epg.json?lang=en&date=${todayStr}&channel_id=392165`;
   const RSI1_URL = `${BASE}/catalog/tv/channels/list/(ids=356;start=${startParam};end=${endParam};level=normal)`;
   const RSI2_URL = `${BASE}/catalog/tv/channels/list/(ids=357;start=${startParam};end=${endParam};level=normal)`;
@@ -189,12 +150,11 @@ async function main() {
     console.warn("Rai Sport fetch failed:", e.message);
   }
 
-  // RSI 1 / RSI 2 (with poster probing)
+  // RSI 1 / RSI 2
   async function fetchRSI(url, name) {
     try {
       const j = await fetchJson(url);
-      console.log("DEBUG", name, "keys:", Object.keys(j));
-      const ch = await buildRSIChannel(j, name);
+      const ch = buildRSIChannel(j, name);
       if (ch) {
         add.push(ch);
         console.log(`Merged ${name} with ${ch.programs.length} programs`);
@@ -227,3 +187,4 @@ main().catch((e) => {
   console.error("Fatal:", e);
   process.exit(1);
 });
+
