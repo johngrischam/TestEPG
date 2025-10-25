@@ -11257,6 +11257,7 @@
   {
     "name": "RSI 2",
     "epgName": "RSI 2",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/2/2e/RSI_La_2_-_Logo_2020.svg",
     "programs": [
       {
         "title": "MotoGP: GP Malesia",
@@ -11438,6 +11439,7 @@
   {
     "name": "RSI 1",
     "epgName": "RSI 1",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/8/8e/RSI_La_1_-_Logo_2020.svg",
     "programs": [
       {
         "title": "Siamo fuori",
