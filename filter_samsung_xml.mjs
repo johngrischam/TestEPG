@@ -2,7 +2,8 @@
 import fs from "fs";
 import { XMLParser, XMLBuilder } from "fast-xml-parser";
 
-const SOURCE_URL = "https://cdn.jsdelivr.net/gh/matthuisman/i.mjh.nz/SamsungTVPlus/it.xml";
+const SOURCE_URL =
+  "https://cdn.jsdelivr.net/gh/matthuisman/i.mjh.nz/SamsungTVPlus/it.xml";
 const OUTPUT_FILE = "filtered.xml";
 
 // Load wanted channel IDs (one per line)
@@ -20,10 +21,10 @@ async function main() {
   if (!res.ok) throw new Error(`Fetch ${res.status} ${SOURCE_URL}`);
   const xmlText = await res.text();
 
-  // IMPORTANT: force attributes with NO prefix, so we get .id and .channel
+  // ✅ Use correct attribute prefix used by fast-xml-parser
   const parser = new XMLParser({
     ignoreAttributes: false,
-    attributeNamePrefix: "", // make attributes plain keys: id, channel, start, stop
+    attributeNamePrefix: "@_", // real structure in Matthuisman feed
     trimValues: true,
   });
 
@@ -42,24 +43,24 @@ async function main() {
     ? [tv.programme]
     : [];
 
-  // Filter channels by id
+  console.log(`📺 Channels in source: ${chanArr.length}`);
+  console.log(`🎬 Programmes in source: ${progArr.length}`);
+
+  // ✅ Filter by @_id and @_channel (matches real XML)
   const filteredChannels = chanArr.filter((ch) => {
-    const id = (ch?.id || "").trim();
+    const id = (ch?.["@_id"] || "").trim();
     return id && channels.includes(id);
   });
 
-  // Filter programmes by channel attribute
   const filteredPrograms = progArr.filter((p) => {
-    const cid = (p?.channel || "").trim();
+    const cid = (p?.["@_channel"] || "").trim();
     return cid && channels.includes(cid);
   });
 
-  console.log(`📺 Channels in source: ${chanArr.length}`);
-  console.log(`🎬 Programmes in source: ${progArr.length}`);
   console.log(`✅ Channels kept: ${filteredChannels.length}`);
   console.log(`✅ Programmes kept: ${filteredPrograms.length}`);
 
-  // Build output preserving <tv> root & generator attrs if present
+  // Build output preserving <tv> root attributes
   const output = {
     tv: {
       ...tv,
@@ -70,7 +71,7 @@ async function main() {
 
   const builder = new XMLBuilder({
     ignoreAttributes: false,
-    attributeNamePrefix: "", // keep attributes plain in output too
+    attributeNamePrefix: "@_", // keep original attribute style
   });
   const xmlOut = builder.build(output);
 
@@ -78,8 +79,8 @@ async function main() {
   console.log(`✅ Filtered XML written to ${OUTPUT_FILE}`);
 }
 
-// <-- ⚠️ This is the only closing brace needed for the main() function -->
 main().catch((err) => {
   console.error("Fatal:", err);
   process.exit(1);
 });
+
