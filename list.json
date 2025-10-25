@@ -14175,232 +14175,230 @@
   },
   {
     "name": "Rai Sport",
-    "epgName": "RAI Sport",
     "logo": "https://epg.pw/media/images/epg/2024/10/28/20241028021809086779_21.png",
-    "source": "epg.pw",
     "programs": [
       {
         "title": "Pallanuoto. Serie A1 maschile: Vis Nova Roma-Ortigia",
-        "description": null,
-        "start": "2025-10-25T00:00:00.000Z",
-        "end": "2025-10-25T01:15:00.000Z",
+        "description": "",
+        "start": "2025-10-25T00:00:00+00:00",
+        "end": "2025-10-25T01:15:00+00:00",
         "poster": null
       },
       {
         "title": "Pallacanestro. Serie A2 Old Wild West: Torino-Milano -7a g.ta",
-        "description": null,
-        "start": "2025-10-25T01:15:00.000Z",
-        "end": "2025-10-25T03:30:00.000Z",
+        "description": "",
+        "start": "2025-10-25T01:15:00+00:00",
+        "end": "2025-10-25T03:30:00+00:00",
         "poster": null
       },
       {
         "title": "Rally. Mondiale Europa",
-        "description": null,
-        "start": "2025-10-25T03:30:00.000Z",
-        "end": "2025-10-25T04:00:00.000Z",
+        "description": "",
+        "start": "2025-10-25T03:30:00+00:00",
+        "end": "2025-10-25T04:00:00+00:00",
         "poster": null
       },
       {
         "title": "Arrampicata. Rock Master Arco: Boulder",
-        "description": null,
-        "start": "2025-10-25T04:00:00.000Z",
-        "end": "2025-10-25T05:00:00.000Z",
+        "description": "",
+        "start": "2025-10-25T04:00:00+00:00",
+        "end": "2025-10-25T05:00:00+00:00",
         "poster": null
       },
       {
         "title": "TG Sport Mattina",
-        "description": null,
-        "start": "2025-10-25T05:00:00.000Z",
-        "end": "2025-10-25T05:30:00.000Z",
+        "description": "",
+        "start": "2025-10-25T05:00:00+00:00",
+        "end": "2025-10-25T05:30:00+00:00",
         "poster": null
       },
       {
         "title": "Pallanuoto. Serie A1 maschile: Vis Nova Roma-Ortigia",
-        "description": null,
-        "start": "2025-10-25T05:30:00.000Z",
-        "end": "2025-10-25T06:55:00.000Z",
+        "description": "",
+        "start": "2025-10-25T05:30:00+00:00",
+        "end": "2025-10-25T06:55:00+00:00",
         "poster": null
       },
       {
         "title": "Ginnastica Artistica. Mondiali Jakarta: Finali di Specialità – 2a giornata",
-        "description": null,
-        "start": "2025-10-25T06:55:00.000Z",
-        "end": "2025-10-25T07:50:00.000Z",
+        "description": "",
+        "start": "2025-10-25T06:55:00+00:00",
+        "end": "2025-10-25T07:50:00+00:00",
         "poster": null
       },
       {
         "title": "⋗ Sci Alpino. Coppa del Mondo Soelden: Slalom Gigante femminile – 1a manche, Sci Alpino Coppa del Mo",
-        "description": null,
-        "start": "2025-10-25T07:50:00.000Z",
-        "end": "2025-10-25T09:10:00.000Z",
+        "description": "",
+        "start": "2025-10-25T07:50:00+00:00",
+        "end": "2025-10-25T09:10:00+00:00",
         "poster": null
       },
       {
         "title": "Ginnastica Artistica. Mondiali Jakarta: Finali di Specialità – 2a giornata",
-        "description": null,
-        "start": "2025-10-25T09:10:00.000Z",
-        "end": "2025-10-25T10:50:00.000Z",
+        "description": "",
+        "start": "2025-10-25T09:10:00+00:00",
+        "end": "2025-10-25T10:50:00+00:00",
         "poster": null
       },
       {
         "title": "Sci Alpino. Coppa del Mondo Soelden: Slalom Gigante femminile – 2a manche, Sci Alpino Coppa del Mond",
-        "description": null,
-        "start": "2025-10-25T10:50:00.000Z",
-        "end": "2025-10-25T12:15:00.000Z",
+        "description": "",
+        "start": "2025-10-25T10:50:00+00:00",
+        "end": "2025-10-25T12:15:00+00:00",
         "poster": null
       },
       {
         "title": "Gli imperdibili",
-        "description": null,
-        "start": "2025-10-25T12:15:00.000Z",
-        "end": "2025-10-25T12:20:00.000Z",
+        "description": "",
+        "start": "2025-10-25T12:15:00+00:00",
+        "end": "2025-10-25T12:20:00+00:00",
         "poster": null
       },
       {
         "title": "⋗ Rugby. Serie A Elite maschile: Fiamme Oro Roma-Petrarca – 3a g.ta",
-        "description": null,
-        "start": "2025-10-25T12:20:00.000Z",
-        "end": "2025-10-25T14:30:00.000Z",
+        "description": "",
+        "start": "2025-10-25T12:20:00+00:00",
+        "end": "2025-10-25T14:30:00+00:00",
         "poster": null
       },
       {
         "title": "Pallanuoto. Serie A1 maschile: Vis Nova Roma-Ortigia",
-        "description": null,
-        "start": "2025-10-25T14:30:00.000Z",
-        "end": "2025-10-25T15:50:00.000Z",
+        "description": "",
+        "start": "2025-10-25T14:30:00+00:00",
+        "end": "2025-10-25T15:50:00+00:00",
         "poster": null
       },
       {
         "title": "⋗ Pallavolo. Super Lega Credem Banca: Grottazzolina-Verona -2a g.ta",
-        "description": null,
-        "start": "2025-10-25T15:50:00.000Z",
-        "end": "2025-10-25T18:25:00.000Z",
+        "description": "",
+        "start": "2025-10-25T15:50:00+00:00",
+        "end": "2025-10-25T18:25:00+00:00",
         "poster": null
       },
       {
         "title": "⋗ Pallavolo. Serie A1 Tigotà: Novara-Conegliano -5a g.ta",
-        "description": null,
-        "start": "2025-10-25T18:25:00.000Z",
-        "end": "2025-10-25T21:00:00.000Z",
+        "description": "",
+        "start": "2025-10-25T18:25:00+00:00",
+        "end": "2025-10-25T21:00:00+00:00",
         "poster": null
       },
       {
         "title": "Ciclismo su Pista. Mondiali Santiago: 4a giornata",
-        "description": null,
-        "start": "2025-10-25T21:00:00.000Z",
-        "end": "2025-10-26T00:10:00.000Z",
+        "description": "",
+        "start": "2025-10-25T21:00:00+00:00",
+        "end": "2025-10-26T00:10:00+00:00",
         "poster": null
       },
       {
         "title": "Ginnastica Artistica. Mondiali Jakarta: Finali di Specialità – 2a giornata",
-        "description": null,
-        "start": "2025-10-26T00:10:00.000Z",
-        "end": "2025-10-26T02:00:00.000Z",
+        "description": "",
+        "start": "2025-10-26T00:10:00+00:00",
+        "end": "2025-10-26T02:00:00+00:00",
         "poster": null
       },
       {
         "title": "Rugby. Serie A Elite maschile: Fiamme Oro Roma-Petrarca – 3a g.ta",
-        "description": null,
-        "start": "2025-10-26T02:00:00.000Z",
-        "end": "2025-10-26T04:00:00.000Z",
+        "description": "",
+        "start": "2025-10-26T02:00:00+00:00",
+        "end": "2025-10-26T04:00:00+00:00",
         "poster": null
       },
       {
         "title": "Arrampicata. Rock Master Arco: Boulder",
-        "description": null,
-        "start": "2025-10-26T04:00:00.000Z",
-        "end": "2025-10-26T05:00:00.000Z",
+        "description": "",
+        "start": "2025-10-26T04:00:00+00:00",
+        "end": "2025-10-26T05:00:00+00:00",
         "poster": null
       },
       {
         "title": "TG Sport Mattina",
-        "description": null,
-        "start": "2025-10-26T05:00:00.000Z",
-        "end": "2025-10-26T05:30:00.000Z",
+        "description": "",
+        "start": "2025-10-26T05:00:00+00:00",
+        "end": "2025-10-26T05:30:00+00:00",
         "poster": null
       },
       {
         "title": "Automobilismo. C.to Italiano GT Sprint Monza 4a prova – gara 1",
-        "description": null,
-        "start": "2025-10-26T05:30:00.000Z",
-        "end": "2025-10-26T06:35:00.000Z",
+        "description": "",
+        "start": "2025-10-26T05:30:00+00:00",
+        "end": "2025-10-26T06:35:00+00:00",
         "poster": null
       },
       {
         "title": "Ginnastica Artistica. Mondiali Jakarta: Finali di Specialità – 2a giornata",
-        "description": null,
-        "start": "2025-10-26T06:35:00.000Z",
-        "end": "2025-10-26T07:25:00.000Z",
+        "description": "",
+        "start": "2025-10-26T06:35:00+00:00",
+        "end": "2025-10-26T07:25:00+00:00",
         "poster": null
       },
       {
         "title": "Atletica. Venice Marathon",
-        "description": null,
-        "start": "2025-10-26T07:25:00.000Z",
-        "end": "2025-10-26T07:55:00.000Z",
+        "description": "",
+        "start": "2025-10-26T07:25:00+00:00",
+        "end": "2025-10-26T07:55:00+00:00",
         "poster": null
       },
       {
         "title": "Sci Alpino. Coppa del Mondo Soelden: Slalom Gigante maschile – 1a manche, Sci Alpino Coppa del Mondo",
-        "description": null,
-        "start": "2025-10-26T07:55:00.000Z",
-        "end": "2025-10-26T09:10:00.000Z",
+        "description": "",
+        "start": "2025-10-26T07:55:00+00:00",
+        "end": "2025-10-26T09:10:00+00:00",
         "poster": null
       },
       {
         "title": "Atletica. Venice Marathon",
-        "description": null,
-        "start": "2025-10-26T09:10:00.000Z",
-        "end": "2025-10-26T10:45:00.000Z",
+        "description": "",
+        "start": "2025-10-26T09:10:00+00:00",
+        "end": "2025-10-26T10:45:00+00:00",
         "poster": null
       },
       {
         "title": "Sci Alpino. Coppa del Mondo Soelden: Slalom Gigante maschile – 2a manche, Sci Alpino Coppa del Mondo",
-        "description": null,
-        "start": "2025-10-26T10:45:00.000Z",
-        "end": "2025-10-26T12:15:00.000Z",
+        "description": "",
+        "start": "2025-10-26T10:45:00+00:00",
+        "end": "2025-10-26T12:15:00+00:00",
         "poster": null
       },
       {
         "title": "Rally. Mondiale Europa",
-        "description": null,
-        "start": "2025-10-26T12:15:00.000Z",
-        "end": "2025-10-26T12:50:00.000Z",
+        "description": "",
+        "start": "2025-10-26T12:15:00+00:00",
+        "end": "2025-10-26T12:50:00+00:00",
         "poster": null
       },
       {
         "title": "Pallavolo. Serie A1 Tigotà: San Giovanni in Marignano-Scandicci – 5a g.ta",
-        "description": null,
-        "start": "2025-10-26T12:50:00.000Z",
-        "end": "2025-10-26T15:30:00.000Z",
+        "description": "",
+        "start": "2025-10-26T12:50:00+00:00",
+        "end": "2025-10-26T15:30:00+00:00",
         "poster": null
       },
       {
         "title": "Ciclismo su Pista. Mondiali Santiago: 5a giornata",
-        "description": null,
-        "start": "2025-10-26T15:30:00.000Z",
-        "end": "2025-10-26T19:20:00.000Z",
+        "description": "",
+        "start": "2025-10-26T15:30:00+00:00",
+        "end": "2025-10-26T19:20:00+00:00",
         "poster": null
       },
       {
         "title": "Automobilismo. C.to Europeo Formula Regional Monza – 10a prova",
-        "description": null,
-        "start": "2025-10-26T19:20:00.000Z",
-        "end": "2025-10-26T20:50:00.000Z",
+        "description": "",
+        "start": "2025-10-26T19:20:00+00:00",
+        "end": "2025-10-26T20:50:00+00:00",
         "poster": null
       },
       {
         "title": "Biliardo. Stecca NBC 1a prova Rho: Gran Premio Filotto 60",
-        "description": null,
-        "start": "2025-10-26T20:50:00.000Z",
-        "end": "2025-10-26T23:20:00.000Z",
+        "description": "",
+        "start": "2025-10-26T20:50:00+00:00",
+        "end": "2025-10-26T23:20:00+00:00",
         "poster": null
       },
       {
         "title": "Sci Alpino. Coppa del Mondo Soelden: Slalom Gigante maschile – 2a manche, Sci Alpino Coppa del Mondo",
-        "description": null,
-        "start": "2025-10-26T23:20:00.000Z",
-        "end": "2025-10-27T00:20:00.000Z",
+        "description": "",
+        "start": "2025-10-26T23:20:00+00:00",
+        "end": null,
         "poster": null
       }
     ]
