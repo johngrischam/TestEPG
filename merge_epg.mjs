@@ -161,6 +161,7 @@ async function main() {
   const RAI_URL = `https://epg.pw/api/epg.json?lang=en&date=${todayStr}&channel_id=392165`;
   const RSI1_URL = `${BASE}/catalog/tv/channels/list/(ids=356;start=${startParam};end=${endParam};level=normal)`;
   const RSI2_URL = `${BASE}/catalog/tv/channels/list/(ids=357;start=${startParam};end=${endParam};level=normal)`;
+  const LA7D_URL = `${BASE}/catalog/tv/channels/list/(ids=239;start=${startParam};end=${endParam};level=normal)`;
 
   const add = [];
 
@@ -193,6 +194,24 @@ async function main() {
   await fetchRSI(RSI1_URL, "RSI 1");
   await fetchRSI(RSI2_URL, "RSI 2");
 
+  // --- La 7d (inline, no extra helper) ---
+  try {
+    const j = await fetchJson(LA7D_URL);
+    const programsRaw = j?.Data?.[0]?.Programs || [];
+    const programs = programsRaw.map((p) => ({
+      title: p?.Title || "",
+      description: p?.ShortDescription ?? p?.Description ?? null,
+      start: p?.Start || "",
+      end: p?.End || "",
+      poster: null,
+    }));
+    const la7d = { name: "La 7d", epgName: "La 7d", logo: null, programs };
+    add.push(la7d);
+    console.log(`Merged La 7d with ${programs.length} programs`);
+  } catch (e) {
+    console.warn("La 7d fetch failed:", e.message);
+  }
+
   // Merge safely
   for (const c of add) {
     const i = out.findIndex(
@@ -211,6 +230,7 @@ main().catch((e) => {
   console.error("Fatal:", e);
   process.exit(1);
 });
+
 
 
 
