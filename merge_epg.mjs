@@ -64,35 +64,41 @@ function buildRaiSport(epgPwJson) {
   return { name: "Rai Sport", epgName: "Rai Sport", logo: epgPwJson?.icon || "", programs };
 }
 
-// --- ✅ Simplified RSI parser (with logo + poster fallback) ---
+// --- ✅ Correct RSI parser (for sg101.prd.sctv.ch) ---
 function buildRSIChannel(apiJson, publicName) {
-  const items =
-    apiJson?.Nodes?.Items?.[0]?.Content?.Nodes?.Items ||
-    apiJson?.Nodes?.Items?.[0]?.Nodes?.Items ||
-    [];
-  if (!items.length) return null;
+  const broadcasts = apiJson?.Nodes?.Items?.[0]?.Content?.Nodes?.Items || [];
+  if (!broadcasts.length) return null;
 
-  const programs = items.slice(0, 40).map((p) => {
-    const desc = p.Content?.Description || {};
-    const avail = p.Availabilities?.[0] || {};
-    const start = avail.AvailabilityStart;
-    const end = avail.AvailabilityEnd;
-    const title = desc.Title || "";
-    const description = desc.Summary || desc.ShortSummary || "";
-    const imgNode = p.Content?.Nodes?.Items?.find((n) => n.Role === "Stage");
-    const poster = imgNode
-      ? `https://services.sg101.prd.sctv.ch/catalog/${imgNode.ContentPath}`
-      : null;
-    return { title, description, start, end, poster };
-  }).filter((p) => p.start && p.end);
+  const programs = broadcasts
+    .slice(0, 50)
+    .map((b) => {
+      const desc = b?.Content?.Description || {};
+      const avail = Array.isArray(b?.Availabilities) ? b.Availabilities[0] : null;
+      const start = avail?.AvailabilityStart || null;
+      const end = avail?.AvailabilityEnd || null;
 
-  // ✅ add proper RSI channel icons
+      // Stage image → poster
+      const imgNode = b?.Content?.Nodes?.Items?.find((n) => n.Role === "Stage");
+      const poster = imgNode
+        ? `https://services.sg101.prd.sctv.ch/catalog/${imgNode.ContentPath}`
+        : null;
+
+      return {
+        title: desc.Title || "",
+        description: desc.Summary || desc.ShortSummary || "",
+        start,
+        end,
+        poster,
+      };
+    })
+    .filter((p) => p.start && p.end);
+
+  // Official RSI logos
   const logo =
     publicName === "RSI 1"
       ? "https://upload.wikimedia.org/wikipedia/commons/8/8e/RSI_La_1_-_Logo_2020.svg"
       : "https://upload.wikimedia.org/wikipedia/commons/2/2e/RSI_La_2_-_Logo_2020.svg";
 
-  // if no poster or poster is broken, front-end will auto fallback to logo
   return { name: publicName, epgName: publicName, logo, programs };
 }
 
@@ -135,7 +141,6 @@ async function main() {
     try {
       const j = await fetchJson(url);
       console.log("DEBUG", name, "keys:", Object.keys(j));
-      console.log("DEBUG", name, "Nodes.Items length:", j?.Nodes?.Items?.length);
       const ch = buildRSIChannel(j, name);
       if (ch) {
         add.push(ch);
