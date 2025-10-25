@@ -1,103 +1,48 @@
-// merge_epg.mjs
-// Merges: primary list.json + Rai Sport (epg.pw) + RSI 1 & RSI 2 (sctv)
-// Works with Node 20+ (GitHub Actions default)
+// safe_merge_epg.mjs
+import fs from "fs/promises";
+const MAIN = "https://tvit.leicaflorianrobert.dev/epg/list.json";
 
-import fs from 'fs/promises';
+async function fetchJson(u){const r=await fetch(u);if(!r.ok)throw Error(r.status);return r.json();}
+const clean = t=>String(t||"").toLowerCase().replace(/\s|-/g,"");
 
-const PRIMARY_URL = 'https://tvit.leicaflorianrobert.dev/epg/list.json';
+async function main(){
+  const base = await fetchJson(MAIN);
+  const out = Array.isArray(base)?base:[];
+  const today = new Date(), y=today.getUTCFullYear(), m=String(today.getUTCMonth()+1).padStart(2,"0"), d=String(today.getUTCDate()).padStart(2,"0");
+  const date = `${y}${m}${d}`, next=`${y}${m}${String(Number(d)+1).padStart(2,"0")}`;
+  const add=[];
 
-const normalize = (s) => String(s || '').toLowerCase().replace(/\s|-/g, '');
+  // --- Rai Sport ---
+  try{
+    const j=await fetchJson(`https://epg.pw/api/epg.json?lang=en&date=${date}&channel_id=392165`);
+    const list=(j.epg_list||[]).slice(0,50).map((p,i,a)=>({
+      title:p.title||"",description:p.desc||"",start:p.start_date,
+      end:a[i+1]?a[i+1].start_date:null,poster:null
+    }));
+    add.push({name:"Rai Sport",logo:j.icon||"",programs:list});
+  }catch(e){console.warn("Rai Sport",e.message);}
 
-function ymdUTC(d) {
-  const y = d.getUTCFullYear();
-  const m = String(d.getUTCMonth() + 1).padStart(2, '0');
-  const day = String(d.getUTCDate()).padStart(2, '0');
-  return `${y}${m}${day}`;
-}
+  // --- RSI helper ---
+  async function rsi(id,name){
+    try{
+      const j=await fetchJson(`https://services.sg101.prd.sctv.ch/catalog/tv/channels/list/(ids=${id};start=${date}0600;end=${next}0600;level=normal)`);
+      const ch=j.channels?.[0]; if(!ch) return;
+      const list=(ch.programs||[]).slice(0,50).map(p=>({
+        title:p.title||"",description:p.description||"",start:p.start,end:p.end,poster:p.image||null
+      }));
+      add.push({name,logo:ch.image||"",programs:list});
+    }catch(e){console.warn(name,e.message);}
+  }
+  await Promise.all([rsi(356,"RSI 1"),rsi(357,"RSI 2")]);
 
-function atUTC(d, h=0, min=0) {
-  return new Date(Date.UTC(d.getUTCFullYear(), d.getUTCMonth(), d.getUTCDate(), h, min));
-}
-
-async function fetchJson(url) {
-  const res = await fetch(url, { headers: { 'User-Agent': 'github-actions-merge-epg/1.0' } });
-  if (!res.ok) throw new Error(`Fetch failed ${res.status} ${url}`);
-  return await res.json();
-}
-
-// ---------- Rai Sport ----------
-function buildRaiSport(epgPwJson) {
-  const list = Array.isArray(epgPwJson?.epg_list) ? epgPwJson.epg_list : [];
-  const programs = list.map((item, idx) => {
-    const start = new Date(item.start_date);
-    const end = (idx < list.length - 1)
-      ? new Date(list[idx + 1].start_date)
-      : new Date(start.getTime() + 60 * 60 * 1000);
-    return { title: item.title || '', description: item.desc || null, start: start.toISOString(), end: end.toISOString(), poster: null };
-  });
-  return { name: 'Rai Sport', epgName: epgPwJson?.name || 'RAI Sport', logo: epgPwJson?.icon || '', source: 'epg.pw', programs };
-}
-
-// ---------- RSI ----------
-function buildRSI(apiJson, name, id) {
-  const ch = apiJson?.channels?.[0];
-  if (!ch || !Array.isArray(ch.programs)) return null;
-  const programs = ch.programs.map(p => ({
-    title: p.title || '',
-    description: p.description || null,
-    start: new Date(p.start).toISOString(),
-    end: new Date(p.end).toISOString(),
-    poster: p.image || null
-  }));
-  return { name, epgName: name, logo: ch.image || '', source: `sctv-${id}`, programs };
-}
-
-// ---------- Main ----------
-async function main() {
-  const today = new Date();
-  const todayUTC = ymdUTC(today);
-  const tomorrowUTC = ymdUTC(new Date(atUTC(today, 0, 0).getTime() + 24*60*60*1000));
-  const startParam = `${todayUTC}0600`;
-  const endParam   = `${tomorrowUTC}0600`;
-
-  const RAI_URL = `https://epg.pw/api/epg.json?lang=en&date=${todayUTC}&channel_id=392165`;
-  const RSI1_URL = `https://services.sg101.prd.sctv.ch/catalog/tv/channels/list/(ids=356;start=${startParam};end=${endParam};level=normal)`;
-  const RSI2_URL = `https://services.sg101.prd.sctv.ch/catalog/tv/channels/list/(ids=357;start=${startParam};end=${endParam};level=normal)`;
-
-  const primary = await fetchJson(PRIMARY_URL);
-  const channels = Array.isArray(primary) ? primary : [];
-
-  // Rai Sport
-  try {
-    const rai = buildRaiSport(await fetchJson(RAI_URL));
-    const i = channels.findIndex(ch => normalize(ch.name) === 'raisport');
-    if (i >= 0) channels[i] = { ...channels[i], ...rai };
-    else channels.push(rai);
-    console.log('Merged Rai Sport ✅');
-  } catch (e) {
-    console.warn('Rai Sport failed:', e.message);
+  // --- merge safely ---
+  for(const c of add){
+    const i=out.findIndex(x=>clean(x.name)===clean(c.name));
+    if(i>=0) out[i]={...out[i],...c}; else out.push(c);
   }
 
-  // RSI 1 and RSI 2
-  for (const def of [
-    { id: 356, name: 'RSI 1', url: RSI1_URL },
-    { id: 357, name: 'RSI 2', url: RSI2_URL }
-  ]) {
-    try {
-      const rsi = buildRSI(await fetchJson(def.url), def.name, def.id);
-      if (rsi) {
-        const i = channels.findIndex(ch => normalize(ch.name) === normalize(def.name));
-        if (i >= 0) channels[i] = { ...channels[i], ...rsi };
-        else channels.push(rsi);
-        console.log(`Merged ${def.name} ✅`);
-      } else console.warn(`No programs for ${def.name}`);
-    } catch (e) {
-      console.warn(`${def.name} failed:`, e.message);
-    }
-  }
-
-  await fs.writeFile('list.json', JSON.stringify(channels, null, 2), 'utf8');
-  console.log(`✅ list.json written (${channels.length} channels)`);
+  await fs.writeFile("list.json",JSON.stringify(out,null,2));
+  console.log("✅ merged",out.length,"channels");
 }
+main();
 
-main().catch(e => { console.error('Fatal:', e); process.exit(1); });
