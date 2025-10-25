@@ -1,45 +1,37 @@
-// filter_samsung_xml.mjs
-import fs from "fs/promises";
-import { XMLParser, XMLBuilder } from "fast-xml-parser";
+name: Filter SamsungTVPlus XML
 
-const SOURCE_URL = "https://cdn.jsdelivr.net/gh/matthuisman/i.mjh.nz/SamsungTVPlus/it.xml";
-const CHANNELS_FILE = "./channels.txt";
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
 
-async function fetchText(url) {
-  const r = await fetch(url, { headers: { "User-Agent": "github-actions-filter-samsung/1.0" } });
-  if (!r.ok) throw new Error(`Fetch ${r.status} ${url}`);
-  return r.text();
-}
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
 
-async function main() {
-  const xmlText = await fetchText(SOURCE_URL);
-  const wantedIds = (await fs.readFile(CHANNELS_FILE, "utf8"))
-    .split(/\r?\n/)
-    .map((x) => x.trim())
-    .filter(Boolean);
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
 
-  console.log("Keeping", wantedIds.length, "channels");
+      - name: Install deps
+        run: npm install         # ✅ changed from npm ci
 
-  const parser = new XMLParser({ ignoreAttributes: false, attributeNamePrefix: "" });
-  const xml = parser.parse(xmlText);
-  const tv = xml?.tv || {};
+      - name: Filter XML
+        run: node filter_samsung_xml.mjs
 
-  const channels = Array.isArray(tv.channel) ? tv.channel : (tv.channel ? [tv.channel] : []);
-  const programmes = Array.isArray(tv.programme) ? tv.programme : (tv.programme ? [tv.programme] : []);
+      - name: Commit & push filtered.xml
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add filtered.xml
+          git commit -m "Auto update filtered SamsungTVPlus XML" || echo "No changes"
+          git push
 
-  const filteredChannels = channels.filter((c) => wantedIds.includes(c.id));
-  const filteredProgs = programmes.filter((p) => wantedIds.includes(p.channel));
+      - name: Purge jsDelivr cache (optional)
+        run: |
+          curl -s "https://purge.jsdelivr.net/gh/${{ github.repository }}/filtered.xml" || true
 
-  const filtered = { tv: { channel: filteredChannels, programme: filteredProgs } };
-
-  const builder = new XMLBuilder({ ignoreAttributes: false, attributeNamePrefix: "" });
-  const xmlOut = builder.build(filtered);
-
-  await fs.writeFile("filtered.xml", xmlOut, "utf8");
-  console.log("✅ filtered.xml written with", filteredChannels.length, "channels and", filteredProgs.length, "programmes");
-}
-
-main().catch((e) => {
-  console.error("Fatal:", e);
-  process.exit(1);
-});
