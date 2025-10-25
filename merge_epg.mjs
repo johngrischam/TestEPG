@@ -1,5 +1,3 @@
-// merge_epg.mjs — extended, faithful to your working version
-
 import fs from "fs/promises";
 
 const PRIMARY_URL = "https://tvit.leicaflorianrobert.dev/epg/list.json";
@@ -49,9 +47,7 @@ function buildCandidates(contentPathRaw) {
   const bases = [`${BASE}/catalog`, `${BASE}`];
   const endings = ["", ".jpg", ".png", ".jpeg", ".webp"];
   const candidates = [];
-  for (const b of bases) {
-    for (const e of endings) candidates.push(`${b}${p}${e}`);
-  }
+  for (const b of bases) for (const e of endings) candidates.push(`${b}${p}${e}`);
   return candidates;
 }
 
@@ -92,7 +88,7 @@ function ensureChannelShape(ch) {
   return { name: String(name), epgName: String(epgName), logo: logo || undefined, programs };
 }
 
-// --- Build Rai Sport ---
+// --- Build Rai Sport (unchanged) ---
 function buildRaiSport(epgPwJson) {
   const list = Array.isArray(epgPwJson?.epg_list) ? epgPwJson.epg_list.slice(0, 50) : [];
   const programs = list.map((item, idx, arr) => {
@@ -141,38 +137,9 @@ async function buildRSIChannel(apiJson, publicName) {
   return { name: publicName, epgName: publicName, logo, programs };
 }
 
-// --- ✅ BLUE.CH generic parser ---
-async function buildBlueChannel(site_id, xmltv_id, displayName) {
-  const now = new Date();
-  const todayStr = ymdUTC(now);
-  const tomorrowStr = ymdUTC(addDaysUTC(now, 1));
-  const startParam = `${todayStr}0600`;
-  const endParam = `${tomorrowStr}0600`;
-  const url = `${BASE}/catalog/tv/channels/list/(ids=${site_id};start=${startParam};end=${endParam};level=normal)`;
-  try {
-    const json = await fetchJson(url);
-    const programsRaw = json?.Data?.[0]?.Programs || [];
-    const programs = programsRaw.map((p, i) => ({
-      title: p.Title || p.title || "",
-      description: p.ShortDescription || null,
-      start: p.Start || p.start || "",
-      end: p.End || p.end || "",
-      poster: null,
-    }));
-    return {
-      name: displayName,
-      epgName: displayName,
-      logo: null,
-      programs,
-    };
-  } catch (e) {
-    console.warn(`BLUE.CH ${displayName} fetch failed:`, e.message);
-    return null;
-  }
-}
-
 // --- main ---
 async function main() {
+  // 1) Base list
   let base;
   try {
     const raw = await fetchJson(PRIMARY_URL);
@@ -183,12 +150,14 @@ async function main() {
   }
   const out = base.map(ensureChannelShape);
 
+  // 2) Date window
   const today = new Date();
   const todayStr = ymdUTC(today);
   const tomorrowStr = ymdUTC(addDaysUTC(today, 1));
   const startParam = `${todayStr}0600`;
   const endParam = `${tomorrowStr}0600`;
 
+  // 3) Sources
   const RAI_URL = `https://epg.pw/api/epg.json?lang=en&date=${todayStr}&channel_id=392165`;
   const RSI1_URL = `${BASE}/catalog/tv/channels/list/(ids=356;start=${startParam};end=${endParam};level=normal)`;
   const RSI2_URL = `${BASE}/catalog/tv/channels/list/(ids=357;start=${startParam};end=${endParam};level=normal)`;
@@ -209,35 +178,20 @@ async function main() {
   async function fetchRSI(url, name) {
     try {
       const j = await fetchJson(url);
+      console.log("DEBUG", name, "keys:", Object.keys(j));
       const ch = await buildRSIChannel(j, name);
       if (ch) {
         add.push(ch);
-        console.log(`Merged ${name} (${ch.programs.length} programs)`);
-      } else console.warn(`No programs for ${name}`);
+        console.log(`Merged ${name} with ${ch.programs.length} programs`);
+      } else {
+        console.warn(`No programs for ${name}`);
+      }
     } catch (e) {
       console.warn(`${name} fetch failed:`, e.message);
     }
   }
   await fetchRSI(RSI1_URL, "RSI 1");
   await fetchRSI(RSI2_URL, "RSI 2");
-
-  // --- new tv.blue.ch channels (exact structure, no normalization) ---
-  const blueList = [
-    { xmltv_id: "LA7d.it", site_id: 239, name: "La 7d" },
-    { xmltv_id: "", site_id: 2015, name: "Warner TV Italy" },
-    { xmltv_id: "RaiGulp.it", site_id: 332, name: "Rai Gulp" },
-    { xmltv_id: "SuperTennis.it", site_id: 1386, name: "SuperTennis TV" },
-    { xmltv_id: "", site_id: 2064, name: "Radio Italia TV" },
-    { xmltv_id: "SkyTG24.it", site_id: 393, name: "Sky TG 24" },
-  ];
-
-  for (const ch of blueList) {
-    const built = await buildBlueChannel(ch.site_id, ch.xmltv_id, ch.name);
-    if (built) {
-      add.push(built);
-      console.log(`Merged ${ch.name} (${built.programs.length} programs)`);
-    }
-  }
 
   // Merge safely
   for (const c of add) {
@@ -257,6 +211,7 @@ main().catch((e) => {
   console.error("Fatal:", e);
   process.exit(1);
 });
+
 
 
 
