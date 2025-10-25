@@ -1,6 +1,7 @@
 import fs from "fs/promises";
 
 const PRIMARY_URL = "https://tvit.leicaflorianrobert.dev/epg/list.json";
+const BASE = "https://services.sg101.prd.sctv.ch";
 const norm = (s) => String(s || "").toLowerCase().replace(/\s|-/g, "");
 
 // --- tiny utils ---
@@ -17,6 +18,59 @@ async function fetchJson(url) {
   const r = await fetch(url, { headers: { "User-Agent": "github-actions-merge-epg/1.0" } });
   if (!r.ok) throw new Error(`Fetch ${r.status} ${url}`);
   return r.json();
+}
+
+// HEAD (or GET if HEAD blocked) with short timeout
+async function urlExists(url, timeoutMs = 6000) {
+  const ctrl = new AbortController();
+  const t = setTimeout(() => ctrl.abort(), timeoutMs);
+  try {
+    let r = await fetch(url, { method: "HEAD", redirect: "follow", signal: ctrl.signal });
+    if (r.ok) return true;
+    // some CDNs block HEAD; try GET without reading body
+    r = await fetch(url, { method: "GET", redirect: "follow", signal: ctrl.signal });
+    return r.ok;
+  } catch {
+    return false;
+  } finally {
+    clearTimeout(t);
+  }
+}
+
+// Build absolute URL candidates for a given ContentPath
+function buildCandidates(contentPathRaw) {
+  if (!contentPathRaw) return [];
+  const p = contentPathRaw.startsWith("/") ? contentPathRaw : "/" + contentPathRaw;
+
+  // Try with /catalog and without; also try common image extensions
+  const bases = [`${BASE}/catalog`, `${BASE}`];
+  const endings = ["", ".jpg", ".png", ".jpeg", ".webp"]; // try a few common
+  const candidates = [];
+
+  for (const b of bases) {
+    for (const e of endings) {
+      candidates.push(`${b}${p}${e}`);
+    }
+  }
+  return candidates;
+}
+
+// Try roles in priority order and return first working poster URL
+async function resolvePosterFromNodes(nodes) {
+  if (!nodes || !Array.isArray(nodes.Items)) return null;
+
+  const byRole = (role) => nodes.Items.find((n) => n.Role === role && n.ContentPath);
+
+  const roles = ["Stage", "Landscape", "Lane", "Title"];
+  for (const role of roles) {
+    const node = byRole(role);
+    if (!node?.ContentPath) continue;
+    const candidates = buildCandidates(node.ContentPath);
+    for (const cand of candidates) {
+      if (await urlExists(cand)) return cand;
+    }
+  }
+  return null;
 }
 
 // --- normalize base channel to your schema ---
@@ -44,7 +98,7 @@ function ensureChannelShape(ch) {
   return { name: String(name), epgName: String(epgName), logo: logo || undefined, programs };
 }
 
-// --- Build Rai Sport ---
+// --- Build Rai Sport (unchanged) ---
 function buildRaiSport(epgPwJson) {
   const list = Array.isArray(epgPwJson?.epg_list) ? epgPwJson.epg_list.slice(0, 50) : [];
   const programs = list.map((item, idx, arr) => {
@@ -64,46 +118,42 @@ function buildRaiSport(epgPwJson) {
   return { name: "Rai Sport", epgName: "Rai Sport", logo: epgPwJson?.icon || "", programs };
 }
 
-// --- ✅ Correct RSI parser (for sg101.prd.sctv.ch) ---
-function buildRSIChannel(apiJson, publicName) {
+// --- ✅ RSI parser with poster resolver ---
+async function buildRSIChannel(apiJson, publicName) {
   const broadcasts = apiJson?.Nodes?.Items?.[0]?.Content?.Nodes?.Items || [];
   if (!broadcasts.length) return null;
 
-  const programs = broadcasts
-    .slice(0, 50)
-    .map((b) => {
-      const desc = b?.Content?.Description || {};
-      const avail = Array.isArray(b?.Availabilities) ? b.Availabilities[0] : null;
-      const start = avail?.AvailabilityStart || null;
-      const end = avail?.AvailabilityEnd || null;
-
-      // Stage image → poster
-      const imgNode = b?.Content?.Nodes?.Items?.find((n) => n.Role === "Stage");
-      const poster = imgNode
-        ? `https://services.sg101.prd.sctv.ch/catalog/${imgNode.ContentPath}`
-        : null;
-
-      return {
-        title: desc.Title || "",
-        description: desc.Summary || desc.ShortSummary || "",
-        start,
-        end,
-        poster,
-      };
-    })
-    .filter((p) => p.start && p.end);
-
-  // Official RSI logos
+  // Official RSI logos (stable, public)
   const logo =
     publicName === "RSI 1"
       ? "https://upload.wikimedia.org/wikipedia/commons/8/8e/RSI_La_1_-_Logo_2020.svg"
       : "https://upload.wikimedia.org/wikipedia/commons/2/2e/RSI_La_2_-_Logo_2020.svg";
+
+  const programs = [];
+  // Resolve posters sequentially (keeps API/CDN happy & predictable)
+  for (const b of broadcasts.slice(0, 40)) {
+    const desc = b?.Content?.Description || {};
+    const avail = Array.isArray(b?.Availabilities) ? b.Availabilities[0] : null;
+    const start = avail?.AvailabilityStart || null;
+    const end = avail?.AvailabilityEnd || null;
+    if (!start || !end) continue;
+
+    const poster = await resolvePosterFromNodes(b?.Content?.Nodes);
+    programs.push({
+      title: desc.Title || "",
+      description: desc.Summary || desc.ShortSummary || "",
+      start,
+      end,
+      poster: poster || null, // if null, your frontend will show the logo
+    });
+  }
 
   return { name: publicName, epgName: publicName, logo, programs };
 }
 
 // --- main ---
 async function main() {
+  // 1) Base list
   let base;
   try {
     const raw = await fetchJson(PRIMARY_URL);
@@ -114,19 +164,22 @@ async function main() {
   }
 
   const out = base.map(ensureChannelShape);
+
+  // 2) Date window
   const today = new Date();
   const todayStr = ymdUTC(today);
   const tomorrowStr = ymdUTC(addDaysUTC(today, 1));
   const startParam = `${todayStr}0600`;
   const endParam = `${tomorrowStr}0600`;
 
+  // 3) Sources
   const RAI_URL = `https://epg.pw/api/epg.json?lang=en&date=${todayStr}&channel_id=392165`;
-  const RSI1_URL = `https://services.sg101.prd.sctv.ch/catalog/tv/channels/list/(ids=356;start=${startParam};end=${endParam};level=normal)`;
-  const RSI2_URL = `https://services.sg101.prd.sctv.ch/catalog/tv/channels/list/(ids=357;start=${startParam};end=${endParam};level=normal)`;
+  const RSI1_URL = `${BASE}/catalog/tv/channels/list/(ids=356;start=${startParam};end=${endParam};level=normal)`;
+  const RSI2_URL = `${BASE}/catalog/tv/channels/list/(ids=357;start=${startParam};end=${endParam};level=normal)`;
 
   const add = [];
 
-  // --- Rai Sport ---
+  // Rai Sport
   try {
     const raiJson = await fetchJson(RAI_URL);
     const rai = buildRaiSport(raiJson);
@@ -136,15 +189,15 @@ async function main() {
     console.warn("Rai Sport fetch failed:", e.message);
   }
 
-  // --- RSI 1 / RSI 2 ---
+  // RSI 1 / RSI 2 (with poster probing)
   async function fetchRSI(url, name) {
     try {
       const j = await fetchJson(url);
       console.log("DEBUG", name, "keys:", Object.keys(j));
-      const ch = buildRSIChannel(j, name);
+      const ch = await buildRSIChannel(j, name);
       if (ch) {
         add.push(ch);
-        console.log(`Merged ${name}`);
+        console.log(`Merged ${name} with ${ch.programs.length} programs`);
       } else {
         console.warn(`No programs for ${name}`);
       }
@@ -153,9 +206,10 @@ async function main() {
     }
   }
 
-  await Promise.all([fetchRSI(RSI1_URL, "RSI 1"), fetchRSI(RSI2_URL, "RSI 2")]);
+  await fetchRSI(RSI1_URL, "RSI 1");
+  await fetchRSI(RSI2_URL, "RSI 2");
 
-  // --- merge safely ---
+  // Merge safely
   for (const c of add) {
     const i = out.findIndex(
       (x) => norm(x.name) === norm(c.name) || norm(x.epgName) === norm(c.epgName)
