@@ -1,37 +1,48 @@
-name: Filter SamsungTVPlus XML
+import fs from "fs";
+import { XMLParser, XMLBuilder } from "fast-xml-parser";
 
-on:
-  schedule:
-    - cron: "0 * * * *"
-  workflow_dispatch:
+// Load your channel ID list
+const channels = fs
+  .readFileSync("channels.txt", "utf8")
+  .split("\n")
+  .map((x) => x.trim())
+  .filter(Boolean);
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+const SOURCE_URL = "https://cdn.jsdelivr.net/gh/matthuisman/i.mjh.nz/SamsungTVPlus/it.xml";
+const OUTPUT_FILE = "filtered.xml";
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: "20"
+async function main() {
+  console.log("Downloading SamsungTVPlus XML…");
+  const res = await fetch(SOURCE_URL);
+  const xmlText = await res.text();
 
-      - name: Install deps
-        run: npm install         # ✅ changed from npm ci
+  const parser = new XMLParser({ ignoreAttributes: false });
+  const data = parser.parse(xmlText);
 
-      - name: Filter XML
-        run: node filter_samsung_xml.mjs
+  // Filter channels by ID
+  const filteredChannels = (data.tv.channel || []).filter((ch) =>
+    channels.includes(ch["@_id"])
+  );
+  const filteredPrograms = (data.tv.programme || []).filter((p) =>
+    channels.includes(p["@_channel"])
+  );
 
-      - name: Commit & push filtered.xml
-        run: |
-          git config user.name "github-actions"
-          git config user.email "actions@github.com"
-          git add filtered.xml
-          git commit -m "Auto update filtered SamsungTVPlus XML" || echo "No changes"
-          git push
+  const output = {
+    tv: {
+      ...data.tv,
+      channel: filteredChannels,
+      programme: filteredPrograms,
+    },
+  };
 
-      - name: Purge jsDelivr cache (optional)
-        run: |
-          curl -s "https://purge.jsdelivr.net/gh/${{ github.repository }}/filtered.xml" || true
+  const builder = new XMLBuilder({ ignoreAttributes: false });
+  const xmlOut = builder.build(output);
 
+  fs.writeFileSync(OUTPUT_FILE, xmlOut, "utf8");
+  console.log(`✅ Filtered XML written to ${OUTPUT_FILE}`);
+}
+
+main().catch((err) => {
+  console.error("Fatal:", err);
+  process.exit(1);
+});
