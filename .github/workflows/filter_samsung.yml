@@ -1,15 +1,23 @@
 name: Filter SamsungTVPlus XML
 
 on:
-  schedule:
-    - cron: "0 * * * *"   # every hour
+  # Run manually from the Actions tab
   workflow_dispatch:
+    inputs:
+      run_samsung:
+        description: "Run SamsungTVPlus XML Filter"
+        required: false
+        default: "yes"
+  # Auto run every hour, at minute 15 (offset from update.yml)
+  schedule:
+    - cron: "15 * * * *"
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Setup Node.js
@@ -17,10 +25,10 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Install deps
-        run: npm ci
+      - name: Install dependencies
+        run: npm install
 
-      - name: Filter XML
+      - name: Run SamsungTVPlus filter
         run: node filter_samsung_xml.mjs
 
       - name: Commit & push filtered.xml
@@ -28,7 +36,7 @@ jobs:
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add filtered.xml
-          git commit -m "Auto update filtered SamsungTVPlus XML" || echo "No changes"
+          git commit -m "Auto update SamsungTVPlus filtered.xml" || echo "No changes to commit"
           git push
 
       - name: Purge jsDelivr cache (optional)
