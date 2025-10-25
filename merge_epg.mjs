@@ -1,8 +1,8 @@
+// merge_epg.mjs
 import fs from "fs/promises";
 
 const PRIMARY_URL = "https://tvit.leicaflorianrobert.dev/epg/list.json";
 const BASE = "https://services.sg101.prd.sctv.ch";
-
 const norm = (s) => String(s || "").toLowerCase().replace(/\s|-/g, "");
 
 // --- tiny utils ---
@@ -13,64 +13,21 @@ function ymdUTC(d) {
   return `${y}${m}${day}`;
 }
 function addDaysUTC(d, days) {
-  return new Date(Date.UTC(d.getUTCFullYear(), d.getUTCMonth(), d.getUTCDate() + days));
+  return new Date(Date.UTC(d.getUTCFullYear(), d.getUTCMonth(), d.getDate() + days));
 }
-
 async function fetchJson(url) {
-  const r = await fetch(url, {
-    headers: { "User-Agent": "github-actions-merge-epg/1.0" },
-  });
+  const r = await fetch(url, { headers: { "User-Agent": "github-actions-merge-epg/1.0" } });
   if (!r.ok) throw new Error(`Fetch ${r.status} ${url}`);
   return r.json();
 }
 
-// HEAD (or GET if HEAD blocked) with short timeout
-async function urlExists(url, timeoutMs = 6000) {
-  const ctrl = new AbortController();
-  const t = setTimeout(() => ctrl.abort(), timeoutMs);
-  try {
-    let r = await fetch(url, { method: "HEAD", redirect: "follow", signal: ctrl.signal });
-    if (r.ok) return true;
-    r = await fetch(url, { method: "GET", redirect: "follow", signal: ctrl.signal });
-    return r.ok;
-  } catch {
-    return false;
-  } finally {
-    clearTimeout(t);
-  }
-}
-
-// Build absolute URL candidates for a given ContentPath
-function buildCandidates(contentPathRaw) {
-  if (!contentPathRaw) return [];
-  const p = contentPathRaw.startsWith("/") ? contentPathRaw : "/" + contentPathRaw;
-  const bases = [`${BASE}/catalog`, `${BASE}`];
-  const endings = ["", ".jpg", ".png", ".jpeg", ".webp"];
-  const candidates = [];
-  for (const b of bases) for (const e of endings) candidates.push(`${b}${p}${e}`);
-  return candidates;
-}
-
-// Try roles in priority order and return first working poster URL
-async function resolvePosterFromNodes(nodes) {
-  if (!nodes || !Array.isArray(nodes.Items)) return null;
-  const byRole = (role) => nodes.Items.find((n) => n.Role === role && n.ContentPath);
-  const roles = ["Stage", "Landscape", "Lane", "Title"];
-  for (const role of roles) {
-    const node = byRole(role);
-    if (!node?.ContentPath) continue;
-    const candidates = buildCandidates(node.ContentPath);
-    for (const cand of candidates) if (await urlExists(cand)) return cand;
-  }
-  return null;
-}
-
-// --- normalize base channel to your schema ---
+// --- normalize base channel to your schema (defensive, no shape changes to other channels) ---
 function ensureChannelShape(ch) {
   const name = ch?.name || ch?.epgName || ch?.channel || "";
   const epgName = ch?.epgName || name;
   const logo = ch?.logo || ch?.image || null;
   const programsIn = Array.isArray(ch?.programs) ? ch.programs : [];
+
   const programs = programsIn
     .map((p) => {
       const title = p?.title || "";
@@ -85,10 +42,11 @@ function ensureChannelShape(ch) {
       return { title, description, start, end, poster };
     })
     .filter((p) => p.start && p.end);
+
   return { name: String(name), epgName: String(epgName), logo: logo || undefined, programs };
 }
 
-// --- Build Rai Sport (unchanged) ---
+// --- Rai Sport from epg.pw (unchanged) ---
 function buildRaiSport(epgPwJson) {
   const list = Array.isArray(epgPwJson?.epg_list) ? epgPwJson.epg_list.slice(0, 50) : [];
   const programs = list.map((item, idx, arr) => {
@@ -108,38 +66,62 @@ function buildRaiSport(epgPwJson) {
   return { name: "Rai Sport", epgName: "Rai Sport", logo: epgPwJson?.icon || "", programs };
 }
 
-// --- ✅ RSI parser with poster resolver ---
-async function buildRSIChannel(apiJson, publicName) {
-  const broadcasts = apiJson?.Nodes?.Items?.[0]?.Content?.Nodes?.Items || [];
-  if (!broadcasts.length) return null;
+// --- helper: build RSI poster URL from a content node (confirmed working format) ---
+function posterUrlFromContentPath(contentPath) {
+  if (!contentPath) return null;
+  // Example: tv/program/p20687899bh10aa_BannerL1  ->  /content/images/tv/program/p20687899bh10aa_BannerL1_w1920.webp
+  const cp = String(contentPath).trim().replace(/^\/+/, "");
+  return `${BASE}/content/images/${cp}_w1920.webp`;
+}
 
-  const logo =
-    publicName === "RSI 1"
-      ? "https://upload.wikimedia.org/wikipedia/commons/8/8e/RSI_La_1_-_Logo_2020.svg"
-      : "https://upload.wikimedia.org/wikipedia/commons/2/2e/RSI_La_2_-_Logo_2020.svg";
+// --- RSI parser using Lane (preferred) -> Stage -> Landscape -> Title; supports both nestings ---
+function buildRSIChannel(apiJson, publicName) {
+  const broadcasts =
+    apiJson?.Nodes?.Items?.[0]?.Content?.Nodes?.Items ||
+    apiJson?.Nodes?.Items?.[0]?.Nodes?.Items ||
+    [];
+  if (!Array.isArray(broadcasts) || !broadcasts.length) return null;
 
-  const programs = [];
-  for (const b of broadcasts.slice(0, 40)) {
+  const programs = broadcasts.slice(0, 50).map((b) => {
     const desc = b?.Content?.Description || {};
     const avail = Array.isArray(b?.Availabilities) ? b.Availabilities[0] : null;
     const start = avail?.AvailabilityStart || null;
     const end = avail?.AvailabilityEnd || null;
-    if (!start || !end) continue;
-    const poster = await resolvePosterFromNodes(b?.Content?.Nodes);
-    programs.push({
+    if (!start || !end) return null;
+
+    const nodes = b?.Content?.Nodes?.Items || [];
+    // Prefer Banner image (Lane) that maps to *_BannerL1_w1920.webp (as verified)
+    const preferOrder = ["Lane", "Stage", "Landscape", "Title"];
+    let poster = null;
+    for (const role of preferOrder) {
+      const n = nodes.find((x) => x?.Role === role && x?.ContentPath);
+      if (n?.ContentPath) {
+        poster = posterUrlFromContentPath(n.ContentPath);
+        if (poster) break;
+      }
+    }
+
+    return {
       title: desc.Title || "",
       description: desc.Summary || desc.ShortSummary || "",
       start,
       end,
       poster: poster || null,
-    });
-  }
+    };
+  }).filter(Boolean);
+
+  // Stable public logos for frontend fallback (kept in schema)
+  const logo =
+    publicName === "RSI 1"
+      ? "https://upload.wikimedia.org/wikipedia/commons/8/8e/RSI_La_1_-_Logo_2020.svg"
+      : "https://upload.wikimedia.org/wikipedia/commons/2/2e/RSI_La_2_-_Logo_2020.svg";
+
   return { name: publicName, epgName: publicName, logo, programs };
 }
 
 // --- main ---
 async function main() {
-  // 1) Base list
+  // 1) Load base list as-is (do not alter shape beyond normalization)
   let base;
   try {
     const raw = await fetchJson(PRIMARY_URL);
@@ -148,9 +130,10 @@ async function main() {
     console.error("Base list fetch failed:", e.message);
     base = [];
   }
+
   const out = base.map(ensureChannelShape);
 
-  // 2) Date window
+  // 2) Date window (UTC 06:00 → next day 06:00)
   const today = new Date();
   const todayStr = ymdUTC(today);
   const tomorrowStr = ymdUTC(addDaysUTC(today, 1));
@@ -161,11 +144,10 @@ async function main() {
   const RAI_URL = `https://epg.pw/api/epg.json?lang=en&date=${todayStr}&channel_id=392165`;
   const RSI1_URL = `${BASE}/catalog/tv/channels/list/(ids=356;start=${startParam};end=${endParam};level=normal)`;
   const RSI2_URL = `${BASE}/catalog/tv/channels/list/(ids=357;start=${startParam};end=${endParam};level=normal)`;
-  const LA7D_URL = `${BASE}/catalog/tv/channels/list/(ids=239;start=${startParam};end=${endParam};level=normal)`;
 
   const add = [];
 
-  // Rai Sport
+  // --- Rai Sport
   try {
     const raiJson = await fetchJson(RAI_URL);
     const rai = buildRaiSport(raiJson);
@@ -175,12 +157,11 @@ async function main() {
     console.warn("Rai Sport fetch failed:", e.message);
   }
 
-  // RSI 1 / RSI 2
+  // --- RSI 1 / RSI 2
   async function fetchRSI(url, name) {
     try {
       const j = await fetchJson(url);
-      console.log("DEBUG", name, "keys:", Object.keys(j));
-      const ch = await buildRSIChannel(j, name);
+      const ch = buildRSIChannel(j, name);
       if (ch) {
         add.push(ch);
         console.log(`Merged ${name} with ${ch.programs.length} programs`);
@@ -191,28 +172,11 @@ async function main() {
       console.warn(`${name} fetch failed:`, e.message);
     }
   }
+
   await fetchRSI(RSI1_URL, "RSI 1");
   await fetchRSI(RSI2_URL, "RSI 2");
 
-  // --- La 7d (inline, no extra helper) ---
-  try {
-    const j = await fetchJson(LA7D_URL);
-    const programsRaw = j?.Data?.[0]?.Programs || [];
-    const programs = programsRaw.map((p) => ({
-      title: p?.Title || "",
-      description: p?.ShortDescription ?? p?.Description ?? null,
-      start: p?.Start || "",
-      end: p?.End || "",
-      poster: null,
-    }));
-    const la7d = { name: "La 7d", epgName: "La 7d", logo: null, programs };
-    add.push(la7d);
-    console.log(`Merged La 7d with ${programs.length} programs`);
-  } catch (e) {
-    console.warn("La 7d fetch failed:", e.message);
-  }
-
-  // Merge safely
+  // 4) Merge/replace into out (do not inflate size or alter other channels)
   for (const c of add) {
     const i = out.findIndex(
       (x) => norm(x.name) === norm(c.name) || norm(x.epgName) === norm(c.epgName)
@@ -222,6 +186,7 @@ async function main() {
     else out.push(safeC);
   }
 
+  // 5) Write final list
   await fs.writeFile("list.json", JSON.stringify(out, null, 2), "utf8");
   console.log(`✅ list.json written with ${out.length} channels (strict schema)`);
 }
@@ -230,6 +195,7 @@ main().catch((e) => {
   console.error("Fatal:", e);
   process.exit(1);
 });
+
 
 
 
