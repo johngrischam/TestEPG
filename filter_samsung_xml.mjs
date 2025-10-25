@@ -1,7 +1,6 @@
 import fs from "fs";
 import { XMLParser, XMLBuilder } from "fast-xml-parser";
 
-// Load your channel ID list
 const channels = fs
   .readFileSync("channels.txt", "utf8")
   .split("\n")
@@ -19,13 +18,19 @@ async function main() {
   const parser = new XMLParser({ ignoreAttributes: false });
   const data = parser.parse(xmlText);
 
-  // Filter channels by ID
+  // ✅ filter <channel> list safely
   const filteredChannels = (data.tv.channel || []).filter((ch) =>
-    channels.includes(ch["@_id"])
+    channels.includes(ch["@_id"]?.trim?.() || ch.id || "")
   );
-  const filteredPrograms = (data.tv.programme || []).filter((p) =>
-    channels.includes(p["@_channel"])
-  );
+
+  // ✅ filter <programme> list safely by channel attribute
+  const filteredPrograms = (data.tv.programme || []).filter((p) => {
+    const chAttr = p["@_channel"]?.trim?.() || p.channel || "";
+    return channels.includes(chAttr);
+  });
+
+  console.log(`📺 Channels kept: ${filteredChannels.length}`);
+  console.log(`🎬 Programmes kept: ${filteredPrograms.length}`);
 
   const output = {
     tv: {
@@ -41,6 +46,11 @@ async function main() {
   fs.writeFileSync(OUTPUT_FILE, xmlOut, "utf8");
   console.log(`✅ Filtered XML written to ${OUTPUT_FILE}`);
 }
+
+main().catch((err) => {
+  console.error("Fatal:", err);
+  process.exit(1);
+});
 
 main().catch((err) => {
   console.error("Fatal:", err);
