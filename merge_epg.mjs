@@ -1,11 +1,25 @@
 // merge_epg.mjs
+// --- EPG Builder / Merger ---
+// Works with GitHub @main branch fix
+// Generates list.json for https://cdn.jsdelivr.net/gh/johngrischam/TestEPG@main/list.json
+
 import fs from "fs/promises";
 
+const OUTPUT = "list.json";
 const PRIMARY_URL = "https://tvit.leicaflorianrobert.dev/epg/list.json";
 const BASE = "https://services.sg101.prd.sctv.ch";
-const norm = (s) => String(s || "").toLowerCase().replace(/\s|-/g, "");
 
-// --- tiny utils ---
+// --- Helpers ---
+function norm(s) {
+  return String(s || "").toLowerCase().replace(/\s|-/g, "");
+}
+
+async function fetchJson(url) {
+  const res = await fetch(url);
+  if (!res.ok) throw new Error(`Failed to fetch ${url}: ${res.status}`);
+  return res.json();
+}
+
 function ymdUTC(d) {
   const y = d.getUTCFullYear();
   const m = String(d.getUTCMonth() + 1).padStart(2, "0");
@@ -13,186 +27,91 @@ function ymdUTC(d) {
   return `${y}${m}${day}`;
 }
 function addDaysUTC(d, days) {
-  return new Date(Date.UTC(d.getUTCFullYear(), d.getUTCMonth(), d.getDate() + days));
-}
-async function fetchJson(url) {
-  const r = await fetch(url, { headers: { "User-Agent": "github-actions-merge-epg/1.0" } });
-  if (!r.ok) throw new Error(`Fetch ${r.status} ${url}`);
-  return r.json();
+  const copy = new Date(d);
+  copy.setUTCDate(copy.getUTCDate() + days);
+  return copy;
 }
 
-// --- normalize base channel to your schema (defensive, no shape changes to other channels) ---
-function ensureChannelShape(ch) {
-  const name = ch?.name || ch?.epgName || ch?.channel || "";
-  const epgName = ch?.epgName || name;
-  const logo = ch?.logo || ch?.image || null;
-  const programsIn = Array.isArray(ch?.programs) ? ch.programs : [];
+// --- Channels to include ---
+const CHANNELS = [
+  // RSI working channels
+  { site: "tv.blue.ch", lang: "it", xmltv_id: "RSI1.it", site_id: "356", name: "RSI 1" },
+  { site: "tv.blue.ch", lang: "it", xmltv_id: "RSI2.it", site_id: "357", name: "RSI 2" },
 
-  const programs = programsIn
-    .map((p) => {
-      const title = p?.title || "";
-      const description = p?.description ?? p?.desc ?? null;
-      const start = p?.start ? new Date(p.start).toISOString() : null;
-      const end = p?.end
-        ? new Date(p.end).toISOString()
-        : start
-        ? new Date(new Date(start).getTime() + 60 * 60 * 1000).toISOString()
-        : null;
-      const poster = p?.poster ?? p?.image ?? null;
-      return { title, description, start, end, poster };
-    })
-    .filter((p) => p.start && p.end);
+  // === NEW CHANNELS ===
+  { site: "tv.blue.ch", lang: "it", xmltv_id: "LA7d.it", site_id: "239", name: "La 7d" },
+  { site: "tv.blue.ch", lang: "it", xmltv_id: "RaiMovie.it", site_id: "334", name: "Rai Movie" },
+  { site: "tv.blue.ch", lang: "it", xmltv_id: "", site_id: "2015", name: "Warner TV Italy" },
+  { site: "tv.blue.ch", lang: "it", xmltv_id: "RaiGulp.it", site_id: "332", name: "Rai Gulp" },
+  { site: "tv.blue.ch", lang: "it", xmltv_id: "SuperTennis.it", site_id: "1386", name: "SuperTennis TV" },
+  { site: "tv.blue.ch", lang: "it", xmltv_id: "", site_id: "2064", name: "Radio Italia TV" },
+  { site: "tv.blue.ch", lang: "it", xmltv_id: "SkyTG24.it", site_id: "393", name: "Sky TG 24" },
+];
 
-  return { name: String(name), epgName: String(epgName), logo: logo || undefined, programs };
-}
+// --- Aliases for front-end normalization ---
+// These ensure your <strong class="zappr-text"> names map correctly to EPG channels
+const ALIASES = {
+  "la7cinema": "la7d",
+  "warnertv": "warnertvitaly",
+  "skytg24": "skytg24",
+  "raimovie": "raimovie",
+  "raigulp": "raigulp",
+  "supertennistv": "supertennistv",
+  "radioitaliatv": "radioitaliatv",
+  "rsi1": "rsi1",
+  "rsi2": "rsi2"
+};
 
-// --- Rai Sport from epg.pw (unchanged) ---
-function buildRaiSport(epgPwJson) {
-  const list = Array.isArray(epgPwJson?.epg_list) ? epgPwJson.epg_list.slice(0, 50) : [];
-  const programs = list.map((item, idx, arr) => {
-    const start = new Date(item.start_date);
-    const end =
-      idx < arr.length - 1
-        ? new Date(arr[idx + 1].start_date)
-        : new Date(start.getTime() + 60 * 60 * 1000);
-    return {
-      title: item.title || "",
-      description: item.desc ?? null,
-      start: start.toISOString(),
-      end: end.toISOString(),
-      poster: null,
-    };
-  });
-  return { name: "Rai Sport", epgName: "Rai Sport", logo: epgPwJson?.icon || "", programs };
-}
-
-// --- helper: build RSI poster URL from a content node (confirmed working format) ---
-function posterUrlFromContentPath(contentPath) {
-  if (!contentPath) return null;
-  // Example: tv/program/p20687899bh10aa_BannerL1  ->  /content/images/tv/program/p20687899bh10aa_BannerL1_w1920.webp
-  const cp = String(contentPath).trim().replace(/^\/+/, "");
-  return `${BASE}/content/images/${cp}_w1920.webp`;
-}
-
-// --- RSI parser using Lane (preferred) -> Stage -> Landscape -> Title; supports both nestings ---
-function buildRSIChannel(apiJson, publicName) {
-  const broadcasts =
-    apiJson?.Nodes?.Items?.[0]?.Content?.Nodes?.Items ||
-    apiJson?.Nodes?.Items?.[0]?.Nodes?.Items ||
-    [];
-  if (!Array.isArray(broadcasts) || !broadcasts.length) return null;
-
-  const programs = broadcasts.slice(0, 50).map((b) => {
-    const desc = b?.Content?.Description || {};
-    const avail = Array.isArray(b?.Availabilities) ? b.Availabilities[0] : null;
-    const start = avail?.AvailabilityStart || null;
-    const end = avail?.AvailabilityEnd || null;
-    if (!start || !end) return null;
-
-    const nodes = b?.Content?.Nodes?.Items || [];
-    // Prefer Banner image (Lane) that maps to *_BannerL1_w1920.webp (as verified)
-    const preferOrder = ["Lane", "Stage", "Landscape", "Title"];
-    let poster = null;
-    for (const role of preferOrder) {
-      const n = nodes.find((x) => x?.Role === role && x?.ContentPath);
-      if (n?.ContentPath) {
-        poster = posterUrlFromContentPath(n.ContentPath);
-        if (poster) break;
-      }
-    }
-
-    return {
-      title: desc.Title || "",
-      description: desc.Summary || desc.ShortSummary || "",
-      start,
-      end,
-      poster: poster || null,
-    };
-  }).filter(Boolean);
-
-  // Stable public logos for frontend fallback (kept in schema)
-  const logo =
-    publicName === "RSI 1"
-      ? "https://upload.wikimedia.org/wikipedia/commons/8/8e/RSI_La_1_-_Logo_2020.svg"
-      : "https://upload.wikimedia.org/wikipedia/commons/2/2e/RSI_La_2_-_Logo_2020.svg";
-
-  return { name: publicName, epgName: publicName, logo, programs };
-}
-
-// --- main ---
+// --- Main merge function ---
 async function main() {
-  // 1) Load base list as-is (do not alter shape beyond normalization)
-  let base;
-  try {
-    const raw = await fetchJson(PRIMARY_URL);
-    base = Array.isArray(raw) ? raw : [];
-  } catch (e) {
-    console.error("Base list fetch failed:", e.message);
-    base = [];
-  }
+  const now = new Date();
+  const start = `${ymdUTC(now)}0600`;
+  const end = `${ymdUTC(addDaysUTC(now, 1))}0600`;
 
-  const out = base.map(ensureChannelShape);
+  console.log("Merging EPG data...");
+  const primary = await fetchJson(PRIMARY_URL).catch(() => []);
+  const merged = Array.isArray(primary) ? [...primary] : [];
 
-  // 2) Date window (UTC 06:00 → next day 06:00)
-  const today = new Date();
-  const todayStr = ymdUTC(today);
-  const tomorrowStr = ymdUTC(addDaysUTC(today, 1));
-  const startParam = `${todayStr}0600`;
-  const endParam = `${tomorrowStr}0600`;
+  for (const ch of CHANNELS) {
+    const id = ch.site_id;
+    const url = `${BASE}/catalog/tv/channels/list/(ids=${id};start=${start};end=${end};level=normal)`;
+    console.log("Fetching", ch.name, url);
 
-  // 3) Sources
-  const RAI_URL = `https://epg.pw/api/epg.json?lang=en&date=${todayStr}&channel_id=392165`;
-  const RSI1_URL = `${BASE}/catalog/tv/channels/list/(ids=356;start=${startParam};end=${endParam};level=normal)`;
-  const RSI2_URL = `${BASE}/catalog/tv/channels/list/(ids=357;start=${startParam};end=${endParam};level=normal)`;
-
-  const add = [];
-
-  // --- Rai Sport
-  try {
-    const raiJson = await fetchJson(RAI_URL);
-    const rai = buildRaiSport(raiJson);
-    add.push(rai);
-    console.log("Merged Rai Sport");
-  } catch (e) {
-    console.warn("Rai Sport fetch failed:", e.message);
-  }
-
-  // --- RSI 1 / RSI 2
-  async function fetchRSI(url, name) {
     try {
-      const j = await fetchJson(url);
-      const ch = buildRSIChannel(j, name);
-      if (ch) {
-        add.push(ch);
-        console.log(`Merged ${name} with ${ch.programs.length} programs`);
-      } else {
-        console.warn(`No programs for ${name}`);
+      const data = await fetchJson(url);
+      const programs = data?.Data?.[0]?.Programs || [];
+      if (!programs.length) {
+        console.warn(`⚠️ No programs found for ${ch.name}`);
+        continue;
       }
-    } catch (e) {
-      console.warn(`${name} fetch failed:`, e.message);
+
+      // Normalize aliases for EPG front-end match
+      const key = norm(ch.name);
+      const alias = Object.entries(ALIASES).find(([k, v]) => v === key || k === key);
+      const normalizedName = alias ? alias[0] : ch.name;
+
+      merged.push({
+        site: ch.site,
+        lang: ch.lang,
+        xmltv_id: ch.xmltv_id,
+        site_id: ch.site_id,
+        name: ch.name,
+        alias: normalizedName,
+        programs,
+      });
+
+      console.log(`✅ Added ${ch.name} (${programs.length} programs)`);
+    } catch (err) {
+      console.error(`❌ Failed ${ch.name}:`, err.message);
     }
   }
 
-  await fetchRSI(RSI1_URL, "RSI 1");
-  await fetchRSI(RSI2_URL, "RSI 2");
-
-  // 4) Merge/replace into out (do not inflate size or alter other channels)
-  for (const c of add) {
-    const i = out.findIndex(
-      (x) => norm(x.name) === norm(c.name) || norm(x.epgName) === norm(c.epgName)
-    );
-    const safeC = ensureChannelShape(c);
-    if (i >= 0) out[i] = { ...out[i], ...safeC, programs: safeC.programs };
-    else out.push(safeC);
-  }
-
-  // 5) Write final list
-  await fs.writeFile("list.json", JSON.stringify(out, null, 2), "utf8");
-  console.log(`✅ list.json written with ${out.length} channels (strict schema)`);
+  await fs.writeFile(OUTPUT, JSON.stringify(merged, null, 2), "utf8");
+  console.log(`✅ Done. ${merged.length} total channels written to ${OUTPUT}`);
 }
 
-main().catch((e) => {
-  console.error("Fatal:", e);
+main().catch((err) => {
+  console.error("Fatal error:", err);
   process.exit(1);
 });
 
