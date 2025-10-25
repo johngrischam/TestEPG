@@ -11720,6 +11720,69 @@
         "start": "2025-10-26T01:25:00.000Z",
         "end": "2025-10-26T02:00:00.000Z",
         "poster": "https://services.sg101.prd.sctv.ch/catalog/tv/program/p11163695ih10ae_Iconic"
+      },
+      {
+        "title": "Telegiornale",
+        "description": "L'appuntamento quotidiano con le ultime notizie di attualità nazionali, internazionali e anche regionali, presentate sempre con uno stile diretto. A cura della redazione giornalistica della rete.",
+        "start": "2025-10-26T02:00:00.000Z",
+        "end": "2025-10-26T04:00:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/catalog/tv/program/p11164465ih8ad_Iconic"
+      },
+      {
+        "title": "In volo sulla Svizzera italiana",
+        "description": "Un volo spettacolare sui paesaggi unici che costellano Canton Ticino e Grigioni italiano. Vallate e monti, nuclei e urbanizzazioni più recenti, lunghi nastri di autostrade e ferrovie.",
+        "start": "2025-10-26T04:00:00.000Z",
+        "end": "2025-10-26T04:10:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/catalog/tv/program/p12280913ih10ad_Iconic"
+      },
+      {
+        "title": "TG Notte",
+        "description": "Ripercorriamo le ultime notizie della giornata con aggiornamenti sull'attualità della sera.",
+        "start": "2025-10-26T04:10:00.000Z",
+        "end": "2025-10-26T04:15:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/catalog/tv/program/p31038426ih8aa_Iconic"
+      },
+      {
+        "title": "Meteo",
+        "description": "Tutti i colori del tempo: uno sguardo alle previsioni meteo per oggi e i prossimi giorni.",
+        "start": "2025-10-26T04:15:00.000Z",
+        "end": "2025-10-26T04:20:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/catalog/tv/program/p11163437bdh10ab_Backdrop"
+      },
+      {
+        "title": "Il quotidiano",
+        "description": "Le ultime notizie nazionali ed internazionali: Il quotidiano di attualità della Svizzera Italiana.",
+        "start": "2025-10-26T04:20:00.000Z",
+        "end": "2025-10-26T04:55:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/catalog/tv/program/p11163695ih10ae_Iconic"
+      },
+      {
+        "title": "Telegiornale",
+        "description": "L'appuntamento quotidiano con le ultime notizie di attualità nazionali, internazionali e anche regionali, presentate sempre con uno stile diretto. A cura della redazione giornalistica della rete.",
+        "start": "2025-10-26T04:55:00.000Z",
+        "end": "2025-10-26T05:20:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/catalog/tv/program/p11164465ih8ad_Iconic"
+      },
+      {
+        "title": "TG Notte",
+        "description": "Ripercorriamo le ultime notizie della giornata con aggiornamenti sull'attualità della sera.",
+        "start": "2025-10-26T05:20:00.000Z",
+        "end": "2025-10-26T05:30:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/catalog/tv/program/p31038426ih8aa_Iconic"
+      },
+      {
+        "title": "Meteo",
+        "description": "Tutti i colori del tempo: uno sguardo alle previsioni meteo per oggi e i prossimi giorni.",
+        "start": "2025-10-26T05:30:00.000Z",
+        "end": "2025-10-26T05:35:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/catalog/tv/program/p11163437bdh10ab_Backdrop"
+      },
+      {
+        "title": "Il quotidiano",
+        "description": "Le ultime notizie nazionali ed internazionali: Il quotidiano di attualità della Svizzera Italiana.",
+        "start": "2025-10-26T05:35:00.000Z",
+        "end": "2025-10-26T06:10:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/catalog/tv/program/p11163695ih10ae_Iconic"
       }
     ]
   }
