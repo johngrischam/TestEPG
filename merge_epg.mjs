@@ -1,4 +1,4 @@
-// merge_epg.mjs
+// merge_epg.mjs — stable baseline restored and extended with site_id support
 import fs from "fs/promises";
 
 const PRIMARY_URL = "https://tvit.leicaflorianrobert.dev/epg/list.json";
@@ -26,8 +26,9 @@ function ensureChannelShape(ch) {
   const name = ch?.name || ch?.epgName || ch?.channel || "";
   const epgName = ch?.epgName || name;
   const logo = ch?.logo || ch?.image || null;
-  const programsIn = Array.isArray(ch?.programs) ? ch.programs : [];
+  const site_id = ch?.site_id ?? null;
 
+  const programsIn = Array.isArray(ch?.programs) ? ch.programs : [];
   const programs = programsIn
     .map((p) => {
       const title = p?.title || "";
@@ -41,9 +42,16 @@ function ensureChannelShape(ch) {
       const poster = p?.poster ?? p?.image ?? null;
       return { title, description, start, end, poster };
     })
-    .filter((p) => p.start && p.end);
+    .filter((p) => p.start && p.end)
+    .sort((a, b) => new Date(a.start) - new Date(b.start)); // ensure chronological
 
-  return { name: String(name), epgName: String(epgName), logo: logo || undefined, programs };
+  return {
+    site_id,
+    name: String(name),
+    epgName: String(epgName),
+    logo: logo || undefined,
+    programs,
+  };
 }
 
 // --- helper: build RSI poster URL from a content node ---
@@ -53,8 +61,8 @@ function posterUrlFromContentPath(contentPath) {
   return `${BASE}/content/images/${cp}_w1920.webp`;
 }
 
-// --- unified parser for RSI-style API ---
-function buildRSIChannel(apiJson, publicName) {
+// --- unified parser for tv.blue.ch responses ---
+function buildRSIChannel(apiJson, publicName, siteIdOverride = null) {
   const broadcasts =
     apiJson?.Nodes?.Items?.[0]?.Content?.Nodes?.Items ||
     apiJson?.Nodes?.Items?.[0]?.Nodes?.Items ||
@@ -100,21 +108,30 @@ function buildRSIChannel(apiJson, publicName) {
     "Sky TG 24": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Sky_TG24_-_Logo_2021.svg",
   };
 
-  return { name: publicName, epgName: publicName, logo: logos[publicName] || "", programs };
+  // Prefer explicit override; else extract from API request identifiers.
+  const extractedId = apiJson?.Request?.Identifiers?.[0] ?? null;
+  const site_id = siteIdOverride ?? (extractedId != null ? String(extractedId) : null);
+
+  return {
+    site_id,
+    name: publicName,
+    epgName: publicName,
+    logo: logos[publicName] || "",
+    programs,
+  };
 }
 
-// --- main ---
 async function main() {
-  // 1) Load base list
-  let base;
+  // 1) Load base master list (whatever you already publish publicly)
+  let base = [];
   try {
     const raw = await fetchJson(PRIMARY_URL);
     base = Array.isArray(raw) ? raw : [];
   } catch (e) {
     console.error("Base list fetch failed:", e.message);
-    base = [];
   }
 
+  // Normalize early
   const out = base.map(ensureChannelShape);
 
   // 2) Date window (UTC 06:00 → next day 06:00)
@@ -124,68 +141,80 @@ async function main() {
   const startParam = `${todayStr}0600`;
   const endParam = `${tomorrowStr}0600`;
 
-  // 3) Sources (all from tv.blue.ch)
-  const RSI1_URL = `${BASE}/catalog/tv/channels/list/(ids=356;start=${startParam};end=${endParam};level=normal)`;
-  const RSI2_URL = `${BASE}/catalog/tv/channels/list/(ids=357;start=${startParam};end=${endParam};level=normal)`;
-  const RAISPORT_URL = `${BASE}/catalog/tv/channels/list/(ids=338;start=${startParam};end=${endParam};level=normal)`;
-  const RAIGULP_URL = `${BASE}/catalog/tv/channels/list/(ids=332;start=${startParam};end=${endParam};level=normal)`;
-  const LA7D_URL = `${BASE}/catalog/tv/channels/list/(ids=239;start=${startParam};end=${endParam};level=normal)`;
-  const SKYTG24_URL = `${BASE}/catalog/tv/channels/list/(ids=393;start=${startParam};end=${endParam};level=normal)`;
+  // 3) Known ids on tv.blue.ch
+  const IDS = {
+    RSI1: "356",
+    RSI2: "357",
+    RAISPORT: "338",
+    RAIGULP: "332",
+    LA7D: "239",
+    SKYTG24: "393",
+  };
+
+  const url = (id) =>
+    `${BASE}/catalog/tv/channels/list/(ids=${id};start=${startParam};end=${endParam};level=normal)`;
 
   const add = [];
 
-  async function fetchRSI(url, name, alias = null) {
+  async function fetchAndAdd(id, publicName, aliases = []) {
     try {
-      const j = await fetchJson(url);
-      const ch = buildRSIChannel(j, name);
-      if (ch) {
-        add.push(ch);
-        console.log(`Merged ${name} with ${ch.programs.length} programs`);
-        if (alias) {
-          const aliasCh = { ...ch, name: alias, epgName: alias };
-          add.push(aliasCh);
-          console.log(`→ Created alias ${alias} (same EPG as ${name})`);
-        }
-      } else {
-        console.warn(`No programs for ${name}`);
+      const j = await fetchJson(url(id));
+      const ch = buildRSIChannel(j, publicName, id);
+      if (!ch) {
+        console.warn(`No programs for ${publicName} (${id})`);
+        return;
       }
+      add.push(ch);
+      // Clone aliases with the SAME site_id so front-end can match by ID too
+      for (const alias of aliases) {
+        add.push({ ...ch, name: alias, epgName: alias });
+      }
+      console.log(`Merged ${publicName} (${id}) with ${ch.programs.length} programs`);
     } catch (e) {
-      console.warn(`${name} fetch failed:`, e.message);
+      console.warn(`${publicName} (${id}) fetch failed:`, e.message);
     }
   }
 
-  // --- channels to merge
-  await fetchRSI(RSI1_URL, "RSI 1");
-  await fetchRSI(RSI2_URL, "RSI 2");
-  await fetchRSI(RAISPORT_URL, "Rai Sport +");
-  await fetchRSI(RAIGULP_URL, "Rai Gulp");
-  await fetchRSI(LA7D_URL, "La 7d", "La7 Cinema");
-  await fetchRSI(SKYTG24_URL, "Sky TG 24");
+  // 4) Fetch/merge sources
+  await fetchAndAdd(IDS.RSI1, "RSI 1");
+  await fetchAndAdd(IDS.RSI2, "RSI 2");
+  await fetchAndAdd(IDS.RAISPORT, "Rai Sport +");
+  await fetchAndAdd(IDS.RAIGULP, "Rai Gulp");
+  await fetchAndAdd(IDS.LA7D, "La 7d", ["La7 Cinema"]); // keep alias with same site_id
+  await fetchAndAdd(IDS.SKYTG24, "Sky TG 24");
 
-  // 4) Merge into out
+  // 5) Merge into `out` (prefer site_id match; fallback to name)
   for (const c of add) {
-    const i = out.findIndex(
-      (x) => norm(x.name) === norm(c.name) || norm(x.epgName) === norm(c.epgName)
-    );
     const safeC = ensureChannelShape(c);
-    if (i >= 0) out[i] = { ...out[i], ...safeC, programs: safeC.programs };
-    else out.push(safeC);
+    let i = -1;
+
+    if (safeC.site_id) {
+      i = out.findIndex((x) => String(x.site_id || "") === String(safeC.site_id));
+    }
+    if (i < 0) {
+      i = out.findIndex(
+        (x) => norm(x.name) === norm(safeC.name) || norm(x.epgName) === norm(safeC.epgName)
+      );
+    }
+
+    if (i >= 0) {
+      out[i] = {
+        ...out[i],
+        ...safeC,
+        site_id: safeC.site_id ?? out[i].site_id ?? null,
+        programs: safeC.programs, // override with fresh window
+      };
+    } else {
+      out.push(safeC);
+    }
   }
 
-  // 5) Write final list
+  // 6) Write final list
   await fs.writeFile("list.json", JSON.stringify(out, null, 2), "utf8");
-  console.log(`✅ list.json written with ${out.length} channels (strict schema)`);
+  console.log(`✅ list.json written with ${out.length} channels (strict schema, ID-ready)`);
 }
 
 main().catch((e) => {
   console.error("Fatal:", e);
   process.exit(1);
 });
-
-
-
-
-
-
-
-
