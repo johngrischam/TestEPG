@@ -1,0 +1,2109 @@
+[
+  {
+    "id": "IT2600002F6",
+    "name": "",
+    "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT2600002F6_20250415T022347SQUARE.png",
+    "programs": [
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026031307 +0000",
+        "stop": "20251026051543 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_523330154_0_20241220T024924552Z_104_imageprocessorclient-tvplus-linear-7cd5d896cc-gbk2s.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026051543 +0000",
+        "stop": "20251026072115 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_1221518517_0_20250928T033259712Z_1_imageprocessorclient-tvplus-linear-5db7c6bc99-7sngq.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026072115 +0000",
+        "stop": "20251026091549 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_1217294071_0_20250926T034250078Z_53_imageprocessorclient-tvplus-linear-5db7c6bc99-kqq7k.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026091549 +0000",
+        "stop": "20251026111228 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_1217283493_0_20250926T034300067Z_47_imageprocessorclient-tvplus-linear-5db7c6bc99-kqq7k.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "ITBA33000238E",
+    "name": "",
+    "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBA33000238E_20250326T013229SQUARE.png",
+    "programs": [
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026025020 +0000",
+        "stop": "20251026042434 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_744169289_0_20250324T212143567Z_130_imageprocessorclient-tvplus-linear-6fb5b47f79-6rsgc.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026042434 +0000",
+        "stop": "20251026054318 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_772179159_0_20250403T212322693Z_30_imageprocessorclient-tvplus-linear-6fb5b47f79-9rknc.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026054318 +0000",
+        "stop": "20251026071052 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_972051313_0_20250612T212745406Z_75_imageprocessorclient-tvplus-linear-5db7c6bc99-87j56.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026071052 +0000",
+        "stop": "20251026085453 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_744151904_0_20250324T212151746Z_51_imageprocessorclient-tvplus-linear-6fb5b47f79-6rsgc.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026085453 +0000",
+        "stop": "20251026103639 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_754733434_0_20250328T152439520Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-tqk7n.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "ITBC1100008L4",
+    "name": "",
+    "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBC1100008L4_20250513T010703SQUARE.png",
+    "programs": [
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026032201 +0000",
+        "stop": "20251026052346 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_735449929_0_20250321T204003865Z_56_imageprocessorclient-tvplus-linear-6fb5b47f79-vvhtm.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026052346 +0000",
+        "stop": "20251026070913 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_995556602_0_20250620T225758746Z_1_imageprocessorclient-tvplus-linear-5db7c6bc99-2pksq.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026070913 +0000",
+        "stop": "20251026085838 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_738315886_0_20250322T203610717Z_65_imageprocessorclient-tvplus-linear-6fb5b47f79-mw6hs.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026085838 +0000",
+        "stop": "20251026104617 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_1102130075_0_20250801T205218457Z_1_imageprocessorclient-tvplus-linear-5db7c6bc99-vgnfm.png"
+      }
+    ]
+  },
+  {
+    "id": "ITBA14000093A",
+    "name": "",
+    "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBA14000093A_20250624T020603SQUARE.png",
+    "programs": [
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026023225 +0000",
+        "stop": "20251026041213 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_995442341_0_20250620T212259727Z_91_imageprocessorclient-tvplus-linear-5db7c6bc99-2fhcs.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026041213 +0000",
+        "stop": "20251026060252 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_995442342_0_20250620T212255493Z_40_imageprocessorclient-tvplus-linear-5db7c6bc99-2fhcs.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026060252 +0000",
+        "stop": "20251026075553 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_1021227259_0_20250630T185956327Z_1_imageprocessorclient-tvplus-linear-5db7c6bc99-9tsm4.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026075553 +0000",
+        "stop": "20251026093542 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_995442341_0_20250620T212259727Z_91_imageprocessorclient-tvplus-linear-5db7c6bc99-2fhcs.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026093542 +0000",
+        "stop": "20251026111719 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_995440565_0_20250620T212256727Z_54_imageprocessorclient-tvplus-linear-5db7c6bc99-2fhcs.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "ITBC1100003KC",
+    "name": "",
+    "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBC1100003KC_20250527T014831SQUARE.png",
+    "programs": [
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026035837 +0000",
+        "stop": "20251026054444 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_834794176_0_20250426T204405292Z_117_imageprocessorclient-tvplus-linear-6fb5b47f79-vgkcp.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026054444 +0000",
+        "stop": "20251026075729 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_1218963950_0_20250926T203317946Z_144_imageprocessorclient-tvplus-linear-5db7c6bc99-9tsm4.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026075729 +0000",
+        "stop": "20251026093718 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_513392379_0_20241130T213715510Z_120_imageprocessorclient-tvplus-linear-7cd5d896cc-gqfx7.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026093718 +0000",
+        "stop": "20251026095219 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_1013768677_0_20250627T215804646Z_25_imageprocessorclient-tvplus-linear-5db7c6bc99-22gf2.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026095219 +0000",
+        "stop": "20251026120219 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_509937232_24_20241030T220127434Z_116_imageprocessorclient-tvplus-linear-7cd5d896cc-l4w6v.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "ITBD600001CL",
+    "name": "",
+    "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBD600001CL_20241022T051541SQUARE.png",
+    "programs": [
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026032259 +0000",
+        "stop": "20251026051147 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_1124473297_0_20250812T210932822Z_78_imageprocessorclient-tvplus-linear-5db7c6bc99-trv6z.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026051147 +0000",
+        "stop": "20251026065650 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_1130626753_0_20250815T211237805Z_24_imageprocessorclient-tvplus-linear-5db7c6bc99-xrkqv.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026065650 +0000",
+        "stop": "20251026084135 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_1124468253_0_20250812T210932820Z_53_imageprocessorclient-tvplus-linear-5db7c6bc99-trv6z.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026084135 +0000",
+        "stop": "20251026102710 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_1130616571_0_20250815T211241865Z_97_imageprocessorclient-tvplus-linear-5db7c6bc99-xrkqv.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "IT2600004K9",
+    "name": "",
+    "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT2600004K9_20250121T012551SQUARE.png",
+    "programs": [
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026035043 +0000",
+        "stop": "20251026053702 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_543731479_0_20241230T033224742Z_1_imageprocessorclient-tvplus-linear-7cd5d896cc-lfx5z.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026053702 +0000",
+        "stop": "20251026080329 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_1096420704_0_20250730T035754713Z_103_imageprocessorclient-tvplus-linear-5db7c6bc99-d5mt6.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026080329 +0000",
+        "stop": "20251026093858 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_678302043_0_20250301T035028268Z_65_imageprocessorclient-tvplus-linear-6fb5b47f79-9dc9l.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026093858 +0000",
+        "stop": "20251026113533 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_525408186_0_20241221T024809324Z_20_imageprocessorclient-tvplus-linear-7cd5d896cc-l4w6v.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "ITBC1100002ZU",
+    "name": "",
+    "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBC1100002ZU_20241022T043826SQUARE.png",
+    "programs": [
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026033835 +0000",
+        "stop": "20251026052536 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_485636561_0_20231029T183730390Z_81.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026052536 +0000",
+        "stop": "20251026072940 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_669580302_0_20250225T213144938Z_96_imageprocessorclient-tvplus-linear-6fb5b47f79-2454l.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026072940 +0000",
+        "stop": "20251026091938 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_969095880_0_20250611T212712357Z_1_imageprocessorclient-tvplus-linear-5db7c6bc99-gdlst.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026091938 +0000",
+        "stop": "20251026113951 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_669579754_0_20250225T213144780Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-2454l.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "ITBD140000119",
+    "name": "",
+    "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBD140000119_20250902T003827SQUARE.png",
+    "programs": [
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026033753 +0000",
+        "stop": "20251026045153 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_509937606_5_20241030T220123357Z_99_imageprocessorclient-tvplus-linear-7cd5d896cc-mw6n8.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026045153 +0000",
+        "stop": "20251026063128 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_509937595_5_20241030T220123358Z_89_imageprocessorclient-tvplus-linear-7cd5d896cc-mw6n8.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026063128 +0000",
+        "stop": "20251026083531 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_509937599_14_20241030T220125875Z_115_imageprocessorclient-tvplus-linear-7cd5d896cc-gbk2s.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026083531 +0000",
+        "stop": "20251026102925 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_1042864622_0_20250709T205748434Z_102_imageprocessorclient-tvplus-linear-5db7c6bc99-q9lf2.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "IT2600007WQ",
+    "name": "",
+    "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT2600007WQ_20241022T051556SQUARE.png",
+    "programs": [
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026032917 +0000",
+        "stop": "20251026051041 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_1219403379_0_20250927T031233520Z_1_imageprocessorclient-tvplus-linear-5db7c6bc99-bxh87.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026051041 +0000",
+        "stop": "20251026065406 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_838078160_0_20250428T022028761Z_125_imageprocessorclient-tvplus-linear-6fb5b47f79-gkzgn.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026065406 +0000",
+        "stop": "20251026090728 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_1153527578_0_20250827T035115717Z_70_imageprocessorclient-tvplus-linear-5db7c6bc99-ztbvg.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026090728 +0000",
+        "stop": "20251026104950 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_512835705_0_20241126T032058215Z_80_imageprocessorclient-tvplus-linear-7cd5d896cc-f6knd.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "ITBB20000072M",
+    "name": "",
+    "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBB20000072M_20250131T145327SQUARE.png",
+    "programs": [
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026030649 +0000",
+        "stop": "20251026045035 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_584027650_0_20250117T211944412Z_59_imageprocessorclient-tvplus-linear-7cd5d896cc-96cz9.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026045035 +0000",
+        "stop": "20251026062244 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_509936058_31_20241030T220128629Z_144_imageprocessorclient-tvplus-linear-7cd5d896cc-94fcc.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026062244 +0000",
+        "stop": "20251026071049 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_1102017352_0_20250801T202110589Z_29_imageprocessorclient-tvplus-linear-5db7c6bc99-mwszk.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026071049 +0000",
+        "stop": "20251026075853 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_1102017352_0_20250801T202110589Z_29_imageprocessorclient-tvplus-linear-5db7c6bc99-mwszk.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026075853 +0000",
+        "stop": "20251026094424 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_781462496_0_20250407T125019962Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-rwhtp.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026094424 +0000",
+        "stop": "20251026112422 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_930827221_0_20250529T212248111Z_128_imageprocessorclient-tvplus-linear-6fb5b47f79-tmdrr.png"
+      }
+    ]
+  },
+  {
+    "id": "IT2600006JG",
+    "name": "",
+    "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT2600006JG_20250121T012630SQUARE.png",
+    "programs": [
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026005020 +0000",
+        "stop": "20251026041722 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_521150034_2_20241219T032129985Z_113_imageprocessorclient-tvplus-linear-7cd5d896cc-z2zhv.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026041722 +0000",
+        "stop": "20251026052119 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_592267832_0_20250122T024027671Z_75_imageprocessorclient-tvplus-linear-7cd5d896cc-c6snm.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026052119 +0000",
+        "stop": "20251026074456 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_502880160_0_20240824T062337672Z_1_imageprocessorclient-tvplus-linear-64ff86dd75-nv5ct.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026074456 +0000",
+        "stop": "20251026093433 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_508604597_0_20241018T064944571Z_20_imageprocessorclient-tvplus-linear-7cd5d896cc-sbnsg.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026093433 +0000",
+        "stop": "20251026112259 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_622473037_0_20250205T031737432Z_145_imageprocessorclient-tvplus-linear-7cd5d896cc-thm6b.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "IT260000131",
+    "name": "",
+    "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT260000131_20250121T012628SQUARE.png",
+    "programs": [
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026023517 +0000",
+        "stop": "20251026041116 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_1225753505_0_20250930T032601206Z_34_imageprocessorclient-tvplus-linear-5db7c6bc99-8fzp6.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026041116 +0000",
+        "stop": "20251026055241 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_586617883_0_20250119T024741085Z_1_imageprocessorclient-tvplus-linear-7cd5d896cc-f6knd.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026055241 +0000",
+        "stop": "20251026060000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_510894981_0_20241109T033254110Z_83_imageprocessorclient-tvplus-linear-7cd5d896cc-7hdtf.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026060000 +0000",
+        "stop": "20251026073628 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_841065928_0_20250429T014956936Z_92_imageprocessorclient-tvplus-linear-6fb5b47f79-gbnt7.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026073628 +0000",
+        "stop": "20251026092211 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_510894139_0_20241109T033254112Z_101_imageprocessorclient-tvplus-linear-7cd5d896cc-7hdtf.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026092211 +0000",
+        "stop": "20251026114257 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_497235314_0_20240702T064807471Z_70.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "ITBC1100001G5",
+    "name": "",
+    "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBC1100001G5_20241106T142428SQUARE.png",
+    "programs": [
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026040839 +0000",
+        "stop": "20251026060723 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_512819200_0_20241125T213700272Z_138_imageprocessorclient-tvplus-linear-7cd5d896cc-thm6b.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026060723 +0000",
+        "stop": "20251026082429 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_677685872_0_20250228T211935849Z_146_imageprocessorclient-tvplus-linear-6fb5b47f79-jlmsc.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026082429 +0000",
+        "stop": "20251026095958 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_485839227_0_20231107T191734147Z_19.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026095958 +0000",
+        "stop": "20251026113931 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_513282110_0_20241129T214102854Z_69_imageprocessorclient-tvplus-linear-7cd5d896cc-6pnjx.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "IT2600005ZN",
+    "name": "",
+    "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT2600005ZN_20241126T043538SQUARE.png",
+    "programs": [
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026040203 +0000",
+        "stop": "20251026055501 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_509521756_0_20241027T024557870Z_95_imageprocessorclient-tvplus-linear-7cd5d896cc-lsqp2.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026055501 +0000",
+        "stop": "20251026060000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_510692594_0_20241107T085335712Z_119_imageprocessorclient-tvplus-linear-7cd5d896cc-w48lf.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026060000 +0000",
+        "stop": "20251026082257 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_509621253_0_20241028T034529225Z_63_imageprocessorclient-tvplus-linear-7cd5d896cc-4sp99.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026082257 +0000",
+        "stop": "20251026101119 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_521148935_2_20241219T032129933Z_103_imageprocessorclient-tvplus-linear-7cd5d896cc-z2zhv.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "IT2600003FM",
+    "name": "",
+    "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT2600003FM_20240827T040705SQUARE.png",
+    "programs": [
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026033521 +0000",
+        "stop": "20251026052033 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_1151406067_0_20250826T050949774Z_146_imageprocessorclient-tvplus-linear-5db7c6bc99-s56jx.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026052033 +0000",
+        "stop": "20251026070842 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_1219413713_0_20250927T031237773Z_140_imageprocessorclient-tvplus-linear-5db7c6bc99-bxh87.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026070842 +0000",
+        "stop": "20251026084944 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_521153000_0_20241219T032129521Z_130_imageprocessorclient-tvplus-linear-7cd5d896cc-gwp7l.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026084944 +0000",
+        "stop": "20251026103124 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_1153517988_0_20250827T035117705Z_52_imageprocessorclient-tvplus-linear-5db7c6bc99-ztbvg.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "IT3200004WU",
+    "name": "",
+    "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT3200004WU_20250923T010552SQUARE.png",
+    "programs": [
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026000000 +0000",
+        "stop": "20251026010000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142642116_0_20250821T204915444Z_114_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026010000 +0000",
+        "stop": "20251026050000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142642116_0_20250821T204915444Z_114_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026050000 +0000",
+        "stop": "20251026100000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142642116_0_20250821T204915444Z_114_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026100000 +0000",
+        "stop": "20251026150000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142642116_0_20250821T204915444Z_114_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "ITBD1000002HF",
+    "name": "",
+    "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBD1000002HF_20250513T010658SQUARE.png",
+    "programs": [
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026035252 +0000",
+        "stop": "20251026061726 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_869459003_0_20250508T212148099Z_3_imageprocessorclient-tvplus-linear-6fb5b47f79-mfcc4.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026061726 +0000",
+        "stop": "20251026064449 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_1210397577_0_20250922T214143562Z_1_imageprocessorclient-tvplus-linear-5db7c6bc99-qhr8k.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026064449 +0000",
+        "stop": "20251026083049 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_1189270595_0_20250912T210645837Z_60_imageprocessorclient-tvplus-linear-5db7c6bc99-lswmc.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026083049 +0000",
+        "stop": "20251026084801 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_512479422_0_20241122T213548588Z_98_imageprocessorclient-tvplus-linear-7cd5d896cc-thm6b.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026084801 +0000",
+        "stop": "20251026103810 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_749601934_0_20250326T201906123Z_84_imageprocessorclient-tvplus-linear-6fb5b47f79-hkn9j.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "ITBC4700002CO",
+    "name": "",
+    "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBC4700002CO_20241022T043828SQUARE.png",
+    "programs": [
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026040000 +0000",
+        "stop": "20251026060000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQO570425A_485212072_0_20231012T161641456Z_88.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026060000 +0000",
+        "stop": "20251026073000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQO570425A_485212072_0_20231012T161641456Z_88.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026073000 +0000",
+        "stop": "20251026090000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQO570425A_485212072_0_20231012T161641456Z_88.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026090000 +0000",
+        "stop": "20251026093000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQO570425A_485212072_0_20231012T161641456Z_88.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026093000 +0000",
+        "stop": "20251026100000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQO570425A_485212072_0_20231012T161641456Z_88.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026100000 +0000",
+        "stop": "20251026120000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQO570425A_485212072_0_20231012T161641456Z_88.png"
+      }
+    ]
+  },
+  {
+    "id": "ITBA2200010O1",
+    "name": "",
+    "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBA2200010O1_20241022T043601SQUARE.png",
+    "programs": [
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026040000 +0000",
+        "stop": "20251026043000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQO570425A_485201575_1_20231012T131940385Z_55.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026043000 +0000",
+        "stop": "20251026050000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQO570425A_485201575_1_20231012T131940385Z_55.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026050000 +0000",
+        "stop": "20251026053000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQO570425A_485201575_1_20231012T131940385Z_55.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026053000 +0000",
+        "stop": "20251026070000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQO570425A_485201575_1_20231012T131940385Z_55.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026070000 +0000",
+        "stop": "20251026073000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQO570425A_485201575_1_20231012T131940385Z_55.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026073000 +0000",
+        "stop": "20251026080000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQO570425A_485201575_1_20231012T131940385Z_55.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026080000 +0000",
+        "stop": "20251026090000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQO570425A_485201575_1_20231012T131940385Z_55.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026090000 +0000",
+        "stop": "20251026100000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQO570425A_485201575_1_20231012T131940385Z_55.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026100000 +0000",
+        "stop": "20251026120000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQO570425A_485201575_1_20231012T131940385Z_55.png"
+      }
+    ]
+  },
+  {
+    "id": "IT3200003YZ",
+    "name": "",
+    "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT3200003YZ_20250811T172510SQUARE.png",
+    "programs": [
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026030000 +0000",
+        "stop": "20251026050000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1278399615_0_20251025T014240384Z_21_imageprocessorclient-tvplus-linear-retry-69bdc5c75f-65qt5.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026050000 +0000",
+        "stop": "20251026051500 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1194701442_0_20250915T132701601Z_22_imageprocessorclient-tvplus-linear-5db7c6bc99-d5mt6.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026051500 +0000",
+        "stop": "20251026053000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1025355496_0_20250702T102454516Z_82_imageprocessorclient-tvplus-linear-5db7c6bc99-xrkqv.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026053000 +0000",
+        "stop": "20251026073000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1243817065_0_20251008T093703358Z_1_imageprocessorclient-tvplus-linear-5db7c6bc99-cdtzx.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026073000 +0000",
+        "stop": "20251026074500 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1278382681_0_20251025T014242518Z_121_imageprocessorclient-tvplus-linear-retry-69bdc5c75f-65qt5.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026074500 +0000",
+        "stop": "20251026080000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1037026812_0_20250707T152727345Z_24_imageprocessorclient-tvplus-linear-5db7c6bc99-5rfpw.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026080000 +0000",
+        "stop": "20251026100000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1233724302_0_20251003T213428467Z_91_imageprocessorclient-tvplus-linear-retry-69bdc5c75f-ts2z2.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026100000 +0000",
+        "stop": "20251026123000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1278370622_0_20251025T014242517Z_133_imageprocessorclient-tvplus-linear-retry-69bdc5c75f-65qt5.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "ITBC3000007XK",
+    "name": "",
+    "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBC3000007XK_20250415T022319SQUARE.png",
+    "programs": [
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026025947 +0000",
+        "stop": "20251026040652 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_908692765_0_20250522T141926211Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-pxwkl.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026040652 +0000",
+        "stop": "20251026055929 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_908692765_0_20250522T141926211Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-pxwkl.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026055929 +0000",
+        "stop": "20251026061638 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_908692765_0_20250522T141926211Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-pxwkl.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026061638 +0000",
+        "stop": "20251026063500 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_908692765_0_20250522T141926211Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-pxwkl.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026063500 +0000",
+        "stop": "20251026064954 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_908692765_0_20250522T141926211Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-pxwkl.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026064954 +0000",
+        "stop": "20251026070326 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_908692765_0_20250522T141926211Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-pxwkl.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026070326 +0000",
+        "stop": "20251026091918 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_908692765_0_20250522T141926211Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-pxwkl.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026091918 +0000",
+        "stop": "20251026100652 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_908692765_0_20250522T141926211Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-pxwkl.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026100652 +0000",
+        "stop": "20251026160652 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_908692765_0_20250522T141926211Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-pxwkl.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "IT600001L6",
+    "name": "",
+    "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT600001L6_20241022T051638SQUARE.png",
+    "programs": [
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026034850 +0000",
+        "stop": "20251026042016 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT600001L6_20240314T154926_BRANDED.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026042016 +0000",
+        "stop": "20251026044016 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT600001L6_20240314T154926_BRANDED.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026044016 +0000",
+        "stop": "20251026051116 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT600001L6_20240314T154926_BRANDED.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026051116 +0000",
+        "stop": "20251026053759 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT600001L6_20240314T154926_BRANDED.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026053759 +0000",
+        "stop": "20251026060736 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT600001L6_20240314T154926_BRANDED.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026060736 +0000",
+        "stop": "20251026062457 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT600001L6_20240314T154926_BRANDED.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026062457 +0000",
+        "stop": "20251026064549 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT600001L6_20240314T154926_BRANDED.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026064549 +0000",
+        "stop": "20251026071228 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT600001L6_20240314T154926_BRANDED.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026071228 +0000",
+        "stop": "20251026071925 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT600001L6_20240314T154926_BRANDED.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026071925 +0000",
+        "stop": "20251026075008 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT600001L6_20240314T154926_BRANDED.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026075008 +0000",
+        "stop": "20251026081515 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT600001L6_20240314T154926_BRANDED.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026081515 +0000",
+        "stop": "20251026084449 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT600001L6_20240314T154926_BRANDED.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026084449 +0000",
+        "stop": "20251026090529 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT600001L6_20240314T154926_BRANDED.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026090529 +0000",
+        "stop": "20251026092220 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT600001L6_20240314T154926_BRANDED.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026092220 +0000",
+        "stop": "20251026095555 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_682973545_0_20250302T221719456Z_84_imageprocessorclient-tvplus-linear-6fb5b47f79-74nlz.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026095555 +0000",
+        "stop": "20251026101538 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT600001L6_20240314T154926_BRANDED.png"
+      }
+    ]
+  },
+  {
+    "id": "IT4200001D8",
+    "name": "",
+    "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT4200001D8_20250513T010712SQUARE.png",
+    "programs": [
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026025700 +0000",
+        "stop": "20251026042900 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_882938769_5_20250513T154501681Z_15_imageprocessorclient-tvplus-linear-6fb5b47f79-vgkcp.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026042900 +0000",
+        "stop": "20251026043300 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_810857811_0_20250418T091721254Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-84mv4.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026043300 +0000",
+        "stop": "20251026043900 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_809090645_0_20250417T171750481Z_44_imageprocessorclient-tvplus-linear-6fb5b47f79-bq75x.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026043900 +0000",
+        "stop": "20251026044400 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_809090645_0_20250417T171750481Z_44_imageprocessorclient-tvplus-linear-6fb5b47f79-bq75x.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026044400 +0000",
+        "stop": "20251026044800 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_810857811_0_20250418T091721254Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-84mv4.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026044800 +0000",
+        "stop": "20251026045300 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_809090645_0_20250417T171750481Z_44_imageprocessorclient-tvplus-linear-6fb5b47f79-bq75x.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026045300 +0000",
+        "stop": "20251026045900 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_809090645_0_20250417T171750481Z_44_imageprocessorclient-tvplus-linear-6fb5b47f79-bq75x.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026045900 +0000",
+        "stop": "20251026051100 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_882922093_0_20250513T154500921Z_116_imageprocessorclient-tvplus-linear-6fb5b47f79-cgrkw.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026051100 +0000",
+        "stop": "20251026054400 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_882938769_5_20250513T154501681Z_15_imageprocessorclient-tvplus-linear-6fb5b47f79-vgkcp.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026054400 +0000",
+        "stop": "20251026055400 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_809090645_0_20250417T171750481Z_44_imageprocessorclient-tvplus-linear-6fb5b47f79-bq75x.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026055400 +0000",
+        "stop": "20251026060000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_810857811_0_20250418T091721254Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-84mv4.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026060000 +0000",
+        "stop": "20251026063000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_882938769_5_20250513T154501681Z_15_imageprocessorclient-tvplus-linear-6fb5b47f79-vgkcp.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026063000 +0000",
+        "stop": "20251026070200 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_882938769_5_20250513T154501681Z_15_imageprocessorclient-tvplus-linear-6fb5b47f79-vgkcp.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026070200 +0000",
+        "stop": "20251026073500 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_882938769_5_20250513T154501681Z_15_imageprocessorclient-tvplus-linear-6fb5b47f79-vgkcp.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026073500 +0000",
+        "stop": "20251026080700 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_882938769_5_20250513T154501681Z_15_imageprocessorclient-tvplus-linear-6fb5b47f79-vgkcp.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026080700 +0000",
+        "stop": "20251026081100 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_810857811_0_20250418T091721254Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-84mv4.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026081100 +0000",
+        "stop": "20251026081600 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_809090645_0_20250417T171750481Z_44_imageprocessorclient-tvplus-linear-6fb5b47f79-bq75x.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026081600 +0000",
+        "stop": "20251026082200 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_809090645_0_20250417T171750481Z_44_imageprocessorclient-tvplus-linear-6fb5b47f79-bq75x.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026082200 +0000",
+        "stop": "20251026083400 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_882922093_0_20250513T154500921Z_116_imageprocessorclient-tvplus-linear-6fb5b47f79-cgrkw.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026083400 +0000",
+        "stop": "20251026084400 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_882802155_0_20250513T142014990Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-wzgbv.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026084400 +0000",
+        "stop": "20251026091600 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_882938769_5_20250513T154501681Z_15_imageprocessorclient-tvplus-linear-6fb5b47f79-vgkcp.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026091600 +0000",
+        "stop": "20251026092600 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_809090645_0_20250417T171750481Z_44_imageprocessorclient-tvplus-linear-6fb5b47f79-bq75x.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026092600 +0000",
+        "stop": "20251026093200 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_810857811_0_20250418T091721254Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-84mv4.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026093200 +0000",
+        "stop": "20251026100200 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_882938769_5_20250513T154501681Z_15_imageprocessorclient-tvplus-linear-6fb5b47f79-vgkcp.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026100200 +0000",
+        "stop": "20251026103500 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_882938769_5_20250513T154501681Z_15_imageprocessorclient-tvplus-linear-6fb5b47f79-vgkcp.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "IT900004Y5",
+    "name": "",
+    "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT900004Y5_20250408T021501SQUARE.png",
+    "programs": [
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026032500 +0000",
+        "stop": "20251026042000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142597693_0_20250821T204915444Z_32_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026042000 +0000",
+        "stop": "20251026050000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142597693_0_20250821T204915444Z_32_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026050000 +0000",
+        "stop": "20251026052000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142597693_0_20250821T204915444Z_32_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026052000 +0000",
+        "stop": "20251026054500 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142597693_0_20250821T204915444Z_32_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026054500 +0000",
+        "stop": "20251026061000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142597693_0_20250821T204915444Z_32_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026061000 +0000",
+        "stop": "20251026064000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142597693_0_20250821T204915444Z_32_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026064000 +0000",
+        "stop": "20251026073500 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142597693_0_20250821T204915444Z_32_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026073500 +0000",
+        "stop": "20251026083000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142597693_0_20250821T204915444Z_32_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026083000 +0000",
+        "stop": "20251026093000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142597693_0_20250821T204915444Z_32_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026093000 +0000",
+        "stop": "20251026103500 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142597693_0_20250821T204915444Z_32_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.png"
+      }
+    ]
+  },
+  {
+    "id": "ITBD29000015E",
+    "name": "",
+    "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBD29000015E_20241022T043942SQUARE.png",
+    "programs": [
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026040000 +0000",
+        "stop": "20251026060000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQO570425A_1280300177_0_20251025T150146729Z_100_imageprocessorclient-tvplus-linear-5db7c6bc99-87j56.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026060000 +0000",
+        "stop": "20251026080000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQO570425A_1146628645_0_20250823T182435906Z_1_imageprocessorclient-tvplus-linear-5db7c6bc99-kqq7k.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026080000 +0000",
+        "stop": "20251026100000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQO570425A_504944472_0_20240913T063506727Z_1_imageprocessorclient-tvplus-linear-7cd5d896cc-r6zfm.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026100000 +0000",
+        "stop": "20251026120001 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQO570425A_1217470210_0_20250926T051120379Z_111_imageprocessorclient-tvplus-linear-5db7c6bc99-gkp68.png"
+      }
+    ]
+  },
+  {
+    "id": "IT300006W3",
+    "name": "",
+    "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT300006W3_20241022T043836SQUARE.png",
+    "programs": [
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026034720 +0000",
+        "stop": "20251026041647 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1060793491_6_20250716T204609964Z_64_imageprocessorclient-tvplus-linear-5db7c6bc99-d5mt6.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026041647 +0000",
+        "stop": "20251026044609 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1060757643_3_20250716T204609593Z_113_imageprocessorclient-tvplus-linear-5db7c6bc99-sn6xc.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026044609 +0000",
+        "stop": "20251026051539 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1060770920_16_20250716T204613002Z_102_imageprocessorclient-tvplus-linear-5db7c6bc99-ljxfj.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026051539 +0000",
+        "stop": "20251026054507 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1060746974_20_20250716T204613308Z_39_imageprocessorclient-tvplus-linear-5db7c6bc99-lswmc.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026054507 +0000",
+        "stop": "20251026061438 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1060718425_9_20250716T204610697Z_1_imageprocessorclient-tvplus-linear-5db7c6bc99-p9nvg.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026061438 +0000",
+        "stop": "20251026064408 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1060742000_3_20250716T204609593Z_111_imageprocessorclient-tvplus-linear-5db7c6bc99-sn6xc.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026064408 +0000",
+        "stop": "20251026071337 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1060742516_6_20250716T204609964Z_144_imageprocessorclient-tvplus-linear-5db7c6bc99-d5mt6.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026071337 +0000",
+        "stop": "20251026074308 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1060806278_6_20250716T204609964Z_24_imageprocessorclient-tvplus-linear-5db7c6bc99-d5mt6.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026074308 +0000",
+        "stop": "20251026081240 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1060805372_11_20250716T204611471Z_47_imageprocessorclient-tvplus-linear-5db7c6bc99-87j56.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026081240 +0000",
+        "stop": "20251026084212 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1060770239_18_20250716T204613159Z_34_imageprocessorclient-tvplus-linear-5db7c6bc99-kqq7k.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026084212 +0000",
+        "stop": "20251026091104 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1060746719_11_20250716T204611471Z_74_imageprocessorclient-tvplus-linear-5db7c6bc99-87j56.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026091104 +0000",
+        "stop": "20251026094036 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1060755860_0_20250716T204608634Z_3_imageprocessorclient-tvplus-linear-5db7c6bc99-trv6z.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026094036 +0000",
+        "stop": "20251026100933 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1060712709_16_20250716T204613002Z_92_imageprocessorclient-tvplus-linear-5db7c6bc99-ljxfj.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026100933 +0000",
+        "stop": "20251026103836 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1060742366_14_20250716T204612414Z_3_imageprocessorclient-tvplus-linear-5db7c6bc99-mwszk.png"
+      }
+    ]
+  },
+  {
+    "id": "IT300007SE",
+    "name": "",
+    "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT300007SE_20241022T043839SQUARE.png",
+    "programs": [
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026040447 +0000",
+        "stop": "20251026045511 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1060780902_8_20250716T204610266Z_15_imageprocessorclient-tvplus-linear-5db7c6bc99-8fzp6.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026045511 +0000",
+        "stop": "20251026054501 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1060746988_5_20250716T204609710Z_83_imageprocessorclient-tvplus-linear-5db7c6bc99-q6tkt.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026054501 +0000",
+        "stop": "20251026063304 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1063936880_0_20250718T042445423Z_3_imageprocessorclient-tvplus-linear-5db7c6bc99-2fhcs.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026063304 +0000",
+        "stop": "20251026072106 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1063902705_0_20250718T042445424Z_47_imageprocessorclient-tvplus-linear-5db7c6bc99-2fhcs.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026072106 +0000",
+        "stop": "20251026080755 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1063984189_0_20250718T042445424Z_54_imageprocessorclient-tvplus-linear-5db7c6bc99-2fhcs.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026080755 +0000",
+        "stop": "20251026085735 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1063972703_0_20250718T042445424Z_126_imageprocessorclient-tvplus-linear-5db7c6bc99-2fhcs.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026085735 +0000",
+        "stop": "20251026094730 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1063948897_0_20250718T042445423Z_1_imageprocessorclient-tvplus-linear-5db7c6bc99-2fhcs.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026094730 +0000",
+        "stop": "20251026103547 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1063972704_0_20250718T042445423Z_38_imageprocessorclient-tvplus-linear-5db7c6bc99-2fhcs.png"
+      }
+    ]
+  },
+  {
+    "id": "IT2600008RA",
+    "name": "",
+    "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT2600008RA_20241210T052906SQUARE.png",
+    "programs": [
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026035552 +0000",
+        "stop": "20251026044803 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_667785829_0_20250225T053026808Z_135_imageprocessorclient-tvplus-linear-6fb5b47f79-djh4l.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026044803 +0000",
+        "stop": "20251026053817 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_667773958_0_20250225T053032916Z_135_imageprocessorclient-tvplus-linear-6fb5b47f79-djh4l.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026053817 +0000",
+        "stop": "20251026060000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_510692472_0_20241107T085335659Z_72_imageprocessorclient-tvplus-linear-7cd5d896cc-w48lf.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026060000 +0000",
+        "stop": "20251026064912 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_513865900_0_20241205T024511991Z_97_imageprocessorclient-tvplus-linear-7cd5d896cc-lfx5z.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026064912 +0000",
+        "stop": "20251026073824 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_513865750_0_20241205T024511990Z_36_imageprocessorclient-tvplus-linear-7cd5d896cc-lfx5z.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026073824 +0000",
+        "stop": "20251026082736 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_513865389_0_20241205T024511990Z_52_imageprocessorclient-tvplus-linear-7cd5d896cc-lfx5z.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026082736 +0000",
+        "stop": "20251026091633 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_513866198_0_20241205T024511992Z_93_imageprocessorclient-tvplus-linear-7cd5d896cc-lfx5z.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026091633 +0000",
+        "stop": "20251026100610 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_513865411_0_20241205T024511992Z_89_imageprocessorclient-tvplus-linear-7cd5d896cc-lfx5z.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026100610 +0000",
+        "stop": "20251026105541 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_513988962_0_20241206T023713381Z_88_imageprocessorclient-tvplus-linear-7cd5d896cc-gwp7l.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "ITBD1000006RD",
+    "name": "",
+    "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBD1000006RD_20250624T021752SQUARE.png",
+    "programs": [
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026032202 +0000",
+        "stop": "20251026042157 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_1002827567_0_20250623T183858429Z_145_imageprocessorclient-tvplus-linear-5db7c6bc99-9tsm4.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026042157 +0000",
+        "stop": "20251026051858 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_1080310362_0_20250724T213006834Z_97_imageprocessorclient-tvplus-linear-5db7c6bc99-fc88h.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026051858 +0000",
+        "stop": "20251026061905 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_1002827709_0_20250623T183858429Z_1_imageprocessorclient-tvplus-linear-5db7c6bc99-9tsm4.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026061905 +0000",
+        "stop": "20251026071629 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_1040344143_0_20250708T210457578Z_1_imageprocessorclient-tvplus-linear-5db7c6bc99-brk6n.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026071629 +0000",
+        "stop": "20251026081636 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_1002827709_0_20250623T183858429Z_1_imageprocessorclient-tvplus-linear-5db7c6bc99-9tsm4.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026081636 +0000",
+        "stop": "20251026091339 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_1130627073_0_20250815T211240850Z_64_imageprocessorclient-tvplus-linear-5db7c6bc99-xrkqv.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026091339 +0000",
+        "stop": "20251026101628 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_1155248513_0_20250827T205530942Z_24_imageprocessorclient-tvplus-linear-5db7c6bc99-2fhcs.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "IT2600010E0",
+    "name": "",
+    "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT2600010E0_20250107T022452SQUARE.png",
+    "programs": [
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026025725 +0000",
+        "stop": "20251026043852 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_1155655948_0_20250828T033849963Z_163_imageprocessorclient-tvplus-linear-5db7c6bc99-sm8n5.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026043852 +0000",
+        "stop": "20251026061217 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_504280837_0_20240907T053329707Z_92_imageprocessorclient-tvplus-linear-7cd5d896cc-vmxf2.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026061217 +0000",
+        "stop": "20251026062618 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_1236698360_0_20251005T041936890Z_36_imageprocessorclient-tvplus-linear-5db7c6bc99-x889l.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026062618 +0000",
+        "stop": "20251026064018 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_1221643253_0_20250928T040611908Z_127_imageprocessorclient-tvplus-linear-5db7c6bc99-7lnxh.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026064018 +0000",
+        "stop": "20251026070615 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_1219413277_0_20250927T031233596Z_134_imageprocessorclient-tvplus-linear-5db7c6bc99-bxh87.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026070615 +0000",
+        "stop": "20251026073212 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_1223623416_0_20250929T034553648Z_82_imageprocessorclient-tvplus-linear-5db7c6bc99-x889l.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026073212 +0000",
+        "stop": "20251026075809 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_1221638628_0_20250928T040606631Z_127_imageprocessorclient-tvplus-linear-5db7c6bc99-7lnxh.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026075809 +0000",
+        "stop": "20251026082406 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_1217282895_0_20250926T034251084Z_57_imageprocessorclient-tvplus-linear-5db7c6bc99-kqq7k.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026082406 +0000",
+        "stop": "20251026085003 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_1217294935_0_20250926T034250065Z_73_imageprocessorclient-tvplus-linear-5db7c6bc99-kqq7k.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026085003 +0000",
+        "stop": "20251026091423 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_1230325994_0_20251002T040025224Z_39_imageprocessorclient-tvplus-linear-5db7c6bc99-q6tkt.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026091423 +0000",
+        "stop": "20251026092822 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_1219410418_0_20250927T031233545Z_131_imageprocessorclient-tvplus-linear-5db7c6bc99-bxh87.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026092822 +0000",
+        "stop": "20251026095419 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_1219409175_0_20250927T031241773Z_137_imageprocessorclient-tvplus-linear-5db7c6bc99-bxh87.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026095419 +0000",
+        "stop": "20251026100820 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_1238795639_0_20251006T040705423Z_101_imageprocessorclient-tvplus-linear-5db7c6bc99-sn6xc.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026100820 +0000",
+        "stop": "20251026113851 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_1157790309_0_20250829T033807099Z_65_imageprocessorclient-tvplus-linear-5db7c6bc99-sm8n5.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "IT31000026G",
+    "name": "",
+    "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT31000026G_20251013T054531SQUARE.png",
+    "programs": [
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026040000 +0000",
+        "stop": "20251026042000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1246772036_0_20251009T173621608Z_1_imageprocessorclient-tvplus-linear-5db7c6bc99-22gf2.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026042000 +0000",
+        "stop": "20251026045000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1246772036_0_20251009T173621608Z_1_imageprocessorclient-tvplus-linear-5db7c6bc99-22gf2.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026045000 +0000",
+        "stop": "20251026050000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1246772036_0_20251009T173621608Z_1_imageprocessorclient-tvplus-linear-5db7c6bc99-22gf2.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026050000 +0000",
+        "stop": "20251026052000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1246772036_0_20251009T173621608Z_1_imageprocessorclient-tvplus-linear-5db7c6bc99-22gf2.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026052000 +0000",
+        "stop": "20251026054000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1246772036_0_20251009T173621608Z_1_imageprocessorclient-tvplus-linear-5db7c6bc99-22gf2.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026054000 +0000",
+        "stop": "20251026064000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1246772036_0_20251009T173621608Z_1_imageprocessorclient-tvplus-linear-5db7c6bc99-22gf2.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026064000 +0000",
+        "stop": "20251026073500 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1246772036_0_20251009T173621608Z_1_imageprocessorclient-tvplus-linear-5db7c6bc99-22gf2.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026073500 +0000",
+        "stop": "20251026083000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1246772036_0_20251009T173621608Z_1_imageprocessorclient-tvplus-linear-5db7c6bc99-22gf2.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026083000 +0000",
+        "stop": "20251026092500 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1246772036_0_20251009T173621608Z_1_imageprocessorclient-tvplus-linear-5db7c6bc99-22gf2.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026092500 +0000",
+        "stop": "20251026102500 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1246772036_0_20251009T173621608Z_1_imageprocessorclient-tvplus-linear-5db7c6bc99-22gf2.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "IT500011RG",
+    "name": "",
+    "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT500011RG_20251013T054535SQUARE.png",
+    "programs": [
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026040800 +0000",
+        "stop": "20251026043900 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_865953701_0_20250507T162312439Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-rbxs7.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026043900 +0000",
+        "stop": "20251026050200 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_865953701_0_20250507T162312439Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-rbxs7.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026050200 +0000",
+        "stop": "20251026050500 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_865953701_0_20250507T162312439Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-rbxs7.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026050500 +0000",
+        "stop": "20251026053300 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_865953701_0_20250507T162312439Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-rbxs7.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026053300 +0000",
+        "stop": "20251026060100 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_865953701_0_20250507T162312439Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-rbxs7.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026060100 +0000",
+        "stop": "20251026063400 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_865953701_0_20250507T162312439Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-rbxs7.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026063400 +0000",
+        "stop": "20251026070500 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_865953701_0_20250507T162312439Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-rbxs7.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026070500 +0000",
+        "stop": "20251026073500 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_865953701_0_20250507T162312439Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-rbxs7.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026073500 +0000",
+        "stop": "20251026080300 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_865953701_0_20250507T162312439Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-rbxs7.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026080300 +0000",
+        "stop": "20251026083300 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_865953701_0_20250507T162312439Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-rbxs7.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026083300 +0000",
+        "stop": "20251026090300 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_865953701_0_20250507T162312439Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-rbxs7.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026090300 +0000",
+        "stop": "20251026093300 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_865953701_0_20250507T162312439Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-rbxs7.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026093300 +0000",
+        "stop": "20251026100200 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_865953701_0_20250507T162312439Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-rbxs7.jpeg"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026100200 +0000",
+        "stop": "20251026103300 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_865953701_0_20250507T162312439Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-rbxs7.jpeg"
+      }
+    ]
+  },
+  {
+    "id": "IT90001094",
+    "name": "",
+    "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT90001094_20250408T021440SQUARE.png",
+    "programs": [
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026035500 +0000",
+        "stop": "20251026042500 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142597180_0_20250821T204919667Z_127_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026042500 +0000",
+        "stop": "20251026045000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142597180_0_20250821T204919667Z_127_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026045000 +0000",
+        "stop": "20251026050000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142597180_0_20250821T204919667Z_127_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026050000 +0000",
+        "stop": "20251026054000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142597180_0_20250821T204919667Z_127_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026054000 +0000",
+        "stop": "20251026061000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142597180_0_20250821T204919667Z_127_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026061000 +0000",
+        "stop": "20251026065000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142597180_0_20250821T204919667Z_127_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026065000 +0000",
+        "stop": "20251026072000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142597180_0_20250821T204919667Z_127_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026072000 +0000",
+        "stop": "20251026080500 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142597180_0_20250821T204919667Z_127_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026080500 +0000",
+        "stop": "20251026084000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142597180_0_20250821T204919667Z_127_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026084000 +0000",
+        "stop": "20251026091500 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142597180_0_20250821T204919667Z_127_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026091500 +0000",
+        "stop": "20251026095500 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142597180_0_20250821T204919667Z_127_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026095500 +0000",
+        "stop": "20251026103000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142597180_0_20250821T204919667Z_127_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.png"
+      }
+    ]
+  },
+  {
+    "id": "IT900003FU",
+    "name": "",
+    "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT900003FU_20250408T021452SQUARE.png",
+    "programs": [
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026041000 +0000",
+        "stop": "20251026050000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142597475_0_20250821T204919667Z_62_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026050000 +0000",
+        "stop": "20251026055500 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142597475_0_20250821T204919667Z_62_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026055500 +0000",
+        "stop": "20251026065000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142597475_0_20250821T204919667Z_62_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026065000 +0000",
+        "stop": "20251026074500 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142597475_0_20250821T204919667Z_62_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026074500 +0000",
+        "stop": "20251026084500 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142597475_0_20250821T204919667Z_62_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026084500 +0000",
+        "stop": "20251026094000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142597475_0_20250821T204919667Z_62_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026094000 +0000",
+        "stop": "20251026104000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142597475_0_20250821T204919667Z_62_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.png"
+      }
+    ]
+  },
+  {
+    "id": "ITBA2200008IM",
+    "name": "",
+    "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBA2200008IM_20241022T043511SQUARE.png",
+    "programs": [
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026000000 +0000",
+        "stop": "20251026060000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQO570425A_485357851_0_20231018T140014802Z_128.png"
+      },
+      {
+        "title": "",
+        "desc": "",
+        "start": "20251026060000 +0000",
+        "stop": "20251026120000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQO570425A_485357851_0_20231018T140014802Z_128.png"
+      }
+    ]
+  }
+]
