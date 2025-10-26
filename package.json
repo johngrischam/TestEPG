@@ -1,9 +1,0 @@
-{
-  "name": "samsungtvplus-filter",
-  "version": "1.0.0",
-  "type": "module",
-  "private": true,
-  "dependencies": {
-    "fast-xml-parser": "^4.4.1"
-  }
-}
