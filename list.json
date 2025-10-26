@@ -11294,9 +11294,23 @@
         "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/356/p12280913bh10af_BannerL2_w1920.webp"
       },
       {
+        "title": "TG Notte",
+        "description": "Ripercorriamo le ultime notizie della giornata con aggiornamenti sull'attualità della sera.",
+        "start": "2025-10-27T04:05:00.000Z",
+        "end": "2025-10-27T04:15:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/356/p31038426bh10aa_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Meteo",
+        "description": "Tutti i colori del tempo: uno sguardo alle previsioni meteo per oggi e i prossimi giorni.",
+        "start": "2025-10-27T04:15:00.000Z",
+        "end": "2025-10-27T04:20:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/356/p11163437bh10ae_BannerL1_w1920.webp"
+      },
+      {
         "title": "La domenica sportiva",
         "description": "Tutti gli eventi sportivi della domenica, vissuti attraverso le sintesi e i servizi preparati dalla redazione, le immagini salienti e interviste esclusive ai protagonisti delle sfide.",
-        "start": "2025-10-27T04:05:00.000Z",
+        "start": "2025-10-27T04:20:00.000Z",
         "end": "2025-10-27T06:20:00.000Z",
         "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/356/p11178099bh10ae_BannerL1_w1920.webp"
       }
