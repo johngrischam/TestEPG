@@ -5,7 +5,7 @@ import { XMLParser } from "fast-xml-parser";
 const SOURCE_URL = "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/refs/heads/master/SamsungTVPlus/it.xml";
 const TARGET_FILE = "filtered_epg.json";
 
-// your EPG IDs (extracted from your HTML)
+// --- CHANNELS YOU WANT TO KEEP ---
 const CHANNEL_IDS = [
   "IT3200004WU", "IT31000026G", "IT90001094", "IT500011RG", "IT900003FU",
   "IT900004Y5", "IT2600002F6", "IT2600010E0", "IT2600004K9", "IT2600007WQ",
@@ -17,25 +17,12 @@ const CHANNEL_IDS = [
   "IT600001L6", "ITBC3000007XK", "IT4200001D8", "IT3200003YZ", "ITBD29000015E"
 ];
 
-function normalize(str) {
-  return String(str || "").toLowerCase().replace(/\s|-/g, "");
-}
-
-function parseXMLTVtime(str) {
-  if (!str) return 0;
-  const date = str.slice(0, 14);
-  const year = date.slice(0, 4);
-  const month = date.slice(4, 6);
-  const day = date.slice(6, 8);
-  const hour = date.slice(8, 10);
-  const minute = date.slice(10, 12);
-  const second = date.slice(12, 14);
-  return new Date(Date.UTC(year, month - 1, day, hour, minute, second)).getTime();
-}
-
+// --- FETCH + PARSE XML ---
 async function main() {
-  console.log("Fetching full EPG...");
+  console.log("📡 Fetching full SamsungTVPlus Italy EPG...");
   const xmlText = await fetch(SOURCE_URL).then(r => r.text());
+  console.log("✅ XML fetched. Parsing...");
+
   const parser = new XMLParser({ ignoreAttributes: false });
   const xml = parser.parse(xmlText);
 
@@ -44,34 +31,45 @@ async function main() {
 
   console.log(`Total channels in source: ${allChannels.length}`);
 
-  const filteredChannels = allChannels.filter(ch => {
-    const id = ch["@_id"];
-    return CHANNEL_IDS.includes(id);
-  });
+  // --- Keep only channels you care about ---
+  const filteredChannels = allChannels.filter(ch => CHANNEL_IDS.includes(ch["@_id"]));
+  const filteredPrograms = allPrograms.filter(pr => CHANNEL_IDS.includes(pr["@_channel"]));
 
-  const filteredPrograms = allPrograms.filter(pr => {
-    const cid = pr["@_channel"];
-    return CHANNEL_IDS.includes(cid);
-  });
+  console.log(`Keeping ${filteredChannels.length} channels and ${filteredPrograms.length} programmes.`);
 
+  // --- Helper: extract text, preferring Italian ---
+  const getText = (node, prefLang = "it") => {
+    if (!node) return "";
+    if (Array.isArray(node)) {
+      const match = node.find(n => n["@_lang"] === prefLang);
+      return match ? match["#text"] : node[0]["#text"];
+    }
+    return node["#text"] || "";
+  };
+
+  // --- Build structured output ---
   const data = filteredChannels.map(ch => {
     const id = ch["@_id"];
-    const name = ch["display-name"]?.["#text"] || "";
-    const icon = ch.icon?.["@_src"] || "";
+    const name = getText(ch["display-name"]);
+    const logo = ch.icon?.["@_src"] || "";
+
     const programs = filteredPrograms
       .filter(p => p["@_channel"] === id)
       .map(p => ({
-        title: p.title?.["#text"] || "",
-        desc: p.desc?.["#text"] || "",
+        title: getText(p.title),
+        desc: getText(p.desc),
         start: p["@_start"],
         stop: p["@_stop"],
-        icon: p.icon?.["@_src"] || icon
+        icon: p.icon?.["@_src"] || logo
       }));
-    return { id, name, icon, programs };
+
+    return { id, name, icon: logo, programs };
   });
 
   await fs.writeFile(TARGET_FILE, JSON.stringify(data, null, 2));
-  console.log(`✅ Saved ${filteredChannels.length} channels to ${TARGET_FILE}`);
+  console.log(`💾 Saved ${data.length} channels to ${TARGET_FILE}`);
 }
 
-main().catch(console.error);
+main().catch(err => {
+  console.error("❌ Error while generating filtered EPG:", err);
+});
