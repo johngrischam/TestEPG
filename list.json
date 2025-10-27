@@ -13054,22 +13054,71 @@
         "title": "Siamo fuori",
         "description": "Programma di intrattenimento e cucina in cui vengono accolti personaggi noti legati a realtà locali. L'ospite non solo ha il compito di parlare del luogo, delle sue avventure e delle esperienze della giornata, ma deve anche affrontare delle sorprese.",
         "start": "2025-10-28T00:50:00.000Z",
-        "end": "2025-10-28T01:50:00.000Z",
+        "end": "2025-10-28T01:25:00.000Z",
         "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/356/p20687899bh10aa_BannerL1_w1920.webp"
       },
       {
-        "title": "Repliche informazione",
-        "description": "Repliche continuate di il Quotidiano, il Telegiornale ed il Meteo.",
+        "title": "TG Notte",
+        "description": "Ripercorriamo le ultime notizie della giornata con aggiornamenti sull'attualità della sera.",
+        "start": "2025-10-28T01:25:00.000Z",
+        "end": "2025-10-28T01:45:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/356/p31038426bh10aa_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Meteo",
+        "description": "Tutti i colori del tempo: uno sguardo alle previsioni meteo per oggi e i prossimi giorni.",
+        "start": "2025-10-28T01:45:00.000Z",
+        "end": "2025-10-28T01:50:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/356/p11163437bh10ae_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Prima ora",
+        "description": "Porta d'ingresso alla fascia informativa serale della RSI con ospiti e servizi. Notizie e ultimi aggiornamenti di attualità, cultura e sport dalla Svizzera e dal resto del mondo.",
         "start": "2025-10-28T01:50:00.000Z",
+        "end": "2025-10-28T02:45:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/356/p30934659bh10aa_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Il quotidiano",
+        "description": "Le ultime notizie nazionali ed internazionali: Il quotidiano di attualità della Svizzera Italiana.",
+        "start": "2025-10-28T02:45:00.000Z",
+        "end": "2025-10-28T03:15:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/356/p11163695bh10ae_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Telegiornale",
+        "description": "L'appuntamento quotidiano con le ultime notizie di attualità nazionali, internazionali e anche regionali, presentate sempre con uno stile diretto. A cura della redazione giornalistica della rete.",
+        "start": "2025-10-28T03:15:00.000Z",
         "end": "2025-10-28T04:00:00.000Z",
-        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/356/p11167868bh10ac_BannerL2_w1920.webp"
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/356/p11164465bh10ab_BannerL1_w1920.webp"
       },
       {
         "title": "In volo sulla Svizzera italiana",
         "description": "Un volo spettacolare sui paesaggi unici che costellano Canton Ticino e Grigioni italiano. Vallate e monti, nuclei e urbanizzazioni più recenti, lunghi nastri di autostrade e ferrovie.",
         "start": "2025-10-28T04:00:00.000Z",
-        "end": "2025-10-28T05:20:00.000Z",
+        "end": "2025-10-28T04:20:00.000Z",
         "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/356/p12280913bh10af_BannerL2_w1920.webp"
+      },
+      {
+        "title": "TG Notte",
+        "description": "Ripercorriamo le ultime notizie della giornata con aggiornamenti sull'attualità della sera.",
+        "start": "2025-10-28T04:20:00.000Z",
+        "end": "2025-10-28T04:40:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/356/p31038426bh10aa_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Meteo",
+        "description": "Tutti i colori del tempo: uno sguardo alle previsioni meteo per oggi e i prossimi giorni.",
+        "start": "2025-10-28T04:40:00.000Z",
+        "end": "2025-10-28T04:45:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/356/p11163437bh10ae_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Il quotidiano",
+        "description": "Le ultime notizie nazionali ed internazionali: Il quotidiano di attualità della Svizzera Italiana.",
+        "start": "2025-10-28T04:45:00.000Z",
+        "end": "2025-10-28T05:20:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/356/p11163695bh10ae_BannerL1_w1920.webp"
       },
       {
         "title": "Siamo fuori",
