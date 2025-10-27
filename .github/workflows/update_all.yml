@@ -1,32 +1,33 @@
-name: Merge All EPGs (Test Build)
+name: Update All EPG Sources
 
 on:
   schedule:
-    - cron: "0 */6 * * *"   # every 6 hours
-  workflow_dispatch:         # allows manual run from Actions tab
+    - cron: "0 */6 * * *"    # every 6 hours
+  workflow_dispatch:          # allows manual trigger from the Actions tab
 
 jobs:
-  merge-all:
+  update:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 🧱 Checkout repository
+      - name: 🧾 Checkout repository
         uses: actions/checkout@v4
 
-      - name: 🧩 Setup Node.js
+      - name: ⚙️ Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: "20"
 
-      - name: ⚙️ Run unified merge_all.mjs
-        run: |
-          echo "Running unified merge..."
-          node merge_all.mjs
+      - name: 📦 Install dependencies
+        run: npm install fast-xml-parser
 
-      - name: 💾 Commit & push merged_test.json
+      - name: 🧠 Run merge_all.mjs
+        run: node merge_all.mjs
+
+      - name: 💾 Commit & push unified EPG
         run: |
-          git config user.name "github-actions"
-          git config user.email "actions@github.com"
-          git add merged_test.json
-          git commit -m "Auto-merge all EPGs → merged_test.json" || echo "No changes to commit"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add merged_all.json
+          git commit -m "🔄 Auto-update merged_all.json (SamsungTVPlus + Blue.ch)" || echo "No changes to commit"
           git push
