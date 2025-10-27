@@ -13202,29 +13202,29 @@
         "title": "Siamo fuori",
         "description": "Programma di intrattenimento e cucina in cui vengono accolti personaggi noti legati a realtà locali. L'ospite non solo ha il compito di parlare del luogo, delle sue avventure e delle esperienze della giornata, ma deve anche affrontare delle sorprese.",
         "start": "2025-10-27T11:35:00.000Z",
-        "end": "2025-10-27T12:35:00.000Z",
+        "end": "2025-10-27T12:40:00.000Z",
         "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/357/p20687899bh10aa_BannerL1_w1920.webp"
       },
       {
         "title": "Insieme",
         "description": "Programma che accende la luce sui progetti di sviluppo ambientali, ecologici, educativi ed artistici più interessanti, attualmente attivi sul territorio svizzero e nel terzo mondo.",
-        "start": "2025-10-27T12:35:00.000Z",
-        "end": "2025-10-27T12:45:00.000Z",
+        "start": "2025-10-27T12:40:00.000Z",
+        "end": "2025-10-27T12:50:00.000Z",
         "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/357/p11180759bh10ae_BannerL1_w1920.webp"
       },
       {
         "title": "Storie",
         "description": "Il mondo è ammantato di racconti, narrazioni che avvolgono ogni angolo della società. Il loro potere è immenso: sono infatti in grado di evocare, emozionare, attrarre e spaventare.",
-        "start": "2025-10-27T12:45:00.000Z",
-        "end": "2025-10-27T14:25:00.000Z",
+        "start": "2025-10-27T12:50:00.000Z",
+        "end": "2025-10-27T14:40:00.000Z",
         "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/357/p11177555bh10ae_BannerL1_w1920.webp"
       },
       {
-        "title": "Le indagini di Sister Boniface",
-        "description": "Suor Boniface indaga su un caso di omicidio sul set del programma televisivo per bambini più popolare del Regno Unito, chiamato 'Jolly Roger'.",
-        "start": "2025-10-27T14:25:00.000Z",
+        "title": "Key West",
+        "description": "Alla scoperta della città, in Florida, dove Hemingway abitò per oltre 10 anni. Scopriamo così il luogo in cui il celeberrimo autore ha scritto molte delle sue opere più importanti.",
+        "start": "2025-10-27T14:40:00.000Z",
         "end": "2025-10-27T15:15:00.000Z",
-        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/357/p21628798bh11af_BannerL1_w1920.webp"
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/357/p22660015bh8aa_BannerL2_w1920.webp"
       },
       {
         "title": "Serengeti",
@@ -13304,11 +13304,32 @@
         "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/357/p11168138bh10ac_BannerL1_w1920.webp"
       },
       {
-        "title": "Repliche informazione",
-        "description": "Repliche continuate di il Quotidiano, il Telegiornale ed il Meteo.",
+        "title": "TG Notte",
+        "description": "Ripercorriamo le ultime notizie della giornata con aggiornamenti sull'attualità della sera.",
         "start": "2025-10-28T01:05:00.000Z",
+        "end": "2025-10-28T01:25:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/357/p31038426bh10aa_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Prima ora",
+        "description": "Porta d'ingresso alla fascia informativa serale della RSI con ospiti e servizi. Notizie e ultimi aggiornamenti di attualità, cultura e sport dalla Svizzera e dal resto del mondo.",
+        "start": "2025-10-28T01:25:00.000Z",
+        "end": "2025-10-28T02:20:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/357/p30934659bh10aa_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Il quotidiano",
+        "description": "Le ultime notizie nazionali ed internazionali: Il quotidiano di attualità della Svizzera Italiana.",
+        "start": "2025-10-28T02:20:00.000Z",
+        "end": "2025-10-28T02:50:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/357/p11163695bh10ae_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Telegiornale",
+        "description": "L'appuntamento quotidiano con le ultime notizie di attualità nazionali, internazionali e anche regionali, presentate sempre con uno stile diretto. A cura della redazione giornalistica della rete.",
+        "start": "2025-10-28T02:50:00.000Z",
         "end": "2025-10-28T04:00:00.000Z",
-        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/357/p11167868bh10ac_BannerL2_w1920.webp"
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/357/p11164465bh10ab_BannerL1_w1920.webp"
       },
       {
         "title": "In volo sulla Svizzera italiana",
@@ -13318,11 +13339,18 @@
         "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/357/p12280913bh10af_BannerL2_w1920.webp"
       },
       {
-        "title": "Repliche informazione",
-        "description": "Repliche continuate di il Quotidiano, il Telegiornale ed il Meteo.",
+        "title": "TG Notte",
+        "description": "Ripercorriamo le ultime notizie della giornata con aggiornamenti sull'attualità della sera.",
         "start": "2025-10-28T04:10:00.000Z",
+        "end": "2025-10-28T04:25:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/357/p31038426bh10aa_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Meteo",
+        "description": "Tutti i colori del tempo: uno sguardo alle previsioni meteo per oggi e i prossimi giorni.",
+        "start": "2025-10-28T04:25:00.000Z",
         "end": "2025-10-28T04:30:00.000Z",
-        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/357/p11167868bh10ac_BannerL2_w1920.webp"
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/357/p11163437bh10ae_BannerL1_w1920.webp"
       },
       {
         "title": "Albachiara in TV",
@@ -13424,11 +13452,18 @@
         "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/338/p751983bh10al_BannerL1_w1920.webp"
       },
       {
-        "title": "Tiro a volo: Coppa del Mondo Atene: Fossa Olimpica",
-        "description": "Segui la gara di tiro a volo in programma.",
+        "title": "Tiro a volo",
+        "description": "Segui le sfide di tiro a segno.",
         "start": "2025-10-27T17:00:00.000Z",
+        "end": "2025-10-27T18:00:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/338/p903371bh10aj_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Tiro a volo",
+        "description": "Segui le sfide di tiro a segno.",
+        "start": "2025-10-27T18:00:00.000Z",
         "end": "2025-10-27T19:00:00.000Z",
-        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/338/p8214554ih10ac_Iconic_w1920.webp"
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/338/p903371bh10aj_BannerL1_w1920.webp"
       },
       {
         "title": "C Siamo",
@@ -13455,36 +13490,43 @@
         "title": "Canottaggio: Memorial D'Aloja Piediluco",
         "description": "Segui la gara di canottaggio in programma.",
         "start": "2025-10-27T21:45:00.000Z",
-        "end": "2025-10-27T23:45:00.000Z",
+        "end": "2025-10-27T23:50:00.000Z",
         "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/338/p885939bh10av_BannerL1_w1920.webp"
       },
       {
-        "title": "Tiro a volo: Coppa del Mondo Atene: Fossa Olimpica",
-        "description": "Segui la gara di tiro a volo in programma.",
-        "start": "2025-10-27T23:45:00.000Z",
-        "end": "2025-10-28T01:40:00.000Z",
-        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/338/p8214554ih10ac_Iconic_w1920.webp"
+        "title": "Tiro a volo",
+        "description": "Segui le sfide di tiro a segno.",
+        "start": "2025-10-27T23:50:00.000Z",
+        "end": "2025-10-28T00:45:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/338/p903371bh10aj_BannerL1_w1920.webp"
       },
       {
-        "title": "Tiro con l'arco",
-        "description": "Segui la sfide di tiro con l'arco.",
-        "start": "2025-10-28T01:40:00.000Z",
-        "end": "2025-10-28T02:40:00.000Z",
-        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/338/p10007890bh10bb_BannerL2_w1920.webp"
+        "title": "Tiro a volo",
+        "description": "Segui le sfide di tiro a segno.",
+        "start": "2025-10-28T00:45:00.000Z",
+        "end": "2025-10-28T01:35:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/338/p903371bh10aj_BannerL1_w1920.webp"
       },
       {
         "title": "Judo: Campionati Italiani a Squadre",
         "description": "Segui gli incontri di judo in programma.",
-        "start": "2025-10-28T02:40:00.000Z",
-        "end": "2025-10-28T03:30:00.000Z",
+        "start": "2025-10-28T01:35:00.000Z",
+        "end": "2025-10-28T02:30:00.000Z",
         "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/338/p751983bh10al_BannerL1_w1920.webp"
       },
       {
-        "title": "Automobilismo",
-        "description": "I motori e l'alta velocità, su pista e in strada, protagonisti dello schermo.",
-        "start": "2025-10-28T03:30:00.000Z",
+        "title": "Serie C: Perugia - Livorno",
+        "description": "Dallo Stadio Renato Curi di Perugia, Italia.",
+        "start": "2025-10-28T02:30:00.000Z",
+        "end": "2025-10-28T04:30:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/338/GNLZZGG002FDD97_BannerL2_w1920.webp"
+      },
+      {
+        "title": "Atletica: Corsa dei Castelli Road Race U23 Trieste",
+        "description": "Segui il meglio delle gare di atletica.",
+        "start": "2025-10-28T04:30:00.000Z",
         "end": "2025-10-28T05:00:00.000Z",
-        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/338/p334889bh10bi_BannerL2_w1920.webp"
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/338/p10017367ih8ae_Iconic_w1920.webp"
       },
       {
         "title": "Tiro con l'arco",
