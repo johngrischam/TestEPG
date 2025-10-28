@@ -5,20 +5,6 @@
     "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT2600002F6_20250415T022347SQUARE.png",
     "programs": [
       {
-        "title": "Universal Soldier: Il giorno del giudizio",
-        "desc": "John si risveglia in ospedale dopo un coma durato nove mesi. Gli unici suoi ricordi prima del ricovero sono quelli dell'omicidio della moglie e della figlia da parte di Luc Deveraux. John viene a sapere che Deveraux si è nascosto con un gruppo di fedelissimi in un bunker sotterraneo.",
-        "start": "20251028002329 +0000",
-        "stop": "20251028023114 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_1126946073_0_20250814T031902899Z_1_imageprocessorclient-tvplus-linear-5db7c6bc99-nf4cw.jpeg"
-      },
-      {
-        "title": "Kitty the Killer",
-        "desc": "Mille anni fa un gruppo di uomini creò una scuola per addestrare delle ragazze e trasformarle in spietate assassine. Oggi questo gruppo di spietate killer opera al servizio dell'Agenzia, un'organizzazione che ha interessi in tutto il mondo.",
-        "start": "20251028023114 +0000",
-        "stop": "20251028044007 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_554305327_0_20250104T024227724Z_114_imageprocessorclient-tvplus-linear-7cd5d896cc-xjpbw.jpeg"
-      },
-      {
         "title": "The Illusionist",
         "desc": "Vienna, seconda metà dell'Ottocento. L' acclamato illusionista Eisenheim incanta le platee con i suoi incredibili trucchi. Ha persino catturato l' interesse del Principe Leopoldo e della sua fidanzata Sophia, un tempo legata sentimentalmente allo stesso Eisenheim.",
         "start": "20251028044007 +0000",
@@ -31,35 +17,21 @@
         "start": "20251028063646 +0000",
         "stop": "20251028092342 +0000",
         "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_1073362215_0_20250722T025232078Z_130_imageprocessorclient-tvplus-linear-5db7c6bc99-22gf2.jpeg"
+      },
+      {
+        "title": "S.W.A.T.",
+        "desc": "Gli Swat dell'esercito cinese rappresentano il corpo d'elite più addrestrato e letale di tutta la nazione. Solo i migliori agenti ne possono far parte. Quando un pericoloso narcotrafficante americano (Robert Knepper) sbarca in Cina...",
+        "start": "20251028092342 +0000",
+        "stop": "20251028112313 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_665044791_0_20250224T032747043Z_15_imageprocessorclient-tvplus-linear-6fb5b47f79-4vrmb.jpeg"
       }
     ]
   },
   {
     "id": "ITBA33000238E",
     "name": "Comicità piccante",
-    "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBA33000238E_20250326T013229SQUARE.png",
+    "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBA33000238E_20251028T011515SQUARE.png",
     "programs": [
-      {
-        "title": "Action",
-        "desc": "Bruno Martel è un attore fallito, ridottosi a girare piccoli ruoli in film di serie b, che viene ripetutamente tradito dalla moglie Ann, una fotomodella. L'uomo decide allora di buttarsi nel cinema porno, ma l'ambiente lo disgusta a tal punto da farlo fuggire insieme ad Ofelia, una sua giovane collega di set.",
-        "start": "20251027235503 +0000",
-        "stop": "20251028014305 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_1236265458_0_20251004T213623966Z_22_imageprocessorclient-tvplus-linear-5db7c6bc99-trv6z.png"
-      },
-      {
-        "title": "Quello strano desiderio",
-        "desc": "Due alieni del pianeta \"Alpha 4\" vincono un viaggio premio sulla Terra. Arrivano a Bari, dove entrano nei corpi di due poveri ragionieri.",
-        "start": "20251028014305 +0000",
-        "stop": "20251028030149 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_772179159_0_20250403T212322693Z_30_imageprocessorclient-tvplus-linear-6fb5b47f79-9rknc.png"
-      },
-      {
-        "title": "Un'età da sballo",
-        "desc": "La sedicenne Giulia, figlia di uno scrittore e pittore di successo, lascia il collegio e trascorre le vacanze nella villa di famiglia, al mare, con un gruppo di amici della sua età.",
-        "start": "20251028030149 +0000",
-        "stop": "20251028044149 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_793296901_0_20250411T211453628Z_144_imageprocessorclient-tvplus-linear-6fb5b47f79-j48bz.png"
-      },
       {
         "title": "Il pupazzo",
         "desc": "Amalio Badalamenti è un calabrese che da 13 anni vive in Messico, guadagnandosi da vivere per sé e per la propria famiglia con un taxi. La moglie Carmen gli ha già dato 13 figli che lui ha chiamato con i mesi dell'anno. Diversa è la situazione di Pablo e Ronnie Copeka, titolari di una grossa industria di polli, che non hanno figli e sentono pesare su di loro l'ombra del padre.",
@@ -71,8 +43,29 @@
         "title": "Adultero lui, adultera lei",
         "desc": "Lina decide a sua volta di tradire il marito con un comune amico, Piero, nella stessa pensione dove lui la tradisce da anni. Il marito di Lina la denuncia, per poi ritirare la querela di fronte ai propositi suicidi della moglie di Piero. Da quest'ultimo, il marito di Lina verrà a sapere che la moglie non l'ha mai tradito. Tra i due torna il sereno. Il lupo, però, perde il pelo ma non il vizio.",
         "start": "20251028061517 +0000",
-        "stop": "20251028074251 +0000",
+        "stop": "20251028074252 +0000",
         "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_972051313_0_20250612T212745406Z_75_imageprocessorclient-tvplus-linear-5db7c6bc99-87j56.png"
+      },
+      {
+        "title": "Peccato di castità",
+        "desc": "Valentina ha appena sposato Michele. Dovrebbe essere più che felice, visto che sta partendo per il viaggio di nozze e che è riuscita a superare le difficoltà che si frapponevano tra lei e il matrimonio. In realtà non è così: ha fatto voto di mantenersi vergine la prima notte di nozze ed ora non sa come spiegarlo all'ignaro marito.",
+        "start": "20251028074252 +0000",
+        "stop": "20251028091329 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_787799574_0_20250409T211724662Z_134_imageprocessorclient-tvplus-linear-6fb5b47f79-gbnt7.png"
+      },
+      {
+        "title": "La settimana al mare",
+        "desc": "Un divertentissimo cult della commedia italiana anni '80 con Bombolo, Enzo Cannavale, Annamaria Rizzoli e Vincenzo Crocitti. Carlo, studente universitario, è figlio unico e sua madre Elvira, per proteggerlo, lo ha reso timido e indifeso. Il padre Antonio decide allora d'intervenire e, all'insaputa della moglie, porta il figlio in vacanza con sé in un villaggio turistico.",
+        "start": "20251028091329 +0000",
+        "stop": "20251028104902 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_744153540_0_20250324T212143554Z_127_imageprocessorclient-tvplus-linear-6fb5b47f79-6rsgc.jpeg"
+      },
+      {
+        "title": "Una vacanza del cactus",
+        "desc": "Divertentissima commedia sexy all'italiana con i mitici Anna Maria Rizzoli, Enzo Cannavale e Bombolo. Un gruppo di cinque persone si appresta a una vacanza sull'isola di Rodi, in Grecia: tra loro c'è il bonario Augusto, che intende portare un cactus sulla tomba dello zio Michele. Quest'ultimo, in realtà, è un truffatore che, ricercato a Roma, si è rifugiato sull'isola sotto il nome di Kemal.",
+        "start": "20251028104902 +0000",
+        "stop": "20251028123048 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_754733434_0_20250328T152439520Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-tqk7n.jpeg"
       }
     ]
   },
@@ -81,27 +74,6 @@
     "name": "Alberto Sordi & Co",
     "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBC1100008L4_20250513T010703SQUARE.png",
     "programs": [
-      {
-        "title": "La donna della domenica",
-        "desc": "Un Classico del cinema italiano, diretto da Luigi Comencini e interpretato da Marcello Mastroianni e Jean-louis Trintignant. A Torino viene misteriosamente ucciso un architetto. Le indagini portano il commissario Santamaria a indirizzare i suoi sospetti su alcuni esponenti dell'alta società, e in particolare su Anna, moglie di un grosso industriale, e sul suo confidente, un dottore.",
-        "start": "20251027233439 +0000",
-        "stop": "20251028013510 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_744047180_0_20250324T202354323Z_67_imageprocessorclient-tvplus-linear-6fb5b47f79-74nlz.png"
-      },
-      {
-        "title": "Domenica d'agosto",
-        "desc": "Grande classico con Marcello Mastroianni. Dalla calda città di Roma una folla variegata, di ogni estrazione sociale, si muove con mezzi diversi verso il lido di Ostia. C'è chi va al mare in bicicletta, chi, con la propria auto, ci porta tutta la famiglia, chi finge di essere ricco per conquistare l'amore dei suoi sogni e così via. È l'Italia del 7 agosto 1949, festa di San Gaetano.",
-        "start": "20251028013510 +0000",
-        "stop": "20251028025900 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_963042850_0_20250609T212233403Z_93_imageprocessorclient-tvplus-linear-6fb5b47f79-5hxrw.png"
-      },
-      {
-        "title": "Bravissimo",
-        "desc": "Commedia italiana con il celebre Alberto Sordi. Ubaldo è un maestro che insegna al doposcuola del quartiere. Quando il padre di uno dei suoi alunni viene arrestato, Ubaldo scopre che il piccolo a lui affidato dopo l'abbandono dei parenti ha una dote eccezionale: una bella voce che potrebbe renderlo ricco. Ma una felice esibizione televisiva riporta in scena i familiari.",
-        "start": "20251028025900 +0000",
-        "stop": "20251028044529 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_951208226_0_20250605T205313389Z_89_imageprocessorclient-tvplus-linear-6fb5b47f79-5hxrw.png"
-      },
       {
         "title": "L'arte di arrangiarsi",
         "desc": "Il celebre Alberto Sordi in una divertentissima commedia. Rosario Scimoni, detto Sasà, è una persona opportunista e senza scrupoli, nipote del sindaco di Catania, sempre pronto a schierarsi con chiunque possa aiutarlo. Passa dal socialismo al fascismo, cambiando fede politica con la stessa facilità con cui cambia le donne. Prova addirittura a fondare un proprio partito. Diretto da Luigi Zampa.",
@@ -115,6 +87,20 @@
         "start": "20251028062146 +0000",
         "stop": "20251028075245 +0000",
         "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_735454110_0_20250321T204003894Z_98_imageprocessorclient-tvplus-linear-6fb5b47f79-vvhtm.png"
+      },
+      {
+        "title": "Guardatele ma non toccatele",
+        "desc": "Un aereo militare con venti uomini a bordo deve atterrare in seguito ad avaria al motore. Il comandante del campo chiama a rapporto il maresciallo La Notte ed ordina che ai militari americani in arrivo sia assegnata la camerata degli avieri. L'ordine provoca scontento, che si trasforma in gioia quando dall'aereo americano scendono venti avvenenti ausiliarie, capitanate da Rebecca O'Connor.",
+        "start": "20251028075245 +0000",
+        "stop": "20251028094055 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_1187257013_0_20250911T211122783Z_91_imageprocessorclient-tvplus-linear-5db7c6bc99-trv6z.png"
+      },
+      {
+        "title": "Il Monaco di Monza",
+        "desc": "La comicità irresistibile di Totò diretta da Sergio Corbucci per far ridere e divertire con il suo umorismo senza tempo. La storia delle esilaranti vicende di Pasquale Cicciacalda (Totò), un frate che si ritrova coinvolto in una serie di situazioni comiche e surreali, ambientate in un'Italia rinascimentale dai toni grotteschi.",
+        "start": "20251028094055 +0000",
+        "stop": "20251028113315 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_622211963_0_20250204T234637756Z_95_imageprocessorclient-tvplus-linear-7cd5d896cc-l4w6v.png"
       }
     ]
   },
@@ -123,27 +109,6 @@
     "name": "CG Grandi Film:  Bollenti spiriti & Co",
     "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBA14000093A_20250624T020603SQUARE.png",
     "programs": [
-      {
-        "title": "Sotto il vestito niente",
-        "desc": "In seguito ad un terribile presagio, Bob raggiunge Milano dagli Stati Uniti per incontrare la sorella Jessica, modella, scoprendo che è misteriosamente scomparsa. Deciso a ritrovarla a tutti i costi, inizierà una difficile indagine mentre una tragica catena di omicidi ad opera di un unico, insospettabile assassino, getta nel panico gli ambienti dell`alta moda.",
-        "start": "20251028000648 +0000",
-        "stop": "20251028014945 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_995440566_0_20250620T212255406Z_37_imageprocessorclient-tvplus-linear-5db7c6bc99-2fhcs.jpeg"
-      },
-      {
-        "title": "Malizia 2mila",
-        "desc": "Ignazio La Brocca e l`ex cameriera Angela, ora sua moglie, ospitano nella loro lussuosa villa l`architetto Lance Bruni con il figlio quindicenne Jimmy. L`architetto deve indagare sulla supposta esistenza, nel sottosuolo, di una tomba dove Ruggero di Altavilla avrebbe murato viva la principessa Aisha. Durante il loro soggiorno, Jimmy inizia ad essere attratto da Angela, e le lascia dei messaggi equivoci che getteranno scompiglio.",
-        "start": "20251028014945 +0000",
-        "stop": "20251028032737 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_995442207_0_20250620T212255405Z_1_imageprocessorclient-tvplus-linear-5db7c6bc99-2fhcs.jpeg"
-      },
-      {
-        "title": "Non faccio la guerra, faccio l'amore",
-        "desc": "A 20 anni dalla fine dell'ultima guerra mondiale, un sommergibile tedesco ancora non si è arreso e continua a battere i mari in attesa di una nuova, immancabile guerra. Membro singolare dell'equipaggio Ombrina, una ragazza oramai ventenne, tratta in salvo neonata dai marinai dopo il naufragio del panfilo dei genitori. Ormai adulta, la sua presenza inizia a creare disagio tra gli uomini ed ella stessa sente il desiderio di ampliare le sue esperienze, quasi nulle soprattutto in campo sentimentale, al di fuori dell'imbarcazione",
-        "start": "20251028032737 +0000",
-        "stop": "20251028050725 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_995442341_0_20250620T212259727Z_91_imageprocessorclient-tvplus-linear-5db7c6bc99-2fhcs.jpeg"
-      },
       {
         "title": "Strepitosamente... flop",
         "desc": "Un gruppo di giovani, ad inizio anni '90, alle prese con l'inserimento nella vita e nel mondo del lavoro, tra sogni, illusioni e divertenti \"fregature\". Un pretesto per presentare, in chiave di commedia agro-dolce, una garbata panoramica sulla società di allora, con le mode, i tic e le manie dell'epoca. Ma, dopo tanti anni, le cose per le nuove generazioni sono davvero cambiate?",
@@ -155,8 +120,22 @@
         "title": "La patata bollente -",
         "desc": "L`operaio Bernardo Mabelli, detto Ghandi, fervente comunista ed ex pugile, salva Claudio da un pestaggio fascista e lo ospita nel suo appartamento, ignorando che è gay. Quando la verità verrà a galla, Ghandi dovrà fare i conti con le maldicenze dei colleghi e le preoccupazioni della sua fidanzata...",
         "start": "20251028063402 +0000",
-        "stop": "20251028082702 +0000",
+        "stop": "20251028082703 +0000",
         "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_1021227259_0_20250630T185956327Z_1_imageprocessorclient-tvplus-linear-5db7c6bc99-9tsm4.jpeg"
+      },
+      {
+        "title": "Le finte bionde",
+        "desc": "Una carrellata di personaggi femminili della media borghesia romana si dibatte tra l`ultimo status-symbol da inseguire, la vacanza più \"in\" da prenotare, il piatto più esotico da cucinare. L`unico scopo per tutte loro è quello di essere oltre la moda, inseguendo la nuova chimera di turno...",
+        "start": "20251028082703 +0000",
+        "stop": "20251028100840 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_995440565_0_20250620T212256727Z_54_imageprocessorclient-tvplus-linear-5db7c6bc99-2fhcs.jpeg"
+      },
+      {
+        "title": "Quando le donne persero la coda",
+        "desc": "In una piccola comunità di cavernicoli, vissuta fino ad allora nella più completa ignoranza degli scambi commerciali, arriva un giorno, accompagnato dalla mastodontica moglie Katorcia, Ham, il \"paleodrictus\". Uomo di una civiltà superiore, costui, accortosi dell`ingenuità dei suoi compagni, decide di sfruttarla per il proprio tornaconto e per quello della sua insaziabile consorte.",
+        "start": "20251028100840 +0000",
+        "stop": "20251028120328 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_995437904_0_20250620T212255406Z_97_imageprocessorclient-tvplus-linear-5db7c6bc99-2fhcs.jpeg"
       }
     ]
   },
@@ -165,20 +144,6 @@
     "name": "Grandi Nomi",
     "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBC1100003KC_20250527T014831SQUARE.png",
     "programs": [
-      {
-        "title": "Il gabbiano",
-        "desc": "Nella casa di campagna dell'anziano Sorin giungono sua sorella Irina, un'attrice famosa, accompagnata dall'amante Boris, uno scrittore di successo. Il figlio di Irina, Konstantin, aspira a diventare un drammaturgo.",
-        "start": "20251028002208 +0000",
-        "stop": "20251028021006 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_509937189_5_20241030T220123358Z_75_imageprocessorclient-tvplus-linear-7cd5d896cc-mw6n8.jpeg"
-      },
-      {
-        "title": "Final Portrait",
-        "desc": "Nel 1964, durante un breve viaggio a Parigi, lo scrittore americano e appassionato d'arte James Lord incontra il suo amico Alberto Giacometti, un pittore di fama internazionale, che gli chiede di posare per lui. Le sedute, gli assicura Giacometti, dureranno solo qualche giorno. Lusingato e incuriosito, Lord accetta. Non è solo l'inizio di un'amicizia insolita e toccante, ma anche di un viaggio illuminante nella bellezza, la frustrazione, la profondità e, a volte, il vero e proprio caos del processo artistico.",
-        "start": "20251028021006 +0000",
-        "stop": "20251028035402 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_509937157_27_20241030T220127975Z_67_imageprocessorclient-tvplus-linear-7cd5d896cc-bh7qg.jpeg"
-      },
       {
         "title": "La Scelta di Barbara",
         "desc": "Estate 1980. Barbara, un medico, ha richiesto un visto di espatrio dalla Germania dell'est. Per punizione viene allontanata da Berlino e trasferita in un piccolo ospedale di campagna, lontano da tutto.",
@@ -190,30 +155,30 @@
         "title": "Le stelle non si spengono a Liverpool",
         "desc": "Liverpool, 1979. Quella che inizia come una vivace relazione tra una leggendaria femme fatale e il suo giovane amante si trasforma rapidamente in un rapporto più profondo, con Turner che è l'unica persona a cui Gloria si permette di rivolgersi per trovare conforto e forza.",
         "start": "20251028055428 +0000",
-        "stop": "20251028075634 +0000",
+        "stop": "20251028075635 +0000",
         "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_509937203_0_20241030T220127157Z_126_imageprocessorclient-tvplus-linear-7cd5d896cc-wgww2.jpeg"
+      },
+      {
+        "title": "In viaggio con Evie",
+        "desc": "Ben è un adolescente timido e sensibile che vive con la madre Laura, vivace bacchettona, e il padre Robert, remissivo pastore anglicano. Dopo aver messo un annuncio sul giornale parrocchiale, Ben diventa l'assistente tuttofare di Evie Walton, un'anziana attrice di teatro bizzosa e irresistibile. L'entusiasmo di Evie per la vita e per l'arte, quella letteraria, rivelerà a Ben un mondo meraviglioso che aspetta soltanto di essere vissuto.",
+        "start": "20251028075635 +0000",
+        "stop": "20251028094405 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_485727422_0_20231102T181852300Z_81.jpeg"
+      },
+      {
+        "title": "I figli delle nuvole",
+        "desc": "Esplorando la colonizzazione del Sahara Occidentale, il documentario mostra come 200.000 persone vivano ancora oggi in campi profughi. Racconta le storie di chi è stato esiliato e riflette sulle gravi conseguenze di un conflitto dimenticato.",
+        "start": "20251028094405 +0000",
+        "stop": "20251028111408 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_1159684131_0_20250829T213237509Z_114_imageprocessorclient-tvplus-linear-5db7c6bc99-2fhcs.jpeg"
       }
     ]
   },
   {
     "id": "ITBD600001CL",
     "name": "Brividy Cinema",
-    "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBD600001CL_20241022T051541SQUARE.png",
+    "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBD600001CL_20251028T010418SQUARE.png",
     "programs": [
-      {
-        "title": "Falli fuori Malone",
-        "desc": "Malone è un investigatore privato privo di scrupoli che si allea con gangster e delinquenti per proteggere un prezioso segreto. Ma per farlo dovrà attraversare l'inferno, e oltre…",
-        "start": "20251027234101 +0000",
-        "stop": "20251028013912 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_1136562907_0_20250818T205913285Z_55_imageprocessorclient-tvplus-linear-5db7c6bc99-7sngq.png"
-      },
-      {
-        "title": "The Tracker",
-        "desc": "Dieci anni dopo la morte della sua famiglia, Aiden Hakansson torna in Italia per scoprire la verità. Un'indagine lo porta in un mondo di corruzione e segreti, dove la giustizia non esiste. Aiden è pronto a fare quello che nessun altro osa: vendicarsi, a ogni costo.",
-        "start": "20251028013912 +0000",
-        "stop": "20251028032353 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_1126537390_0_20250813T211835066Z_30_imageprocessorclient-tvplus-linear-5db7c6bc99-nf4cw.jpeg"
-      },
       {
         "title": "Broken",
         "desc": "Una giovane donna fugge dal suo passato e fugge in Inghilterra in cerca di una nuova vita. Accetta un lavoro per prendersi cura di un tetraplegico, ma il peso del lavoro agita il suo passato. Sembra che i limiti della cura non siano sempre così chiari come dovrebbero essere",
@@ -225,8 +190,29 @@
         "title": "Jack in the box",
         "desc": "Un'antica scatola contenente un clown a molla viene ritrovata nella campagna inglese e donata a un museo. Quando i dipendenti del museo iniziano a morire uno alla volta, due ragazzi sospettano che il clown non sia un semplice giocattolo.",
         "start": "20251028052310 +0000",
-        "stop": "20251028071157 +0000",
+        "stop": "20251028071158 +0000",
         "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_1124473297_0_20250812T210932822Z_78_imageprocessorclient-tvplus-linear-5db7c6bc99-trv6z.jpeg"
+      },
+      {
+        "title": "The Huntress",
+        "desc": "Runa figlia di un vichingo ha un legame turbolento con la sua famiglia, il padre è partito per una missione. Un giorno un compagno di viaggio di suo padre ritorna, ma un terribile segreto inizierà a sconvolgere le loro vite, una maledizione circonderà tutta la foresta.",
+        "start": "20251028071158 +0000",
+        "stop": "20251028092259 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_1140608354_0_20250820T211122295Z_58_imageprocessorclient-tvplus-linear-5db7c6bc99-tplqm.jpeg"
+      },
+      {
+        "title": "Destruction Los Angeles",
+        "desc": "Nicole Johnson è una stimata professoressa di criminologia che difende la sua studentessa prodigio dalle accuse di aver brutalmente ucciso la sua compagna di stanza.",
+        "start": "20251028092259 +0000",
+        "stop": "20251028110928 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_1130600766_0_20250815T211237857Z_131_imageprocessorclient-tvplus-linear-5db7c6bc99-xrkqv.jpeg"
+      },
+      {
+        "title": "Crucifixion",
+        "desc": "Padre Dumitru e alcune suore compiono un violento esorcismo su suor Adelina, che si crede posseduta da un demone. A seguito della morte di quest'ultima, i suoi aguzzini vengono arrestati con l'accusa di omicidio. Nella capitale giunge Nicole, giornalista newyorchese, che vuole indagare sul caso.",
+        "start": "20251028110928 +0000",
+        "stop": "20251028125937 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_1130620233_0_20250815T211240859Z_60_imageprocessorclient-tvplus-linear-5db7c6bc99-xrkqv.jpeg"
       }
     ]
   },
@@ -235,20 +221,6 @@
     "name": "Romance - Rakuten TV",
     "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT2600004K9_20250121T012551SQUARE.png",
     "programs": [
-      {
-        "title": "They Came Together",
-        "desc": "Quando Joel (Paul Rudd) e Molly (Amy Poehler) si incontrano, è odio a prima vista: la grande azienda produttrice di dolciumi di lui minaccia di far chiudere la piccola impresa indipendente di lei.",
-        "start": "20251028002705 +0000",
-        "stop": "20251028020023 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_1153523228_0_20250827T035115721Z_23_imageprocessorclient-tvplus-linear-5db7c6bc99-ztbvg.jpeg"
-      },
-      {
-        "title": "Time",
-        "desc": "Seh-hee e Ji-woo stanno insieme da due anni e sono molto innamorati. Ma con il passare del tempo Seh-hee inizia a temere che Ji-woo possa stancarsi di lei e diventa isterica ogni volta che l'uomo degna di attenzione un'altra.",
-        "start": "20251028020023 +0000",
-        "stop": "20251028034642 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_543731479_0_20241230T033224742Z_1_imageprocessorclient-tvplus-linear-7cd5d896cc-lfx5z.jpeg"
-      },
       {
         "title": "Il diario dell'amore",
         "desc": "Henry e Penny vivono a New Orleans e sono una coppia molto affettuosa, fino a quando la tragedia colpisce.",
@@ -262,6 +234,20 @@
         "start": "20251028054734 +0000",
         "stop": "20251028071827 +0000",
         "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_521146936_3_20241219T032130159Z_1_imageprocessorclient-tvplus-linear-7cd5d896cc-w48lf.jpeg"
+      },
+      {
+        "title": "Miss Julie",
+        "desc": "Una residenza di campagna in Irlanda intorno al 1880. Nel corso di una notte di mezza estate, in un clima di baldoria selvaggia e vincoli sociali allentati, la giovane Julie e John, cameriere di suo padre, ballano e bevono, si corteggiano e manipolano.",
+        "start": "20251028071827 +0000",
+        "stop": "20251028094454 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_1096420704_0_20250730T035754713Z_103_imageprocessorclient-tvplus-linear-5db7c6bc99-d5mt6.jpeg"
+      },
+      {
+        "title": "Dolcezze d'autunno",
+        "desc": "Imprenditrice di successo, Maggie torna a casa per la lettura del testamento della zia e scopre di aver ereditato la metà della sua famosa azienda di caramelle all'acero. Ma quello che non capisce è perché l'altra metà sia stata ereditata da Dex, fornitore di acero della zia Dee.",
+        "start": "20251028094454 +0000",
+        "stop": "20251028112220 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_1157797207_0_20250829T033807099Z_89_imageprocessorclient-tvplus-linear-5db7c6bc99-sm8n5.jpeg"
       }
     ]
   },
@@ -270,27 +256,6 @@
     "name": "Smile",
     "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBC1100002ZU_20241022T043826SQUARE.png",
     "programs": [
-      {
-        "title": "Olivia",
-        "desc": "Una commedia romantica sul senso quantico dell'amore e delle coincidenze che ce lo fanno trovare. Vanni e Olivia si conoscono in chat e parlano per tutta la notte, svelandosi i loro segreti più intimi e finendo per innamorarsi.",
-        "start": "20251027231731 +0000",
-        "stop": "20251028011054 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_669580547_0_20250225T213145608Z_95_imageprocessorclient-tvplus-linear-6fb5b47f79-2454l.jpeg"
-      },
-      {
-        "title": "Lui è mio padre",
-        "desc": "Michele, un umile calzolaio sposato con Elvira e padre di Cristiana, lavora nella piccola bottega ereditata dal papà. Prima di aprire il negozio, senza farsi vedere da nessuno, indossando una maschera e un boccaglio, si occupa di ripulire le spiagge dall'immondizia. Una mattina, una ragazza che fa jogging sulla spiaggia gli scatta una foto e la pubblica sui social network definendolo “L'Uomo Mascherato”...",
-        "start": "20251028011054 +0000",
-        "stop": "20251028025258 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_509937140_18_20241030T220126610Z_113_imageprocessorclient-tvplus-linear-7cd5d896cc-9srmr.jpeg"
-      },
-      {
-        "title": "Come se non ci fosse un domani",
-        "desc": "Intrappolato in un ciclo di salti temporali, trasportato un anno avanti in una manciata di minuti, Teddy deve affrontare una corsa contro il tempo mentre la sua vita si sgretola intorno a lui.",
-        "start": "20251028025258 +0000",
-        "stop": "20251028043853 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_664509671_0_20250223T211810942Z_68_imageprocessorclient-tvplus-linear-6fb5b47f79-74nlz.jpeg"
-      },
       {
         "title": "American Life",
         "desc": "La storia di Burt e Verona, una coppia di trentenni che aspetta un bambino. La gravidanza procede bene fino a quando ricevono una notizia improvvisa e sconvolgente: gli eccentrici genitori di Burt annunciano che lasceranno il Colorado per trasferirsi in Europa. A questo punto, viene a cadere l'unica ragione per la quale avevano deciso di stabilirsi lì. Dove e vicino a chi dovranno mettere si casa per crescere il bambino in arrivo? I due ragazzi partono così per un viaggio che li porterà a far visita ad amici e familiari, in città diverse, per valutare tutte le possibili opzioni.",
@@ -302,8 +267,22 @@
         "title": "Jagoda: fragole al supermarket",
         "desc": "Jagoda (\"Fragola\"), lavora in un supermarket e sogna di incontrare il grande amore. Contrariamente alla sua collega Ljubica, più attraente, a trent'anni passati Jagoda è sfortunata con gli uomini. Il giorno che l'amica ottiene un appuntamento con il bel vicino di casa di Jagoda, l'ispettore di polizia Nebojsa, la giovane scoppia e sfoga la sua frustrazione su un'anziana signora, buona cliente del negozio, che viene insultata e addirittura buttata fuori dalla stessa Jagoda. Il giorno seguente avviene qualcosa che cambierà la vita di Jagoda: entra nel supermarket un guerriero in tuta mimetica, armato fino ai denti, che prende tutti in ostaggio. Jagoda e Ljubica sono attratte dall'uomo che rifiuta di parlare con i poliziotti normali e vuole negoziare solo con un commando speciale, alla cui guida c'è Nebojsa.",
         "start": "20251028062739 +0000",
-        "stop": "20251028080429 +0000",
+        "stop": "20251028080430 +0000",
         "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_485214714_0_20231012T182907882Z_87.jpeg"
+      },
+      {
+        "title": "La canzone più triste del mondo",
+        "desc": "Durante la Grande Depressione, nella cittadina di Winnipeg, una baronessa indice un concorso per trovare la canzone più triste del mondo. Musicisti da tutto il mondo accorreranno per vincere il primo premio: 25 mila dollari. Un musical grottesco e fantastico, diretto da un grande regista, purtroppo poco conosciuto in Italia: Guy Maddin.",
+        "start": "20251028080430 +0000",
+        "stop": "20251028095555 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_843535637_0_20250429T211825150Z_97_imageprocessorclient-tvplus-linear-6fb5b47f79-bq75x.jpeg"
+      },
+      {
+        "title": "Porto il velo adoro i Queen",
+        "desc": "La quotidianità e le parole di tre giovani donne musulmane fanno luce sui pregiudizi e gli stereotipi che ostacolano la comprensione di un mondo sfaccettato: l'Islam. Sumaya (blogger, prima musulmana eletta Consigliere al Comune di Milano), Takoua (romana, autrice di fumetti e graphic novel), e Batul (medico psichiatra di Trento), affrontano i temi che da anni infiammano il dibattito sulle relazioni tra il mondo musulmano e quello occidentale, a partire dall'incerto esito delle Primavere Arabe, fino al crescente sentimento islamofobo.",
+        "start": "20251028095555 +0000",
+        "stop": "20251028113659 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_669580933_0_20250225T213144780Z_101_imageprocessorclient-tvplus-linear-6fb5b47f79-2454l.jpeg"
       }
     ]
   },
@@ -312,27 +291,6 @@
     "name": "Risate Cult '80",
     "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBD140000119_20250902T003827SQUARE.png",
     "programs": [
-      {
-        "title": "Miracoloni",
-        "desc": "In una borgata periferica, un certo Giosuè scopre improvvisamente di possedere poteri straordinari. Anche il quartiere dove vive è stupito da questa scoperta: Giosuè vede la sua vita cambiare, ma iniziano anche i problemi, soprattutto perché sono molti quelli che cercano di utilizzare la sua notorietà a loro vantaggio.",
-        "start": "20251027234351 +0000",
-        "stop": "20251028012325 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_509937595_5_20241030T220123358Z_89_imageprocessorclient-tvplus-linear-7cd5d896cc-mw6n8.jpeg"
-      },
-      {
-        "title": "Il volatore di aquiloni",
-        "desc": "Urca vive tra le montagne. Un bel giorno, il desiderio di vedere il mare lo spinge a spiccare il volo con il suo deltaplano. Nel corso del viaggio, fa tappa a Milano, alla scoperta della capitale del Nord, attraverso un percorso che ne metterà in luce pregi e difetti.",
-        "start": "20251028012325 +0000",
-        "stop": "20251028023725 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_509937606_5_20241030T220123357Z_99_imageprocessorclient-tvplus-linear-7cd5d896cc-mw6n8.jpeg"
-      },
-      {
-        "title": "Cercasi Gesù",
-        "desc": "Giovanni è un giovane contattato da una casa editrice cattolica per pubblicizzare, con il suo volto, un libro sulla vita di Cristo. Francesca è una misteriosa ragazza che incontra sulla strada e che è ricercata dalla polizia. Partono insieme, ma i loro guai spariranno con loro?",
-        "start": "20251028023725 +0000",
-        "stop": "20251028044128 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_509937599_14_20241030T220125875Z_115_imageprocessorclient-tvplus-linear-7cd5d896cc-gbk2s.jpeg"
-      },
       {
         "title": "Chewingum",
         "desc": "Chewingum è il nome di un bar, piazzato proprio davanti al Colosseo, nel quale si ritrova un gruppo di diciottenni prossimi all'esame di maturità. Cè la ragazza con gli amanti che arrivano in Maserati, c'é la coppia fissa, il playboy, la bruttina, c'é quello che cita Buñuel per conquistare la supplente di filosofia. Tra scene di gelosia e goliardate si arriva finalmente al giorno dell'esame.",
@@ -346,6 +304,20 @@
         "start": "20251028063339 +0000",
         "stop": "20251028084240 +0000",
         "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_509937593_18_20241030T220126610Z_27_imageprocessorclient-tvplus-linear-7cd5d896cc-9srmr.jpeg"
+      },
+      {
+        "title": "L'estate sta finendo",
+        "desc": "La quindicenne Giuliana, stufa dello yacht della mamma, scappa con Romeo, figlio del portinaio. Tra sacchi a pelo, nuove amicizie a Firenze e gelosie adolescenziali, il padre parte all'inseguimento in un'inaspettata avventura estiva italiana",
+        "start": "20251028084240 +0000",
+        "stop": "20251028103635 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_1042864622_0_20250709T205748434Z_102_imageprocessorclient-tvplus-linear-5db7c6bc99-q9lf2.jpeg"
+      },
+      {
+        "title": "Burro",
+        "desc": "Burro è un ragazzo romagnolo che lavora in un piccolo cinema nel suo paese. Il suo lavoro finisce per assorbirlo così tanto che anche le relazioni interpersonali passano attraverso il cinema: Burro, infatti, è terribilmente innamorato di un'attrice, che vede in ogni donna che incontra. Ma forse, alla fine, sarà proprio lei, in persona, ad indicargli la strada da seguire....",
+        "start": "20251028103635 +0000",
+        "stop": "20251028121432 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_509937596_0_20241030T220122940Z_48_imageprocessorclient-tvplus-linear-7cd5d896cc-wgww2.jpeg"
       }
     ]
   },
@@ -354,20 +326,6 @@
     "name": "Commedia - Rakuten TV",
     "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT2600007WQ_20241022T051556SQUARE.png",
     "programs": [
-      {
-        "title": "Accadde al commissariato",
-        "desc": "Compagnie teatrali sul lastrico, matrimoni in crisi, bambini abbandonati e oltraggi al senso del pudore, animano la vita dell'ufficio, impegnando il commissario, che vorrebbe trovare del tempo per dedicarsi alla sua nuova automobile.",
-        "start": "20251028000145 +0000",
-        "stop": "20251028014820 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_1104471704_0_20250803T031041181Z_1_imageprocessorclient-tvplus-linear-5db7c6bc99-ljxfj.jpeg"
-      },
-      {
-        "title": "I Love My Dad",
-        "desc": "Chuck è un padre incorreggibile, allontanato dal travagliato figlio Franklin, al quale vorrebbe disperatamente riconnettersi. Bloccato sui social media e preoccupato per la vita del figlio, Chuck assume i panni di una cameriera online e comincia a confrontarsi con Franklin.",
-        "start": "20251028014820 +0000",
-        "stop": "20251028033557 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_1228097363_0_20251001T050034758Z_21_imageprocessorclient-tvplus-linear-5db7c6bc99-p9nvg.jpeg"
-      },
       {
         "title": "Dead Ant",
         "desc": "La rock band dei Sonic Grave e il manager Danny Blue sono sulla strada per il Coachella, il festival che si svolge nel deserto della California. Dopo una tappa a base di peyote a Joshua Tree, la band risveglierà inavvertitamente un'orda di formiche gigantesche e molto affamate.",
@@ -388,6 +346,20 @@
         "start": "20251028070902 +0000",
         "stop": "20251028090144 +0000",
         "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_1215075193_0_20250925T024259712Z_1_imageprocessorclient-tvplus-linear-5db7c6bc99-8fmg9.jpeg"
+      },
+      {
+        "title": "Piacere Dave",
+        "desc": "Dave Ming Chang (Eddie Murphy) è proprio un pesce fuor d'acqua. Per forza: non è affatto un uomo, ma una nave spaziale fatta a immagine del suo capitano in miniatura.",
+        "start": "20251028090144 +0000",
+        "stop": "20251028104406 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_512835705_0_20241126T032058215Z_80_imageprocessorclient-tvplus-linear-7cd5d896cc-f6knd.jpeg"
+      },
+      {
+        "title": "Overboard",
+        "desc": "Una madre single della classe operaia, viene assunta per pulire lo yacht di lusso di Leonardo, un playboy ricco, egoista e viziato. Dopo aver licenziato ingiustamente Kate e averle rifiutato il pagamento, Leonardo cade in mare durante una festa troppo sfrenata e si risveglia sulla costa dell'Oregon.",
+        "start": "20251028104406 +0000",
+        "stop": "20251028125039 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_1087165294_0_20250727T032538989Z_43_imageprocessorclient-tvplus-linear-5db7c6bc99-grwzd.jpeg"
       }
     ]
   },
@@ -396,27 +368,6 @@
     "name": "CineWestern",
     "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBB20000072M_20250131T145327SQUARE.png",
     "programs": [
-      {
-        "title": "La regina di spade Ep 19",
-        "desc": "Ci vuole un ladro - Roman e Fenner, due truffatori che girano per la città, convincono Montoya che possono catturare la Regina di Spade - per una ricompensa di 1000 reales. Dopo che la Regina salva Roman, i criminali hanno difficoltà a mantenere la parola data. Ma quando Montoya prepara una trappola mortale per la Regina, sarà necessario fare squadra con una coppia di ladri per battere Montoya al suo stesso gioco.",
-        "start": "20251028003758 +0000",
-        "stop": "20251028012603 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_1102017352_0_20250801T202110589Z_29_imageprocessorclient-tvplus-linear-5db7c6bc99-mwszk.png"
-      },
-      {
-        "title": "Il mio nome è Mallory... M come morte",
-        "desc": "Mallory, famoso pistolero, e Hasper, ex colonnello dell'esercito, desiderosi di trascorrere in tranquillità il resto della loro esistenza, diventano soci nell'acquisto di una grande fattoria appartenente ad un certo Jefferson. Concluso l'affare, Jefferson viene ucciso e derubato del ricavato della vendita da due banditi, che pianificano anche di uccidere Mallory e Hasper.",
-        "start": "20251028012603 +0000",
-        "stop": "20251028030332 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_507985126_0_20241011T185402249Z_57_imageprocessorclient-tvplus-linear-7cd5d896cc-wgww2.jpeg"
-      },
-      {
-        "title": "Killer Adios",
-        "desc": "Tornato nella sua città natale, Jess salva la vita a Jack Bradshaw, braccio destro di un ricco magnate che, in cambio del suo gesto coraggioso, lo nomina vicesceriffo. Grazie al suo incarico, Jess inizia a indagare su una serie di delitti, con il dubbio che l'autore possa essere proprio Jack. Diretto da Primo Zeglio con Peter Lee Lawrence",
-        "start": "20251028030332 +0000",
-        "stop": "20251028044902 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_507884964_0_20241010T182525841Z_53_imageprocessorclient-tvplus-linear-7cd5d896cc-b2mvx.png"
-      },
       {
         "title": "La lunga cavalcata della vendetta",
         "desc": "Jeff, di ritorno dalla Guerra di Secessione, scopre che la sorella, Deborah, è stata derubata, violentata ed uccisa da una banda di criminali. In cerca di vendetta, l'uomo si prepara al massacro.",
@@ -428,8 +379,29 @@
         "title": "La regina di spade Ep 20",
         "desc": "Il drago - Una nave trasporta degli sconosciuti, un maestro samurai e il suo apprendista, in una terra sconosciuta. Dopo che il maestro viene assassinato, il giovane iniziato, Kami, giura di vendicare gli assassini e cade in una delle trappole di Montoya, che mette il guerriero giapponese contro la Regina di Spade. Kami cercherà la verità o sarà accecato dalla vendetta?",
         "start": "20251028062512 +0000",
-        "stop": "20251028071316 +0000",
+        "stop": "20251028071317 +0000",
         "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_1102017352_0_20250801T202110589Z_29_imageprocessorclient-tvplus-linear-5db7c6bc99-mwszk.png"
+      },
+      {
+        "title": "La regina di spade Ep 21",
+        "desc": "Ricordi e confidenze - Messa all'angolo dal capitano Grisham e dai suoi uomini, la Regina di Spade fugge in una miniera abbandonata, seguita dallo stesso Grisham. Proprio quando l'ha portata dove voleva, un terremoto li intrappola all'interno. Con una riserva d'aria in diminuzione, i due nemici si ripromettono di continuare a combattere fino alla fine.",
+        "start": "20251028071317 +0000",
+        "stop": "20251028080122 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_1102017352_0_20250801T202110589Z_29_imageprocessorclient-tvplus-linear-5db7c6bc99-mwszk.png"
+      },
+      {
+        "title": "Si può fare... amigo",
+        "desc": "Un avventuriero (Bud Spencer), protegge un bambino che ha ereditato un terreno sotto al quale si trova un giacimento petrolifero. Il piccolo è minacciato da alcuni pericolosi fuorilegge che vogliono eliminarlo e sottrargli il giacimento.",
+        "start": "20251028080122 +0000",
+        "stop": "20251028095626 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_511299291_0_20241112T212303042Z_30_imageprocessorclient-tvplus-linear-7cd5d896cc-qjm7s.png"
+      },
+      {
+        "title": "Spara, Gringo, spara",
+        "desc": "Il proprietario terriero messicano Gutierrez si offre di salvare dall'impiccagione il fuorilegge latitante Chad Stark se quest'ultimo accetterà di trovare e restituire il figlio di Gutierrez, Fidel, che è scappato. Stark trova subito Fidel che si è unito a una banda di fuorilegge gestita da Charlie Doneghan, ex conoscente di Stark, che ora si fa chiamare “il Maggiore”.",
+        "start": "20251028095626 +0000",
+        "stop": "20251028113723 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_1180429941_0_20250908T210123574Z_106_imageprocessorclient-tvplus-linear-5db7c6bc99-fc88h.jpeg"
       }
     ]
   },
@@ -438,20 +410,6 @@
     "name": "Film Asiatici - Rakuten TV",
     "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT2600006JG_20250121T012630SQUARE.png",
     "programs": [
-      {
-        "title": "Proteggi L'Assassino",
-        "desc": "Un uomo sospettato di aver ucciso la nipote di un potente politico, comincia a temere per la sua vita dopo che è comparso un annuncio in cui si offre un grosso premio a chiunque riuscirà a ucciderlo. Cinque detective avranno il compito di proteggerlo.",
-        "start": "20251028001026 +0000",
-        "stop": "20251028022114 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_586612482_0_20250119T024741908Z_41_imageprocessorclient-tvplus-linear-7cd5d896cc-f6knd.png"
-      },
-      {
-        "title": "Kill Zone: Paradox",
-        "desc": "Quando riceve una chiamata che gli comunica il rapimento della figlia minorenne durante una vacanza in Thailandia, un poliziotto vedovo di Hong Kong dai modi spicci si mette sulle sue tracce partendo dall'ultimo posto in cui è stata vista.",
-        "start": "20251028022114 +0000",
-        "stop": "20251028040856 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_1136961981_0_20250819T033005193Z_64_imageprocessorclient-tvplus-linear-5db7c6bc99-fc88h.jpeg"
-      },
       {
         "title": "I Cacciatori di tesori: l'isola maledetta",
         "desc": "Dopo aver sciolto la squadra con cui aveva riportato alla luce inestimabili tesori ritenuti da tempo perduti, l'archeologo Bayi si gode un periodo di inattività a New York.",
@@ -465,6 +423,20 @@
         "start": "20251028060644 +0000",
         "stop": "20251028080005 +0000",
         "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_502880058_0_20240824T062337672Z_112_imageprocessorclient-tvplus-linear-64ff86dd75-nv5ct.jpeg"
+      },
+      {
+        "title": "Kamikaze Girls",
+        "desc": "La diciassettenne Momoko, figlia di un gangster yakuza, è un'indossatrice di vestiti in stile lolita ossessionata dal rococò e convive con la sua folle e bizzarra nonna.",
+        "start": "20251028080005 +0000",
+        "stop": "20251028095013 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_521142176_2_20241219T032130007Z_47_imageprocessorclient-tvplus-linear-7cd5d896cc-z2zhv.jpeg"
+      },
+      {
+        "title": "Police Story 3: Supercop",
+        "desc": "Kevin, poliziotto di Hong Kong che vanta il soprannome di Supercop, viene convocato dalla polizia della Repubblica Popolare Cinese per un'azione congiunta in incognito, con lo scopo di sgominare una banda di narcotrafficanti.",
+        "start": "20251028095013 +0000",
+        "stop": "20251028112911 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_872820157_0_20250510T015249253Z_36_imageprocessorclient-tvplus-linear-6fb5b47f79-thd52.jpeg"
       }
     ]
   },
@@ -473,20 +445,6 @@
     "name": "Fantascienza - Rakuten TV",
     "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT260000131_20250121T012628SQUARE.png",
     "programs": [
-      {
-        "title": "Far Cry",
-        "desc": "Jack Carver un ex-ufficiale delle Forze Speciali si guadagna ora da vivere facendo la guida turistica. Un giorno riceve l'incarico di accompagnare Valerie, una donna interessata ad indagare su strani esperimenti che si crede avvengano al centro di un'isola al largo di un lago canadese.",
-        "start": "20251028002353 +0000",
-        "stop": "20251028020648 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_605347682_0_20250128T031910004Z_74_imageprocessorclient-tvplus-linear-7cd5d896cc-p7c96.jpeg"
-      },
-      {
-        "title": "Il ritorno dei morti viventi 3",
-        "desc": "Ne Il ritorno dei morti viventi III, la Trioxina, un composto chimico, trasforma la gente in zombie magia-cervelli. Con il dilagare dell'infezione, il governo cerca di controllare questi assassini cannibali e inarrestabili con un progetto segreto.",
-        "start": "20251028020648 +0000",
-        "stop": "20251028035526 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_1223628802_0_20250929T034552822Z_1_imageprocessorclient-tvplus-linear-5db7c6bc99-x889l.jpeg"
-      },
       {
         "title": "Risen: La fine dei giorni",
         "desc": "Un meteorite cade in una piccola città. L'astrobiologa Lauren viene contattata perché nel luogo dell'impatto viene rivenuta una misteriosa pianta che sta rilasciando spore tossiche. Chiunque sia morto nella zona sembra tornare in vita come uno zombie. E' iniziata una vera e propria apocalisse.",
@@ -507,6 +465,27 @@
         "start": "20251028060000 +0000",
         "stop": "20251028080401 +0000",
         "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_521149597_2_20241219T032134022Z_62_imageprocessorclient-tvplus-linear-7cd5d896cc-z2zhv.jpeg"
+      },
+      {
+        "title": "Vortex",
+        "desc": "Nel prossimo futuro i tassi di criminalità sono ai massimi storici. Il governo contrasta questo sviluppo con una nuova prigione: The Vortex.",
+        "start": "20251028080401 +0000",
+        "stop": "20251028092803 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_603186626_0_20250127T025735623Z_65_imageprocessorclient-tvplus-linear-7cd5d896cc-qtxcr.jpeg"
+      },
+      {
+        "title": "Astronoaut: The Last Push",
+        "desc": "Durante la pericolosa missione di esplorazione della vita su Europa, la luna di Giove, si verifica un incidente: rimasto solo e bloccato, l'astronauta Michael Forrest deve lottare per restare lucido e riuscire a mettersi in salvo con la sua minuscola navicella spaziale.",
+        "start": "20251028092803 +0000",
+        "stop": "20251028110605 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_537257450_0_20241227T032346857Z_101_imageprocessorclient-tvplus-linear-7cd5d896cc-h7ljq.jpeg"
+      },
+      {
+        "title": "Disaster Movie",
+        "desc": "Protagonista del film è un gruppo di avvenenti ragazze che nel corso di una notte devono fronteggiare una serie ininterrotta di disastri naturali (dagli asteroidi che si schiantano sulla Terra ai tornado, passando per terremoti e maremoti) cercando di salvare sé stesse e tutto il pianeta.",
+        "start": "20251028110605 +0000",
+        "stop": "20251028124013 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_1178707010_0_20250908T033634692Z_1_imageprocessorclient-tvplus-linear-5db7c6bc99-kqq7k.jpeg"
       }
     ]
   },
@@ -515,20 +494,6 @@
     "name": "Alta Tensione",
     "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBC1100001G5_20241106T142428SQUARE.png",
     "programs": [
-      {
-        "title": "Il mostro di St. Pauli",
-        "desc": "Basato su una storia vera e sul romanzo ‘The Golden Glove' di Heinz Strunk. Fritz Honka è uno dei più celebri serial killer della storia tedesca. Ambientato nell'Amburgo del 1970, il film indaga la vita segreta e le frequentazioni di quello che si rivelerà un vero e proprio mostro. Tutto ruota attorno al bar che da il nome al romanzo, dove Fritz passa la maggior parte del suo tempo.",
-        "start": "20251028003748 +0000",
-        "stop": "20251028024459 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_513054078_0_20241127T214015800Z_68_imageprocessorclient-tvplus-linear-7cd5d896cc-l4w6v.jpeg"
-      },
-      {
-        "title": "Breeder",
-        "desc": "Una spietata imprenditrice rapisce giovani donne per un progetto di bio-hacking che manipola il DNA, cercando di fermare l'invecchiamento e sfidare le leggi della natura.",
-        "start": "20251028024459 +0000",
-        "stop": "20251028044914 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_558091207_0_20250105T212050376Z_81_imageprocessorclient-tvplus-linear-7cd5d896cc-wgww2.jpeg"
-      },
       {
         "title": "Halloween",
         "desc": "Ad Haddonfield, Illinois, nel 1963 il piccolo Michael trucidò la sorella maggiore. Rinchiuso in un istituto e sotto l'occhio vigile del Dr. Loomis, oggi Michael evade e, la notte di Halloween, continua ad uccidere. Diretto da John Carpenter, il film è considerato una delle più importanti pellicole del genere Horror.",
@@ -540,8 +505,22 @@
         "title": "Sin Nombre",
         "desc": "Sayra, adolescente honduregna, sogna una nuova vita negli Stati Uniti. Inizia il lungo viaggio attraverso il Messico, accompagnata da Smiley, Casper e altri membri di una gang. Ma il cammino si rivela pericoloso, con incontri inaspettati e sfide che mettono alla prova la sua speranza di un futuro migliore.",
         "start": "20251028063341 +0000",
-        "stop": "20251028081910 +0000",
+        "stop": "20251028081911 +0000",
         "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_674840442_0_20250227T214444758Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-jmtht.jpeg"
+      },
+      {
+        "title": "Largo Winch II",
+        "desc": "Largo Winch vuole trasformare la W Group in una fondazione umanitaria, ma viene accusato di crimini contro l'umanità. Per dimostrare la sua innocenza, dovrà svelare un complotto che lo trascinerà in un'avventura adrenalinica tra inganni, azione e segreti del passato.",
+        "start": "20251028081911 +0000",
+        "stop": "20251028102925 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_637026207_0_20250211T212148499Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-8cn77.jpeg"
+      },
+      {
+        "title": "Kings",
+        "desc": "Los Angeles, 1992. In un quartiere popolato di afroamericani, latini e coreani, vive un solo bianco, Obie, scontroso e amante dell'alcool. Ma è proprio lui a correre in soccorso di Millie, la sua vicina di casa, nei tre giorni di alta tensione che seguono il verdetto sul pestaggio di Rodney King. Millie, infatti, mamma single di otto tra bambini e ragazzi, molti dei quali presi in affido per strapparli alla strada, viene dapprima ingiustamente arrestata e poi, una volta liberatasi, è costretta a tornare nell'occhio del ciclone alla ricerca di tre dei suoi piccoli, che sono imprudentemente usciti di casa.",
+        "start": "20251028102925 +0000",
+        "stop": "20251028120930 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_512934055_0_20241126T214407212Z_85_imageprocessorclient-tvplus-linear-7cd5d896cc-dxhcw.jpeg"
       }
     ]
   },
@@ -550,20 +529,6 @@
     "name": "Dramma - Rakuten TV",
     "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT2600005ZN_20241126T043538SQUARE.png",
     "programs": [
-      {
-        "title": "A qualsiasi prezzo",
-        "desc": "Nel competitivo mondo dell'agricoltura moderna l'ambizioso Henry Whipple vuole che suo figlio, il ribelle Dean, lo aiuti nella gestione delle terre per espandere l'impero di famiglia. Ma il ragazzo mira a diventare pilota professionista di corse automobilistiche.",
-        "start": "20251027232937 +0000",
-        "stop": "20251028012544 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_521138932_0_20241219T032129521Z_72_imageprocessorclient-tvplus-linear-7cd5d896cc-gwp7l.jpeg"
-      },
-      {
-        "title": "Lost Highway",
-        "desc": "Un film noir dall'immaginario surreale. All'ingresso della propria casa lussuosa e asettica, Fred Madison, sassofonista, scopre alcune videocassette che ritraggono in sequenza lui e la moglie. La polizia non trova nessuna spiegazione logica. Il peggio deve ancora arrivare e nessuno lo sa.",
-        "start": "20251028012544 +0000",
-        "stop": "20251028035802 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_764483340_0_20250401T023625020Z_76_imageprocessorclient-tvplus-linear-6fb5b47f79-m2jtk.jpeg"
-      },
       {
         "title": "Goodbye Lover",
         "desc": "Nella soleggiata Los Angeles, Sandra Dunmore, scaltra, sexy e senza scrupoli, insegue con determinazione il suo posto al sole. Nella sua ascesa Sandra potrebbe dover calpestare i piedi a qualcuno... con i suoi tacchi a spillo. Ma questo non la rende cattiva.",
@@ -584,6 +549,20 @@
         "start": "20251028060000 +0000",
         "stop": "20251028075723 +0000",
         "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_1157795734_0_20250829T033807987Z_118_imageprocessorclient-tvplus-linear-5db7c6bc99-sm8n5.jpeg"
+      },
+      {
+        "title": "Indian Horse",
+        "desc": "1959, Winnipeg. Rimasto orfano, Saul viene spedito in un collegio per ragazzi indiani gestito dall'istituzione Cattolica dove gli ospiti sono vittime di violenze. Il giovane si rifugia nel hockey. Una volta adottato Saul spera di giocare in una squadra ma dovrà scontrarsi con pregiudizi e razzismo.",
+        "start": "20251028075723 +0000",
+        "stop": "20251028094545 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_521148935_2_20241219T032129933Z_103_imageprocessorclient-tvplus-linear-7cd5d896cc-z2zhv.jpeg"
+      },
+      {
+        "title": "The Rifleman",
+        "desc": "Dopo aver perso la madre e la sua casa, il sedicenne Arturs trova una qualche consolazione nell'arruolarsi nell'esercito durante la Prima guerra mondiale. La guerra però è ben lontana dall'essere come Arturs l'aveva immaginata: non l'attendono gloria o correttezza ma brutalità e sofferenza.",
+        "start": "20251028094545 +0000",
+        "stop": "20251028114204 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_675343503_0_20250228T023945571Z_109_imageprocessorclient-tvplus-linear-6fb5b47f79-4pk7r.jpeg"
       }
     ]
   },
@@ -592,20 +571,6 @@
     "name": "Film d'azione - Rakuten TV",
     "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT2600003FM_20240827T040705SQUARE.png",
     "programs": [
-      {
-        "title": "Hard Night Falling",
-        "desc": "Durante una serata di gala, una banda armata fa irruzione in una villa nel tentativo di rubare l'oro posseduto dall'uomo d'affari Giuliano Rossini. Uno degli ospiti di Rossini è un agente segreto straniero che lotterà per salvare gli ostaggi e l'oro.",
-        "start": "20251028000423 +0000",
-        "stop": "20251028013938 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_872818224_0_20250510T015249253Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-thd52.jpeg"
-      },
-      {
-        "title": "River Runs Red",
-        "desc": "Quando il figlio di un giudice di successo viene ucciso da due agenti di polizia e il sistema li lascia liberi, un detective veterano indurito trova dei documenti incriminanti sugli ufficiali e il giudice si unisce ad un altro padre in lutto per prendere la legge nelle sue mani.",
-        "start": "20251028013938 +0000",
-        "stop": "20251028032205 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_1136971134_0_20250819T033005193Z_1_imageprocessorclient-tvplus-linear-5db7c6bc99-fc88h.jpeg"
-      },
       {
         "title": "Fabricated City",
         "desc": "Dopo che Kwon, un giocatore eccezionale di videogiochi, viene accusato ingiustamente di omicidio, insieme ai suoi compagni, decide di trovare il vero colpevole e dimostrare la sua innocenza.",
@@ -619,26 +584,54 @@
         "start": "20251028053756 +0000",
         "stop": "20251028072630 +0000",
         "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_1008944991_0_20250626T020513592Z_73_imageprocessorclient-tvplus-linear-5db7c6bc99-sn6xc.jpeg"
+      },
+      {
+        "title": "Twin Dragons",
+        "desc": "Un rocambolesco incidente separa alla nascita due gemelli. Uno diventa un acclamato direttore d'orchestra, l'altro un rissoso meccanico. Trent'anni dopo, un incontro fortuito catapulta l'uno nella vita dell'altro, con imprevedibili conseguenze.",
+        "start": "20251028072630 +0000",
+        "stop": "20251028090732 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_521153000_0_20241219T032129521Z_130_imageprocessorclient-tvplus-linear-7cd5d896cc-gwp7l.jpeg"
+      },
+      {
+        "title": "Big Ass Spider!",
+        "desc": "Uno sterminatore e il suo assistente si trovano coinvolti in un'epica battaglia quando l'esercito americano si rendeconto di non riuscire a contenere un ragno gigante alieno che vaga infuriato per la città di Los Angeles.",
+        "start": "20251028090732 +0000",
+        "stop": "20251028103400 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_502765789_0_20240823T054341991Z_100_imageprocessorclient-tvplus-linear-64ff86dd75-hkjbp.jpeg"
+      },
+      {
+        "title": "40 Days and Nights",
+        "desc": "Quando uno spostamento tettonico provoca l'innalzamento del livello del mare, un microbiologo raccoglie il DNA del maggior numero di specie possibili, mentre l'esercito crea un'arca in un disperato tentativo di preservare la vita sulla Terra.",
+        "start": "20251028103400 +0000",
+        "stop": "20251028120648 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_832520245_0_20250426T014952262Z_43_imageprocessorclient-tvplus-linear-6fb5b47f79-rdbrc.jpeg"
       }
     ]
   },
   {
     "id": "IT3200004WU",
     "name": "Rai News 24",
-    "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT3200004WU_20250923T010552SQUARE.png",
+    "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT3200004WU_20251028T010426SQUARE.png",
     "programs": [
       {
         "title": "Rai News 24",
         "desc": "Rai News 24, L'informazione in tempo reale sul primo canale all news italiano a diffusione nazionale.",
         "start": "20251028010000 +0000",
-        "stop": "20251028060000 +0000",
+        "stop": "20251028050000 +0000",
         "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142642116_0_20250821T204915444Z_114_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.jpeg"
       },
       {
         "title": "Rai News 24",
         "desc": "Rai News 24, L'informazione in tempo reale sul primo canale all news italiano a diffusione nazionale.",
-        "start": "20251028060000 +0000",
-        "stop": "20251028110000 +0000",
+        "start": "20251028050000 +0000",
+        "stop": "20251028100000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142642116_0_20250821T204915444Z_114_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.jpeg"
+      },
+      {
+        "title": "Rai News 24",
+        "desc": "Rai News 24, L'informazione in tempo reale sul primo canale all news italiano a diffusione nazionale.",
+        "start": "20251028100000 +0000",
+        "stop": "20251028150000 +0000",
         "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142642116_0_20250821T204915444Z_114_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.jpeg"
       }
     ]
@@ -648,34 +641,6 @@
     "name": "FIFA+",
     "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBD1000002HF_20250513T010658SQUARE.png",
     "programs": [
-      {
-        "title": "Portogallo",
-        "desc": "Guarda il match completo tra Portogallo e Brasile giocato al Goodison Park martedì 19 luglio 1966.",
-        "start": "20251028005955 +0000",
-        "stop": "20251028024643 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_538794086_0_20241227T205231356Z_35_imageprocessorclient-tvplus-linear-7cd5d896cc-z2zhv.jpeg"
-      },
-      {
-        "title": "FACTS",
-        "desc": "Il dramma dell'Italia contro la Francia di Zidane, analizzato.",
-        "start": "20251028024643 +0000",
-        "stop": "20251028032614 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_511419079_0_20241113T234452976Z_126_imageprocessorclient-tvplus-linear-7cd5d896cc-gqfx7.jpeg"
-      },
-      {
-        "title": "FACTS",
-        "desc": "Il Giappone completa un viaggio emozionante trionfando sugli Stati Uniti.",
-        "start": "20251028032614 +0000",
-        "stop": "20251028040557 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_672060818_0_20250226T203601801Z_90_imageprocessorclient-tvplus-linear-6fb5b47f79-bbtvn.jpeg"
-      },
-      {
-        "title": "Keane e Vieira: i migliori nemici",
-        "desc": "Un documentario ricco di storie di battaglie passate, quando i rispettivi centrocampisti di Manchester United e Arsenal hanno combattuto al massimo in Premier League.",
-        "start": "20251028040557 +0000",
-        "stop": "20251028050327 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_512479188_0_20241122T213554581Z_23_imageprocessorclient-tvplus-linear-7cd5d896cc-thm6b.jpeg"
-      },
       {
         "title": "La Storia della Coppa del Mondo FIFA 2006",
         "desc": "Goditi momenti di classe, polemiche e pura magia di fenomeni come Messi, Ronaldo, Pirlo e Zidane, mentre riviviamo le storie decisive di Germania 2006.",
@@ -696,6 +661,27 @@
         "start": "20251028070059 +0000",
         "stop": "20251028083645 +0000",
         "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_555972262_0_20250104T212426202Z_85_imageprocessorclient-tvplus-linear-7cd5d896cc-thm6b.jpeg"
+      },
+      {
+        "title": "Portogallo",
+        "desc": "Guarda il match completo tra Portogallo e Brasile giocato al Goodison Park martedì 19 luglio 1966.",
+        "start": "20251028083645 +0000",
+        "stop": "20251028102333 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_538794086_0_20241227T205231356Z_35_imageprocessorclient-tvplus-linear-7cd5d896cc-z2zhv.jpeg"
+      },
+      {
+        "title": "FACTS",
+        "desc": "Il dramma dell'Italia contro la Francia di Zidane, analizzato.",
+        "start": "20251028102333 +0000",
+        "stop": "20251028110305 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_511419079_0_20241113T234452976Z_126_imageprocessorclient-tvplus-linear-7cd5d896cc-gqfx7.jpeg"
+      },
+      {
+        "title": "FACTS",
+        "desc": "Il Giappone completa un viaggio emozionante trionfando sugli Stati Uniti.",
+        "start": "20251028110305 +0000",
+        "stop": "20251028114247 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_672060818_0_20250226T203601801Z_90_imageprocessorclient-tvplus-linear-6fb5b47f79-bbtvn.jpeg"
       }
     ]
   },
@@ -704,41 +690,6 @@
     "name": "Solocalcio",
     "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBC4700002CO_20241022T043828SQUARE.png",
     "programs": [
-      {
-        "title": "Si Live 24",
-        "desc": "L'informazione di Sportitalia sempre aggiornata. Servizi, approfondimenti e interviste su tutti gli sport. Notizie e rassegna stampa dalla news room di Si Liver 24.",
-        "start": "20251028010000 +0000",
-        "stop": "20251028013000 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQO570425A_485212072_0_20231012T161641456Z_88.png"
-      },
-      {
-        "title": "Si Live 24",
-        "desc": "L'informazione di Sportitalia sempre aggiornata. Servizi, approfondimenti e interviste su tutti gli sport. Notizie e rassegna stampa dalla news room di Si Liver 24.",
-        "start": "20251028013000 +0000",
-        "stop": "20251028020000 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQO570425A_485212072_0_20231012T161641456Z_88.png"
-      },
-      {
-        "title": "Sportitaliamercato",
-        "desc": "Sportitaliamercato, la trasmissione delle 23.00, condotta da Valentina Ballarini, con la partecipazione di Alfredo Pedullà. Notizie di mercato e approfondimenti con i temi di giornata. Ospiti in studio da Milano e Roma",
-        "start": "20251028020000 +0000",
-        "stop": "20251028030000 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQO570425A_485212072_0_20231012T161641456Z_88.png"
-      },
-      {
-        "title": "Si Live 24",
-        "desc": "L'informazione di Sportitalia sempre aggiornata. Servizi, approfondimenti e interviste su tutti gli sport. Notizie e rassegna stampa dalla news room di Si Liver 24.",
-        "start": "20251028030000 +0000",
-        "stop": "20251028033000 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQO570425A_485212072_0_20231012T161641456Z_88.png"
-      },
-      {
-        "title": "Si Live 24",
-        "desc": "L'informazione di Sportitalia sempre aggiornata. Servizi, approfondimenti e interviste su tutti gli sport. Notizie e rassegna stampa dalla news room di Si Liver 24.",
-        "start": "20251028033000 +0000",
-        "stop": "20251028040000 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQO570425A_485212072_0_20231012T161641456Z_88.png"
-      },
       {
         "title": "Aston Villa-Manchester City",
         "desc": "Partita valida per la nona giornata di Premier League, si sfidano il City guidato da Pep Guardiola e i padroni di casa dell'Aston Villa",
@@ -752,6 +703,34 @@
         "start": "20251028060000 +0000",
         "stop": "20251028080000 +0000",
         "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQO570425A_485212072_0_20231012T161641456Z_88.png"
+      },
+      {
+        "title": "Si Live 24",
+        "desc": "L'informazione di Sportitalia sempre aggiornata. Servizi, approfondimenti e interviste su tutti gli sport. Notizie e rassegna stampa dalla news room di Si Liver 24.",
+        "start": "20251028080000 +0000",
+        "stop": "20251028083000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQO570425A_485212072_0_20231012T161641456Z_88.png"
+      },
+      {
+        "title": "Campionato Argentino Estudiantes-Gimnasia LP",
+        "desc": "Dall'Argentina partita valida per la tredicesima giornata della Liga Professional, si sfidano nel Derby di La Plata l'Estudiantes e il Gimnasia",
+        "start": "20251028083000 +0000",
+        "stop": "20251028100000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQO570425A_485212072_0_20231012T161641456Z_88.png"
+      },
+      {
+        "title": "Tutti in campo",
+        "desc": "Dagli studi di Milano il programma che ci racconta le novità dai ritiri delle squadre di Serie A, collegamenti con gli inviati in diretta",
+        "start": "20251028100000 +0000",
+        "stop": "20251028110000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQO570425A_485212072_0_20231012T161641456Z_88.png"
+      },
+      {
+        "title": "Si Live 24",
+        "desc": "L'informazione di Sportitalia sempre aggiornata. Servizi, approfondimenti e interviste su tutti gli sport. Notizie e rassegna stampa dalla news room di Si Liver 24.",
+        "start": "20251028110000 +0000",
+        "stop": "20251028113000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQO570425A_485212072_0_20231012T161641456Z_88.png"
       }
     ]
   },
@@ -760,27 +739,6 @@
     "name": "Sportitalia",
     "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBA2200010O1_20241022T043601SQUARE.png",
     "programs": [
-      {
-        "title": "Aston Villa-Manchester City",
-        "desc": "Partita valida per la nona giornata di Premier League, si sfidano il City guidato da Pep Guardiola e i padroni di casa dell'Aston Villa",
-        "start": "20251028003000 +0000",
-        "stop": "20251028023000 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQO570425A_485201575_1_20231012T131940385Z_55.png"
-      },
-      {
-        "title": "Si Live 24",
-        "desc": "L'informazione di Sportitalia sempre aggiornata. Servizi, approfondimenti e interviste su tutti gli sport. Notizie e rassegna stampa dalla news room di Si Live 24.",
-        "start": "20251028023000 +0000",
-        "stop": "20251028030000 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQO570425A_485201575_1_20231012T131940385Z_55.png"
-      },
-      {
-        "title": "Campionato Argentino Barracas Central-Boca Jrs",
-        "desc": "Dall'Argentina partita valida come recupero della dodicesima giornata della Liga Professional Argentina, si sfidano Barracas Central e Boca Jrs",
-        "start": "20251028030000 +0000",
-        "stop": "20251028050000 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQO570425A_485201575_1_20231012T131940385Z_55.png"
-      },
       {
         "title": "Si Live 24",
         "desc": "L'informazione di Sportitalia sempre aggiornata. Servizi, approfondimenti e interviste su tutti gli sport. Notizie e rassegna stampa dalla news room di Si Live 24.",
@@ -808,6 +766,48 @@
         "start": "20251028070000 +0000",
         "stop": "20251028073000 +0000",
         "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQO570425A_485201575_1_20231012T131940385Z_55.png"
+      },
+      {
+        "title": "Otto In Punto",
+        "desc": "Ogni mattina Otto in punto, conduce Gabriele Schiavi. Rassegna stampa, le ultime news della notte, approfondimenti su calcio e altri sport.",
+        "start": "20251028073000 +0000",
+        "stop": "20251028080000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQO570425A_485201575_1_20231012T131940385Z_55.png"
+      },
+      {
+        "title": "Tutti in campo (diretta)",
+        "desc": "In diretta dagli studi di Milano il programma che ci racconta le novità dai ritiri delle squadre di Serie A, collegamenti con gli inviati in diretta",
+        "start": "20251028080000 +0000",
+        "stop": "20251028090000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQO570425A_485201575_1_20231012T131940385Z_55.png"
+      },
+      {
+        "title": "Tutti in campo",
+        "desc": "Dagli studi di Milano il programma che ci racconta le novità dai ritiri delle squadre di Serie A, collegamenti con gli inviati in diretta",
+        "start": "20251028090000 +0000",
+        "stop": "20251028100000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQO570425A_485201575_1_20231012T131940385Z_55.png"
+      },
+      {
+        "title": "Si Live 24 (diretta)",
+        "desc": "L'informazione di Sportitalia sempre aggiornata. Servizi, approfondimenti e interviste su tutti gli sport. Notizie e rassegna stampa dalla news room di Si Live 24.",
+        "start": "20251028100000 +0000",
+        "stop": "20251028103000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQO570425A_485201575_1_20231012T131940385Z_55.png"
+      },
+      {
+        "title": "Casa Milan",
+        "desc": "Dagli studi di Sportitalia appuntamento settimanale con il mondo Milan, approfondimenti e ultimi aggiornamenti da inviati e ospiti in studio sul mondo rossonero",
+        "start": "20251028103000 +0000",
+        "stop": "20251028110000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQO570425A_485201575_1_20231012T131940385Z_55.png"
+      },
+      {
+        "title": "Sportitalia",
+        "desc": "Sportitaliamercato, la trasmissione delle 23.00, condotta da Michele Criscitiello, con la partecipazione di Alfredo Pedullà. Notizie di mercato e approfondimenti con i temi di giornata. Ospiti in studio da Milano e Roma",
+        "start": "20251028110000 +0000",
+        "stop": "20251028120000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQO570425A_485201575_1_20231012T131940385Z_55.png"
       }
     ]
   },
@@ -817,32 +817,25 @@
     "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT3200003YZ_20250811T172510SQUARE.png",
     "programs": [
       {
-        "title": "3. Liga 2025/26 Live: FC Schweinfurt",
-        "desc": "Full match of FC Schweinfurt - FC Energie Cottbus from matchdays 2 of the 2025/26 3. Liga season!",
-        "start": "20251027230000 +0000",
-        "stop": "20251028011500 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1125814329_0_20250813T124333171Z_114_imageprocessorclient-tvplus-linear-retry-69bdc5c75f-f6h2g.jpeg"
+        "title": "DFB-Pokal 2025/26 Relive",
+        "desc": "Full coverage of all matches on Sunday of round 01 of the 2025/26 DFB-Pokal season!",
+        "start": "20251028040000 +0000",
+        "stop": "20251028090000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1140077859_0_20250820T150047228Z_71_imageprocessorclient-tvplus-linear-retry-69bdc5c75f-4qqrd.jpeg"
       },
       {
-        "title": "3. Liga 25/26 Full Match",
-        "desc": "Full match between FC Schweinfurt 05 - SV Wehen Wiesbaden from matchday 04 of the 2025/2026 3. Liga season!",
-        "start": "20251028011500 +0000",
-        "stop": "20251028031500 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1201298582_0_20250918T152821598Z_20_imageprocessorclient-tvplus-linear-retry-69bdc5c75f-rfqr2.jpeg"
+        "title": "The Cup makes its own rules",
+        "desc": "The Cup makes its own rules - Famous DFB-Pokal upsets Ep. 01",
+        "start": "20251028090000 +0000",
+        "stop": "20251028093000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1194701442_0_20250915T132701601Z_22_imageprocessorclient-tvplus-linear-5db7c6bc99-d5mt6.jpeg"
       },
       {
-        "title": "3. Liga 25/26 Full Match",
-        "desc": "Full match between FC Ingolstadt 04 - FC Schweinfurt 05 from matchday 05 of the 2025/2026 3. Liga season!",
-        "start": "20251028031500 +0000",
-        "stop": "20251028051500 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1201312206_0_20250918T152821597Z_1_imageprocessorclient-tvplus-linear-retry-69bdc5c75f-rfqr2.jpeg"
-      },
-      {
-        "title": "3. Liga 2025/26 Full match: 1. FC Saarbrücken – FC Schweinfurt 05",
-        "desc": "Full match between 1. FC Saarbrücken – FC Schweinfurt 05 on matchday 07 of the 2025/26 3. Liga season!",
-        "start": "20251028051500 +0000",
-        "stop": "20251028071500 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1209367754_0_20250922T110330145Z_90_imageprocessorclient-tvplus-linear-5db7c6bc99-zslbq.jpeg"
+        "title": "DFB-Pokal 2025/26 Relive",
+        "desc": "Full coverage of all matches on Friday of round 01 of the 2025/26 DFB-Pokal season!",
+        "start": "20251028093000 +0000",
+        "stop": "20251028123000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1140065696_0_20250820T145943939Z_89_imageprocessorclient-tvplus-linear-5db7c6bc99-tplqm.jpeg"
       }
     ]
   },
@@ -851,20 +844,6 @@
     "name": "Salto Ostacoli",
     "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBC3000007XK_20250415T022319SQUARE.png",
     "programs": [
-      {
-        "title": "CSI5 1.50m, Table A Against The Clock With Jump Off, Prix Fédération Equestre de la Principauté de Monaco",
-        "desc": "SALTO OSTACOLI - GCTV is your exclusive access to the world of elite show jumping. It offers live coverage of Longines Global Champions Tour events from renowned venues around the world. Immerse yourself in the intense competition and breathtaking jumps.",
-        "start": "20251027231430 +0000",
-        "stop": "20251028013250 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_908692765_0_20250522T141926211Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-pxwkl.jpeg"
-      },
-      {
-        "title": "CSI5 1.45m, Table A Against The Clock No Jump Off, Trophée Monte-Carlo Société des Bains de Mer",
-        "desc": "SALTO OSTACOLI - GCTV is your exclusive access to the world of elite show jumping. It offers live coverage of Longines Global Champions Tour events from renowned venues around the world. Immerse yourself in the intense competition and breathtaking jumps.",
-        "start": "20251028013250 +0000",
-        "stop": "20251028025947 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_908692765_0_20250522T141926211Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-pxwkl.jpeg"
-      },
       {
         "title": "Longines Global Champions Tour Grand Prix DU PRINCE DE MONACO",
         "desc": "SALTO OSTACOLI - GCTV is your exclusive access to the world of elite show jumping. It offers live coverage of Longines Global Champions Tour events from renowned venues around the world. Immerse yourself in the intense competition and breathtaking jumps.",
@@ -906,6 +885,27 @@
         "start": "20251028070326 +0000",
         "stop": "20251028091918 +0000",
         "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_908692765_0_20250522T141926211Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-pxwkl.jpeg"
+      },
+      {
+        "title": "NEW YORK CSI5 LUGANO TROPHY",
+        "desc": "SALTO OSTACOLI - GCTV is your exclusive access to the world of elite show jumping. It offers live coverage of Longines Global Champions Tour events from renowned venues around the world. Immerse yourself in the intense competition and breathtaking jumps.",
+        "start": "20251028091918 +0000",
+        "stop": "20251028104650 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_908692765_0_20250522T141926211Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-pxwkl.jpeg"
+      },
+      {
+        "title": "EP05",
+        "desc": "SALTO OSTACOLI - GCTV è il tuo accesso esclusivo al mondo del salto ostacoli d'élite. Offre copertura live degli eventi del Longines Global Champions Tour da rinomati luoghi in tutto il mondo. Immergiti nella competizione intensa e nei salti mozzafiato.",
+        "start": "20251028104650 +0000",
+        "stop": "20251028110741 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_908692765_0_20250522T141926211Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-pxwkl.jpeg"
+      },
+      {
+        "title": "EP06",
+        "desc": "SALTO OSTACOLI - GCTV è il tuo accesso esclusivo al mondo del salto ostacoli d'élite. Offre copertura live degli eventi del Longines Global Champions Tour da rinomati luoghi in tutto il mondo. Immergiti nella competizione intensa e nei salti mozzafiato.",
+        "start": "20251028110741 +0000",
+        "stop": "20251028112038 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_908692765_0_20250522T141926211Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-pxwkl.jpeg"
       }
     ]
   },
@@ -920,125 +920,6 @@
     "name": "Golf Television",
     "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT4200001D8_20250513T010712SQUARE.png",
     "programs": [
-      {
-        "title": "Magazine Golf Televison",
-        "desc": "Scopri il mondo del golf a 360° con il magazine dedicato a tutti gli amanti di questo sport.",
-        "start": "20251028005700 +0000",
-        "stop": "20251028013000 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_882938769_5_20250513T154501681Z_15_imageprocessorclient-tvplus-linear-6fb5b47f79-vgkcp.jpeg"
-      },
-      {
-        "title": "Magazine Golf Televison",
-        "desc": "Scopri il mondo del golf a 360° con il magazine dedicato a tutti gli amanti di questo sport.",
-        "start": "20251028013000 +0000",
-        "stop": "20251028020100 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_882938769_5_20250513T154501681Z_15_imageprocessorclient-tvplus-linear-6fb5b47f79-vgkcp.jpeg"
-      },
-      {
-        "title": "Magazine Golf Televison",
-        "desc": "Scopri il mondo del golf a 360° con il magazine dedicato a tutti gli amanti di questo sport.",
-        "start": "20251028020100 +0000",
-        "stop": "20251028023100 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_882938769_5_20250513T154501681Z_15_imageprocessorclient-tvplus-linear-6fb5b47f79-vgkcp.jpeg"
-      },
-      {
-        "title": "Maestro Dice",
-        "desc": "Maestro Dice – Carlo Zappa, maestro di golf pluripremiato, spiega in ogni puntata una regola del golf e strategie per affrontare le buche. Tecnica, esperienza e passione in un format unico!",
-        "start": "20251028023100 +0000",
-        "stop": "20251028023700 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_810857811_0_20250418T091721254Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-84mv4.jpeg"
-      },
-      {
-        "title": "REGOLE DEL GOLF",
-        "desc": "Per LE REGOLE DEL GOLF, l'arbitro internazionale ROBERTO BALLINI (Presidente A.I.A.G.) ci chiarisce cosa dobbiamo fare quando la nostra palla finisce sul green di un'altra buca.",
-        "start": "20251028023700 +0000",
-        "stop": "20251028024200 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_809090645_0_20250417T171750481Z_44_imageprocessorclient-tvplus-linear-6fb5b47f79-bq75x.jpeg"
-      },
-      {
-        "title": "REGOLE DEL GOLF",
-        "desc": "Per LE REGOLE DEL GOLF, l'arbitro internazionale ROBERTO BALLINI (Presidente A.I.A.G.) ci spiega cosa possiamo fare quando ci ritroviamo una palla ingiocabile in bunker.",
-        "start": "20251028024200 +0000",
-        "stop": "20251028024800 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_809090645_0_20250417T171750481Z_44_imageprocessorclient-tvplus-linear-6fb5b47f79-bq75x.jpeg"
-      },
-      {
-        "title": "BUCA DELLA SETTIMANA: AMBROSIANO BUCA 13 par 4 JASON LEWIS",
-        "desc": "In compagnia del professionista JASON LEWIS, giochiamo questo par 4 (handicap 3), decisamente delicato per la presenza del lago, che accompagna il dogleg a sinistra, e il fuori limite frontale sul tee",
-        "start": "20251028024800 +0000",
-        "stop": "20251028025900 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_882922093_0_20250513T154500921Z_116_imageprocessorclient-tvplus-linear-6fb5b47f79-cgrkw.jpeg"
-      },
-      {
-        "title": "TOUR 2024 GOLF BERGAMO L'ALBENZA",
-        "desc": "TOUR 2024 GOLF BERGAMO L'ALBENZA",
-        "start": "20251028025900 +0000",
-        "stop": "20251028030700 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_882802155_0_20250513T142014990Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-wzgbv.jpeg"
-      },
-      {
-        "title": "Maestro Dice",
-        "desc": "Maestro Dice – Carlo Zappa, maestro di golf pluripremiato, spiega in ogni puntata una regola del golf e strategie per affrontare le buche. Tecnica, esperienza e passione in un format unico!",
-        "start": "20251028030700 +0000",
-        "stop": "20251028031200 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_810857811_0_20250418T091721254Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-84mv4.jpeg"
-      },
-      {
-        "title": "REGOLE DEL GOLF",
-        "desc": "Per LE REGOLE DEL GOLF, l'arbitro internazionale ROBERTO BALLINI (Presidente A.I.A.G.) ci chiarisce cosa dobbiamo fare quando la nostra palla finisce sul green di un'altra buca.",
-        "start": "20251028031200 +0000",
-        "stop": "20251028031800 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_809090645_0_20250417T171750481Z_44_imageprocessorclient-tvplus-linear-6fb5b47f79-bq75x.jpeg"
-      },
-      {
-        "title": "REGOLE DEL GOLF",
-        "desc": "Per LE REGOLE DEL GOLF, l'arbitro internazionale ROBERTO BALLINI (Presidente A.I.A.G.) ci spiega cosa possiamo fare quando ci ritroviamo una palla ingiocabile in bunker.",
-        "start": "20251028031800 +0000",
-        "stop": "20251028032300 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_809090645_0_20250417T171750481Z_44_imageprocessorclient-tvplus-linear-6fb5b47f79-bq75x.jpeg"
-      },
-      {
-        "title": "BUCA DELLA SETTIMANA: AMBROSIANO BUCA 13 par 4 JASON LEWIS",
-        "desc": "In compagnia del professionista JASON LEWIS, giochiamo questo par 4 (handicap 3), decisamente delicato per la presenza del lago, che accompagna il dogleg a sinistra, e il fuori limite frontale sul tee",
-        "start": "20251028032300 +0000",
-        "stop": "20251028033400 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_882922093_0_20250513T154500921Z_116_imageprocessorclient-tvplus-linear-6fb5b47f79-cgrkw.jpeg"
-      },
-      {
-        "title": "TOUR 2024 GOLF BERGAMO L'ALBENZA",
-        "desc": "TOUR 2024 GOLF BERGAMO L'ALBENZA",
-        "start": "20251028033400 +0000",
-        "stop": "20251028034200 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_882802155_0_20250513T142014990Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-wzgbv.jpeg"
-      },
-      {
-        "title": "Magazine Golf Televison",
-        "desc": "Scopri il mondo del golf a 360° con il magazine dedicato a tutti gli amanti di questo sport.",
-        "start": "20251028034200 +0000",
-        "stop": "20251028041200 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_882938769_5_20250513T154501681Z_15_imageprocessorclient-tvplus-linear-6fb5b47f79-vgkcp.jpeg"
-      },
-      {
-        "title": "Eventi di Golf",
-        "desc": "TOUR 2025 GOLF BRIANZA",
-        "start": "20251028041200 +0000",
-        "stop": "20251028042600 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_809090645_0_20250417T171750481Z_44_imageprocessorclient-tvplus-linear-6fb5b47f79-bq75x.jpeg"
-      },
-      {
-        "title": "Maestro Dice",
-        "desc": "Maestro Dice – Carlo Zappa, maestro di golf pluripremiato, spiega in ogni puntata una regola del golf e strategie per affrontare le buche. Tecnica, esperienza e passione in un format unico!",
-        "start": "20251028042600 +0000",
-        "stop": "20251028043000 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_810857811_0_20250418T091721254Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-84mv4.jpeg"
-      },
-      {
-        "title": "Magazine Golf Televison",
-        "desc": "Scopri il mondo del golf a 360° con il magazine dedicato a tutti gli amanti di questo sport.",
-        "start": "20251028043000 +0000",
-        "stop": "20251028050400 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_882938769_5_20250513T154501681Z_15_imageprocessorclient-tvplus-linear-6fb5b47f79-vgkcp.jpeg"
-      },
       {
         "title": "Magazine Golf Televison",
         "desc": "Scopri il mondo del golf a 360° con il magazine dedicato a tutti gli amanti di questo sport.",
@@ -1094,6 +975,97 @@
         "start": "20251028070500 +0000",
         "stop": "20251028071300 +0000",
         "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_882802155_0_20250513T142014990Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-wzgbv.jpeg"
+      },
+      {
+        "title": "Magazine Golf Televison",
+        "desc": "Scopri il mondo del golf a 360° con il magazine dedicato a tutti gli amanti di questo sport.",
+        "start": "20251028071300 +0000",
+        "stop": "20251028074300 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_882938769_5_20250513T154501681Z_15_imageprocessorclient-tvplus-linear-6fb5b47f79-vgkcp.jpeg"
+      },
+      {
+        "title": "Eventi di Golf",
+        "desc": "TOUR 2025 GOLF BRIANZA",
+        "start": "20251028074300 +0000",
+        "stop": "20251028075700 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_809090645_0_20250417T171750481Z_44_imageprocessorclient-tvplus-linear-6fb5b47f79-bq75x.jpeg"
+      },
+      {
+        "title": "Maestro Dice",
+        "desc": "Maestro Dice – Carlo Zappa, maestro di golf pluripremiato, spiega in ogni puntata una regola del golf e strategie per affrontare le buche. Tecnica, esperienza e passione in un format unico!",
+        "start": "20251028075700 +0000",
+        "stop": "20251028080100 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_810857811_0_20250418T091721254Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-84mv4.jpeg"
+      },
+      {
+        "title": "Magazine Golf Televison",
+        "desc": "Scopri il mondo del golf a 360° con il magazine dedicato a tutti gli amanti di questo sport.",
+        "start": "20251028080100 +0000",
+        "stop": "20251028083500 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_882938769_5_20250513T154501681Z_15_imageprocessorclient-tvplus-linear-6fb5b47f79-vgkcp.jpeg"
+      },
+      {
+        "title": "Magazine Golf Televison",
+        "desc": "Scopri il mondo del golf a 360° con il magazine dedicato a tutti gli amanti di questo sport.",
+        "start": "20251028083500 +0000",
+        "stop": "20251028090700 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_882938769_5_20250513T154501681Z_15_imageprocessorclient-tvplus-linear-6fb5b47f79-vgkcp.jpeg"
+      },
+      {
+        "title": "Magazine Golf Televison",
+        "desc": "Scopri il mondo del golf a 360° con il magazine dedicato a tutti gli amanti di questo sport.",
+        "start": "20251028090700 +0000",
+        "stop": "20251028093800 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_882938769_5_20250513T154501681Z_15_imageprocessorclient-tvplus-linear-6fb5b47f79-vgkcp.jpeg"
+      },
+      {
+        "title": "Magazine Golf Televison",
+        "desc": "Scopri il mondo del golf a 360° con il magazine dedicato a tutti gli amanti di questo sport.",
+        "start": "20251028093800 +0000",
+        "stop": "20251028100800 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_882938769_5_20250513T154501681Z_15_imageprocessorclient-tvplus-linear-6fb5b47f79-vgkcp.jpeg"
+      },
+      {
+        "title": "Maestro Dice",
+        "desc": "Maestro Dice – Carlo Zappa, maestro di golf pluripremiato, spiega in ogni puntata una regola del golf e strategie per affrontare le buche. Tecnica, esperienza e passione in un format unico!",
+        "start": "20251028100800 +0000",
+        "stop": "20251028101400 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_810857811_0_20250418T091721254Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-84mv4.jpeg"
+      },
+      {
+        "title": "REGOLE DEL GOLF",
+        "desc": "Per LE REGOLE DEL GOLF, l'arbitro internazionale ROBERTO BALLINI (Presidente A.I.A.G.) ci chiarisce cosa dobbiamo fare quando la nostra palla finisce sul green di un'altra buca.",
+        "start": "20251028101400 +0000",
+        "stop": "20251028102000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_809090645_0_20250417T171750481Z_44_imageprocessorclient-tvplus-linear-6fb5b47f79-bq75x.jpeg"
+      },
+      {
+        "title": "REGOLE DEL GOLF",
+        "desc": "Per LE REGOLE DEL GOLF, l'arbitro internazionale ROBERTO BALLINI (Presidente A.I.A.G.) ci spiega cosa possiamo fare quando ci ritroviamo una palla ingiocabile in bunker.",
+        "start": "20251028102000 +0000",
+        "stop": "20251028102500 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_809090645_0_20250417T171750481Z_44_imageprocessorclient-tvplus-linear-6fb5b47f79-bq75x.jpeg"
+      },
+      {
+        "title": "BUCA DELLA SETTIMANA: AMBROSIANO BUCA 13 par 4 JASON LEWIS",
+        "desc": "In compagnia del professionista JASON LEWIS, giochiamo questo par 4 (handicap 3), decisamente delicato per la presenza del lago, che accompagna il dogleg a sinistra, e il fuori limite frontale sul tee",
+        "start": "20251028102500 +0000",
+        "stop": "20251028103600 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_882922093_0_20250513T154500921Z_116_imageprocessorclient-tvplus-linear-6fb5b47f79-cgrkw.jpeg"
+      },
+      {
+        "title": "TOUR 2024 GOLF BERGAMO L'ALBENZA",
+        "desc": "TOUR 2024 GOLF BERGAMO L'ALBENZA",
+        "start": "20251028103600 +0000",
+        "stop": "20251028104400 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_882802155_0_20250513T142014990Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-wzgbv.jpeg"
+      },
+      {
+        "title": "Magazine Golf Televison",
+        "desc": "Scopri il mondo del golf a 360° con il magazine dedicato a tutti gli amanti di questo sport.",
+        "start": "20251028104400 +0000",
+        "stop": "20251028111400 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_882938769_5_20250513T154501681Z_15_imageprocessorclient-tvplus-linear-6fb5b47f79-vgkcp.jpeg"
       }
     ]
   },
@@ -1102,34 +1074,6 @@
     "name": "Motortrend",
     "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT900004Y5_20250408T021501SQUARE.png",
     "programs": [
-      {
-        "title": "Dal pollaio alla pista",
-        "desc": "Estrarre cavalli da questa signora modenese non e' un gioco da ragazzi.",
-        "start": "20251028004000 +0000",
-        "stop": "20251028020500 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142597693_0_20250821T204915444Z_32_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.png"
-      },
-      {
-        "title": "Dal pollaio alla pista",
-        "desc": "Davide trova in Lombardia una Nissan Sunny, nota come \"anti-Delta\".",
-        "start": "20251028020500 +0000",
-        "stop": "20251028032500 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142597693_0_20250821T204915444Z_32_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.png"
-      },
-      {
-        "title": "Dal pollaio alla pista",
-        "desc": "Scopriamo se la mitica Nissan Sunny GTi R ha conquistato il cuore di Davide.",
-        "start": "20251028032500 +0000",
-        "stop": "20251028043000 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142597693_0_20250821T204915444Z_32_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.png"
-      },
-      {
-        "title": "Come e' fatto",
-        "desc": "Scopriamo come vengono realizzati alcuni oggetti e cibi di uso quotidiano, tra cui le pompe dello sterzo e le ciotole asiatiche per alimenti.",
-        "start": "20251028043000 +0000",
-        "stop": "20251028050000 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142597693_0_20250821T204915444Z_32_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.png"
-      },
       {
         "title": "Marchio di fabbrica",
         "desc": "Come vengono costruite le gigantesche centrali elettriche galleggianti? Inoltre, come viene realizzato il velivolo piu' piccolo del mondo?",
@@ -1164,6 +1108,48 @@
         "start": "20251028070000 +0000",
         "stop": "20251028073000 +0000",
         "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142597693_0_20250821T204915444Z_32_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.png"
+      },
+      {
+        "title": "Marchio di fabbrica",
+        "desc": "Come vengono creati i guanti ignifughi? Inoltre, come si realizza il rivestimento per i contenitori che verranno usati per preparare i dolci?",
+        "start": "20251028073000 +0000",
+        "stop": "20251028080000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142597693_0_20250821T204915444Z_32_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.png"
+      },
+      {
+        "title": "Marchio di fabbrica",
+        "desc": "Come fanno gli abitanti delle Ebridi Esterne a usare l'energia a pedali per trasportare il famoso tweed Harris? E in Islanda, come viene preparato lo squalo fermentato?",
+        "start": "20251028080000 +0000",
+        "stop": "20251028083000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142597693_0_20250821T204915444Z_32_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.png"
+      },
+      {
+        "title": "Marchio di fabbrica",
+        "desc": "Come vengono realizzati i letti piu' costosi e lussuosi del mondo? E come vengono trasportati i rifornimenti sulla Stazione Spaziale Internazionale?",
+        "start": "20251028083000 +0000",
+        "stop": "20251028090000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142597693_0_20250821T204915444Z_32_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.png"
+      },
+      {
+        "title": "Ingegneria degli Epic Fail",
+        "desc": "In Italia, si scatena il caos quando una gru cade su una enorme costruzione.",
+        "start": "20251028090000 +0000",
+        "stop": "20251028095500 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142597693_0_20250821T204915444Z_32_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.png"
+      },
+      {
+        "title": "Ingegneria degli Epic Fail",
+        "desc": "In Italia, un ponte crolla. In Connecticut, un cantiere edile e' colpito da una tragedia.",
+        "start": "20251028095500 +0000",
+        "stop": "20251028105000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142597693_0_20250821T204915444Z_32_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.png"
+      },
+      {
+        "title": "Ingegneria degli Epic Fail",
+        "desc": "Scopriamo i piu' incredibili fallimenti ingegneristici della nostra epoca.",
+        "start": "20251028105000 +0000",
+        "stop": "20251028114500 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142597693_0_20250821T204915444Z_32_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.png"
       }
     ]
   },
@@ -1172,48 +1158,6 @@
     "name": "World Poker Tour",
     "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBD29000015E_20241022T043942SQUARE.png",
     "programs": [
-      {
-        "title": "World Poker Tour",
-        "desc": "Season XIV of the World Poker Tour continues from Borgata Hotel Casino & Spa with more than 1,000 entries and a prize pool of $3.2 million.",
-        "start": "20251028010212 +0000",
-        "stop": "20251028014921 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQO570425A_1205000634_0_20250920T071601170Z_73_imageprocessorclient-tvplus-linear-5db7c6bc99-2fhcs.jpeg"
-      },
-      {
-        "title": "World Poker Tour",
-        "desc": "Season XIV of the World Poker Tour continues from Borgata Hotel Casino & Spa with more than 1,000 entries and a prize pool of $3.2 million.",
-        "start": "20251028014921 +0000",
-        "stop": "20251028020126 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQO570425A_1205000634_0_20250920T071601170Z_73_imageprocessorclient-tvplus-linear-5db7c6bc99-2fhcs.jpeg"
-      },
-      {
-        "title": "World Poker Tour",
-        "desc": "Season XIV of the World Poker Tour continues from Borgata Hotel Casino & Spa with more than 1,000 entries and a prize pool of $3.2 million.",
-        "start": "20251028020126 +0000",
-        "stop": "20251028025102 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQO570425A_1205000634_0_20250920T071601170Z_73_imageprocessorclient-tvplus-linear-5db7c6bc99-2fhcs.jpeg"
-      },
-      {
-        "title": "World Poker Tour",
-        "desc": "Season XIV of the World Poker Tour continues from Borgata Hotel Casino & Spa with more than 1,000 entries and a prize pool of $3.2 million.",
-        "start": "20251028025102 +0000",
-        "stop": "20251028030010 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQO570425A_1205000634_0_20250920T071601170Z_73_imageprocessorclient-tvplus-linear-5db7c6bc99-2fhcs.jpeg"
-      },
-      {
-        "title": "World Poker Tour",
-        "desc": "With 412 entries, the WPT bestbet Bounty Scramble generated a prize pool of nearly $2 million.",
-        "start": "20251028030010 +0000",
-        "stop": "20251028040120 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQO570425A_1205000634_0_20250920T071601170Z_73_imageprocessorclient-tvplus-linear-5db7c6bc99-2fhcs.jpeg"
-      },
-      {
-        "title": "World Poker Tour",
-        "desc": "Duck man Marvin Karlins leads the WPT bestbet Jacksonville Bounty Scramble final table.",
-        "start": "20251028040120 +0000",
-        "stop": "20251028050121 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQO570425A_1205000634_0_20250920T071601170Z_73_imageprocessorclient-tvplus-linear-5db7c6bc99-2fhcs.jpeg"
-      },
       {
         "title": "World Poker Tour",
         "desc": "Four players, Benjamin Zamini, Marvin Karlins, Stan Jablonski, and Tyler Patterson, compete at the WPT bestbet Jacksonville Bounty Scramble.",
@@ -1239,8 +1183,36 @@
         "title": "World Poker Tour",
         "desc": "A night of exciting poker action on a special episode of the World Poker Tour.",
         "start": "20251028064420 +0000",
-        "stop": "20251028080317 +0000",
+        "stop": "20251028080316 +0000",
         "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQO570425A_1240016982_0_20251006T172245951Z_81_imageprocessorclient-tvplus-linear-5db7c6bc99-fc88h.jpeg"
+      },
+      {
+        "title": "World Poker Tour",
+        "desc": "WPT Alpha 8 brings Super High Stakes poker to South Africa.",
+        "start": "20251028080316 +0000",
+        "stop": "20251028090416 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQO570425A_957974228_0_20250608T052759245Z_66_imageprocessorclient-tvplus-linear-6fb5b47f79-q24ff.jpeg"
+      },
+      {
+        "title": "World Poker Tour",
+        "desc": "Super High Stakes poker continues from South Africa.",
+        "start": "20251028090416 +0000",
+        "stop": "20251028100317 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQO570425A_957974228_0_20250608T052759245Z_66_imageprocessorclient-tvplus-linear-6fb5b47f79-q24ff.jpeg"
+      },
+      {
+        "title": "World Poker Tour",
+        "desc": "The stakes couldn't be higher, as a savvy amateur takes on three professionals in the first ever South African WPT Alpha8 super high roller poker tournament.",
+        "start": "20251028100317 +0000",
+        "stop": "20251028110117 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQO570425A_1038576623_0_20250708T054203654Z_3_imageprocessorclient-tvplus-linear-5db7c6bc99-grwzd.jpeg"
+      },
+      {
+        "title": "World Poker Tour",
+        "desc": "THE PPT IS THE FIRST LEAGUE OF ITS KIND AND THE TOUGHEST FIELD IN THE HISTORY OF POKER.  THE STAKES ARE HIGH… 2.5 MILLION DOLLARS AND THE TITLE OF “THE BEST OF THE BEST”.",
+        "start": "20251028110117 +0000",
+        "stop": "20251028124711 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQO570425A_986324541_0_20250617T183201211Z_70_imageprocessorclient-tvplus-linear-5db7c6bc99-sm8n5.jpeg"
       }
     ]
   },
@@ -1249,62 +1221,6 @@
     "name": "Sony One Popolari",
     "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT300006W3_20241022T043836SQUARE.png",
     "programs": [
-      {
-        "title": "I Dream Of Jeannie (Colorized) S1E12",
-        "desc": "Jeannie è infastidita quando Diane Rodney, un'amica di Tony, torna in città decisa a riprendere la loro vecchia relazione.",
-        "start": "20251028010236 +0000",
-        "stop": "20251028013313 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1247315543_1_20251009T233635548Z_65_imageprocessorclient-tvplus-linear-5db7c6bc99-24qh9.jpeg"
-      },
-      {
-        "title": "I Dream Of Jeannie (Colorized) S1E13",
-        "desc": "Jeannie s'ingelosisce quando viene a sapere che Tony ha in programma un appuntamento con Sonia, una bella cosmonauta russa.",
-        "start": "20251028013313 +0000",
-        "stop": "20251028020318 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1247382444_1_20251009T233635548Z_117_imageprocessorclient-tvplus-linear-5db7c6bc99-24qh9.jpeg"
-      },
-      {
-        "title": "I Dream Of Jeannie (Colorized) S1E14",
-        "desc": "Jeannie riceve un consiglio sbagliato dalla madre, che le suggerisce di fare una proposta di matrimonio a Roger con la speranza che Tony s'ingelosisca e le proponga lui stesso di sposarlo.",
-        "start": "20251028020318 +0000",
-        "stop": "20251028023353 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1247426536_0_20251009T233637329Z_72_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.jpeg"
-      },
-      {
-        "title": "I Dream Of Jeannie (Colorized) S1E15",
-        "desc": "Dopo aver saputo che il dottor Bellows ha detto al generale Peterson che Tony dovrebbe sposarsi per la propria stabilità emotiva come astronauta, Jeannie si prepara al matrimonio.",
-        "start": "20251028023353 +0000",
-        "stop": "20251028030358 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1247382517_1_20251009T233635548Z_66_imageprocessorclient-tvplus-linear-5db7c6bc99-24qh9.jpeg"
-      },
-      {
-        "title": "I Dream Of Jeannie (Colorized) S1E16",
-        "desc": "Jeannie non si sente molto bene e sta lentamente svanendo, nel vero senso. La sua cura l'aspetta alla Mecca, dove il genio e il padrone devono recitare delle parole sacre in una banca!",
-        "start": "20251028030358 +0000",
-        "stop": "20251028033425 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1247426533_0_20251009T233637329Z_23_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.jpeg"
-      },
-      {
-        "title": "I Dream Of Jeannie (Colorized) S1E17",
-        "desc": "Roger evoca accidentalmente Jeannie dalla bottiglia e scopre di essere il suo nuovo padrone. Dominato dall'avidità, Roger si approfitta il più possibile dei poteri del genio.",
-        "start": "20251028033425 +0000",
-        "stop": "20251028040434 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1247315544_0_20251009T233635333Z_129_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.jpeg"
-      },
-      {
-        "title": "I Dream Of Jeannie (Colorized) S1E18",
-        "desc": "Roger abusa dei privilegi del suo genio rimanendo fuori con una bella ragazza fino alle tre di notte e causando problemi a Tony per aver stancato troppo Jeannie e per aver fatto infuriare lo zio, il dottor Bellows.",
-        "start": "20251028040434 +0000",
-        "stop": "20251028043510 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1247426534_1_20251009T233641625Z_117_imageprocessorclient-tvplus-linear-5db7c6bc99-24qh9.jpeg"
-      },
-      {
-        "title": "I Dream Of Jeannie (Colorized) S1E4",
-        "desc": "Bien que la date n'ait pas été déterminée, Tony interdit à Jinny de les accompagner, Melissa et lui, lors de leur lune de miel.",
-        "start": "20251028043510 +0000",
-        "stop": "20251028050547 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1247353572_0_20251009T233637329Z_67_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.jpeg"
-      },
       {
         "title": "I Dream Of Jeannie (Colorized) S1E20",
         "desc": "Jeannie sente per caso che il desiderio di Tony è diventare medico e lo porta in una sala operatoria per eseguire un'appendicectomia su Roger.",
@@ -1339,6 +1255,62 @@
         "start": "20251028070635 +0000",
         "stop": "20251028073711 +0000",
         "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1247368170_1_20251009T233641625Z_28_imageprocessorclient-tvplus-linear-5db7c6bc99-24qh9.jpeg"
+      },
+      {
+        "title": "I Dream Of Jeannie (Colorized) S1E25",
+        "desc": "Tony diventa curioso quando Roger afferma di avere qualcosa di meglio di Jeannie, la cartomante Madame Zolta.",
+        "start": "20251028073711 +0000",
+        "stop": "20251028080715 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1247315545_1_20251009T233632221Z_96_imageprocessorclient-tvplus-linear-5db7c6bc99-24qh9.jpeg"
+      },
+      {
+        "title": "I Dream Of Jeannie (Colorized) S1E26",
+        "desc": "Tony dipinge un Rembrandt per un'asta di beneficienza ma, a sua insaputa, Jeannie lo trasforma nell'originale causando un sacco di problemi.",
+        "start": "20251028080715 +0000",
+        "stop": "20251028083749 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1247368171_1_20251009T233632228Z_104_imageprocessorclient-tvplus-linear-5db7c6bc99-24qh9.jpeg"
+      },
+      {
+        "title": "I Dream Of Jeannie (Colorized) S1E27",
+        "desc": "Jeannie vede le sue ciabatte perdute in un museo.",
+        "start": "20251028083749 +0000",
+        "stop": "20251028090756 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1247353576_0_20251009T233636338Z_101_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.jpeg"
+      },
+      {
+        "title": "I Dream Of Jeannie (Colorized) S1E28",
+        "desc": "A Tony viene chiesto di badare ad una principessa che Jeannie ha giurato di uccidere per uno sgarro alla sua famiglia. Allora, Tony le affida tre difficili compiti per tenerla occupata ma Jeannie ci mette meno del previsto e torna alle sue minacce.",
+        "start": "20251028090756 +0000",
+        "stop": "20251028093821 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1247426535_0_20251009T233636325Z_91_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.jpeg"
+      },
+      {
+        "title": "I Dream Of Jeannie (Colorized) S1E29",
+        "desc": "Quando il dottor Bellows scopre Tony a levitare sulla sedia, Tony come spiegazione lo convince di essere un mago provetto. Allora Bellows insiste affinché Tony faccia uno spettacolo alla NASA.",
+        "start": "20251028093821 +0000",
+        "stop": "20251028100814 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1247412783_1_20251009T233642549Z_94_imageprocessorclient-tvplus-linear-5db7c6bc99-24qh9.jpeg"
+      },
+      {
+        "title": "I Dream Of Jeannie (Colorized) S1E30",
+        "desc": "Tony soffre di amnesia dopo aver battuto la testa e, vedendo Jeannie, se ne innamora all'istante e le chiede di sposarlo. Jeannie è contenta di assecondarlo fino a quando Tony ribatte la testa e si dimentica l'accaduto.",
+        "start": "20251028100814 +0000",
+        "stop": "20251028103849 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1247398487_1_20251009T233636543Z_129_imageprocessorclient-tvplus-linear-5db7c6bc99-24qh9.jpeg"
+      },
+      {
+        "title": "I Dream of Jeannie S2E31",
+        "desc": "Per celebrare il loro primo anniversario, Jeannie fa precipitare Tony sulla loro isola. Un irato Tony apre una bottiglia, ma scopre che contiene il Blue Djinn, che aveva imprigionato Jeannie 2000 anni prima.",
+        "start": "20251028103849 +0000",
+        "stop": "20251028110823 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1060803209_7_20250716T204610252Z_90_imageprocessorclient-tvplus-linear-5db7c6bc99-2pksq.jpeg"
+      },
+      {
+        "title": "I Dream of Jeannie S2E32",
+        "desc": "Jeannie pensa che Tony lavori troppo e decide di far riposare lui e il resto del mondo trasformando ogni giorno in domenica.",
+        "start": "20251028110823 +0000",
+        "stop": "20251028113828 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1060783160_10_20250716T204611241Z_26_imageprocessorclient-tvplus-linear-5db7c6bc99-xrkqv.jpeg"
       }
     ]
   },
@@ -1347,34 +1319,6 @@
     "name": "Sony One Serie Thriller",
     "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT300007SE_20241022T043839SQUARE.png",
     "programs": [
-      {
-        "title": "Better Call Saul S6E13",
-        "desc": "Mentre Jimmy cerca di sfuggire alle conseguenze dei propri errori ed evitare la galera, Kim si trova al centro del suo piano.",
-        "start": "20251028003401 +0000",
-        "stop": "20251028015205 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1061009798_0_20250716T234605846Z_15_imageprocessorclient-tvplus-linear-5db7c6bc99-5rfpw.jpeg"
-      },
-      {
-        "title": "Better Call Saul S1E1",
-        "desc": "Primo episodio di un prequel che narra l'evoluzione dell'avvocato Saul Goodman di Breaking Bad quando ricorda se stesso con il suo vero nome, Jimmy McGill, e si rivede alle prese con i casi in tribunale. Dopodiché, un'ispirazione improvvisa lo condurrà a una ricerca non convenzionale di nuovi potenziali clienti.",
-        "start": "20251028015205 +0000",
-        "stop": "20251028025211 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1060806323_16_20250716T204613002Z_137_imageprocessorclient-tvplus-linear-5db7c6bc99-ljxfj.png"
-      },
-      {
-        "title": "Better Call Saul S1E2",
-        "desc": "I problemi si fanno sempre più gravi, e Jimmy si trova in difficoltà. Nel frattempo, una disattenzione mette Chuck in pericolo.",
-        "start": "20251028025211 +0000",
-        "stop": "20251028034527 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1060725987_20_20250716T204613307Z_37_imageprocessorclient-tvplus-linear-5db7c6bc99-lswmc.png"
-      },
-      {
-        "title": "Better Call Saul S1E3",
-        "desc": "Jimmy tenta il tutto per tutto pur di dimostrare l'innocenza di un cliente pericoloso, anche se questo fa sorgere dei diverbi con Kim.",
-        "start": "20251028034527 +0000",
-        "stop": "20251028043935 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1060774122_17_20250716T204613058Z_107_imageprocessorclient-tvplus-linear-5db7c6bc99-x889l.png"
-      },
       {
         "title": "Better Call Saul S1E4",
         "desc": "Jimmy s'inventa un piano audace per attrarre nuovi clienti, ma dovrà affrontarne le conseguenze quando questa strategia farà incrinare i rapporti con uno studio legale rivale.",
@@ -1395,6 +1339,34 @@
         "start": "20251028063025 +0000",
         "stop": "20251028072717 +0000",
         "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1061038526_0_20250716T234605845Z_84_imageprocessorclient-tvplus-linear-5db7c6bc99-5rfpw.jpeg"
+      },
+      {
+        "title": "Starsky & Hutch S2E43",
+        "desc": "Una squadra della morte composta da poliziotti giustizia i criminali che hanno beneficiato di sentenze generose.",
+        "start": "20251028072717 +0000",
+        "stop": "20251028082332 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1061057328_0_20250716T234605845Z_1_imageprocessorclient-tvplus-linear-5db7c6bc99-5rfpw.jpeg"
+      },
+      {
+        "title": "Starsky & Hutch S2E44",
+        "desc": "Un immigrato clandestino che ha assistito ad un omicidio si rifiuta di collaborare con la polizia per paura di essere espulso.",
+        "start": "20251028082332 +0000",
+        "stop": "20251028091956 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1061004158_0_20250716T234605846Z_33_imageprocessorclient-tvplus-linear-5db7c6bc99-5rfpw.jpeg"
+      },
+      {
+        "title": "Starsky & Hutch S2E45",
+        "desc": "in “Country music“ un dj di una radio di provincia uccide due persone nel tentativo di estorcere $10.000 a un famoso cantante country.",
+        "start": "20251028091956 +0000",
+        "stop": "20251028101604 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1061025400_0_20250716T234605846Z_74_imageprocessorclient-tvplus-linear-5db7c6bc99-5rfpw.jpeg"
+      },
+      {
+        "title": "Starsky & Hutch S2E46",
+        "desc": "Un clown in rovina vive come un eremita negli studi cinematografici per uccidere i suoi vecchi nemici.",
+        "start": "20251028101604 +0000",
+        "stop": "20251028111217 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1061045413_0_20250716T234605846Z_112_imageprocessorclient-tvplus-linear-5db7c6bc99-5rfpw.jpeg"
       }
     ]
   },
@@ -1403,41 +1375,6 @@
     "name": "Serie Crime - Rakuten TV",
     "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT2600008RA_20241210T052906SQUARE.png",
     "programs": [
-      {
-        "title": "The Lost Room",
-        "desc": "S1:E2 L'Orologio - Dopo essere venuto in possesso della chiave, Joe scopre che è solo uno di quasi cento oggetti con poteri soprannaturali e che è legata a una stanza nascosta di un motel.",
-        "start": "20251028004224 +0000",
-        "stop": "20251028013031 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_829495002_0_20250425T014950660Z_136_imageprocessorclient-tvplus-linear-6fb5b47f79-bpfqr.jpeg"
-      },
-      {
-        "title": "Una nuova vita per Zoe",
-        "desc": "S2:E1 Un'amica è un'amica - Zoe teme che la sua amica Melanie, che conosceva dai tempi in cui lavorava come croupier a Las Vegas, possa aver ucciso il suo ex marito. Quando Zoe inizia a indagare, scopre che Melanie ha ideato un piano malvagio per ottenere un guadagno economico.",
-        "start": "20251028013031 +0000",
-        "stop": "20251028022137 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_1164241943_0_20250901T073743382Z_40_imageprocessorclient-tvplus-linear-5db7c6bc99-brk6n.jpeg"
-      },
-      {
-        "title": "Una nuova vita per Zoe",
-        "desc": "S2:E2 Rene cercasi - Mentre indaga su una falsa denuncia in un ospedale, Zoe viene rapinata da un ladro che ha anche rubato un rene che stava per essere trapiantato in un paziente.",
-        "start": "20251028022137 +0000",
-        "stop": "20251028031241 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_1164241944_0_20250901T073743590Z_90_imageprocessorclient-tvplus-linear-5db7c6bc99-brk6n.jpeg"
-      },
-      {
-        "title": "Una nuova vita per Zoe",
-        "desc": "S2:E3 Furto d'identità - L'ex marito di M, Graham, è candidato a sindaco. Durante la campagna elettorale, un cecchino spara un colpo di pistola contro il candidato politico. Quando M assegna il caso ai suoi due migliori investigatori.",
-        "start": "20251028031241 +0000",
-        "stop": "20251028040347 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_1164234863_0_20250901T073747682Z_86_imageprocessorclient-tvplus-linear-5db7c6bc99-brk6n.jpeg"
-      },
-      {
-        "title": "Manhattan",
-        "desc": "S1:E9 Terrificante Azione a Distanza - Charlie e Frank sono costretti a lavorare insieme per il bene del progetto. Quando si imbattono in un problema, Frank utilizza una risorsa inconsueta.",
-        "start": "20251028040347 +0000",
-        "stop": "20251028045652 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_670140915_0_20250226T041507916Z_129_imageprocessorclient-tvplus-linear-6fb5b47f79-74nlz.jpeg"
-      },
       {
         "title": "Manhattan",
         "desc": "S1:E10 Il Sostituto - Il gruppo Implosion supera un nuovo ostacolo con l'aiuto del passato di Charlie. Un visitatore inaspettato di The Hill solleva i sospetti su Frank.",
@@ -1465,6 +1402,41 @@
         "start": "20251028064912 +0000",
         "stop": "20251028073823 +0000",
         "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_513747729_0_20241204T032306672Z_58_imageprocessorclient-tvplus-linear-7cd5d896cc-w2hbq.jpeg"
+      },
+      {
+        "title": "Detective McLean",
+        "desc": "S1:E4 It Doesn't Show - Allison e Matt scoprono un oscuro segreto nel matrimonio di un loro amico, che trascina la detective e il collega Devin in un'indagine sorprendente. La poesia di Mariah preoccupa il suo insegnante.",
+        "start": "20251028073823 +0000",
+        "stop": "20251028082735 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_513747730_0_20241204T032306672Z_48_imageprocessorclient-tvplus-linear-7cd5d896cc-w2hbq.jpeg"
+      },
+      {
+        "title": "Detective McLean",
+        "desc": "S1:E5 United Front - La complicata relazione tra due fratelli ostacola l'indagine di Allison e Devin. Quando Matt porta Allison fuori per una serata romantica, Cameron e Mariah infrangono le regole della casa sfidando Rachel e Jeff.",
+        "start": "20251028082735 +0000",
+        "stop": "20251028091647 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_513866606_0_20241205T024511991Z_42_imageprocessorclient-tvplus-linear-7cd5d896cc-lfx5z.jpeg"
+      },
+      {
+        "title": "The Dresden Files",
+        "desc": "S1:E1 Due gocce d'acqua - Dresden accetta il caso di un ragazzino che è convinto di avere i mostri alle calcagna, ma un passo falso di Harry mette tutti in pericolo.",
+        "start": "20251028091647 +0000",
+        "stop": "20251028100623 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_513747721_0_20241204T032306672Z_64_imageprocessorclient-tvplus-linear-7cd5d896cc-w2hbq.jpeg"
+      },
+      {
+        "title": "The Dresden Files",
+        "desc": "S1:E2 Il Dio dei morti - Dresden lavora al caso di un padre perseguitato dallo spirito della figlia, e le circostanze dell'omicidio della ragazza mandano Harry in una direzione diversa che mette in pericolo Connie.",
+        "start": "20251028100623 +0000",
+        "stop": "20251028105459 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_513747722_0_20241204T032257855Z_113_imageprocessorclient-tvplus-linear-7cd5d896cc-w2hbq.jpeg"
+      },
+      {
+        "title": "The Dresden Files",
+        "desc": "S1:E3 Licantropia - L'FBI prende in carico il caso di Murphy riguardante un serial killer che rimuove capelli e denti dalle sue vittime, ma forse c'è ben altro dietro.",
+        "start": "20251028105459 +0000",
+        "stop": "20251028114341 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_513747723_0_20241204T032303661Z_125_imageprocessorclient-tvplus-linear-7cd5d896cc-w2hbq.jpeg"
       }
     ]
   },
@@ -1473,34 +1445,6 @@
     "name": "True Crime",
     "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBD1000006RD_20250624T021752SQUARE.png",
     "programs": [
-      {
-        "title": "Caccia ai predatori sessuali del web",
-        "desc": "James Blake indaga sul mondo oscuro dei predatori sessuali online. Dal Regno Unito alle Filippine, il documentario svela grooming, sextortion e abusi trasmessi in diretta, dando voce alle vittime e mostrando il lavoro delle forze dell'ordine per fermare questi crimini.",
-        "start": "20251028005128 +0000",
-        "stop": "20251028015417 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_1155248513_0_20250827T205530942Z_24_imageprocessorclient-tvplus-linear-5db7c6bc99-2fhcs.jpeg"
-      },
-      {
-        "title": "L'Uomo che cadde dal cielo",
-        "desc": "Nel 2015, due giovani sudafricani si nascosero nel carrello d'un aereo per fuggire a Londra. Uno morì durante l'atterraggio. L'altro sopravvisse miracolosamente. Un'indagine intensa su una vicenda estrema, al limite dell'impossibile.",
-        "start": "20251028015417 +0000",
-        "stop": "20251028025223 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_1008327875_0_20250625T205334979Z_24_imageprocessorclient-tvplus-linear-5db7c6bc99-q6tkt.jpeg"
-      },
-      {
-        "title": "Love Cheats",
-        "desc": "Sabrina simula la sclerosi multipla e convince Aaron a indebitarvisi. Accuse false e minacce di suicidio sono parte della sua manipolazione, che coinvolge anche l'intervento dell'FBI per fermare le sue truffe.",
-        "start": "20251028025223 +0000",
-        "stop": "20251028035217 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_1002827567_0_20250623T183858429Z_145_imageprocessorclient-tvplus-linear-5db7c6bc99-9tsm4.jpeg"
-      },
-      {
-        "title": "Cause Of Death",
-        "desc": "Jozsef Kovacs, un giovane ungherese, viene trovato morto in un bosco. La polizia e il medico legale indagano per stabilire se si tratti di suicidio. Il caso è complicato dalla difficoltà di rintracciare i familiari e dalla recente separazione con la fidanzata.",
-        "start": "20251028035217 +0000",
-        "stop": "20251028044924 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_1063376701_0_20250717T211150554Z_63_imageprocessorclient-tvplus-linear-5db7c6bc99-24qh9.jpeg"
-      },
       {
         "title": "Cause Of Death",
         "desc": "Terza morte in famiglia: il mistero di Ibnaan e i dubbi genetici.",
@@ -1519,37 +1463,44 @@
         "title": "Love Cheats",
         "desc": "Sabrina simula la sclerosi multipla e convince Aaron a indebitarvisi. Accuse false e minacce di suicidio sono parte della sua manipolazione, che coinvolge anche l'intervento dell'FBI per fermare le sue truffe.",
         "start": "20251028064337 +0000",
-        "stop": "20251028074331 +0000",
+        "stop": "20251028074332 +0000",
         "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_1002827567_0_20250623T183858429Z_145_imageprocessorclient-tvplus-linear-5db7c6bc99-9tsm4.jpeg"
+      },
+      {
+        "title": "Cause Of Death",
+        "desc": "Una donna segnala acqua fuoriuscire dalla casa del vicino, dove viene trovato morto un uomo di 30 anni. È vittima di un incidente stradale. Intanto, una donna in condizioni critiche diventa potenziale donatrice: il medico legale decide sul ritiro del supporto vitale.",
+        "start": "20251028074332 +0000",
+        "stop": "20251028084025 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_1048386910_0_20250711T211148538Z_30_imageprocessorclient-tvplus-linear-5db7c6bc99-ljxfj.jpeg"
+      },
+      {
+        "title": "Love Cheats",
+        "desc": "Sabrina simula la sclerosi multipla e convince Aaron a indebitarvisi. Accuse false e minacce di suicidio sono parte della sua manipolazione, che coinvolge anche l'intervento dell'FBI per fermare le sue truffe.",
+        "start": "20251028084025 +0000",
+        "stop": "20251028094020 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_1002827567_0_20250623T183858429Z_145_imageprocessorclient-tvplus-linear-5db7c6bc99-9tsm4.jpeg"
+      },
+      {
+        "title": "Caccia alla Catfish Crime Gang",
+        "desc": "James Blake, imprenditore dell'Irlanda del Nord, vede la sua identità rubata e utilizzata in truffe online. Deciso a riappropriarsi della sua vita digitale, intraprende un'indagine che lo porta a Bangkok, dove scopre un mondo di crimine organizzato che sfrutta il lavoro forzato per gestire le proprie frodi.",
+        "start": "20251028094020 +0000",
+        "stop": "20251028105034 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_1008329907_0_20250625T205330953Z_40_imageprocessorclient-tvplus-linear-5db7c6bc99-q6tkt.jpeg"
+      },
+      {
+        "title": "Cause Of Death",
+        "desc": "Il medico legale indaga la morte di Eleanor, 92 anni, vittima di un'aggressione e di una caduta in una casa di cura, e di un uomo trovato morto senza familiari noti. Tra esami, inchieste e ritrovamenti, emergono verità nascoste e delicate storie umane.",
+        "start": "20251028105034 +0000",
+        "stop": "20251028114716 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQU352137A_1055866123_0_20250714T205859097Z_37_imageprocessorclient-tvplus-linear-5db7c6bc99-grwzd.jpeg"
       }
     ]
   },
   {
     "id": "IT2600010E0",
     "name": "Family - Rakuten TV",
-    "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT2600010E0_20250107T022452SQUARE.png",
+    "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT2600010E0_20251028T011520SQUARE.png",
     "programs": [
-      {
-        "title": "La Mia Prima Barbie: Felice Giorno da Sogno",
-        "desc": "Canta insieme a Barbie, Barbie, Teresa e Renee in questa avventura musicale mentre pianificano la più grande festa di compleanno a sorpresa di sempre per la sorella di Barbie, Chelsea. \"Più grande di UN SEMPLICE compleanno, dobbiamo pianificare un GIORNO DA SOGNO!\"",
-        "start": "20251028005342 +0000",
-        "stop": "20251028013746 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_925029574_0_20250528T022735399Z_80_imageprocessorclient-tvplus-linear-6fb5b47f79-vs62g.jpeg"
-      },
-      {
-        "title": "Palle di neve",
-        "desc": "Durante le vacanze invernali i bambini di un piccolo villaggio decidono di costruire due grandi castelli di neve,. I castelli diventeranno i fortini dove rifugiarsi durante una grande battaglia di palle di neve che inizieranno Luke, Sophia e altri amici.",
-        "start": "20251028013746 +0000",
-        "stop": "20251028030631 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_504280652_0_20240907T053331709Z_19_imageprocessorclient-tvplus-linear-7cd5d896cc-vmxf2.jpeg"
-      },
-      {
-        "title": "Il mio amico Ted",
-        "desc": "La piccola Laney riceve in regalo Ted, un orsacchiotto di peluche dai poteri davvero incredibili, scatenando la gelosia del cagnolino Aussie.",
-        "start": "20251028030631 +0000",
-        "stop": "20251028044835 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_554319353_0_20250104T024227724Z_99_imageprocessorclient-tvplus-linear-7cd5d896cc-xjpbw.jpeg"
-      },
       {
         "title": "Spirito selvaggio",
         "desc": "Kacie, una ragazza dallo spirito ribelle, trova uno spirito affine in Blaze, un cavallo da corsa che si rifiuta di essere addomesticato.",
@@ -1584,6 +1535,76 @@
         "start": "20251028070513 +0000",
         "stop": "20251028071906 +0000",
         "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_1217292347_0_20250926T034247748Z_123_imageprocessorclient-tvplus-linear-5db7c6bc99-kqq7k.jpeg"
+      },
+      {
+        "title": "Pinocchio and Friends",
+        "desc": "S1:E21 Un alieno in città - Pinocchio scopre che la magia dei nasi non funziona per un giorno all'anno e quindi potrà dire tutte le bugie che vuole senza essere smascherato. Una bugia dopo l'altra, la situazione gli sfugge di mano, finendo per far credere a tutti che un alieno è arrivato in città.",
+        "start": "20251028071906 +0000",
+        "stop": "20251028073307 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_1238792518_0_20251006T040704330Z_107_imageprocessorclient-tvplus-linear-5db7c6bc99-sn6xc.jpeg"
+      },
+      {
+        "title": "LoliRock",
+        "desc": "S1:E7 Sirene - Le tre principesse decidono di aiutare Timothy, un ragazzo che sta cercando di salvare i suoi amici intrappolati nel relitto di una nave  ma Gramorr e' sempre in agguato..",
+        "start": "20251028073307 +0000",
+        "stop": "20251028075904 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_1228095455_0_20251001T050034757Z_65_imageprocessorclient-tvplus-linear-5db7c6bc99-p9nvg.jpeg"
+      },
+      {
+        "title": "LoliRock",
+        "desc": "S1:E14 Castelli di sabbia - Mefisto e Praxina approfittano di una festa in spiaggia per creare un mostro di sabbia che combatta contro le tre principesse",
+        "start": "20251028075904 +0000",
+        "stop": "20251028082501 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_1219410420_0_20250927T031233739Z_135_imageprocessorclient-tvplus-linear-5db7c6bc99-bxh87.jpeg"
+      },
+      {
+        "title": "LoliRock",
+        "desc": "S1:E10 Una buona stella - Iris, Auriana e Talia sono invitate a suonare alla festa di Lily Bowman, una teenager VIP, ma gli scagnozzi di Gramorr vogliono rovinarle la festa..",
+        "start": "20251028082501 +0000",
+        "stop": "20251028085058 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_1247603766_0_20251010T031659023Z_1_imageprocessorclient-tvplus-linear-5db7c6bc99-trv6z.jpeg"
+      },
+      {
+        "title": "Pinocchio and Friends",
+        "desc": "S1:E26 Pinocchio eroe dei mari - Guidati da Spike, Pinocchio, Freeda, Grillo e la ciurma navigano verso l'isola del Pescecane, ma la ciurma rimane incantata dal canto della sirena Ondina! I nostri eroi proseguono l'impresa da soli, e riusciranno a salvare Papà Geppetto…",
+        "start": "20251028085058 +0000",
+        "stop": "20251028090459 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_1221643254_0_20250928T040606631Z_45_imageprocessorclient-tvplus-linear-5db7c6bc99-7lnxh.jpeg"
+      },
+      {
+        "title": "Pinocchio and Friends",
+        "desc": "S1:E2 La fata dai capelli turchini - Se Geppetto è il suo papà, allora chi è la mamma di Pinocchio? Il nostro burattino è intenzionato a scoprirlo! Insieme al Grillo Parlante e Freeda, Pinocchio raggiunge il luogo descritto da Papà Geppetto all'interno del Bosco Magico.",
+        "start": "20251028090459 +0000",
+        "stop": "20251028091859 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_1225754460_0_20250930T032600256Z_1_imageprocessorclient-tvplus-linear-5db7c6bc99-8fzp6.jpeg"
+      },
+      {
+        "title": "Pinocchio and Friends",
+        "desc": "S1:E18 Il mostro del fiume - In città girano voci di un mostro marino che infesta il fiume, ma per fortuna sono arrivati due cacciatori di mostri, il Gatto e la Volpe! Inconsapevoli del loro inganno, Pinocchio e Freeda vogliono aiutarli, ma annoiata dalla lunga attesa Freeda decide di usare il suo richiamo per mostri piratesco.",
+        "start": "20251028091859 +0000",
+        "stop": "20251028093300 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_1234573714_0_20251004T032631075Z_93_imageprocessorclient-tvplus-linear-5db7c6bc99-zslbq.jpeg"
+      },
+      {
+        "title": "LoliRock",
+        "desc": "S1:E4 Il compleanno - Zia Ellen compie 50 anni e le tre principesse vogliono organizzarle una festa a sorpresa. Tutto è pronto, ma un misterioso carillon rischia di far saltare la festa..",
+        "start": "20251028093300 +0000",
+        "stop": "20251028095857 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_1219403113_0_20250927T031237779Z_138_imageprocessorclient-tvplus-linear-5db7c6bc99-bxh87.jpeg"
+      },
+      {
+        "title": "Matchbox Adventures",
+        "desc": "S1:E2 Episodio 2 - Mason può vincere la gara Matchbox 5000?! | Matchbox Adventures Missione Epica | Matchbox Adventures Serpenti Giganti",
+        "start": "20251028095857 +0000",
+        "stop": "20251028101359 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_1217294933_0_20250926T034259069Z_82_imageprocessorclient-tvplus-linear-5db7c6bc99-kqq7k.jpeg"
+      },
+      {
+        "title": "Zip & Zap",
+        "desc": "Dopo essere stati sorpresi a rubare le risposte del test scolastico, i gemelli Zip e Zap sono costretti per punizione a trascorrere l'estate in un rigido istituto dove è vietato ogni tipo di divertimento.",
+        "start": "20251028101359 +0000",
+        "stop": "20251028115220 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_DEQY451056A_1084116253_0_20250726T032533682Z_49_imageprocessorclient-tvplus-linear-5db7c6bc99-2pksq.jpeg"
       }
     ]
   },
@@ -1592,48 +1613,6 @@
     "name": "Discovery",
     "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT31000026G_20251013T054531SQUARE.png",
     "programs": [
-      {
-        "title": "Come funziona l'Universo",
-        "desc": "Gli astronomi hanno scoperto alcuni bizzarri pianeti molto diversi dalla Terra, ma troveremo mai un pianeta simile al nostro?",
-        "start": "20251028005000 +0000",
-        "stop": "20251028015000 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1246772036_0_20251009T173621608Z_1_imageprocessorclient-tvplus-linear-5db7c6bc99-22gf2.jpeg"
-      },
-      {
-        "title": "Come funziona l'Universo",
-        "desc": "Un tempo, gli asteroidi erano disastri inevitabili. Gli scienziati ora hanno la tecnologia per evitare che colpiscano la Terra. Come hanno raggiunto tale obiettivo?",
-        "start": "20251028015000 +0000",
-        "stop": "20251028025500 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1246772036_0_20251009T173621608Z_1_imageprocessorclient-tvplus-linear-5db7c6bc99-22gf2.jpeg"
-      },
-      {
-        "title": "Come funziona l'Universo",
-        "desc": "Andiamo a scoprire i segreti dei pianeti nani, alcuni fra i corpi celesti piu' discussi degli ultimi anni. Cosa li distingue dagli altri pianeti?",
-        "start": "20251028025500 +0000",
-        "stop": "20251028034000 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1246772036_0_20251009T173621608Z_1_imageprocessorclient-tvplus-linear-5db7c6bc99-22gf2.jpeg"
-      },
-      {
-        "title": "Come e' fatto",
-        "desc": "Scopriamo come vengono realizzati alcuni oggetti di uso quotidiano, tra cui le tute da corsa in pelle e le sedie a dondolo in legno.",
-        "start": "20251028034000 +0000",
-        "stop": "20251028040500 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1246772036_0_20251009T173621608Z_1_imageprocessorclient-tvplus-linear-5db7c6bc99-22gf2.jpeg"
-      },
-      {
-        "title": "Come e' fatto",
-        "desc": "Scopriamo come vengono realizzati alcuni oggetti di uso quotidiano, tra cui le mountain bike e i fucili con azionamento a leva.",
-        "start": "20251028040500 +0000",
-        "stop": "20251028043500 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1246772036_0_20251009T173621608Z_1_imageprocessorclient-tvplus-linear-5db7c6bc99-22gf2.jpeg"
-      },
-      {
-        "title": "Come e' fatto",
-        "desc": "Analizziamo alcuni oggetti di uso quotidiano e scopriamo come vengono realizzate le saune e gli ascensori per le sedie a rotelle.",
-        "start": "20251028043500 +0000",
-        "stop": "20251028050000 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1246772036_0_20251009T173621608Z_1_imageprocessorclient-tvplus-linear-5db7c6bc99-22gf2.jpeg"
-      },
       {
         "title": "Scherzi della natura",
         "desc": "Gli esperti spiegano come scovare una foresta incantata sott'acqua. Inoltre, perche' alcuni serpenti a sonagli hanno perso i loro sonagli su una remota isola messicana?",
@@ -1661,6 +1640,34 @@
         "start": "20251028064500 +0000",
         "stop": "20251028074000 +0000",
         "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1246772036_0_20251009T173621608Z_1_imageprocessorclient-tvplus-linear-5db7c6bc99-22gf2.jpeg"
+      },
+      {
+        "title": "River Monsters",
+        "desc": "Indagando sulla storia di una brutale mutilazione lungo la riva di un fiume, Jeremy si dirige verso sperduti territori paludosi. Qui, l'esperto scopre il terribile 'fiume di sangue' dell'Argentina.",
+        "start": "20251028074000 +0000",
+        "stop": "20251028083500 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1246772036_0_20251009T173621608Z_1_imageprocessorclient-tvplus-linear-5db7c6bc99-22gf2.jpeg"
+      },
+      {
+        "title": "River Monsters",
+        "desc": "Jeremy ha sentito alcune storie sul 'Water Mama', uno spirito che ruba i corpi. Le persone scompaiono senza lasciare traccia e Jeremy e' convinto che sia un mostro dei fiumi a nascondersi dietro questa storia.",
+        "start": "20251028083500 +0000",
+        "stop": "20251028093000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1246772036_0_20251009T173621608Z_1_imageprocessorclient-tvplus-linear-5db7c6bc99-22gf2.jpeg"
+      },
+      {
+        "title": "River Monsters",
+        "desc": "Jeremy Wade gira il mondo per scovare i mostri d'acqua dolce piu' pericolosi, scoprendo anche miti e leggende sul loro conto  in questo episodio indaga sul pesce sega.",
+        "start": "20251028093000 +0000",
+        "stop": "20251028102500 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1246772036_0_20251009T173621608Z_1_imageprocessorclient-tvplus-linear-5db7c6bc99-22gf2.jpeg"
+      },
+      {
+        "title": "River Monsters",
+        "desc": "Jeremy Wade gira il mondo per scovare i mostri d'acqua dolce piu' pericolosi, scoprendo anche miti e leggende sul loro conto  in questo episodio indaga sulle anguille elettriche.",
+        "start": "20251028102500 +0000",
+        "stop": "20251028112000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1246772036_0_20251009T173621608Z_1_imageprocessorclient-tvplus-linear-5db7c6bc99-22gf2.jpeg"
       }
     ]
   },
@@ -1669,69 +1676,6 @@
     "name": "Gambero Rosso",
     "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT500011RG_20251013T054535SQUARE.png",
     "programs": [
-      {
-        "title": "Max sfida alle calorie",
-        "desc": "Zuppetta con polpettine di pesce e cotoletta di pomodoro - Nuoto, tennis, padel, crossfit, tutto lo sport è salutare. Il corpo è il tempio del benessere, è una macchina perfetta che ha bisogno di tutti i nutrienti per rendere al meglio",
-        "start": "20251028004900 +0000",
-        "stop": "20251028011800 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_865953701_0_20250507T162312439Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-rbxs7.jpeg"
-      },
-      {
-        "title": "Giorgione a casa tua",
-        "desc": "Umbria - Giorgione a in Umbria a casa dei suoi fans per cucinare insieme ricette tradizionali si', ma con il suo tocco laido e corrotto.",
-        "start": "20251028011800 +0000",
-        "stop": "20251028014500 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_865953701_0_20250507T162312439Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-rbxs7.jpeg"
-      },
-      {
-        "title": "Vito con i suoi",
-        "desc": "Stefano Bicocchi, in arte Vito, apre le porte di casa sua e ci fa entrare nella tradizione della cucina bolognese raccontandoci la sua Bologna, fatta di ricordi, profumi e sapori.",
-        "start": "20251028014500 +0000",
-        "stop": "20251028021100 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_865953701_0_20250507T162312439Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-rbxs7.jpeg"
-      },
-      {
-        "title": "Il dolce sale",
-        "desc": "Stefano Laghi, Sebastiano Caridi e Luca Montersino. Il mondo della pasticceria si incontra in cucina per dare vita a ricette di pasticceria dolce e salata.",
-        "start": "20251028021100 +0000",
-        "stop": "20251028024000 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_865953701_0_20250507T162312439Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-rbxs7.jpeg"
-      },
-      {
-        "title": "Il dolce sale",
-        "desc": "Stefano Laghi, Sebastiano Caridi e Luca Montersino. Il mondo della pasticceria si incontra in cucina per dare vita a ricette di pasticceria dolce e salata.",
-        "start": "20251028024000 +0000",
-        "stop": "20251028030900 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_865953701_0_20250507T162312439Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-rbxs7.jpeg"
-      },
-      {
-        "title": "Questa terra e' la mia terra",
-        "desc": "Ricotta - Provolone. Il segreto delle ricette di Peppe Guida e' una rete di piccoli e produttori locali, diventati con tempo amici fidati  dalla verdure al pesce, dalla carne ai formaggi.",
-        "start": "20251028030900 +0000",
-        "stop": "20251028033600 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_865953701_0_20250507T162312439Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-rbxs7.jpeg"
-      },
-      {
-        "title": "Come è profondo il mare Eolie",
-        "desc": "Vulcano il mare - A Vulcano Gianfranco incontra Davide Guidara con il quale si diverte a cucinare le alici e i prodotti dell'orto dello chef.",
-        "start": "20251028033600 +0000",
-        "stop": "20251028040500 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_951609182_0_20250606T002546973Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-m7gkj.jpeg"
-      },
-      {
-        "title": "Il gusto di Igles",
-        "desc": "S10 - La cucina circolare di Igles Corelli è una cucina zero sprechi. Ricette e consigli pratici per una sfruttare al massimo e senza sprechi gli ingredienti.",
-        "start": "20251028040500 +0000",
-        "stop": "20251028043400 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_865953701_0_20250507T162312439Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-rbxs7.jpeg"
-      },
-      {
-        "title": "Beker on tour Collio",
-        "desc": "Ravioli di carne - Fabrizio Nonis, El Beker, il vostro macellaio di fiducia, e griller apposionato, in un delizioso viaggio alla scoperta di cotture, tagli e succose ricette da realizzare al BBQ",
-        "start": "20251028043400 +0000",
-        "stop": "20251028050200 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_865953701_0_20250507T162312439Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-rbxs7.jpeg"
-      },
       {
         "title": "La mia Africa St.2",
         "desc": "Un viaggio tra i sapori dell'Africa con Victoire Gouloubi, tra spezie, colori, culture, saperi e sapori di un altro continente.",
@@ -1773,6 +1717,62 @@
         "start": "20251028070400 +0000",
         "stop": "20251028073300 +0000",
         "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_865953701_0_20250507T162312439Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-rbxs7.jpeg"
+      },
+      {
+        "title": "Vito con i suoi",
+        "desc": "Stefano Bicocchi, in arte Vito, apre le porte di casa sua e ci fa entrare nella tradizione della cucina bolognese raccontandoci la sua Bologna, fatta di ricordi, profumi e sapori.",
+        "start": "20251028073300 +0000",
+        "stop": "20251028080200 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_865953701_0_20250507T162312439Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-rbxs7.jpeg"
+      },
+      {
+        "title": "Street food",
+        "desc": "S.2 - Lo street food, un fenomeno in costante ascesa. In questa serie si raccontano storie di giovani imprenditori che hanno deciso di affidare il loro futuro ad un food truck.",
+        "start": "20251028080200 +0000",
+        "stop": "20251028083300 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_865953701_0_20250507T162312439Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-rbxs7.jpeg"
+      },
+      {
+        "title": "Street food",
+        "desc": "S.2 - Lo street food, un fenomeno in costante ascesa. In questa serie si raccontano storie di giovani imprenditori che hanno deciso di affidare il loro futuro ad un food truck.",
+        "start": "20251028083300 +0000",
+        "stop": "20251028090400 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_865953701_0_20250507T162312439Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-rbxs7.jpeg"
+      },
+      {
+        "title": "Questa terra e' la mia terra",
+        "desc": "Ricotta - Provolone. Il segreto delle ricette di Peppe Guida e' una rete di piccoli e produttori locali, diventati con tempo amici fidati  dalla verdure al pesce, dalla carne ai formaggi.",
+        "start": "20251028090400 +0000",
+        "stop": "20251028093200 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_865953701_0_20250507T162312439Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-rbxs7.jpeg"
+      },
+      {
+        "title": "Come è profondo il mare Eolie",
+        "desc": "Vulcano il mare - A Vulcano Gianfranco incontra Davide Guidara con il quale si diverte a cucinare le alici e i prodotti dell'orto dello chef.",
+        "start": "20251028093200 +0000",
+        "stop": "20251028100300 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_951609182_0_20250606T002546973Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-m7gkj.jpeg"
+      },
+      {
+        "title": "Il gusto di Igles",
+        "desc": "S10 - La cucina circolare di Igles Corelli è una cucina zero sprechi. Ricette e consigli pratici per una sfruttare al massimo e senza sprechi gli ingredienti.",
+        "start": "20251028100300 +0000",
+        "stop": "20251028103300 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_865953701_0_20250507T162312439Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-rbxs7.jpeg"
+      },
+      {
+        "title": "Beker on tour Collio",
+        "desc": "Ravioli di carne - Fabrizio Nonis, El Beker, il vostro macellaio di fiducia, e griller apposionato, in un delizioso viaggio alla scoperta di cotture, tagli e succose ricette da realizzare al BBQ",
+        "start": "20251028103300 +0000",
+        "stop": "20251028110300 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_865953701_0_20250507T162312439Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-rbxs7.jpeg"
+      },
+      {
+        "title": "La mia Africa St.2",
+        "desc": "Un viaggio tra i sapori dell'Africa con Victoire Gouloubi, tra spezie, colori, culture, saperi e sapori di un altro continente.",
+        "start": "20251028110300 +0000",
+        "stop": "20251028113400 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_865953701_0_20250507T162312439Z_1_imageprocessorclient-tvplus-linear-6fb5b47f79-rbxs7.jpeg"
       }
     ]
   },
@@ -1781,69 +1781,6 @@
     "name": "Foodnetwork",
     "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT90001094_20250408T021440SQUARE.png",
     "programs": [
-      {
-        "title": "Giusina in cucina",
-        "desc": "In questa puntata Giusina preparera' l'amatissima pasta alla Norma, il saporito cudduruni con il cavolfiore e una profumata ciambella con glassa al limone.",
-        "start": "20251028003500 +0000",
-        "stop": "20251028012000 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142597180_0_20250821T204919667Z_127_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.png"
-      },
-      {
-        "title": "Spie al ristorante",
-        "desc": "Steve, del Nashville Street Tacos and The Stillery, crede che qualcuno usi il suo appartamento sopra il ristorante in sua assenza. Charles Stiles inviera' Jamie e Brooke a indagare.",
-        "start": "20251028012000 +0000",
-        "stop": "20251028015500 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142597180_0_20250821T204919667Z_127_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.png"
-      },
-      {
-        "title": "Spie al ristorante",
-        "desc": "Alcuni ristoratori si affidano a un gruppo di 'spie' e all'ausilio di telecamere nascoste per controllare i loro impiegati e scovare i dipendenti piu' indisciplinati.",
-        "start": "20251028015500 +0000",
-        "stop": "20251028022500 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142597180_0_20250821T204919667Z_127_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.png"
-      },
-      {
-        "title": "Spie al ristorante",
-        "desc": "Dopo aver notato un notevole cambiamento della clientela del suo ristorante, il proprietario della Harvey's Steakhouse contatta Charles Stiles per indagare.",
-        "start": "20251028022500 +0000",
-        "stop": "20251028025000 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142597180_0_20250821T204919667Z_127_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.png"
-      },
-      {
-        "title": "Spie al ristorante",
-        "desc": "Avendo ereditato alcuni dipendenti dalla gestione precedente, James e Briana, i nuovi proprietari del Sam's Tavern di Seattle, vedono un enorme divario tra la vecchia guardia e il nuovo personale.",
-        "start": "20251028025000 +0000",
-        "stop": "20251028032500 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142597180_0_20250821T204919667Z_127_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.png"
-      },
-      {
-        "title": "Spie al ristorante",
-        "desc": "In questo speciale episodio, la squadra di Charles fara' di tutto per incastrare il capo. L'indagine partira' dall'interno del ristorante per verificare la veridicita' delle accuse.",
-        "start": "20251028032500 +0000",
-        "stop": "20251028034500 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142597180_0_20250821T204919667Z_127_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.png"
-      },
-      {
-        "title": "Spie al ristorante",
-        "desc": "Quando i proprietari del Food Pavilion di Portland, in Oregon, ricevono lamentele che riguardano il nuovo gestore, i due si rivolgono a Charles Stiles per indagare.",
-        "start": "20251028034500 +0000",
-        "stop": "20251028041000 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142597180_0_20250821T204919667Z_127_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.png"
-      },
-      {
-        "title": "Spie al ristorante",
-        "desc": "Dopo alcune lamentele sul servizio parcheggio, la proprietaria del Breuckelen Colony contatta Charles Stiles. Le spie Daniel e Jamie scopriranno un autolavaggio non autorizzato.",
-        "start": "20251028041000 +0000",
-        "stop": "20251028044000 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142597180_0_20250821T204919667Z_127_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.png"
-      },
-      {
-        "title": "Spie al ristorante",
-        "desc": "Ad alcuni eventi dell'Hawaii Yacht Club partecipa gente non autorizzata, cosi' il direttore generale chiama Charles Stiles. Riuscira' a scoprire chi lascia entrare gli amici?",
-        "start": "20251028044000 +0000",
-        "stop": "20251028050000 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142597180_0_20250821T204919667Z_127_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.png"
-      },
       {
         "title": "Il laboratorio del re del cioccolato",
         "desc": "Per omaggiare i 70 anni del festival di Sanremo, Knam e il suo team prepareranno una torta di 7 piani e allestiranno la vetrina di una delle piu' antiche pasticcerie di Sanremo.",
@@ -1871,6 +1808,41 @@
         "start": "20251028065000 +0000",
         "stop": "20251028072500 +0000",
         "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142597180_0_20250821T204919667Z_127_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.png"
+      },
+      {
+        "title": "Il laboratorio del re del cioccolato",
+        "desc": "Per rendere unica la torta di Sanremo Knam usera' la stessa tecnica di Pollock mentre il suo team di pasticceri la decorera' con fiori e i nomi dei cantanti che parteciperanno al festival.",
+        "start": "20251028072500 +0000",
+        "stop": "20251028080000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142597180_0_20250821T204919667Z_127_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.png"
+      },
+      {
+        "title": "Il laboratorio del re del cioccolato",
+        "desc": "Il team di Knam dovra' preparare una golosa Foresta Nera decorata con alberi di cioccolato in occasione del sedicesimo compleanno della figlia di Benedetta Parodi.",
+        "start": "20251028080000 +0000",
+        "stop": "20251028083500 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142597180_0_20250821T204919667Z_127_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.png"
+      },
+      {
+        "title": "The King of Chocolate",
+        "desc": "Ernst Knam e il suo team realizzano una stilosa torta per un matrimonio che si celebra in montagna.",
+        "start": "20251028083500 +0000",
+        "stop": "20251028093500 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142597180_0_20250821T204919667Z_127_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.png"
+      },
+      {
+        "title": "The King of Chocolate",
+        "desc": "La missione di oggi di Ernst Knam? Una spettacolare torta che richiami il mare.",
+        "start": "20251028093500 +0000",
+        "stop": "20251028104000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142597180_0_20250821T204919667Z_127_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.png"
+      },
+      {
+        "title": "The King of Chocolate",
+        "desc": "Ernst Knam e la sua squadra sono alle prese con un'imponente scultura in cioccolato per un evento in Alta Badia.",
+        "start": "20251028104000 +0000",
+        "stop": "20251028114000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142597180_0_20250821T204919667Z_127_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.png"
       }
     ]
   },
@@ -1879,41 +1851,6 @@
     "name": "HGTV",
     "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT900003FU_20250408T021452SQUARE.png",
     "programs": [
-      {
-        "title": "Che affare! Con Tarek",
-        "desc": "Un ristrutturatore alle prime armi e' determinato a imparare tutti i trucchi del mestiere.",
-        "start": "20251028010500 +0000",
-        "stop": "20251028021000 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142597475_0_20250821T204919667Z_62_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.png"
-      },
-      {
-        "title": "Che affare! Con Tarek",
-        "desc": "Tarek aiuta una coppia che ha acquistato un vecchio ranch da ristrutturare.",
-        "start": "20251028021000 +0000",
-        "stop": "20251028031000 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142597475_0_20250821T204919667Z_62_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.png"
-      },
-      {
-        "title": "Che affare! Con Tarek",
-        "desc": "Tarek tenta di ridurre i costi di una ristrutturazione multi-milionaria.",
-        "start": "20251028031000 +0000",
-        "stop": "20251028040500 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142597475_0_20250821T204919667Z_62_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.png"
-      },
-      {
-        "title": "Una coppia in affari",
-        "desc": "Tarek e Christina El Moussa trovano un immobile sottoposto a pignoramento, a Yorba Linda. Quando vanno a vederlo, scoprono che la camera da letto padronale si trova tra la cucina e l'ingresso.",
-        "start": "20251028040500 +0000",
-        "stop": "20251028043000 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142597475_0_20250821T204919667Z_62_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.png"
-      },
-      {
-        "title": "Una coppia in affari",
-        "desc": "Tarek e Christina El Moussa individuano una villa unifamiliare in un elegante quartiere di Cypress. Ispezionando l'immobile per valutare un'eventuale offerta, scoprono segni inequivocabili di infiltrazioni d'acqua.",
-        "start": "20251028043000 +0000",
-        "stop": "20251028050000 +0000",
-        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142597475_0_20250821T204919667Z_62_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.png"
-      },
       {
         "title": "Una coppia in affari",
         "desc": "A Tarek e Christina piace una casa in un quartiere recintato. Un prezzo alto puo' portare guadagni alti, ma ci vuole tempo. Ne traeranno il maggior profitto o perderanno tutto?",
@@ -1947,6 +1884,62 @@
         "desc": "Il giardiniere paesaggista Chris Lambton trasforma giardini abbandonati in splendidi spazi esterni per il divertimento e il relax di ogni famiglia.",
         "start": "20251028065000 +0000",
         "stop": "20251028072000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142597475_0_20250821T204919667Z_62_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.png"
+      },
+      {
+        "title": "Giardini impossibili",
+        "desc": "Il giardiniere paesaggista Chris Lambton trasforma giardini abbandonati in splendidi spazi esterni per il divertimento e il relax di ogni famiglia.",
+        "start": "20251028072000 +0000",
+        "stop": "20251028074500 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142597475_0_20250821T204919667Z_62_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.png"
+      },
+      {
+        "title": "Giardini impossibili",
+        "desc": "Il giardiniere paesaggista Chris Lambton trasforma giardini abbandonati in splendidi spazi esterni per il divertimento e il relax di ogni famiglia.",
+        "start": "20251028074500 +0000",
+        "stop": "20251028081500 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142597475_0_20250821T204919667Z_62_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.png"
+      },
+      {
+        "title": "Giardini impossibili",
+        "desc": "Il giardiniere paesaggista Chris Lambton trasforma giardini abbandonati in splendidi spazi esterni per il divertimento e il relax di ogni famiglia.",
+        "start": "20251028081500 +0000",
+        "stop": "20251028084000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142597475_0_20250821T204919667Z_62_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.png"
+      },
+      {
+        "title": "Giardini impossibili",
+        "desc": "Il giardiniere paesaggista Chris Lambton trasforma giardini abbandonati in splendidi spazi esterni per il divertimento e il relax di ogni famiglia.",
+        "start": "20251028084000 +0000",
+        "stop": "20251028091000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142597475_0_20250821T204919667Z_62_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.png"
+      },
+      {
+        "title": "Giardini impossibili",
+        "desc": "Il giardiniere paesaggista Chris Lambton trasforma giardini abbandonati in splendidi spazi esterni per il divertimento e il relax di ogni famiglia.",
+        "start": "20251028091000 +0000",
+        "stop": "20251028093500 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142597475_0_20250821T204919667Z_62_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.png"
+      },
+      {
+        "title": "Giardini impossibili",
+        "desc": "Il giardiniere paesaggista Chris Lambton trasforma giardini abbandonati in splendidi spazi esterni per il divertimento e il relax di ogni famiglia.",
+        "start": "20251028093500 +0000",
+        "stop": "20251028100500 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142597475_0_20250821T204919667Z_62_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.png"
+      },
+      {
+        "title": "Giardini impossibili",
+        "desc": "Il giardiniere paesaggista Chris Lambton trasforma giardini abbandonati in splendidi spazi esterni per il divertimento e il relax di ogni famiglia.",
+        "start": "20251028100500 +0000",
+        "stop": "20251028103000 +0000",
+        "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142597475_0_20250821T204919667Z_62_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.png"
+      },
+      {
+        "title": "Case da favola con Chelsea e Cole",
+        "desc": "Chelsea e Cole realizzano un progetto per una coppia che vuole iniziare un nuovo capitolo.",
+        "start": "20251028103000 +0000",
+        "stop": "20251028113000 +0000",
         "icon": "https://tvpnlogopeu.samsungcloud.tv/platform/image/contents/vc/00/LINEAR/IT_USQT620324A_1142597475_0_20250821T204919667Z_62_imageprocessorclient-tvplus-linear-5db7c6bc99-xsvxn.png"
       }
     ]
