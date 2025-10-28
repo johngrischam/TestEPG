@@ -13221,107 +13221,93 @@
         "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/338/p22540888bh10aa_BannerL1_w1920.webp"
       },
       {
-        "title": "Maratona: Venezia",
-        "description": "Gare di maratona.",
-        "start": "2025-10-28T06:30:00.000Z",
-        "end": "2025-10-28T08:25:00.000Z",
-        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/338/p8368892ih10ab_Iconic_w1920.webp"
-      },
-      {
         "title": "Ciclismo su Pista: Mondiali, Santiago del Cile: 5a giornata",
         "description": "",
-        "start": "2025-10-28T08:25:00.000Z",
-        "end": "2025-10-28T12:00:00.000Z",
+        "start": "2025-10-28T06:30:00.000Z",
+        "end": "2025-10-28T10:30:00.000Z",
         "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/338/p20117284bh11af_BannerL1_w1920.webp"
       },
       {
-        "title": "Biliardo: Stecca NBC 1a prova Rho: Gran Premio Filotto 60",
-        "description": "Segui tutte le avvincenti sfide di biliardo.",
+        "title": "Maratona: Venezia",
+        "description": "Gare di maratona.",
+        "start": "2025-10-28T10:30:00.000Z",
+        "end": "2025-10-28T12:00:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/338/p8368892ih10ab_Iconic_w1920.webp"
+      },
+      {
+        "title": "Amichevoli internazionali femminili: Italia - Giappone",
+        "description": "Dallo Stadio Giuseppe Sinigaglia di Como, Italia.",
         "start": "2025-10-28T12:00:00.000Z",
-        "end": "2025-10-28T14:30:00.000Z",
-        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/338/p466719ih8aa_Iconic_w1920.webp"
+        "end": "2025-10-28T14:00:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/338/GNLZZGG002G3V2X_BannerL2_w1920.webp"
       },
       {
-        "title": "Atletica: Corsa dei Castelli Road Race U23 Trieste",
-        "description": "Segui il meglio delle gare di atletica.",
-        "start": "2025-10-28T14:30:00.000Z",
+        "title": "Judo: Campionati Italiani a Squadre",
+        "description": "Segui gli incontri di judo in programma.",
+        "start": "2025-10-28T14:00:00.000Z",
         "end": "2025-10-28T15:00:00.000Z",
-        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/338/p10017367ih8ae_Iconic_w1920.webp"
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/338/p751983bh10al_BannerL1_w1920.webp"
       },
       {
-        "title": "ISU Grand Prix Pattinaggio di figura: Grand Prix Cup of China Chongqing: Programma Corto",
+        "title": "ISU Grand Prix Pattinaggio di figura: Grand Prix of China 2025",
         "description": "",
         "start": "2025-10-28T15:00:00.000Z",
-        "end": "2025-10-28T17:10:00.000Z",
+        "end": "2025-10-28T17:15:00.000Z",
         "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/338/p8937577ih10ab_Iconic_w1920.webp"
       },
       {
         "title": "Tiro a volo",
         "description": "Segui le sfide di tiro a segno.",
-        "start": "2025-10-28T17:10:00.000Z",
-        "end": "2025-10-28T18:10:00.000Z",
+        "start": "2025-10-28T17:15:00.000Z",
+        "end": "2025-10-28T18:15:00.000Z",
         "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/338/p903371bh10aj_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Rally Highlights",
+        "description": "Segui le gare di rally.",
+        "start": "2025-10-28T18:15:00.000Z",
+        "end": "2025-10-28T18:50:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/338/p279664bh8ap_BannerL2_w1920.webp"
+      },
+      {
+        "title": "Coppa del Mondo femminile U17 FIFA 2025: Italia - Nigeria",
+        "description": "Dalla Mohammed VI Football Academy di Salé, Marocco.",
+        "start": "2025-10-28T18:50:00.000Z",
+        "end": "2025-10-28T21:00:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/338/GNLZZGG002G8DMJ_BannerL2_w1920.webp"
       },
       {
         "title": "Tiro a volo",
         "description": "Segui le sfide di tiro a segno.",
-        "start": "2025-10-28T18:10:00.000Z",
-        "end": "2025-10-28T19:10:00.000Z",
+        "start": "2025-10-28T21:00:00.000Z",
+        "end": "2025-10-28T22:50:00.000Z",
         "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/338/p903371bh10aj_BannerL1_w1920.webp"
-      },
-      {
-        "title": "Tiro a volo",
-        "description": "Segui le sfide di tiro a segno.",
-        "start": "2025-10-28T19:10:00.000Z",
-        "end": "2025-10-28T20:00:00.000Z",
-        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/338/p903371bh10aj_BannerL1_w1920.webp"
-      },
-      {
-        "title": "Amichevoli internazionali femminili: Italia - Brasile",
-        "description": "Dallo Stadio Tardini di Parma, Italia.",
-        "start": "2025-10-28T20:00:00.000Z",
-        "end": "2025-10-28T22:15:00.000Z",
-        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/338/GNLZZGG002D9KVY_BannerL2_w1920.webp"
       },
       {
         "title": "Atletica: Corsa dei Castelli Road Race U23 Trieste",
         "description": "Segui il meglio delle gare di atletica.",
-        "start": "2025-10-28T22:15:00.000Z",
-        "end": "2025-10-28T22:45:00.000Z",
+        "start": "2025-10-28T22:50:00.000Z",
+        "end": "2025-10-28T23:20:00.000Z",
         "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/338/p10017367ih8ae_Iconic_w1920.webp"
-      },
-      {
-        "title": "TG Sport Notte",
-        "description": "Notiziario notturno sullo sport.",
-        "start": "2025-10-28T22:45:00.000Z",
-        "end": "2025-10-28T23:00:00.000Z",
-        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/338/p22540855bh8aa_BannerL2_w1920.webp"
       },
       {
         "title": "Judo: Campionati Italiani a Squadre",
         "description": "Segui gli incontri di judo in programma.",
-        "start": "2025-10-28T23:00:00.000Z",
-        "end": "2025-10-28T23:55:00.000Z",
+        "start": "2025-10-28T23:20:00.000Z",
+        "end": "2025-10-29T00:20:00.000Z",
         "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/338/p751983bh10al_BannerL1_w1920.webp"
       },
       {
-        "title": "Canottaggio: Memorial D'Aloja Piediluco",
-        "description": "Segui la gara di canottaggio in programma.",
-        "start": "2025-10-28T23:55:00.000Z",
-        "end": "2025-10-29T01:55:00.000Z",
-        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/338/p885939bh10av_BannerL1_w1920.webp"
-      },
-      {
-        "title": "Speciale TG Sport",
-        "description": "Segui lo speciale di Rai Sport.",
-        "start": "2025-10-29T01:55:00.000Z",
-        "end": "2025-10-29T02:10:00.000Z",
-        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/338/p12456379bh10aa_BannerL1_w1920.webp"
+        "title": "ISU Grand Prix Pattinaggio di figura: Grand Prix of China 2025",
+        "description": "",
+        "start": "2025-10-29T00:20:00.000Z",
+        "end": "2025-10-29T02:30:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/338/p8937577ih10ab_Iconic_w1920.webp"
       },
       {
         "title": "Tiro a volo",
         "description": "Segui le sfide di tiro a segno.",
-        "start": "2025-10-29T02:10:00.000Z",
+        "start": "2025-10-29T02:30:00.000Z",
         "end": "2025-10-29T03:10:00.000Z",
         "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/338/p903371bh10aj_BannerL1_w1920.webp"
       },
