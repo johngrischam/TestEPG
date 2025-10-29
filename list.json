@@ -13293,8 +13293,15 @@
         "title": "TG Notte",
         "description": "Ripercorriamo le ultime notizie della giornata con aggiornamenti sull'attualità della sera.",
         "start": "2025-10-30T04:05:00.000Z",
-        "end": "2025-10-30T04:30:00.000Z",
+        "end": "2025-10-30T04:25:00.000Z",
         "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/357/p31038426bh10aa_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Meteo",
+        "description": "Tutti i colori del tempo: uno sguardo alle previsioni meteo per oggi e i prossimi giorni.",
+        "start": "2025-10-30T04:25:00.000Z",
+        "end": "2025-10-30T04:30:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/357/p11163437bh10ae_BannerL1_w1920.webp"
       },
       {
         "title": "Albachiara in TV",
