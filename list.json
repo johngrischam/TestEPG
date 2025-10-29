@@ -14038,22 +14038,15 @@
         "title": "Tg24 Mezz'ora",
         "description": "Edizione di trenta minuti del notiziario televisivo firmato dalla redazione giornalistica di Sky. Ogni giorno, le informazioni più aggiornate a livello nazionale ed internazionale.",
         "start": "2025-10-29T16:00:00.000Z",
-        "end": "2025-10-29T16:10:00.000Z",
+        "end": "2025-10-29T16:30:00.000Z",
         "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/393/p11269767bh10ac_BannerL2_w1920.webp"
       },
       {
-        "title": "TG24 Preview",
-        "description": "Assistiamo ad un'anteprima delle notizie del telegiornale, a cura della redazione della rete.",
-        "start": "2025-10-29T16:10:00.000Z",
-        "end": "2025-10-29T16:15:00.000Z",
-        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/393/p21754250bh10ab_BannerL1_w1920.webp"
-      },
-      {
-        "title": "TG24 Economia",
-        "description": "L'appuntamento quotidiano con l'approfondimento delle principali notizie di economia.",
-        "start": "2025-10-29T16:15:00.000Z",
+        "title": "Tg24 Mezz'ora",
+        "description": "Edizione di trenta minuti del notiziario televisivo firmato dalla redazione giornalistica di Sky. Ogni giorno, le informazioni più aggiornate a livello nazionale ed internazionale.",
+        "start": "2025-10-29T16:30:00.000Z",
         "end": "2025-10-29T17:00:00.000Z",
-        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/393/p26158631bh11aa_BannerL1_w1920.webp"
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/393/p11269767bh10ac_BannerL2_w1920.webp"
       },
       {
         "title": "Tg24 Mezz'ora",
@@ -14150,22 +14143,15 @@
         "title": "Tg24 Mezz'ora",
         "description": "Edizione di trenta minuti del notiziario televisivo firmato dalla redazione giornalistica di Sky. Ogni giorno, le informazioni più aggiornate a livello nazionale ed internazionale.",
         "start": "2025-10-29T21:00:00.000Z",
-        "end": "2025-10-29T21:15:00.000Z",
+        "end": "2025-10-29T21:30:00.000Z",
         "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/393/p11269767bh10ac_BannerL2_w1920.webp"
       },
       {
-        "title": "TG24 Preview",
-        "description": "Assistiamo ad un'anteprima delle notizie del telegiornale, a cura della redazione della rete.",
-        "start": "2025-10-29T21:15:00.000Z",
-        "end": "2025-10-29T21:20:00.000Z",
-        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/393/p21754250bh10ab_BannerL1_w1920.webp"
-      },
-      {
-        "title": "Sky Tg24 Economia",
-        "description": "Le ultime notizie dal mondo della finanza e dell'economia, a cura della redazione.",
-        "start": "2025-10-29T21:20:00.000Z",
+        "title": "Tg24 Mezz'ora",
+        "description": "Edizione di trenta minuti del notiziario televisivo firmato dalla redazione giornalistica di Sky. Ogni giorno, le informazioni più aggiornate a livello nazionale ed internazionale.",
+        "start": "2025-10-29T21:30:00.000Z",
         "end": "2025-10-29T22:00:00.000Z",
-        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/393/p11270144bh8ab_BannerL1_w1920.webp"
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/393/p11269767bh10ac_BannerL2_w1920.webp"
       },
       {
         "title": "Skyline",
@@ -14179,6 +14165,20 @@
         "description": "Appuntamento serale con l'informazione a cura della redazione della rete. Approfondimento e analisi delle notizie più importanti della giornata appena trascorsa, con ospiti e personaggi famosi.",
         "start": "2025-10-29T22:30:00.000Z",
         "end": "2025-10-29T22:50:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/393/p17407536bh10aa_BannerL2_w1920.webp"
+      },
+      {
+        "title": "Sky Meteo24",
+        "description": "Seguiamo insieme tutte le previsioni meteo regionali, nazionali e internazionali, dettagliate e sempre aggiornate, per essere sempre pronti.",
+        "start": "2025-10-29T22:50:00.000Z",
+        "end": "2025-10-29T23:00:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/393/p21636164bh10aa_BannerL1_w1920.webp"
+      },
+      {
+        "title": "Skyline",
+        "description": "Appuntamento serale con l'informazione a cura della redazione della rete. Approfondimento e analisi delle notizie più importanti della giornata appena trascorsa, con ospiti e personaggi famosi.",
+        "start": "2025-10-29T23:00:00.000Z",
+        "end": "2025-10-29T23:30:00.000Z",
         "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/393/p17407536bh10aa_BannerL2_w1920.webp"
       }
     ]
