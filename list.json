@@ -12829,11 +12829,11 @@
     "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Rai_Sport_-_Logo_2018.svg",
     "programs": [
       {
-        "title": "Tiro a volo",
-        "description": "Segui le sfide di tiro a segno.",
+        "title": "Tiro con l'arco",
+        "description": "Segui la sfide di tiro con l'arco.",
         "start": "2025-10-30T05:10:00.000Z",
         "end": "2025-10-30T06:00:00.000Z",
-        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/338/p903371bh10aj_BannerL1_w1920.webp"
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/338/p10007890bh10bb_BannerL2_w1920.webp"
       },
       {
         "title": "TG Sport Mattina",
@@ -12843,58 +12843,51 @@
         "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/338/p22540888bh10aa_BannerL1_w1920.webp"
       },
       {
-        "title": "Canottaggio: Memorial D'Aloja Piediluco",
-        "description": "Segui la gara di canottaggio in programma.",
+        "title": "La nuova DS",
+        "description": "Spazio dedicato al mondo dello sport italiano, con particolare attenzione al campionato di calcio di Serie A. Con i gol più belli della giornata, immagini fresche del posticipo, interviste ai protagonisti in studio e in collegamento dai campi.",
         "start": "2025-10-30T06:30:00.000Z",
-        "end": "2025-10-30T08:30:00.000Z",
-        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/338/p885939bh10av_BannerL1_w1920.webp"
+        "end": "2025-10-30T08:00:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/338/p30962337bh10aa_BannerL1_w1920.webp"
       },
       {
         "title": "Tiro a volo",
         "description": "Segui le sfide di tiro a segno.",
-        "start": "2025-10-30T08:30:00.000Z",
-        "end": "2025-10-30T09:30:00.000Z",
+        "start": "2025-10-30T08:00:00.000Z",
+        "end": "2025-10-30T09:00:00.000Z",
         "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/338/p903371bh10aj_BannerL1_w1920.webp"
       },
       {
         "title": "Tiro a volo",
         "description": "Segui le sfide di tiro a segno.",
-        "start": "2025-10-30T09:30:00.000Z",
-        "end": "2025-10-30T10:25:00.000Z",
+        "start": "2025-10-30T09:00:00.000Z",
+        "end": "2025-10-30T10:00:00.000Z",
         "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/338/p903371bh10aj_BannerL1_w1920.webp"
       },
       {
         "title": "Tiro con l'arco",
         "description": "Segui la sfide di tiro con l'arco.",
-        "start": "2025-10-30T10:25:00.000Z",
-        "end": "2025-10-30T11:25:00.000Z",
+        "start": "2025-10-30T10:00:00.000Z",
+        "end": "2025-10-30T11:00:00.000Z",
         "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/338/p10007890bh10bb_BannerL2_w1920.webp"
       },
       {
         "title": "Eurolega femminile: Beretta Famila Schio - Galatasaray Cagdas Faktoring",
         "description": "Le partite dell'Eurolega femminile di basket.",
-        "start": "2025-10-30T11:25:00.000Z",
-        "end": "2025-10-30T13:30:00.000Z",
+        "start": "2025-10-30T11:00:00.000Z",
+        "end": "2025-10-30T12:45:00.000Z",
         "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/338/p8354014ih10aa_Iconic_w1920.webp"
       },
       {
-        "title": "Orienteering",
-        "description": "Seguiamo i più importanti eventi nazionali e internazionali dedicati all'orienteering.",
-        "start": "2025-10-30T13:30:00.000Z",
-        "end": "2025-10-30T14:00:00.000Z",
-        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/338/p16293709bh11aa_BannerL2_w1920.webp"
-      },
-      {
-        "title": "Automobilismo",
-        "description": "I motori e l'alta velocità, su pista e in strada, protagonisti dello schermo.",
-        "start": "2025-10-30T14:00:00.000Z",
-        "end": "2025-10-30T15:30:00.000Z",
-        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/338/p334889bh10bi_BannerL2_w1920.webp"
+        "title": "SuperLega: Cucine Lube Civitanova - Itas Trentino",
+        "description": "Dal Palasport Eurosuole Forum di Civitanova, Italia.",
+        "start": "2025-10-30T12:45:00.000Z",
+        "end": "2025-10-30T15:25:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/338/GNLZZGG002DS9N6_BannerL2_w1920.webp"
       },
       {
         "title": "ISU Grand Prix Pattinaggio di figura: Grand Prix Cup of China Chongqing: Gala",
         "description": "",
-        "start": "2025-10-30T15:30:00.000Z",
+        "start": "2025-10-30T15:25:00.000Z",
         "end": "2025-10-30T16:30:00.000Z",
         "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/338/p8937577ih10ab_Iconic_w1920.webp"
       },
@@ -12909,15 +12902,8 @@
         "title": "Radiocorsa",
         "description": "La trasmissione dedicata al ciclismo e ai suoi tanti appassionati, dalle corse dilettantistiche alle gare professionistiche delle varie categorie, come pista, ciclocross, mountain bike, fino agli eventi storici più importanti.",
         "start": "2025-10-30T18:00:00.000Z",
-        "end": "2025-10-30T19:00:00.000Z",
-        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/338/p11489792bh10ab_BannerL1_w1920.webp"
-      },
-      {
-        "title": "Speciale TG Sport",
-        "description": "Segui lo speciale di Rai Sport.",
-        "start": "2025-10-30T19:00:00.000Z",
         "end": "2025-10-30T19:20:00.000Z",
-        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/338/p12456379bh10aa_BannerL1_w1920.webp"
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/338/p11489792bh10ab_BannerL1_w1920.webp"
       },
       {
         "title": "SuperLega: WithU Verona - Revivre Axopower Milano",
@@ -12951,13 +12937,13 @@
         "title": "ISU Grand Prix Pattinaggio di figura: Grand Prix Cup of China Chongqing: Gala",
         "description": "",
         "start": "2025-10-31T00:00:00.000Z",
-        "end": "2025-10-31T01:00:00.000Z",
+        "end": "2025-10-31T01:10:00.000Z",
         "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/338/p8937577ih10ab_Iconic_w1920.webp"
       },
       {
         "title": "Nuoto: Coppa del Mondo Toronto: 3a tappa",
         "description": "Segui la gara di nuoto in programma.",
-        "start": "2025-10-31T01:00:00.000Z",
+        "start": "2025-10-31T01:10:00.000Z",
         "end": "2025-10-31T02:30:00.000Z",
         "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/338/p497301bh10aw_BannerL1_w1920.webp"
       },
@@ -12992,7 +12978,7 @@
     "programs": [
       {
         "title": "On Ari",
-        "description": "Arianna, con il suo sorriso travolgente, in perenne e affettuoso conflitto con il dispettosissimo ma formidabile amico BIP, ci accompagna in un universo fatto di voci ed imitazioni, quiz, interviste impossibili e top five.",
+        "description": "Dai giganti pelosi ai lupi mannari, entriamo nel mondo dei mostri con Ari e Bip. Inoltre, giochiamo iniseme a loro a riconoscere i Cospay incontrati al Lucca Comics & Games.",
         "start": "2025-10-30T05:50:00.000Z",
         "end": "2025-10-30T06:05:00.000Z",
         "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/332/p31156061bh10aa_BannerL1_w1920.webp"
@@ -13300,7 +13286,7 @@
       },
       {
         "title": "On Ari",
-        "description": "Arianna, con il suo sorriso travolgente, in perenne e affettuoso conflitto con il dispettosissimo ma formidabile amico BIP, ci accompagna in un universo fatto di voci ed imitazioni, quiz, interviste impossibili e top five.",
+        "description": "Dai giganti pelosi ai lupi mannari, entriamo nel mondo dei mostri con Ari e Bip. Inoltre, giochiamo iniseme a loro a riconoscere i Cospay incontrati al Lucca Comics & Games.",
         "start": "2025-10-30T18:45:00.000Z",
         "end": "2025-10-30T18:55:00.000Z",
         "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/332/p31156061bh10aa_BannerL1_w1920.webp"
