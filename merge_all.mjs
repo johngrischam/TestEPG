@@ -37,6 +37,21 @@ function posterUrlFromContentPath(contentPath) {
   return `${BLUE_BASE}/content/images/${cp}_w1920.webp`;
 }
 
+// ✅ Helper — convert XMLTV time ("20251031144057 +0000") → ISO UTC ("2025-10-31T14:40:57.000Z")
+function parseXmltvTimeToIso(str) {
+  if (!str) return null;
+  const match = str.match(/^(\d{4})(\d{2})(\d{2})(\d{2})(\d{2})(\d{2})\s?([+\-]\d{4})?$/);
+  if (!match) return null;
+  const [_, y, m, d, H, M, S, zone] = match;
+  const tz = zone || "+0000";
+  const sign = tz[0] === "-" ? -1 : 1;
+  const offsetH = parseInt(tz.slice(1, 3), 10) * sign;
+  const offsetM = parseInt(tz.slice(3, 5), 10) * sign;
+  const dateUTC = new Date(Date.UTC(y, m - 1, d, H, M, S));
+  const offsetMs = (offsetH * 60 + offsetM) * 60000;
+  return new Date(dateUTC.getTime() - offsetMs).toISOString();
+}
+
 // ---------------- SAMSUNG ----------------
 async function fetchSamsung() {
   console.time("SamsungTVPlus");
@@ -51,16 +66,19 @@ async function fetchSamsung() {
     const name =
       (ch["display-name"]?.["#text"] || ch["display-name"])?.trim?.() || id;
     const logo = ch.icon?.["@_src"] || "";
+
     const progs = programs
       .filter((p) => p["@_channel"] === id)
       .map((p) => ({
         title: p.title?.["#text"] || p.title || "",
         description: p.desc?.["#text"] || p.desc || "",
-        start: p["@_start"],
-        end: p["@_stop"],
+        // ✅ Fix Samsung UTC times → ISO UTC
+        start: parseXmltvTimeToIso(p["@_start"]),
+        end: parseXmltvTimeToIso(p["@_stop"]),
         poster: p.icon?.["@_src"] || logo || null,
       }))
       .filter((p) => p.start && p.end);
+
     return { id, name, logo, programs: progs };
   });
 
@@ -87,13 +105,11 @@ async function fetchBlue() {
   async function processChannel(ch) {
     try {
       const site_id = ch["@_site_id"];
-      const rawName =
-        ch["#text"] || ch["#cdata"] || ch["display-name"] || "";
+      const rawName = ch["#text"] || ch["#cdata"] || ch["display-name"] || "";
       const name =
         typeof rawName === "string"
           ? rawName.trim()
           : String(rawName["#text"] || rawName || "").trim();
-
       if (!site_id) return null;
 
       const url = `${BLUE_BASE}/catalog/tv/channels/list/(ids=${site_id};start=${startParam};end=${endParam};level=normal)`;
@@ -139,7 +155,6 @@ async function fetchBlue() {
     }
   }
 
-  // process 10 channels at a time
   const BATCH_SIZE = 10;
   for (let i = 0; i < channels.length; i += BATCH_SIZE) {
     const batch = channels.slice(i, i + BATCH_SIZE);
@@ -166,7 +181,6 @@ function mergeAll(samsung, blue) {
           String(x.id || x.site_id || "") === String(id)
       );
     }
-
     if (found < 0 && name) {
       found = out.findIndex((x) => norm(x.name) === norm(name));
     }
@@ -204,4 +218,3 @@ async function main() {
   }
 }
 main();
-
