@@ -11808,34 +11808,27 @@
         "title": "In volo sulla Svizzera italiana",
         "description": "Un volo spettacolare sui paesaggi unici che costellano Canton Ticino e Grigioni italiano. Vallate e monti, nuclei e urbanizzazioni più recenti, lunghi nastri di autostrade e ferrovie.",
         "start": "2025-11-01T04:00:00.000Z",
-        "end": "2025-11-01T04:05:00.000Z",
+        "end": "2025-11-01T04:10:00.000Z",
         "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/356/p12280913bh10af_BannerL2_w1920.webp"
       },
       {
         "title": "TG Notte",
         "description": "Ripercorriamo le ultime notizie della giornata con aggiornamenti sull'attualità della sera.",
-        "start": "2025-11-01T04:05:00.000Z",
-        "end": "2025-11-01T04:25:00.000Z",
+        "start": "2025-11-01T04:10:00.000Z",
+        "end": "2025-11-01T04:35:00.000Z",
         "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/356/p31038426bh10aa_BannerL1_w1920.webp"
-      },
-      {
-        "title": "Meteo",
-        "description": "Tutti i colori del tempo: uno sguardo alle previsioni meteo per oggi e i prossimi giorni.",
-        "start": "2025-11-01T04:25:00.000Z",
-        "end": "2025-11-01T04:30:00.000Z",
-        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/356/p11163437bh10ae_BannerL1_w1920.webp"
       },
       {
         "title": "Prima ora",
         "description": "Porta d'ingresso alla fascia informativa serale della RSI con ospiti e servizi. Notizie e ultimi aggiornamenti di attualità, cultura e sport dalla Svizzera e dal resto del mondo.",
-        "start": "2025-11-01T04:30:00.000Z",
-        "end": "2025-11-01T05:25:00.000Z",
+        "start": "2025-11-01T04:35:00.000Z",
+        "end": "2025-11-01T05:30:00.000Z",
         "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/356/p30934659bh10aa_BannerL1_w1920.webp"
       },
       {
         "title": "Il quotidiano",
         "description": "Le ultime notizie nazionali ed internazionali: Il quotidiano di attualità della Svizzera Italiana.",
-        "start": "2025-11-01T05:25:00.000Z",
+        "start": "2025-11-01T05:30:00.000Z",
         "end": "2025-11-01T06:00:00.000Z",
         "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/356/p11163695bh10ae_BannerL1_w1920.webp"
       },
