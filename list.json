@@ -12096,15 +12096,8 @@
         "title": "TG Notte",
         "description": "Ripercorriamo le ultime notizie della giornata con aggiornamenti sull'attualità della sera.",
         "start": "2025-11-01T04:10:00.000Z",
-        "end": "2025-11-01T04:25:00.000Z",
-        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/357/p31038426bh10aa_BannerL1_w1920.webp"
-      },
-      {
-        "title": "Meteo",
-        "description": "Tutti i colori del tempo: uno sguardo alle previsioni meteo per oggi e i prossimi giorni.",
-        "start": "2025-11-01T04:25:00.000Z",
         "end": "2025-11-01T04:30:00.000Z",
-        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/357/p11163437bh10ae_BannerL1_w1920.webp"
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/357/p31038426bh10aa_BannerL1_w1920.webp"
       },
       {
         "title": "Prima ora",
@@ -12121,11 +12114,11 @@
         "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/357/p11163695bh10ae_BannerL1_w1920.webp"
       },
       {
-        "title": "Telegiornale",
-        "description": "L'appuntamento quotidiano con le ultime notizie di attualità nazionali, internazionali e anche regionali, presentate sempre con uno stile diretto. A cura della redazione giornalistica della rete.",
+        "title": "TG Notte",
+        "description": "Ripercorriamo le ultime notizie della giornata con aggiornamenti sull'attualità della sera.",
         "start": "2025-11-01T05:55:00.000Z",
         "end": "2025-11-01T06:20:00.000Z",
-        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/357/p11164465bh10ab_BannerL1_w1920.webp"
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/357/p31038426bh10aa_BannerL1_w1920.webp"
       }
     ]
   },
@@ -12136,11 +12129,11 @@
     "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Rai_Sport_-_Logo_2018.svg",
     "programs": [
       {
-        "title": "Automobilismo: Campionato Italiano GT Sprint Monza, 4a prova: Gara 2",
-        "description": "Segui la gara automobilistica in programma.",
+        "title": "ISU Grand Prix Pattinaggio di figura: Grand Prix Cup of China Chongqing: Gala",
+        "description": "",
         "start": "2025-10-31T05:00:00.000Z",
         "end": "2025-10-31T06:00:00.000Z",
-        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/338/p8801850ih8ab_Iconic_w1920.webp"
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/338/p8937577ih10ab_Iconic_w1920.webp"
       },
       {
         "title": "TG Sport Mattina",
@@ -12206,18 +12199,18 @@
         "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/338/p527864bh10af_BannerL1_w1920.webp"
       },
       {
-        "title": "ISU Grand Prix Pattinaggio di figura: Grand Prix Cup of China Chongqing: Programma Corto",
-        "description": "",
+        "title": "Qualificazioni Coppa del Mondo FIFA 2026: Italia - Israele",
+        "description": "Dallo Stadio Friuli di Udine, Italia.",
         "start": "2025-10-31T19:40:00.000Z",
-        "end": "2025-10-31T21:45:00.000Z",
-        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/338/p8937577ih10ab_Iconic_w1920.webp"
+        "end": "2025-10-31T22:15:00.000Z",
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/338/GNLZZGG002D9TWS_BannerL2_w1920.webp"
       },
       {
-        "title": "Automobilismo: Campionato Italiano GT Sprint Monza, 4a prova: Gara 2",
-        "description": "Segui la gara automobilistica in programma.",
-        "start": "2025-10-31T21:45:00.000Z",
+        "title": "Atletica: Corsa dei Castelli Road Race U23 Trieste",
+        "description": "Segui il meglio delle gare di atletica.",
+        "start": "2025-10-31T22:15:00.000Z",
         "end": "2025-10-31T22:45:00.000Z",
-        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/338/p8801850ih8ab_Iconic_w1920.webp"
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/338/p10017367ih8ae_Iconic_w1920.webp"
       },
       {
         "title": "TG Sport Notte",
@@ -12916,10 +12909,10 @@
       },
       {
         "title": "Mattia Torre: La gentilezza del Faro",
-        "description": "Mattia Torre. La Gentilezza Del Faro - Mattia Torre. La gentilezza del faro.",
+        "description": "In occasione del Primo Premio Mattia Torre, uno speciale dedicato al regista, sceneggiatore, scrittore e creatore di una serie cult come \"Boris\". Amici e colleghi raccontano aneddoti e curiosità sull'artista, mancato a causa di un tumore nel 2019.",
         "start": "2025-10-31T20:00:00.000Z",
         "end": "2025-10-31T20:45:00.000Z",
-        "poster": null
+        "poster": "https://services.sg101.prd.sctv.ch/content/images/tv/program/393/p31586448ih11aa_Iconic_w1920.webp"
       },
       {
         "title": "Tg24 Mezz'ora",
